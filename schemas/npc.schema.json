@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NPC",
+  "type": "object",
+  "required": ["id", "name", "description", "type"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^npc_"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": ["merchant", "trainer", "quest_giver", "quest", "innkeeper", "blacksmith", "guard", "civilian", "generic", "banker", "healer", "collector", "alchemist", "sage", "spy", "general", "priest"]
+    },
+    "title": {
+      "type": "string"
+    },
+    "full_description": {
+      "type": "string"
+    },
+    "lore_en": {
+      "type": "string"
+    },
+    "image_prompt": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "image_url": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "avatar_url": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "animated_image_url": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "animated_image_prompt": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "is_hostile": {
+      "type": "boolean"
+    },
+    "is_teacher": {
+      "type": "boolean"
+    },
+    "_zone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,937 @@
+- id: npc_merchant_torben
+  name: Торбен
+  title: Мандрівний торговець
+  description: Огрядний чоловік із хитрими очима. Завжди знає, де купити дешевше і продати дорожче.
+  full_description: 'Торбен — найвідоміший торговець у місті, що веде своє походження від купецького роду Торбенів із Вільного
+    Порту. Його крамниця на Ринковій площі — справжня скарбниця: від звичайних ліків і їжі до рідкісних магічних інгредієнтів
+    та екзотичних товарів з далеких країв. Торбен — людина слова, хоча й не завжди дотримується найнижчих цін. Він стверджує,
+    що ''якість коштує своїх грошей'' і щиро в це вірить. У молодості він мандрував торговельними шляхами, тому має правдиві
+    байки про кожен товар — чи то рідкісний камінь, чи то закордонна пряність. Заможний, але не зажерливий — Торбен регулярно
+    жертвує на утримання міської каплиці.'
+  lore_en: 'Torben is the city''s most established merchant, from the trading dynasty of Torbens of Free Port. His shop on
+    Market Square is a genuine treasure trove: from everyday medicines and food to rare magical ingredients and exotic goods
+    from distant lands. Torben is a man of his word, though not always the cheapest option. He firmly believes quality is
+    worth its price. In his youth he traveled the trade routes and has authentic stories about every item he sells. Wealthy
+    but not greedy — he regularly donates to maintain the city chapel.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A prosperous middle-aged
+    man in his late forties with the comfortable confidence of a successful merchant. He wears layered traveling clothes in
+    warm earth tones — a fine wool coat over a embroidered vest, with numerous practical pockets and a coin purse at his belt.
+    His dark beard is neatly trimmed and his brown eyes are warm but sharp with merchant''s acuity. He gestures with one hand
+    as if describing his wares, with a pack bundle and sample cases visible behind him. His shop background shows shelves
+    crowded with bottles, exotic trinkets, and rolled maps. Character lore: Torben comes from a renowned merchant dynasty,
+    having traveled trade routes in his youth and accumulated stories for every item in his legendary shop. Detailed fabric
+    and leather textures, warm shop lighting with candles and lanterns, professional character art quality.'
+  avatar_url: /static/avatars/npcs/npc_merchant_torben.webp
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_blacksmith_helga
+  name: Гельга
+  title: Ковалиха
+  description: Висока жінка з мозолястими руками. Кує зброю та лати вже двадцять років.
+  full_description: 'Гельга — майстер-коваль із грубими руками та незламною вдачею. Виросла у сім''ї ковалів на північ від
+    Залізного Перевалу, вона успадкувала ковальню від свого батька Брюнора після того, як він загинув у битві з гоблінами.
+    Двадцять років Гельга кує зброю та обладунки для мандрівників і солдат. Її роботи відомі своєю надійністю — жодна клинок
+    з її кузні ще не зламався у бою. Жінка суворої вдачі, але справедлива: вона ніколи не обдурить чесного клієнта. Вночі,
+    коли кузня вже не димить, вона грає на старій бандурі й тихо співає балади загиблих.'
+  lore_en: Helga is a master blacksmith with calloused hands and an iron will. Born to a family of smiths near Iron Pass,
+    she inherited the forge from her father Brunor who fell in battle. For twenty years she has forged weapons and armor for
+    travelers and soldiers. Her work is known for reliability — no blade from her forge has ever broken in combat. Strict
+    but fair, she is a woman of few words and great craftsmanship. At night she plays an old bandura and sings softly to herself.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A stout dwarven-looking
+    female blacksmith in her late forties, powerfully built with broad shoulders and muscular arms covered in small burn scars
+    and callouses. She wears a heavy leather apron stained with soot and oil over a reinforced linen work shirt with rolled
+    sleeves. Her silver-streaked auburn hair is pulled back in a practical braid. Her expression is stern but carries quiet
+    pride — the look of someone who has spent decades mastering their craft. She holds a large smithing hammer resting on
+    her shoulder with easy familiarity. Behind her, glowing forge coals cast warm amber and orange light, illuminating the
+    hanging tools and half-finished sword blades on the rack. Character lore: Helga is a master blacksmith who inherited the
+    forge from her fallen father. Twenty years of forging legendary blades has left its mark on her face and hands. Detailed
+    costume textures with realistic leather grain and metal rivets, expressive weathered face, professional character art
+    quality, warm forge lighting with dramatic rim light.'
+  avatar_url: /static/avatars/npcs/npc_blacksmith_helga.webp
+  type: blacksmith
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_innkeeper_gronda
+  name: Гронда
+  title: Господиня таверни
+  description: Повнотіла жінка з гучним голосом і добрим серцем. Подає найкращий ель у всьому районі.
+  full_description: 'Гронда — господиня таверни ''Відьмин казан'', що стоїть у серці міста вже понад тридцять років. Говорять,
+    що вона прийшла до міста молодою дівчиною зі Східних боліт, рятуючись від якоїсь темної тайни. Якою б не була її минула,
+    зараз вона — незмінна частина міського пейзажу. Гронда знає всіх і все — хто з ким спить, хто кому винен, де заховані
+    секрети. Її кухня творить дива: гостинничне рагу з редькою та свинячими реберцями відомо на всю округу. За чаркою старого
+    вина вона може розповісти таємниці міста або відмовчатися — залежно від того, чи подобається їй ваше обличчя.'
+  lore_en: 'Gronda has run the Witch''s Cauldron inn for over thirty years. She arrived in the city as a young woman from
+    the Eastern Marshes, fleeing some dark secret she never shares. Whatever her past, she is now an immovable fixture of
+    city life. Gronda knows everyone and everything — who owes whom, where secrets are buried. Her cooking is legendary: the
+    inn stew with turnip and pork ribs is famous throughout the region. Over a cup of old wine she may share the city''s secrets
+    or stay silent, depending on whether she likes the look of you.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A broad, confident
+    woman in her late fifties with an innkeeper''s presence that fills the room. She has thick dark hair streaked with grey,
+    tied loosely with a colorful cloth. Her face is round and expressive — laugh lines around shrewd dark eyes that miss nothing.
+    She wears a sturdy woolen dress in deep burgundy with a flour-dusted apron tied at the waist, sleeves rolled up to show
+    capable forearms. She leans against the inn bar with comfortable authority, a clay mug in one hand and a ledger tucked
+    under her arm. The warm tavern behind her shows rough-hewn wood, hanging lanterns, and the faint glow of a hearth fire.
+    Character lore: Gronda is the legendary innkeeper of the Witch''s Cauldron, keeper of secrets and maker of the finest
+    stew in the region, with a mysterious past she never discusses. Detailed fabric textures and realistic skin, warm tavern
+    fire lighting, professional character art quality.'
+  avatar_url: /static/avatars/npcs/npc_innkeeper_gronda.webp
+  type: innkeeper
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_guard_captain
+  name: Капітан Ворен
+  title: Капітан варти
+  description: Сувора людина з рубцем на щоці. Стежить за порядком у місті залізною рукою.
+  full_description: Капітан Ворен — досвідчений ветеран міської варти, що вже два десятки років охороняє спокій Відлуння.
+    Молодим він воював у Великій Прикордонній кампанії, де отримав шрам через ліву щоку від орка-берсерка. Ворен — людина
+    порядку та дисципліни. Він береже місто не зі страху чи алчності, а з переконання, що порядок — це єдине, що відділяє
+    цивілізацію від хаосу. До молодих авантюристів він ставиться з обережним скептицизмом, але готовий навчити тих, хто доводить
+    свою серйозність. Його уроки з фехтування та тактики — суворі, але дієві.
+  lore_en: Captain Voren is a seasoned veteran of the city watch, guarding Echoes for over two decades. In his youth he fought
+    in the Great Border Campaign and received his iconic scar from an orc berserker. He maintains order not from fear or greed,
+    but from genuine belief that discipline is the only barrier between civilization and chaos. He views young adventurers
+    with cautious skepticism but is willing to teach those who prove their seriousness. His lessons in swordplay and tactics
+    are harsh but effective.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A tall, lean man
+    in his mid-fifties with the bearing of a career soldier. He wears polished city watch plate armor in deep navy blue and
+    silver, with a captain''s insignia on his pauldron. A distinctive jagged scar runs from his left cheekbone to his jaw.
+    His short salt-and-pepper hair is neatly cropped and his grey eyes are sharp and calculating. He stands in a parade-rest
+    stance with one gauntleted hand resting on the pommel of his longsword. His expression conveys authority and quiet vigilance
+    — a man who has seen real battle and carries that weight with practiced calm. Character lore: Captain Voren is the experienced
+    commander of the city guard, a veteran of the Great Border Campaign with decades of service and a scar to prove it. Detailed
+    armor with scratches showing real use, expressive weathered military face, professional character art quality, cool torchlight
+    with subtle blue ambient from stone walls.'
+  avatar_url: /static/avatars/npcs/npc_guard_captain.webp
+  type: guard
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_healer_sister_mira
+  name: Сестра Міра
+  title: Цілителька
+  description: Тиха та добра сестра-цілителька, що веде місцевий лазарет і лікує поранених за помірну плату.
+  full_description: Сестра Міра присвятила своє життя служінню Богині Зцілення — Ліані Лагідній. Вже дванадцять років вона
+    веде міський лазарет, розташований у давній каплиці на краю Ремісничого кварталу. Вона лікує всіх — від прочан з порізами
+    до солдат зі стрілами в грудях. Обличчя Міри незмінно спокійне, але очі видають втому — надто багато болю пройшло крізь
+    її руки. Вона ніколи не відмовляє тим, хто не може заплатити, але приймає продукти чи допомогу замість монет. Її трав'яні
+    відвари та зілля відновлення — найефективніші в окрузі. Говорять, що в особливо важкі ночі вона молиться до ранку, не
+    смикаючи з рани.
+  lore_en: Sister Mira has dedicated her life to the Goddess of Healing, Liana the Gentle. For twelve years she has run the
+    city infirmary in an ancient chapel at the edge of the Crafters Quarter. She heals all who come to her — pilgrims with
+    cuts to soldiers with arrows in their chests. Her face is perpetually calm but her eyes show deep exhaustion from years
+    of witnessing suffering. She never refuses those who cannot pay, accepting food or labor in lieu of coin. Her herbal remedies
+    and restoration potions are the most effective in the region.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A slender woman in
+    her late thirties with a gentle but tired face, kind grey eyes with faint dark circles beneath them. She wears clean white
+    and pale blue healer''s robes with a silver symbol of a healing goddess embroidered on the chest. Multiple small leather
+    pouches filled with medicinal herbs hang from her belt alongside a vial of softly glowing healing potion. Her light brown
+    hair is pulled back in a neat braid under a simple white cloth. She holds a mortar and pestle in one hand while her other
+    rests on a bandaged patient''s arm in a comforting gesture. Character lore: Sister Mira is the dedicated healer of the
+    city infirmary, exhausted but unwavering in her devotion to healing all who come to her regardless of ability to pay.
+    Detailed fabric textures with clean white linen, soft cool healing light with warm candle accent, professional character
+    art quality.'
+  avatar_url: null
+  type: healer
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_guard_patrol_bors
+  name: Вартовий Борс
+  title: Патрульний вартовий
+  description: Підозрілий та пильний патрульний, що перевіряє всіх незнайомців, які входять до міста.
+  full_description: Борс — пересічний міський вартовий із десятирічним стажем, якого давно охопила службова підозрілість.
+    Він бачив достатньо злочинців, що приховувалися за дружелюбним обличчям, щоб більше не довіряти незнайомцям. Борс суворо
+    дотримується правил і майже не відступає від них — чи то перевірка документів, чи то заборона проносити зброю без дозволу.
+    Він не жорстокий і не хабарник, просто людина, яка вважає, що правила існують не дарма. До постійних жителів міста він
+    ставиться з відкритою доброзичливістю, і навіть може пожартувати в спокійну ніч. Але з чужинцями — тільки офіційно та
+    з рукою на руків'ї меча.
+  lore_en: Bors is an ordinary city guard with ten years of service, long since hardened into professional suspicion. He has
+    seen enough criminals hiding behind friendly faces to stop trusting strangers. Bors strictly follows the rules and rarely
+    deviates — document checks, weapon permits, curfew enforcement. He is not cruel or corrupt, simply a man who believes
+    rules exist for a reason. With city residents he can be warm and even jokes on a quiet night. But with strangers — strictly
+    official, one hand always near his sword hilt.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A stocky man in his
+    early forties with a square jaw and watchful brown eyes that constantly scan for threats. He wears standard city watch
+    armor — chainmail under a tabard in the city colors of dark blue and grey, with a simple iron pauldron. A short sword
+    hangs at his hip and a hand-crossbow is clipped to his belt. His posture is alert and guarded, weight slightly forward,
+    hand resting on his sword pommel. His expression conveys the practiced skepticism of someone who checks documents for
+    a living and has been lied to many times. The city gate or stone archway is visible behind him. Character lore: Bors is
+    the suspicious patrol guard who checks everyone entering the city, professional and rules-focused after ten years of service
+    catching criminals hiding behind smiles. Detailed worn armor with realistic metal textures, cool evening torch lighting,
+    professional character art quality.'
+  avatar_url: null
+  type: guard
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_elder_councilor_edwin
+  name: Радник Едвін
+  title: Старший Радник міста
+  description: Мудрий і стомлений старець, що управляє містом і дає важливі доручення гідним авантюристам.
+  full_description: 'Едвін Сіроплащевий — найстарший член Міської Ради та головний радник Лорда-Правителя. Йому вже сімдесят
+    два роки, з яких понад п''ятдесят він провів на службі місту. Він пережив чотирьох правителів, дві облоги та одну чуму.
+    Його пам''ять — це жива хроніка міста: він пам''ятає давно забуті угоди, старі родинні образи та таємниці, що могли б
+    зруйнувати не одну сім''ю. Едвін рідко виходить із Ратуші — нестійкі коліна вже не ті. Але його вплив відчувається в кожному
+    рішенні. Він не подарує доручення першому-ліпшому: спочатку він оцінить претендента дуже прискіпливо, перш ніж довірити
+    справи міста.'
+  lore_en: Edwin Greymantle is the eldest member of the City Council and chief advisor to the Lord-Ruler. At seventy-two he
+    has served the city for over fifty years, surviving four rulers, two sieges, and one plague. His memory is a living chronicle
+    of the city — forgotten treaties, old family grievances, secrets that could destroy dynasties. Edwin rarely leaves the
+    Town Hall, his knees no longer reliable, but his influence is felt in every decision made. He does not give quests to
+    just anyone — he evaluates every candidate with sharp scrutiny before entrusting city affairs.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. An elderly man in
+    his early seventies with sharp, clear blue eyes that belie his age — eyes that have seen everything and forgotten nothing.
+    His white hair is thin but neatly combed, and a distinguished grey-white goatee is trimmed short. He wears formal council
+    robes in deep charcoal grey with silver trim, a thick woolen cape over his shoulders, and a council medallion at his chest.
+    He leans slightly on an ornate wooden walking staff. His expression is measured, calculating, and patient — the look of
+    someone who has outlasted many crises through careful thought. The council chamber or library is visible behind him with
+    tall bookshelves and candlelit scrolls. Character lore: Elder Councilor Edwin has served the city for fifty years through
+    sieges and plagues, his memory a living chronicle and his trust earned only by the truly worthy. Detailed formal clothing
+    with realistic fabric drape, warm candlelight with book-lined background, professional character art quality.'
+  avatar_url: null
+  type: quest
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_stable_master_olrik
+  name: Ольрік
+  title: Конюший
+  description: Спокійний та надійний конюший, що займається кіньми та організовує транспорт для мандрівників.
+  full_description: 'Ольрік — людина небагатьох слів і великої справи. Він доглядає за міськими стайнями вже шістнадцять років
+    і знає кожного коня в місті на ім''я. Говорять, що він краще спілкується з кіньми, ніж із людьми — і самі коні, мабуть,
+    погодились би. Ольрік організовує транспортування вантажів і пасажирів по торговельних шляхах, знаходить надійних візників
+    і може оцінити коня з першого погляду. Чесний у торгівлі, скупий на слова, але відданий своїй справі. Якщо ваш кінь кульгає
+    — несіть до Ольріка: він вилікує або скаже чесно, якщо це вже неможливо.'
+  lore_en: Olrik is a man of few words and great competence. He has managed the city stables for sixteen years and knows every
+    horse in the city by name. He communicates better with horses than people — and the horses would likely agree. He organizes
+    cargo and passenger transport along the trade routes, finds reliable drivers, and can evaluate a horse in seconds. Honest
+    in trade, sparing with words, utterly devoted to his work. If your horse limps, bring it to Olrik — he will heal it or
+    tell you honestly if the situation is beyond help.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A lean, wiry man
+    in his mid-forties with sun-darkened skin and the quiet ease of someone completely at home outdoors. He wears practical
+    stable clothes — sturdy canvas breeches, a worn leather vest over a simple linen shirt, and sturdy boots caked with honest
+    mud. His dark brown hair is cut short and his hands show the knobbed knuckles of someone who works with horses every day.
+    He stands relaxed, one hand resting on a stable post, an expression of quiet, unhurried competence on his face. A well-groomed
+    horse is partially visible behind him in a straw-filled stable with warm lantern light. Character lore: Olrik the stable
+    master has cared for the city''s horses for sixteen years, a man more comfortable with animals than people and known throughout
+    the region as the best judge of horseflesh for a hundred miles. Detailed worn work clothing with realistic leather texture,
+    warm stable lantern lighting, professional character art quality.'
+  avatar_url: null
+  type: generic
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_alchemist_vex
+  name: Алхімік Векс
+  title: Алхімік-чарівник
+  description: Ексцентричний алхімік, що продає зілля та реагенти у своїй яскраво-фіолетовій крамниці.
+  full_description: 'Векс — дивакуватий геній алхімії, що з''явився в місті невідомо звідки приблизно п''ять років тому і
+    відкрив свою крамницю ''Бурлячі бульбашки'' без жодних пояснень. Його зілля справді діють — іноді краще, ніж очікувалося,
+    а іноді зовсім не так, як планувалося. Він одночасно балакучий та загадковий: може годинами розповідати про властивості
+    драконячої жовчі, але ніколи не відповість, звідки він родом. Векс носить фіолетовий каптан, забризканий різнокольоровими
+    плямами від реагентів, і захисні окуляри, що він рідко знімає. Його вуса завжди трохи підпалені з лівого боку — наслідок
+    нещодавнього ''дрібного непорозуміння'' в лабораторії.'
+  lore_en: 'Vex is an eccentric alchemical genius who appeared in the city about five years ago from nowhere and opened his
+    shop ''Bubbling Bubbles'' without explanation. His potions genuinely work — sometimes better than expected, sometimes
+    in unexpected ways. He is simultaneously chatty and mysterious: he can talk for hours about the properties of dragon bile
+    but will never answer where he is from. Vex wears a purple coat splattered with multicolored reagent stains and protective
+    goggles he rarely removes. His mustache is always slightly singed on the left side — residue from a recent ''minor laboratory
+    misunderstanding''.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A wiry, energetic
+    man of indeterminate age — could be thirty-five or sixty — with wild grey-streaked dark hair that seems permanently disheveled.
+    He wears a flamboyant purple alchemist''s coat covered in multicolored stains and burn marks, with numerous small pockets
+    bulging with vials. A pair of thick protective brass goggles sits on his forehead, and his mustache is visibly singed
+    on one side. His eyes are bright with manic curiosity and his expression is delighted — the look of someone always on
+    the verge of discovering something wonderful or blowing something up. He gestures enthusiastically with a bubbling flask
+    in one hand. His shop behind shows shelves crowded with glowing potions, strange preserved creatures, and softly pulsing
+    alchemical apparatus. Character lore: Vex the eccentric alchemist appeared in the city mysteriously five years ago and
+    produces potions that always work — though not always as intended — in his colorful shop. Detailed fabric with vivid purple
+    and chemical stains, colorful potion shop lighting, professional character art quality.'
+  avatar_url: null
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_shadow_contact
+  name: Тінь
+  title: Контакт Гільдії Злодіїв
+  description: Таємнича постать, що передає замовлення від Гільдії Злодіїв тим, хто знає де і як запитати.
+  full_description: 'Ніхто не знає справжнього імені Тіні. Деякі думають, що це взагалі не одна людина, а кілька різних посередників,
+    що по черзі грають цю роль. Тінь з''являється у темних кутках таверн і під аркадами ринку, завжди трохи за межами освітленої
+    зони. Вона передає повідомлення від Гільдії Злодіїв тим, хто виявився гідним довіри — або хто виявив цікавість до певного
+    роду робіт. Розмови з нею стислі та конкретні: жодних зайвих слів, ніякого торгу, тільки факти і умови. Тінь не б''є першою,
+    але здатна захиститися. Говорять, її рефлекси жахаючі.'
+  lore_en: 'Nobody knows the Shadow''s real name. Some believe it is not one person at all but several rotating intermediaries
+    playing the role. The Shadow appears in dark corners of taverns and under market arcades, always just at the edge of the
+    lit zone. She passes messages from the Thieves Guild to those proven trustworthy — or those who have shown interest in
+    certain types of work. Conversations with her are brief and direct: no extra words, no bargaining, just facts and terms.
+    The Shadow doesn''t strike first but can defend herself devastatingly. Her reflexes are said to be terrifying.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A slender androgynous
+    figure of indeterminate age, deliberately unremarkable at first glance but impossible to look away from on second. She
+    wears layered dark grey and charcoal clothing designed to blend into shadow — a close-fitting jacket over a hood that
+    frames a face with sharp, watchful amber eyes. No weapons are visible but the ease of her stance suggests many hidden
+    ones. Her expression is completely neutral, giving nothing away — the practiced blankness of a professional information
+    broker. She leans against a shadowed archway, half in darkness, half in the warm flicker of a distant tavern fire. Character
+    lore: The Shadow is the mysterious Thieves Guild contact, possibly one person or many, who passes messages to worthy contractors
+    with an economy of words and an economy of evidence. Detailed dark fabric with realistic shadow absorption, dramatic side
+    lighting from hidden torchlight, professional character art quality.'
+  avatar_url: null
+  type: generic
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_priest_aldric
+  name: Священик Олдрік
+  title: Жрець Світлого Полум'я
+  description: Благочестивий жрець храму, що благословляє зброю та зцілює хворих молитвою та священними зіллями.
+  full_description: 'Отець Олдрік служить у міському храмі Світлого Полум''я вже тридцять п''ять років. Він глибоко вірить
+    у силу молитви та гарячої праці в рівній мірі. Його літургії привертають повний зал щонеділі — не лише завдяки його ораторському
+    таланту, а й тому, що після служби він завжди пропонує безкоштовне лікування бідним парафіянам. Олдрік благословляє зброю
+    борців зі злом і може освятити обладунки — за це він бере скромну пожертву. Особисто він пацифіст і ніколи не піднімав
+    руки на жодну живу істоту, хоча і розуміє, що не всі можуть мати такий вибір. Його довіряють усі: і найбагатші купці,
+    і жебраки з вулиці.'
+  lore_en: Father Aldric has served the city's Temple of the Bright Flame for thirty-five years. He believes equally in the
+    power of prayer and hard work. His sermons fill the hall every week — not only for his oratory but because after service
+    he always offers free healing to poor parishioners. Aldric blesses weapons of those fighting evil and can consecrate armor
+    for a modest donation. Personally a pacifist who has never raised a hand against any living creature, though he understands
+    not everyone has that choice. Trusted by the wealthiest merchants and street beggars alike.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. A tall, dignified
+    man in his late sixties with a full white beard and warm, compassionate brown eyes that radiate genuine kindness. He wears
+    ceremonial temple robes in white and gold with a solar flame symbol embroidered on the chest, a heavy golden chain with
+    a sun-disc pendant at his neck, and a white stole over his shoulders. He holds a wooden staff topped with a softly glowing
+    golden orb in one hand, while the other is raised in a gesture of blessing. A faint golden light emanates from the orb
+    and catches on the lines of his face, giving him a timeless, serene quality. The temple altar with candles and offerings
+    is visible behind him. Character lore: Priest Aldric has served the Temple of the Bright Flame for thirty-five years,
+    beloved by rich and poor alike for his healing and his unwavering compassion. Detailed ceremonial robes with gold embroidery,
+    soft warm temple candlelight with gentle golden glow, professional character art quality.'
+  avatar_url: null
+  type: healer
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_arena_master
+  name: Майстер Арени
+  title: Господар Бойової Арени
+  description: Закалений ветеран, що керує міською бойовою ареною і навчає тих, хто прагне стати справжніми воїнами.
+  full_description: 'Майстер Арени — людина без минулого, принаймні такого, яке вона готова обговорювати. Він з''явився в
+    місті десять років тому з порожніми руками та поламаним носом, і через місяць вже керував старою занедбаною ареною, перетворивши
+    її на процвітаючий бойовий клуб. Він не розповідає, де навчився воювати, але результати говорять самі за себе — кожен,
+    хто пройшов його тренування, стає помітно кращим бійцем. Майстер Арени сповнений поваги до справжньої відданості та нетерпимий
+    до зарозумілості. Він любить казати: ''Арена не бреше. Вона завжди покаже, хто ти є насправді.'' На тренуваннях він безжалісний,
+    але після них — першим пропонує руку тому, кого щойно розкидав по піску.'
+  lore_en: 'The Arena Master is a person without a past — or at least one they are willing to discuss. He arrived in the city
+    ten years ago with empty hands and a broken nose, and within a month was running the old abandoned arena, turning it into
+    a thriving combat club. He never explains where he learned to fight, but the results speak for themselves — everyone who
+    completes his training becomes a noticeably better fighter. He respects genuine dedication and is intolerant of arrogance.
+    He likes to say: ''The arena does not lie. It always shows who you truly are.'' In training he is merciless, but afterward
+    is the first to offer a hand to someone he just knocked into the sand.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A powerful man in his mid-forties
+    with the physique of someone forged in real combat over many years — broad chest, deep through the shoulders, with a fighter''s
+    economy of movement that wastes nothing. His face is a record of his career: a nose broken twice and set once, a raised
+    scar through the left eyebrow, another horizontal one below the right cheekbone — and dark eyes that are alert, intelligent,
+    and completely without fear or hurry, the eyes of someone who has genuinely stopped being afraid of anything. He wears
+    practical arena attire: a leather training chest brace with the arena''s emblem tooled into the front, laced over a sleeveless
+    quilted undergarment, forearm bracers worn smooth with use, fighting boots with arena sand still in the treads. He stands
+    at the center of the arena floor with his arms folded — not aggressively, simply — weight perfectly balanced, a stance
+    that could become a fighting stance in one breath. All around him the arena opens up: packed sand in neat rows of combat
+    marks, training equipment along the edges, wooden spectator stands rising in the background, bright overhead midday sun
+    throwing deep clean shadows across everything. Character lore: The Arena Master arrived ten years ago from nowhere with
+    a broken nose and empty hands; within a month he had revived the derelict arena, and his reputation built itself — everyone
+    who finishes his training fights noticeably better; he respects genuine dedication and is intolerant of arrogance. Bright
+    arena sunlight with dramatic floor shadows, detailed combat-worn leather, the economy of a master at rest.'
+  avatar_url: null
+  type: trainer
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_yaroslav_carpenter
+  name: Ярослав Тесляр
+  title: Столяр-майстер
+  description: Худорлявий майстер із натруджими руками — різьба по дереву це його мистецтво.
+  full_description: 'Ярослав прийшов до Кам''яної Броді з маленького лісового села і залишився назавжди. Каже що тут найкраще
+    дерево — тайговий дуб і сосна. Крім меблів і бочок виготовляє зброї з дерева: древка для спису, луки, щити. Тихий і замкнутий
+    але у справі надійний.'
+  lore_en: 'Yaroslav came to Stone Ford from a small forest village and stayed forever. Says the wood here is the best — taiga
+    oak and pine. Besides furniture and barrels makes wooden weapon components: spear shafts, bows, shields. Quiet and reserved
+    but reliable in business.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A spare, quietly focused man
+    in his late forties — lean through the body with the concentrated strength of the forearms and hands, fresh sawdust in
+    his dark hair and fine wood shavings caught in his shirt. His face is long and angular, with the patient expression of
+    someone who spends their day listening to what wood wants to become. He wears a heavy canvas carpenter''s apron worn soft
+    from years of use, a folding rule at his belt beside a marking gauge. In his hands he holds a small carved wooden fox
+    — detailed and precise — examining it with quiet satisfaction at roughly eye level. The carpenter''s workshop around him
+    is organized with a craftsman''s logic: timber stacked by grain and size, chisels in a leather roll, a half-finished cabinet
+    door on the bench, shavings curling on the floor in amber spirals. Late afternoon light comes in low through a wide work
+    window, catching the grain in fresh pine and oak. Character lore: Yaroslav came from a forest village for the taiga oak
+    and never left; besides furniture and barrels he makes wooden weapon components — spear shafts, bows, shield blanks —
+    quiet and reserved but completely reliable. Warm low-angle workshop light on wood grain, richly detailed wood surfaces,
+    the smell of linseed oil and fresh pine implied throughout.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_berta_tanner
+  name: Берта Шкурниця
+  title: Кожум'ячка
+  description: Пряма як спис жінка з постійно пофарбованими коричневим руками.
+  full_description: Берта народилася в кожум'ятні і не уявляє іншого. Запах її ремесла вона вже не відчуває — зате відчуває
+    якість шкіри на дотик. Приймає свіжу шкіру від мисливців і перетворює на добротну вичинену. Продає готову шкіру і навчає
+    Вичинення тих хто не боїться запаху.
+  lore_en: Berta was born in the tannery and can't imagine anything else. She no longer smells her trade — but feels leather
+    quality by touch. Buys fresh hides from hunters and turns them into good tanned leather. Sells finished leather and teaches
+    Tanning to those not afraid of the smell.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A solidly built woman in her
+    mid-forties with the unhurried directness of someone who has never doubted their own competence. Her brown hair is tied
+    back under a canvas wrap, and her hands — permanently stained a deep reddish-brown from tanning agents — are her most
+    striking feature: strong, scarred, and constantly moving even at rest. She wears a heavy canvas apron darkened by years
+    of use over practical linen clothing, a short hide-knife at her hip used as a tool. She stands with arms loosely crossed,
+    looking straight at the viewer with a flat appraising gaze that has no hostility in it — just the readiness to tell you
+    exactly what something is worth. Behind her rows of cured hides hang from wooden cross-beams, the workshop rough and functional
+    with scraping frames, bark-filled vats, and bundles of dry oak bark on a shelf. Light is dim and industrial, dusty shafts
+    from high windows. Character lore: Berta was born in this tannery and can''t imagine anything else; she no longer notices
+    the smell but can assess leather quality with a single touch, and teaches Tanning to those not afraid of the work. Industrial
+    tannery atmosphere, deep earthy tones of cured leather, practical and unapologetic.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_lila_tailor
+  name: Ліла Кравчиня
+  title: Кравчиня-майстер
+  description: Невисока жінка з сивиною — шиє від зорі до зорі і навчає кравецтву.
+  full_description: 'Ліла шиє вже тридцять років — від простих сорочок до складних бальних суконь. Але в Кам''яній Броді більшість
+    замовлень практичні: теплі штани, плащі від дощу, підбивка для обладунків. Вона також навчає кравецтву тих хто готовий
+    вчитись і не нарікає на складність.'
+  lore_en: 'Lila has been sewing for thirty years — from simple shirts to ballgowns. In Stone Ford most orders are practical:
+    warm trousers, rain cloaks, armour padding. She also teaches tailoring to willing students who don''t complain about difficulty.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A small neat woman in her early
+    sixties with silver-white hair cut practically short and the calm precise movements of someone who has spent thirty years
+    doing exact careful work. She wears simple but well-made dark linen clothing — clothes that advertise quality construction
+    without advertising expense — with a wide cloth apron over it. A measuring tape hangs permanently around her neck, half-moon
+    glasses rest on her nose, and a threaded needle is tucked through her lapel by habit — it is always there. She holds a
+    length of heavy grey wool up to the window light, examining its weave with narrow professional eyes. The tailor''s workshop
+    behind her is ordered to a standard that takes no mercy on clutter: shelves of folded fabrics sorted by weight and colour,
+    paper patterns pinned to a corkboard, a dress form wearing a half-finished fur-lined winter cloak, a wide cutting table
+    with a clean mat. North-facing window light is clear and cool — ideal for judging cloth. Character lore: Lila has been
+    sewing for thirty years; in Stone Ford orders are mostly practical — warm trousers, rain cloaks, armour padding — and
+    she teaches those willing to work hard without complaining. Clear cool workshop daylight, crisp fabric textures, the precision
+    of mastery.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_myrona_baker
+  name: Мирона Пекарка
+  title: Пекарка
+  description: Пухка усміхнена жінка що встає раніше всіх у місті — для свіжого хліба.
+  full_description: Мирона прокидається о четвертій ранку і лягає спати о дев'ятій вечора — і так щодня вже двадцять п'ять
+    років. Її хліб не черствіє три дні що вважається дивом. Приймає дрібних торговців і авантюристів однаково привітно.
+  lore_en: Myrona wakes at four in the morning and sleeps at nine in the evening — every single day for twenty-five years.
+    Her bread doesn't go stale for three days, which is considered a miracle. Receives small traders and adventurers with
+    equal warmth.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A round, warm-faced woman in
+    her late forties with flour permanently dusted in the creases of her hands and caught in her hair, and the permanently
+    rosy cheeks of someone who spends their working hours near a very hot oven. She has the solid, cheerful presence of someone
+    who has woken at four in the morning every day for twenty-five years and genuinely does not mind. She wears a clean white
+    apron over a linen dress with sleeves rolled up, and holds a large round loaf of dark rye bread in both hands with the
+    simple pride of someone showing you the thing they do best. Her smile is immediate and easy — the smile of a person who
+    is pleased to see everyone. The bakery behind her glows amber-gold before dawn: the great stone oven mouth open and radiating
+    heat, rows of cooling loaves on wooden racks, a sack of flour tipped against the wall, the pre-dawn darkness at the small
+    window contrasting with the extraordinary warmth inside. Character lore: Myrona wakes at four and sleeps at nine, every
+    day; her bread does not stale for three days, which is quietly considered a miracle. Warm fire-lit bakery light before
+    dawn, the gold of fresh-baked crust, radiating domestic warmth.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_volko_brewer
+  name: Волко Пивовар
+  title: Пивовар
+  description: Масивний рудобородий чоловік — постачальник пива для всього міста.
+  full_description: 'Волко — найпоміркованіший пивовар якого ви зустрінете: він пробує кожну партію і ніколи не п''яніє. Каже
+    що у нього особливий шлунок. Темне пиво — його гордість і таємниця. Всі спроби дізнатися рецепт він зустрічає однаково:
+    добродушним сміхом і відмовою.'
+  lore_en: 'Volko is the most sober brewer you''ll meet — he tastes every batch and never gets drunk. Claims to have a special
+    stomach. Dark ale is his pride and secret. Every attempt to learn the recipe gets the same response: a good-natured laugh
+    and refusal.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A genuinely massive man in his
+    late forties — broad through the chest and shoulders with arms built for moving barrels, because that is exactly what
+    they have done. His thick beard is the vivid red-orange of autumn leaves, always slightly damp and faintly smelling of
+    hops, and his expression is the naturally jovial one of someone who is almost always pleased with how things are going.
+    He wears a heavy leather apron over a linen shirt with sleeves rolled to the elbows, the apron darkened with decades of
+    spilled grain and ale. In one enormous hand he holds a ceramic mug with casual authority; the other arm rests on the rim
+    of a massive copper brew kettle behind him. He is not drunk — he never gets drunk — but he looks like the idea of satisfaction
+    made into a person. Behind him the brewery gleams in warm amber light: towering copper vats, wooden barrels stacked to
+    the timber ceiling, steam rising from the mash tun, hops drying on overhead racks. Character lore: Volko supplies ale
+    to the entire town and has never once been seen drunk — he claims a special stomach; every attempt to learn his dark ale
+    recipe is met with a good-natured laugh and a firm refusal. Warm amber brewery light, rich copper and steam, the golden
+    glow of grain.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_saffiro_jeweler
+  name: Саффіро Ді Торрі
+  title: Ювелір
+  description: Витончений чоловік з далекого півдня — його коштовності мають магічні властивості.
+  full_description: Саффіро прибув до Кам'яної Броді десять років тому і так і не пояснив нащо. Його роботи тут вважають дивовижними
+    — на півдні де він навчався такі вироби продають за ціною дорогих зброї. Деякі кільця і намиста що він виготовляє мають
+    слабкі магічні властивості — він називає це 'художнім хуліганством'.
+  lore_en: Saffiro arrived in Stone Ford ten years ago and never explained why. His work is considered amazing here — in the
+    south where he trained such pieces sell for the price of fine weapons. Some rings and necklaces he makes have mild magical
+    properties — he calls it 'artistic mischief'.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A slender, elegant man in his
+    early forties with the refined features and warm dark-amber skin of the southern coast — high cheekbones, a long straight
+    nose, liquid dark eyes with the calm observant quality of someone who looks at very small things very carefully. His black
+    hair is precisely cut and his dress is understated in the way that only genuinely expensive clothing can be: a fine dark
+    coat with hidden embroidery at the collar and cuffs, a silk waistcoat, thin leather gloves worn on one hand while the
+    other is bare for work. He holds a faceted deep-blue sapphire between two bare fingers, a jeweller''s loupe at his eye,
+    the stone throwing small cyan lights across his cheekbone. Around him the workshop is meticulous: velvet display boards
+    with rings and pendants, small glass cases with cut stones sorted by colour and grade, precision tools in leather rolls
+    on the bench. Cool north-window light is diffused and colour-neutral — the only correct light for judging gems. Character
+    lore: Saffiro arrived from the southern coast ten years ago and never explained why; his work is considered extraordinary
+    here, and some pieces carry mild enchantments he describes as ''artistic mischief.'' Gem-prismatic refractions on dark
+    skin, controlled cool workshop illumination, the quiet luxury of genuine mastery.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_irma_chandler
+  name: Ірма Свічниця
+  title: Свічкарка
+  description: Суха пряма жінка з виплеканими пальцями — робить найкращі свічки в окрузі.
+  full_description: Ірма одержима якістю. Кожна свічка виготовляється з чистого бджолиного воску, кожен гніт замочується правильно.
+    Вона відмовляє покупцям котрі хочуть дешеві сальні свічки — 'купуйте сало на ринку і самі ліпіть' каже вона. Відвідувачам
+    підземель продає факели зі знижкою.
+  lore_en: Irma is obsessed with quality. Every candle is made from pure beeswax, every wick properly soaked. She refuses
+    customers who want cheap tallow candles — 'buy tallow at the market and make them yourself' she says. Gives dungeon explorers
+    a discount on torches.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A lean, precise woman in her
+    late forties with an almost sculptural elegance — straight-backed, narrow-faced, with deft fingers she holds slightly
+    raised as if always ready to resume work. Her light grey hair is pulled into a tight immaculate bun without a strand out
+    of place. She wears a fitted dark linen dress beneath a spotless white work apron, and her fingertips are faintly stained
+    with beeswax and traces of pigment from tinted candles. She holds a single perfect white beeswax pillar candle up to eye
+    level, examining its surface with the critical focus of an artist checking their finest work. Behind her in the candlemaker''s
+    workshop, rows upon rows of candles line every shelf — white beeswax columns of varying heights, tapers in bundles tied
+    with linen cord, altar candles on turned wooden stands. The light is warm and golden, dozens of small flames reflecting
+    off polished tin panels on the walls, the air thick with the clean sweetness of warm beeswax. Character lore: Irma refuses
+    to make tallow candles on principle — every candle is pure beeswax, every wick properly soaked; dungeon explorers get
+    a torch discount because she respects people who go into dark places. Multi-flame warm candlelight with golden wax reflections,
+    fastidious quality in every surface, proud craftsperson''s atmosphere.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_vandorak_mage
+  name: Вандорак
+  title: Маг-Відлюдник
+  description: Старий маг невідомого походження — продає магічні свитки і навчає базових заклять.
+  full_description: Ніхто в місті не знає звідки Вандорак і скільки йому років. Він живе у вежі вже двадцять років і за цей
+    час не постарів помітно. Говорить мало але завжди по суті. Продає магічні свитки і кристали, навчає бойовим заклинанням
+    тих кого визнає гідними. Відкидає недостойних одним поглядом.
+  lore_en: Nobody in town knows where Vandorak comes from or how old he is. He has lived in the tower for twenty years and
+    hasn't visibly aged. Speaks rarely but always to the point. Sells magical scrolls and crystals, teaches battle spells
+    to those he deems worthy. Rejects the unworthy with a single glance.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A man of entirely unreadable
+    age — a face with the lines of sixty but the posture of thirty-five and eyes that belong to something considerably older.
+    His silver hair falls straight to his shoulders, his beard is trimmed but not fashionably so. He wears layered dark robes
+    in deep indigo and near-black, the outer layer embroidered with arcane symbols in silver thread that catch the light irregularly
+    — as if the symbols shift slightly when not looked at directly. He holds a tall ironwood staff topped with a clear crystal
+    the size of a fist that glows with a cold, steady inner light — not dramatically, just steadily, the glow of something
+    that has been lit for a very long time. His grey eyes are intent, calm, and profoundly unsettling in the way that only
+    eyes which have seen things you haven''t can be. He stands in the upper room of the mage tower: curved stone walls hung
+    with star charts and constellations in silver ink, a worktable covered in open grimoires and glass vessels with coloured
+    reagents, the distant city visible through a narrow arched window far below. Character lore: Vandorak has occupied the
+    mage tower for twenty years without visibly aging and never explains his origins; those he deems unworthy of instruction
+    he dismisses with a single glance. Cold arcane crystal light against warm candle-glow, deep tower shadows, the weight
+    of accumulated power.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_zinia_herbalist
+  name: Зінія Травниця
+  title: Травниця і Цілителька
+  description: Маленька жвава жінка що знає кожну рослину в лісі і поряд.
+  full_description: Зінія — місцева знаменитість серед хворих і поранених. Вона лікує без участі жреця і без магії — тільки
+    трави, відвари і досвід. Її сад — найкращий в окрузі. Продає трави і зілля, навчає Травництву і дає поради щодо лікування
+    будь-яких ран і хвороб.
+  lore_en: Zinia is a local celebrity among the sick and wounded. She heals without priest or magic — only herbs, decoctions
+    and experience. Her garden is the finest in the district. Sells herbs and potions, teaches Herbalism and gives advice
+    on treating any wound or illness.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A small, lively woman in her
+    late sixties with sharp green eyes that miss nothing and a face mapped with the kind expression of someone who genuinely
+    enjoys being useful. Her silver-streaked dark hair is loosely braided with a sprig of dried lavender tucked behind one
+    ear. She wears practical layered linen in earthy greens and browns, an herbalist''s apron with many deep pockets, and
+    her hands are stained with fresh plant sap and the faint green-brown of ground herbs. She carries a flat wicker basket
+    in the crook of one arm and holds a bunch of freshly cut yarrow toward the morning light with the other, examining them
+    with the quiet satisfaction of someone who knows exactly what they''re looking at. The herbalist garden behind her is
+    magnificent even by northern standards: raised beds in neat rows with hand-written labels, climbing plants on timber frames,
+    a low stone building visible through the lush growth, rows of small clay pots near the path. Clear morning light filters
+    through the garden in shafts, catching dew on broad leaves. Character lore: Zinia heals without priest or magic — only
+    herbs, decoctions, and forty years of observation; her garden is the finest in the district, and she teaches Herbalism
+    to those genuinely curious about the work. Crisp morning garden light, deep greens with silver dew, the warmth of practical
+    knowledge.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_erik_priest
+  name: Жрець Ерік
+  title: Жрець Храму Світла
+  description: Спокійний жрець із добрим поглядом — зцілює і веде обряди.
+  full_description: Ерік обслуговує Храм Світла вже п'ятнадцять років. Він зцілює хворих, проводить похорони і весілля, і
+    тихо опікується вісьмома сиротами у Притулку. Його зцілення магічне — але він ніколи не обговорює природу своєї сили.
+    Приймає пожертви добровільно.
+  lore_en: Erik has served the Temple of Light for fifteen years. He heals the sick, performs funerals and weddings, and quietly
+    cares for eight orphans at the Shelter. His healing is magical — but he never discusses the nature of his power. Accepts
+    donations voluntarily.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A calm, solid man in his early
+    fifties with the unhurried manner of someone who has made peace with the world and his place in it. His face is plain
+    and open, with kind brown eyes and a short beard going grey at the jaw. He wears the working robes of the Temple of Light
+    — white linen with a pale gold border at the cuffs and hem, a simple leather belt, and a small sun-disc pendant on a cord
+    rather than a chain. His hands are folded loosely at his waist, the posture of someone at rest rather than prayer, though
+    the distinction in his case is minor. He stands in the temple''s side nave: whitewashed stone walls with candles in iron
+    brackets, a low altar behind him with an oil lamp and a few small offerings — a carved wooden bird, some dried flowers.
+    Soft diffuse candlelight fills the space with warm amber, and somewhere out of frame there are the quiet sounds of other
+    people living nearby. Character lore: Ерік has served the Temple of Light for fifteen years, heals the sick, conducts
+    funerals and weddings, and quietly cares for eight orphans at the attached shelter; his healing is magical but he never
+    discusses the nature of his power. Warm candlelit temple interior, soft amber and white, the quiet dignity of genuine
+    service.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: healer
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_marko_captain
+  name: Марко Ковач
+  title: Капітан Міської Варти
+  description: Жорсткий досвідчений вояк — навчає бойових навичок за плату.
+  full_description: 'Марко Ковач воював у трьох кампаніях перш ніж осісти у Кам''яній Броді. Рубець на щоці — пам''ятка від
+    гобліна якого він недооцінив. Тепер він командує двадцятьма вартовими і навчає тих хто хоче битися краще: точний удар,
+    поводження зі щитом, стрільба.'
+  lore_en: 'Marko Kovach fought in three campaigns before settling in Stone Ford. The scar on his cheek is a memento from
+    a goblin he underestimated. Now he commands twenty guardsmen and teaches those who want to fight better: precise strike,
+    shield use, archery.'
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A man in his mid-forties built
+    like a siege wall — not especially tall but with the compressed musculature of someone who has trained every single day
+    for thirty years and needed it in real combat. His face is angular and battle-worn: a thin white scar running from his
+    left cheekbone to his jaw, the mark of a goblin blade he openly admits he deserved for underestimating it. He wears the
+    captain''s variant of Stone Ford city guard armour — riveted leather breast and back plate over a padded gambeson, steel
+    pauldrons with the city insignia, a scarred round shield strapped to his forearm by habit even at rest. He stands at parade
+    ease in the dirt training yard, one hand resting on the pommel of his sword, his dark eyes watching something off to the
+    side with the same focused assessment he''d give a real threat. Behind him the training yard stretches: wooden practice
+    dummies, a weapons rack with short swords and spears, the stone barracks wall, a few guardsmen mid-drill in the background
+    dust. Harsh midday sun overhead, deep clean shadows on everything. Character lore: Marko Kovach fought in three wars before
+    settling in Stone Ford; the goblin scar is the lesson he teaches by example — now he commands twenty guards and trains
+    anyone who wants to fight better. Hard midday light on worn leather and steel, military precision in every detail, the
+    dust of real training.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: guard
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_havryk_ferryman
+  name: Гаврик Паромник
+  title: Паромник
+  description: Невисокий загорілий чоловік що знає кожен поріг Мутниці.
+  full_description: Гаврик перевозить людей через Мутницю і вниз за течією вже двадцять років. Вся шкіра у нього від сонця
+    і вітру темно-коричнева. Коли не на воді — рибалить з пристані. Навчає Рибалки і може розповісти про всі міста вздовж
+    річки.
+  lore_en: Havryk has been ferrying people across the Muddy River and downstream for twenty years. His skin is dark brown
+    from sun and wind. When not on water — he fishes from the dock. Teaches Fishing and can tell you about every town along
+    the river.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A short, sinewy man in his early
+    fifties, tanned to the colour of old oak from twenty years of sun and river wind, with rope-hardened hands and squinting
+    grey eyes that read the water the way others read faces. He wears a worn canvas shirt with rolled sleeves, a heavy oilskin
+    vest stained with river mud, and battered leather boots still damp from the last crossing. A coiled rope hangs at his
+    hip and a short punting pole rests against his shoulder — not a weapon, a tool he has used ten thousand times. His expression
+    is calm and unhurried, the quietness of a man who has spent more hours in silence with the river than in conversation.
+    He stands at the end of a weathered wooden dock, the broad grey-green expanse of the Mudny River stretching behind him,
+    a flat-bottomed ferry moored at the pilings, morning mist still lying on the water. A fishing rod is propped against a
+    dock post beside him — where it always is when he''s not on the water. Character lore: Havryk has known every stone and
+    rapid of the Mudny for twenty years; he can describe every town and sandbar from Stone Ford to the sea, and teaches Fishing
+    to anyone patient enough to listen. Overcast northern morning light, cool grey reflections off slow water, the quiet authority
+    of a man completely at home.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: civilian
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_taras_merchant
+  name: Тарас Мороз
+  title: Купець
+  description: Метушливий купець що продає 'все для всіх' — і іноді це правда.
+  full_description: Тарас — людина без спеціальності але з гострим нюхом на попит. Він тижнями їздить по округах і скуповує
+    все що може продати. В його крамниці справді є всього потрошки — від мотузок і голок до старих карт і незрозумілих артефактів.
+  lore_en: Taras is a man without a specialty but with a sharp nose for demand. He spends weeks travelling the districts buying
+    everything he can sell. His store genuinely has a bit of everything — from ropes and needles to old maps and inexplicable
+    artefacts.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A quick-moving, fidgety man
+    in his mid-forties who gives the impression of someone always slightly behind where they meant to be. His travelling cloak
+    is road-dusted, his pack is still strapped on as if he arrived ten minutes ago, and his open face has the expression of
+    someone who has been perfecting the salesman''s welcome for twenty years. He has neat brown hair going grey at the temples,
+    lively pale eyes, and hands that talk as he does. He wears good but well-travelled clothing layered for variable weather
+    — a wool coat, a vest with pockets at every seam, boots that have covered serious ground. He stands before his general
+    store counter with one hand outstretched in greeting, an easy smile on his face. Behind him rises a magnificent chaos
+    of merchandise: rope coils hanging from ceiling hooks, clay pots and tool handles stacked against the wall, a folded map
+    wedged between a box of candles and something wrapped in canvas, bundles of this and crates of that in every direction,
+    the eclectic abundance of a man who buys before he knows why. Character lore: Taras has no specialty but a sharp nose
+    for demand; he spends weeks buying everything sellable in outlying districts, and his store genuinely has a bit of almost
+    everything, from rope and needles to old maps and inexplicable artefacts. Warm cluttered general store interior, the cheerful
+    chaos of commerce, eclectic abundance.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_rostyslav_hunter
+  name: Ростислав Вовчак
+  title: Старший Мисливець
+  description: Суворий досвідчений мисливець — сам ходить на вовків і навчає стрільбі.
+  full_description: Ростислав Вовчак отримав своє прізвисько коли самотужки зупинив зграю вовків що нападала на худобу сусіднього
+    хутора. Він знає кожну стежку в тайговому лісі і купує шкури та зуби звірів. Навчає стрільбі з лука і обробці дичини.
+  lore_en: Rostyslav Vovchak earned his name when he single-handedly stopped a wolf pack attacking a neighbouring farm's cattle.
+    He knows every trail in the taiga and buys pelts and beast fangs. Teaches archery and game dressing.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A tall, rangy man in his late
+    forties built by decades of outdoor work — lean muscle over a large frame, with a hunter''s characteristic stillness and
+    the long-range focus of eyes accustomed to watching tree lines at distance. His face is weathered to the colour and texture
+    of birch bark, with a short ragged beard and the unhurried expression of someone who has never in his life been startled
+    by anything. He wears a longcoat of cured wolf pelts — the namesake — over a leather shirt, high boots, and a wide belt
+    hung with a skinning knife and a hand axe. A quality recurve bow is slung over his shoulder alongside a full quiver fletched
+    with grey goose feathers. He stands at the edge of the hunter''s lodge yard, one boot on a log, looking into the taiga
+    tree line with the relaxed alertness of someone who is always listening to the forest. Behind him the lodge is visible:
+    a low log building with antlers mounted over the door, a curing frame with a fresh pelt, firewood stacked against the
+    wall, the dark taiga pressing close on three sides. Character lore: Rostyslav Vovchak earned his name by stopping a wolf
+    pack alone to protect a neighbouring farm; he knows every trail in the taiga and teaches archery and game dressing to
+    those serious about it. Cold northern forest light under low cloud, grey-green taiga, the quiet authority of someone the
+    forest knows.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_boris_voivode
+  name: Борис Желязко
+  title: Воєвода Кам'яної Броді
+  description: Представник центральної влади — суворий і відданий закону.
+  full_description: Борис Желязко призначений воєводою сім років тому. За цей час він розігнав кілька банд, відремонтував
+    браму і облаштував суд. Він не добрий і не злий — він законник. Видає завдання для захисту міста і платить нагороди.
+  lore_en: Boris Zhelyazko was appointed voivode seven years ago. In that time he broke up several gangs, repaired the gate
+    and established the court. He is neither good nor bad — he is a lawman. Issues tasks to defend the city and pays bounties.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A man of fifty with the bearing
+    of someone who has spent their entire adult life either in uniform or in authority — broad shoulders slightly rounded
+    now with desk work but still unmistakably a soldier''s frame, silver threading his close-cropped dark hair and short beard.
+    His face is weathered but not soft: steady grey eyes that measure rather than welcome, a jaw set in habitual authority,
+    the expression of someone who has made difficult decisions and does not second-guess them. He wears the formal attire
+    of a Crown Voivode — a dark blue woollen coat with silver braid on the shoulders, a leather sword belt with the regional
+    seal in brass, stiff riding boots polished to regulation standard. He is seated behind a heavy oak desk covered in rolled
+    documents, official seals and ink stands, one hand holding a quill and the other flat on a district map. The town hall
+    interior behind him is panelled in dark wood with crossed spears on the wall and the territorial banner hanging between
+    them, candles in iron brackets burning in the cool interior. Character lore: Boris Zhelyazko was appointed Voivode seven
+    years ago; in that time he broke up gangs, rebuilt the gate, established the court, and has not once bent the law to anyone''s
+    advantage — including his own. Cold formal daylight through tall shuttered windows, official authority in every detail,
+    everything understated and real.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: guard
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_mariam_librarian
+  name: Маріам
+  title: Бібліотекарка
+  description: Єдина людина в місті яка вміє читати давньою мовою — зберігач знань.
+  full_description: Маріам прийшла з далекого краю і залишилась заради бібліотеки. Вона каже що давні свитки тут розповідають
+    більше ніж будь-де ще. Говорить тихо і завжди точно — ніколи не каже більше ніж потрібно. Охоче відповідає на питання
+    про історію краю.
+  lore_en: Mariam came from a distant land and stayed for the library. She says the ancient scrolls here tell more than anywhere
+    else. Speaks quietly and precisely — never says more than needed. Willingly answers questions about the history of the
+    region.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A woman of indeterminate age
+    — she could be thirty-five or sixty-five — with olive skin, angular cheekbones, and large dark eyes that hold the focused
+    tranquility of someone who reads for hours and never tires of it. Her ink-black hair is pulled up in a practical knot
+    held by a carved bone pin, with a few strands loose at the temple. She wears layered dark wool robes in deep charcoal
+    with subtle woven patterns from her distant homeland at the hem and cuffs, and her right hand is ink-stained from wrist
+    to fingertips — fresh from today''s work. She holds an open ancient tome, tracing a line of archaic script with one ink-dark
+    finger while her eyes, slightly narrowed, read something several lines further ahead. Behind her rises a towering shelf
+    of scrolls and leather-bound volumes stretching into shadow, the library interior lit by three beeswax candles in a brass
+    holder that cast warm amber pools on carved oak shelves. Dust motes drift in the candle glow and the air smells of old
+    parchment and dry wood. Character lore: Mariam is the only person in Stone Ford who can read the ancient language; she
+    came from far away for the scrolls here and never left — speaks quietly and precisely, never more than needed. Warm candlelit
+    library darkness, aged parchment textures, the absolute stillness of deep knowledge.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: civilian
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_stepan_miller
+  name: Степан Мельник
+  title: Мельник і Рибалка
+  description: Мельник що проводить вільний час із вудкою — каже що знає найкращі місця.
+  full_description: Степан меле зерно від сходу до заходу і рибалить коли може. Його дружина каже що він більше любить рибу
+    ніж борошно. Продає борошно і крупу, а також вудки і рибальське приладдя. Навчає Рибалки і може показати найкращі місця
+    на Мутниці.
+  lore_en: Stepan grinds grain from dawn to dusk and fishes whenever he can. His wife says he loves fish more than flour.
+    Sells flour and groats, also fishing rods and tackle. Teaches Fishing and can show the best spots on the Muddy River.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A stocky, good-natured man in
+    his early fifties whose working life has left its marks evenly — flour dust permanently in the creases of his neck and
+    forearms, strong shoulders from decades of grain sacks, and the slightly distracted air of someone whose mind is on the
+    river even when his hands are on the millstone. He wears heavy linen trousers, a rough-spun shirt, and a canvas apron
+    dusted white. Beside him, propped against the stone wall as naturally as a second arm, leans a river-worn fishing rod
+    with a float still tied on. His face is broad, weathered, and cheerfully resigned to life exactly as it is. He stands
+    in the mill''s lower room: the great wooden gear works looming behind him, sacks of grain stacked in the corner, flour
+    motes drifting in afternoon light. Through a low arched window the water wheel turns slowly and the Mudny River is visible
+    beyond. Character lore: Stepan grinds from dawn to dusk and fishes whenever his hands are free; his wife says he loves
+    fish more than flour and this is probably correct; he teaches Fishing and knows the best pools on the Mudny. Soft afternoon
+    flour-mote light, pale gold dust on every surface, the quiet rhythm of mill and river.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford
+- id: npc_old_oren
+  name: Старий Орен
+  title: Оракул
+  description: Загадковий оракул у підвалі Храму — його пророцтва завжди збуваються.
+  full_description: Ніхто не знає скільки йому років — і Жрець Ерік не каже. Орен сидить у своєму кріслі і дивиться в обсидіановий
+    камінь. Він бачить те що приховано, але говорить тільки коли захоче. За правильне питання і цінну річ він може відкрити
+    щось важливе.
+  lore_en: No one knows his age — and Priest Erik doesn't say. Oren sits in his chair and gazes into an obsidian stone. He
+    sees what is hidden, but speaks only when he chooses. For the right question and a valuable item he may reveal something
+    important.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. An impossibly ancient man whose
+    true age cannot be read even in the deep lines of his face — white-haired, skeletal-thin, and utterly still, seated in
+    a high-backed chair carved from dark stone as if he has occupied it since the room was built. His eyes are open but focused
+    somewhere inward, pale as winter sky, holding no expression of effort or strain — only the profound detachment of someone
+    for whom the present moment is one of many. His robes are black wool layered over black linen, worn smooth by decades
+    of the same movements, and his bony hands rest folded on an obsidian orb the size of a melon that sits in his lap, its
+    surface polished to a mirror black. A single candle burns on the rough stone floor beside him, its flame completely still
+    in the airless underground chamber. The walls are rough-hewn limestone seeping with mineral moisture, the floor worn smooth
+    by centuries of supplicants, a single iron grate overhead allowing one faint shaft of cold light from above that touches
+    the edge of the room but does not reach him. Character lore: Oren sits in the sub-chamber beneath the Temple of Light;
+    no one knows his age and Priest Erik does not say — his prophecies always come true, but he speaks only when he chooses.
+    Obsidian deep reflections, single-candle underground light in near-total darkness, the absolute stillness of something
+    ancient.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: civilian
+  is_hostile: false
+  is_teacher: false
+  _zone: stone_ford
+- id: npc_shadow_fence
+  name: Тінь
+  title: Перекупник
+  description: Людина без імені у Злодійському Провулку — купує і продає без зайвих питань.
+  full_description: В Злодійському Провулку є людина яку всі знають як Тінь. Справжнє ім'я невідоме. Займається купівлею і
+    продажем речей про які краще не питати. Також навчає Злому Замків і Кишеньковій Крадіжці. Не терпить необережних — один
+    прокіл і ти в чорному списку.
+  lore_en: In Thief's Alley there's a person everyone knows as Shadow. Real name unknown. Deals in buying and selling things
+    better not asked about. Also teaches Lockpicking and Pickpocket. Has no patience for careless people — one slip and you're
+    blacklisted.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Northern medieval
+    frontier, taiga river valley — rugged weathered faces, handcrafted practical attire, cold clear northern light. Dramatic
+    rim lighting, shallow depth of field, 8K render quality, professional game character art. A person of deliberately unreadable
+    appearance — medium height, medium build, wrapped in a deep charcoal cloak with the hood drawn up but not entirely closed,
+    leaving visible a narrow face with sharp, entirely still grey eyes that register everything and reveal nothing. The figure
+    is androgynous and ageless by design: dark layered clothing chosen for silence and shadow absorption rather than fashion.
+    Both gloved hands rest on the edge of a low crude table in a shadowed alcove — one loosely closed, one flat. On the cloth-covered
+    table a few items are arranged with deliberate casualness: a wrapped bundle, a small locked box, nothing obviously incriminating.
+    The expression is completely neutral — not cold, not welcoming, precisely nothing — the practiced blankness of a professional
+    who has made themselves impossible to read. Behind them the thieves'' alley is narrow: old wet stone, dripping pipes,
+    the distant glow of a single lantern at the far end throwing long hard shadows, another faint light behind casting the
+    figure into near-silhouette. Character lore: In Thief''s Alley there is a person everyone calls Shadow; real name unknown,
+    honest in trade because reputation is survival, no tolerance for careless people — one mistake and you''re blacklisted.
+    Single-source lantern side-light in deep alley shadow, the information vacuum of a professional fence.'
+  avatar_url: null
+  animated_image_url: null
+  animated_image_prompt: null
+  type: merchant
+  is_hostile: false
+  is_teacher: true
+  _zone: stone_ford

@@ -1,0 +1,10 @@
+- key: item_art_style
+  value: 'Vray render, photo-realistic 3D render of a single {rarity} MMORPG {type}, presented as a standalone item. {item_description}
+    Item lore and context: {lore} The background is a clean, gentle gradient of soft cream and pale amber with a subtle vintage
+    paper texture. Soft, diffused lighting focused on material textures and surface details. Shallow depth of field, slight
+    vignette.'
+- key: location_art_style
+  value: 'Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. {location_description}
+    Setting atmosphere and lore: {lore} Epic wide-angle establishing shot, dramatic atmospheric lighting, highly detailed
+    environmental textures, professional game environment art quality, volumetric lighting, atmospheric depth and haze, 8K
+    quality.'

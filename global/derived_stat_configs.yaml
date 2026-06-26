@@ -1,0 +1,131 @@
+- id: attack
+  name: Атака
+  description: Базова атака
+  display_order: 1
+  icon: ⚔
+  formula:
+    base: 0
+    from_attributes:
+      strength: 1.5
+      agility: 0.3
+    from_equipment_stat: attack
+    min: 0
+- id: defense
+  name: Захист
+  description: Захист від ударів
+  display_order: 2
+  icon: 🛡
+  formula:
+    base: 0
+    from_attributes:
+      endurance: 1.2
+      strength: 0.3
+    from_equipment_stat: defense
+    min: 0
+- id: max_hp
+  name: Макс. ЗД
+  description: Максимальне здоров'я
+  display_order: 3
+  icon: ❤
+  formula:
+    base: 10
+    from_attributes:
+      endurance: 8
+      strength: 2
+    from_equipment_stat: hp_bonus
+    min: 1
+- id: max_mana
+  name: Макс. Мана
+  description: Максимальна мана
+  display_order: 4
+  icon: ✦
+  formula:
+    base: 0
+    from_attributes:
+      intelligence: 6
+      will: 4
+    from_equipment_stat: mana_bonus
+    min: 0
+- id: armor_class
+  name: Броня
+  description: Клас броні
+  display_order: 5
+  icon: 🔰
+  formula:
+    base: 10
+    from_attributes:
+      agility: 0.5
+      endurance: 0.3
+    from_equipment_stat: defense
+    min: 0
+- id: initiative
+  name: Ініціатива
+  description: Швидкість реакції
+  display_order: 6
+  icon: ⚡
+  formula:
+    base: 0
+    from_attributes:
+      agility: 0.8
+      perception: 0.4
+    min: 0
+- id: crit_chance
+  name: Крит %
+  description: Шанс крит. удару
+  display_order: 7
+  icon: 💥
+  formula:
+    base: 0
+    from_attributes:
+      agility: 0.1
+      luck: 0.15
+    from_equipment_stat: crit
+    min: 0
+    max: 75
+- id: dodge_chance
+  name: Ухилення %
+  description: Шанс ухилення
+  display_order: 8
+  icon: 🏃
+  formula:
+    base: 0
+    from_attributes:
+      agility: 0.2
+      perception: 0.1
+    from_equipment_stat: dodge
+    min: 0
+    max: 60
+- id: parry_chance
+  name: Парування %
+  description: Шанс парування
+  display_order: 9
+  icon: 🛡
+  formula:
+    base: 0
+    from_attributes:
+      strength: 0.1
+      agility: 0.1
+    min: 0
+    max: 40
+- id: max_stamina
+  name: Витривалість
+  description: Максимальна витривалість
+  display_order: 10
+  icon: ⚡
+  formula:
+    base: 10
+    from_attributes:
+      endurance: 5
+      strength: 2
+    min: 10
+- id: stamina_regen
+  name: Рег. витривалості
+  description: Відновлення за тік
+  display_order: 11
+  icon: 🔋
+  formula:
+    base: 1
+    from_attributes:
+      endurance: 0.3
+      will: 0.1
+    min: 1

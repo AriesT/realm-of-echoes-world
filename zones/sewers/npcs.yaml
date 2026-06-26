@@ -1,0 +1,58 @@
+- id: npc_petrus_rat_catcher
+  name: Петрусь Щуролов
+  title: Ловець Щурів
+  description: Жилавий чоловік у просоченому шкіряному плащі. Пахне від нього відповідно.
+  full_description: Петрусь прожив у каналізації так довго, що вже не відчуває запаху. Ловить щурів на замовлення магістрату
+    і вільний час проводить тут же — у руїнах старого поста. Знає каналізацію краще за будь-кого на поверхні. Купує щурячі
+    хвости, ікла і шкури. Продає зілля, пастки і корисні поради. До прибульців ставиться нейтрально — поки не заважають.
+  lore_en: Petrus has lived in the sewers so long he no longer notices the smell. He catches rats on municipal contract and
+    spends his free time here — in the old guardpost ruins. He knows the sewers better than anyone on the surface. He buys
+    rat tails, fangs and hides. He sells potions, traps and useful advice. He is neutral toward newcomers — as long as they
+    do not get in the way.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Underground sewer
+    dungeon — ancient stone, torch-lit, dripping mineral walls, deep shadow and confined space. Dramatic single-torch side
+    lighting, shallow depth of field, 8K render quality, professional game character art. A lean, wiry man in his mid-forties
+    who has been compressed by his environment — angular shoulders slightly hunched from years in low-ceilinged tunnels, a
+    long sharp-featured face with calm flat eyes that register everything without reacting to it. His skin is grey-pale with
+    the pallor of a man who rarely sees daylight, his dark clothes patched so many times the original material is impossible
+    to identify. He wears a heavy leather coat cured with something that makes it waterproof, a belt hung with rat-catching
+    tools — wire coils, a set of small iron traps, a short bone-handled skinning knife. In one hand he holds a sturdy cage
+    containing several resigned-looking rats; his expression is utterly unmoved by this or anything else. He stands in a section
+    of stone sewer tunnel: water channels on either side, ancient brickwork dripping with mineral deposits, a half-collapsed
+    guardpost visible in the shadows behind him, a single wall torch casting deep amber light on wet stone. Character lore:
+    Petrus has lived in the sewers so long he no longer notices the smell; he catches rats on municipal contract and knows
+    the sewer labyrinth better than anyone above ground — neutral toward newcomers as long as they don''t get in his way.
+    Single torch light in underground darkness, wet stone with mineral stains, absolute normalcy in an unpleasant place.'
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: sewers
+- id: npc_zorax_goblin_trader
+  name: Зоракс
+  title: Гоблінський Торговець
+  description: Дрібний зеленошкірий гоблін у людській сорочці. Говорить людською мовою майже без акценту.
+  full_description: Зоракс — вигнанець зі свого племені за надто мирні схильності. Він навчився людської мови від підслуханих
+    розмов і заснував крамницю у нейтральній зоні. Продає усе підряд — від краденого начиння до рідкісних каналізаційних знахідок.
+    Купує трофеї та корисний мотлох. Чесний у торгівлі — репутація коштує дорого навіть у каналізації.
+  lore_en: Zorax was exiled from his tribe for overly peaceful inclinations. He learned the human tongue from overheard conversations
+    and founded a shop in the neutral zone. He sells everything — from stolen kitchenware to rare sewer finds. He buys trophies
+    and useful junk. He is honest in trade — reputation is worth much even in the sewers.
+  image_prompt: 'Digital painting, fantasy concept art, MMORPG character illustration, full body portrait, artstation trending, painterly style, detailed fantasy illustration, cinematic composition, vibrant colors, stylized realism. Underground sewer
+    goblin bazaar — wide junction chamber, multiple hanging lanterns, crude but organized market stalls, torchlight on rough
+    stone. Dramatic multi-point torch lighting, shallow depth of field, 8K render quality. A small green-skinned goblin of
+    about four feet height with disproportionately long clever fingers and bright amber-yellow eyes that dart and observe
+    everything simultaneously. He wears a human shirt three sizes too large belted into submission at the waist, a leather
+    merchant''s vest with many pockets bulging with small goods, and a string of copper trade beads around his neck. His pointed
+    ears are pierced with several small copper rings, his teeth are sharp but his expression is the deliberately careful one
+    of someone who has worked very hard to be taken seriously. He stands behind a crude but well-organized market stall —
+    wrapped bundles in neat rows, labelled clay pots, a small locked chest, trays of sorted trinkets — and his clawed hands
+    rest on the counter with deliberate patience. The goblin bazaar fills the chamber around him: other goblin stalls with
+    hanging lanterns, a surprising bustle of commerce thirty feet below the city street, crude painted signs in mixed goblin
+    and human script. Character lore: Zorax was exiled from his tribe for peaceful inclinations; he learned human speech from
+    overheard conversations and built his entire reputation on honest dealing — in the sewers, reputation is everything. Warm
+    multi-lantern underground light, green skin with subsurface scattering, the unexpected normalcy of fair commerce in a
+    dungeon.'
+  type: merchant
+  is_hostile: false
+  is_teacher: false
+  _zone: sewers

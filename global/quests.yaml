@@ -1,0 +1,377 @@
+sagas:
+- id: saga_shadows_stalheim
+  title: Тіні Стальхейму
+  description: Розпутайте змову, що загрожує найбільшому місту регіону.
+  lore_text: Стальхейм — місто заліза та честі, де кожен камінь пам'ятає криваві битви. Та зараз тінь підступності повзе крізь
+    його вулиці. Торговці зникають, стражники говорять пошепки, а в темних провулках чуються чужі мови. Хтось тягне нитки
+    з тіні — і лише хоробра душа зможе розплутати цей клубок.
+  is_active: true
+  sort_order: 1
+templates:
+- id: quest_missing_merchant
+  title: Зниклий торговець
+  description: Розслідуйте зникнення Боріса Каменяра — поважного торговця Стальхейму.
+  lore_text: Три дні тому Боріс Каменяр не з'явився на ринкову площу. Його крамниця замкнена, дружина в розпачі, а капітан
+    стражі лише знизує плечима. Кажуть, він мав важливу зустріч у старих портових складах... Знайдіть його або хоча б дізнайтеся,
+    що трапилось.
+  quest_type: chain
+  category: story
+  difficulty: normal
+  is_active: true
+  saga_id: saga_shadows_stalheim
+  chapter_number: 1
+  sort_order: 1
+  giver_npc_id: null
+  turn_in_npc_id: null
+  parent_quest_id: null
+  prerequisite_quest_ids: null
+  required_faction_id: null
+  required_faction_tier: null
+  required_location_id: null
+  is_hidden: false
+  min_party_size: null
+  max_party_size: null
+  time_limit_hours: null
+- id: quest_goblin_den
+  title: Нора гобліна
+  description: Слідуйте за підозрюваним у зникненні торговця до таборища гоблінів.
+  lore_text: Докази вказують на гоблінів з передгір'їв — хитрих, підлих і завжди голодних до золота. Їхній табір у Кам'яній
+    западині кишить розвідниками. Вам доведеться пробитися крізь них, аби дізнатися правду. Та будьте обережні — ці гобліни
+    служать комусь більш небезпечному.
+  quest_type: chain
+  category: combat
+  difficulty: hard
+  is_active: true
+  saga_id: saga_shadows_stalheim
+  parent_quest_id: quest_missing_merchant
+  chapter_number: 2
+  sort_order: 2
+  prerequisite_quest_ids:
+  - quest_missing_merchant
+  giver_npc_id: null
+  turn_in_npc_id: null
+  required_faction_id: null
+  required_faction_tier: null
+  required_location_id: null
+  is_hidden: false
+  min_party_size: null
+  max_party_size: null
+  time_limit_hours: null
+- id: quest_shadow_council
+  title: Тінь в раді
+  description: Викрийте зрадника в Раді торговців Стальхейму.
+  lore_text: Правда виявилася страшнішою за будь-які підозри. Хтось із членів Ради торговців фінансує гоблінські банди та
+    організовує викрадення конкурентів. Щоб звинуватити його публічно, вам потрібні незаперечні докази. Майстер гільдії Олдрін
+    знає більше, ніж каже. Ваша репутація у Стальхеймі стане вашою зброєю — але чи вистачить її?
+  quest_type: chain
+  category: social
+  difficulty: legendary
+  is_active: true
+  is_hidden: true
+  saga_id: saga_shadows_stalheim
+  parent_quest_id: quest_goblin_den
+  chapter_number: 3
+  sort_order: 3
+  prerequisite_quest_ids:
+  - quest_goblin_den
+  required_faction_id: faction_city_stalheim
+  required_faction_tier: friendly
+  giver_npc_id: null
+  turn_in_npc_id: null
+  required_location_id: null
+  min_party_size: null
+  max_party_size: null
+  time_limit_hours: null
+- id: quest_prove_loyalty
+  title: Доведи вірність
+  description: Стражники Стальхейму перевіряють новачків — доведіть свою відданість.
+  lore_text: 'Стальхейм не приймає чужинців на слово. Тут треба заробити повагу ділом: очистити дорогу від бандитів та доставити
+    важливий пакет до воротного поста. Дрібниця? Можливо. Але саме з таких справ починається справжня слава.'
+  quest_type: faction
+  category: combat
+  difficulty: easy
+  is_active: true
+  required_faction_id: faction_city_stalheim
+  required_faction_tier: friendly
+  saga_id: null
+  parent_quest_id: null
+  chapter_number: null
+  sort_order: null
+  prerequisite_quest_ids: null
+  giver_npc_id: null
+  turn_in_npc_id: null
+  required_location_id: null
+  is_hidden: false
+  min_party_size: null
+  max_party_size: null
+  time_limit_hours: null
+- id: quest_catacombs_whisper
+  title: Шепіт підземель
+  description: З глибин катакомб лунає давній голос, що кличе обраних.
+  lore_text: Не кожен чує його. Але ті, хто чує — не можуть не йти. Голос з-під каміння, з темних тунелів під Стальхеймом,
+    що існують задовго до самого міста. Там живуть речі, про які не говорять при світлі дня. Що чекає тебе на дні — скарб,
+    жах чи щось гірше за смерть?
+  quest_type: hidden
+  category: exploration
+  difficulty: legendary
+  is_active: true
+  is_hidden: true
+  required_location_id: null
+  saga_id: null
+  parent_quest_id: null
+  chapter_number: null
+  sort_order: null
+  prerequisite_quest_ids: null
+  giver_npc_id: null
+  turn_in_npc_id: null
+  required_faction_id: null
+  required_faction_tier: null
+  min_party_size: null
+  max_party_size: null
+  time_limit_hours: null
+- id: quest_grizzly_hunt
+  title: Полювання на Гризлі
+  description: Небезпечний гризлий ведмідь тероризує околиці. Тільки команда мисливців зможе його зупинити.
+  lore_text: Лісоруби більше не ходять у Кленовий Бір після того, як Залізна Лапа — величезний гризлий ведмідь з пазурами,
+    що рвуть броню — почав полювати там. Один мисливець не виживе. Але разом... Разом у вас є шанс. Потрібна команда хоробрих
+    — і щедра нагорода вам гарантована.
+  quest_type: party
+  category: combat
+  difficulty: hard
+  is_active: true
+  min_party_size: 2
+  max_party_size: 5
+  time_limit_hours: 48
+  saga_id: null
+  parent_quest_id: null
+  chapter_number: null
+  sort_order: null
+  prerequisite_quest_ids: null
+  giver_npc_id: null
+  turn_in_npc_id: null
+  required_faction_id: null
+  required_faction_tier: null
+  required_location_id: null
+  is_hidden: false
+objectives:
+- quest_id: quest_missing_merchant
+  objective_type: talk
+  description: Поговорити з капітаном стражі про зникнення торговця
+  target_entity_id: null
+  target_entity_type: npc
+  target_count: 1
+  sort_order: 1
+  is_secret: false
+- quest_id: quest_missing_merchant
+  objective_type: visit
+  description: Оглянути портові склади де бачили торговця востаннє
+  target_entity_id: null
+  target_entity_type: location
+  target_count: 1
+  sort_order: 2
+  is_secret: false
+- quest_id: quest_missing_merchant
+  objective_type: collect
+  description: Зібрати докази зникнення (особисті речі торговця)
+  target_entity_id: null
+  target_entity_type: item
+  target_count: 3
+  sort_order: 3
+  is_secret: false
+- quest_id: quest_goblin_den
+  objective_type: kill
+  description: Знищити гоблінських розвідників
+  target_entity_id: monster_goblin_scout
+  target_entity_type: monster
+  target_count: 5
+  sort_order: 1
+  is_secret: false
+- quest_id: quest_goblin_den
+  objective_type: collect
+  description: Зібрати зуби гоблінів як доказ виконання
+  target_entity_id: item_goblin_ear
+  target_entity_type: item
+  target_count: 3
+  sort_order: 2
+  is_secret: false
+- quest_id: quest_shadow_council
+  objective_type: talk
+  description: Зустрітися з майстром гільдії Олдріном
+  target_entity_id: null
+  target_entity_type: npc
+  target_count: 1
+  sort_order: 1
+  is_secret: false
+- quest_id: quest_shadow_council
+  objective_type: reputation
+  description: Досягти достатньої репутації у Стальхеймі (Дружній)
+  target_entity_id: faction_city_stalheim
+  target_entity_type: faction
+  target_count: 200
+  sort_order: 2
+  is_secret: false
+- quest_id: quest_prove_loyalty
+  objective_type: kill
+  description: Знищити бандитів на дорозі
+  target_entity_id: monster_bandit
+  target_entity_type: monster
+  target_count: 3
+  sort_order: 1
+  is_secret: false
+- quest_id: quest_prove_loyalty
+  objective_type: deliver
+  description: Доставити донесення до воротного поста
+  target_entity_id: null
+  target_entity_type: npc
+  target_count: 1
+  sort_order: 2
+  is_secret: false
+- quest_id: quest_catacombs_whisper
+  objective_type: visit
+  description: Знайти прихований вхід до стародавніх катакомб
+  target_entity_id: null
+  target_entity_type: location
+  target_count: 1
+  sort_order: 1
+  is_secret: false
+- quest_id: quest_catacombs_whisper
+  objective_type: discover
+  description: Дослідити серце підземного лабіринту
+  target_entity_id: null
+  target_entity_type: location
+  target_count: 1
+  sort_order: 2
+  is_secret: false
+- quest_id: quest_catacombs_whisper
+  objective_type: survive
+  description: Вижити у підземеллях протягом однієї ночі
+  target_entity_id: null
+  target_entity_type: null
+  target_count: 1
+  sort_order: 3
+  is_secret: true
+- quest_id: quest_grizzly_hunt
+  objective_type: kill
+  description: Знищити Залізну Лапу — легендарного гризлого ведмедя
+  target_entity_id: monster_grizzly_bear_alpha
+  target_entity_type: monster
+  target_count: 1
+  sort_order: 1
+  is_secret: false
+- quest_id: quest_grizzly_hunt
+  objective_type: collect
+  description: Зібрати шкуру гризлого ведмедя як трофей
+  target_entity_id: item_wolf_pelt
+  target_entity_type: item
+  target_count: 1
+  sort_order: 2
+  is_secret: false
+rewards:
+- quest_id: quest_missing_merchant
+  reward_type: copper
+  copper_amount: 200
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 1
+- quest_id: quest_missing_merchant
+  reward_type: reputation
+  copper_amount: null
+  faction_id: faction_city_stalheim
+  faction_rep_amount: 50
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 2
+- quest_id: quest_goblin_den
+  reward_type: copper
+  copper_amount: 500
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 1
+- quest_id: quest_goblin_den
+  reward_type: reputation
+  copper_amount: null
+  faction_id: faction_city_stalheim
+  faction_rep_amount: 100
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 2
+- quest_id: quest_goblin_den
+  reward_type: quest_unlock
+  copper_amount: null
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: quest_shadow_council
+  sort_order: 3
+- quest_id: quest_shadow_council
+  reward_type: copper
+  copper_amount: 1500
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 1
+- quest_id: quest_shadow_council
+  reward_type: reputation
+  copper_amount: null
+  faction_id: faction_city_stalheim
+  faction_rep_amount: 300
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 2
+- quest_id: quest_shadow_council
+  reward_type: item
+  copper_amount: null
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: item_amulet_of_warding
+  item_quantity: 1
+  unlock_quest_id: null
+  sort_order: 3
+- quest_id: quest_prove_loyalty
+  reward_type: reputation
+  copper_amount: null
+  faction_id: faction_city_stalheim
+  faction_rep_amount: 200
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 1
+- quest_id: quest_catacombs_whisper
+  reward_type: copper
+  copper_amount: 2000
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 1
+- quest_id: quest_grizzly_hunt
+  reward_type: copper
+  copper_amount: 1000
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: null
+  item_quantity: null
+  unlock_quest_id: null
+  sort_order: 1
+- quest_id: quest_grizzly_hunt
+  reward_type: item
+  copper_amount: null
+  faction_id: null
+  faction_rep_amount: null
+  item_template_id: item_wolf_pelt
+  item_quantity: 2
+  unlock_quest_id: null
+  sort_order: 2

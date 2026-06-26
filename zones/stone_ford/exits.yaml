@@ -1,0 +1,828 @@
+- id: exit_location_town_stone_ford_north
+  from_id: location_town_stone_ford
+  to_id: location_town_tavern
+  direction: north
+  label: До Таверни «Сонний Дракон»
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_tavern_south
+  from_id: location_town_tavern
+  to_id: location_town_stone_ford
+  direction: south
+  label: До Кам'яної Броді
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_stone_ford_east
+  from_id: location_town_stone_ford
+  to_id: location_forest_road
+  direction: east
+  label: До Лісової Дороги
+  difficulty: 2
+  terrain_type: forest
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_forest_road_west
+  from_id: location_forest_road
+  to_id: location_town_stone_ford
+  direction: west
+  label: До Кам'яної Броді
+  difficulty: 2
+  terrain_type: forest
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_town_stone_ford_northwest
+  from_id: location_town_stone_ford
+  to_id: location_market_square
+  direction: northwest
+  label: До Ринкової Площі
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_market_square_southeast
+  from_id: location_market_square
+  to_id: location_town_stone_ford
+  direction: southeast
+  label: До центру міста
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_market_square_south
+  from_id: location_market_square
+  to_id: location_town_gate
+  direction: south
+  label: До Міської Брами
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_gate_north
+  from_id: location_town_gate
+  to_id: location_market_square
+  direction: north
+  label: До Ринкової Площі
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_market_square_west
+  from_id: location_market_square
+  to_id: location_craftsmen_quarter
+  direction: west
+  label: До Ремісничого Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_craftsmen_quarter_east
+  from_id: location_craftsmen_quarter
+  to_id: location_market_square
+  direction: east
+  label: До Ринкової Площі
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_market_square_north
+  from_id: location_market_square
+  to_id: location_noble_quarter
+  direction: north
+  label: До Шляхетського Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_south
+  from_id: location_noble_quarter
+  to_id: location_market_square
+  direction: south
+  label: До Ринкової Площі
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_market_square_northwest
+  from_id: location_market_square
+  to_id: location_poor_quarter
+  direction: northwest
+  label: До Бідного Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_poor_quarter_southeast
+  from_id: location_poor_quarter
+  to_id: location_market_square
+  direction: southeast
+  label: До Ринкової Площі
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_market_square_east
+  from_id: location_market_square
+  to_id: location_river_promenade
+  direction: east
+  label: До Набережної
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_river_promenade_west
+  from_id: location_river_promenade
+  to_id: location_market_square
+  direction: west
+  label: До Ринкової Площі
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_craftsmen_quarter_north
+  from_id: location_craftsmen_quarter
+  to_id: location_carpenter_workshop
+  direction: north
+  label: До Столярної Майстерні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_carpenter_workshop_south
+  from_id: location_carpenter_workshop
+  to_id: location_craftsmen_quarter
+  direction: south
+  label: До Ремісничого Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_craftsmen_quarter_west
+  from_id: location_craftsmen_quarter
+  to_id: location_tannery
+  direction: west
+  label: До Кожум'ятні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_tannery_east
+  from_id: location_tannery
+  to_id: location_craftsmen_quarter
+  direction: east
+  label: До Ремісничого Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_craftsmen_quarter_southwest
+  from_id: location_craftsmen_quarter
+  to_id: location_tailor_shop
+  direction: southwest
+  label: До Кравецької Крамниці
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_tailor_shop_northeast
+  from_id: location_tailor_shop
+  to_id: location_craftsmen_quarter
+  direction: northeast
+  label: До Ремісничого Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_craftsmen_quarter_south
+  from_id: location_craftsmen_quarter
+  to_id: location_bakery
+  direction: south
+  label: До Пекарні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_bakery_north
+  from_id: location_bakery
+  to_id: location_craftsmen_quarter
+  direction: north
+  label: До Ремісничого Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_craftsmen_quarter_northeast
+  from_id: location_craftsmen_quarter
+  to_id: location_brewery
+  direction: northeast
+  label: До Броварні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_brewery_southwest
+  from_id: location_brewery
+  to_id: location_craftsmen_quarter
+  direction: southwest
+  label: До Ремісничого Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_carpenter_workshop_west
+  from_id: location_carpenter_workshop
+  to_id: location_pottery_studio
+  direction: west
+  label: До Гончарної Майстерні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_pottery_studio_east
+  from_id: location_pottery_studio
+  to_id: location_carpenter_workshop
+  direction: east
+  label: До Столярної Майстерні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_craftsmen_quarter_southeast
+  from_id: location_craftsmen_quarter
+  to_id: location_iron_pot_tavern
+  direction: southeast
+  label: До Таверни Залізний Горщик
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_iron_pot_tavern_northwest
+  from_id: location_iron_pot_tavern
+  to_id: location_craftsmen_quarter
+  direction: northwest
+  label: До Ремісничого Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_gate_southwest
+  from_id: location_town_gate
+  to_id: location_sawmill
+  direction: southwest
+  label: До Лісопилки
+  difficulty: 1
+  terrain_type: dirt
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_sawmill_northeast
+  from_id: location_sawmill
+  to_id: location_town_gate
+  direction: northeast
+  label: До Міської Брами
+  difficulty: 1
+  terrain_type: dirt
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_poor_quarter_east
+  from_id: location_poor_quarter
+  to_id: location_general_store
+  direction: east
+  label: До Крамниці «Все для Всіх»
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_general_store_west
+  from_id: location_general_store
+  to_id: location_poor_quarter
+  direction: west
+  label: До Бідного Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_north
+  from_id: location_noble_quarter
+  to_id: location_mage_tower
+  direction: north
+  label: До Башти Мага
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_mage_tower_south
+  from_id: location_mage_tower
+  to_id: location_noble_quarter
+  direction: south
+  label: До Шляхетського Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_southeast
+  from_id: location_noble_quarter
+  to_id: location_jeweler_workshop
+  direction: southeast
+  label: До Ювелірної Майстерні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_jeweler_workshop_northwest
+  from_id: location_jeweler_workshop
+  to_id: location_noble_quarter
+  direction: northwest
+  label: До Шляхетського Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_west
+  from_id: location_noble_quarter
+  to_id: location_wine_cellar
+  direction: west
+  label: До Винного Льоху
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_wine_cellar_east
+  from_id: location_wine_cellar
+  to_id: location_noble_quarter
+  direction: east
+  label: До Шляхетського Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_east
+  from_id: location_noble_quarter
+  to_id: location_town_hall
+  direction: east
+  label: До Ратуші
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_hall_west
+  from_id: location_town_hall
+  to_id: location_noble_quarter
+  direction: west
+  label: До Шляхетського Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_southwest
+  from_id: location_noble_quarter
+  to_id: location_chandler_shop
+  direction: southwest
+  label: До Свічкарні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_chandler_shop_northeast
+  from_id: location_chandler_shop
+  to_id: location_noble_quarter
+  direction: northeast
+  label: До Шляхетського Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_northeast
+  from_id: location_noble_quarter
+  to_id: location_library
+  direction: northeast
+  label: До Бібліотеки
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_library_southwest
+  from_id: location_library
+  to_id: location_noble_quarter
+  direction: southwest
+  label: До Шляхетського Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_noble_quarter_northwest
+  from_id: location_noble_quarter
+  to_id: location_old_watchtower
+  direction: northwest
+  label: До Старої Сторожової Вежі
+  difficulty: 2
+  terrain_type: dirt
+  travel_time_base: 3
+  _zone: stone_ford
+- id: exit_location_old_watchtower_southeast
+  from_id: location_old_watchtower
+  to_id: location_noble_quarter
+  direction: southeast
+  label: До Шляхетського Кварталу
+  difficulty: 2
+  terrain_type: dirt
+  travel_time_base: 3
+  _zone: stone_ford
+- id: exit_location_poor_quarter_south
+  from_id: location_poor_quarter
+  to_id: location_thieves_alley
+  direction: south
+  label: До Злодійського Провулку
+  difficulty: 2
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_thieves_alley_north
+  from_id: location_thieves_alley
+  to_id: location_poor_quarter
+  direction: north
+  label: До Бідного Кварталу
+  difficulty: 2
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_poor_quarter_west
+  from_id: location_poor_quarter
+  to_id: location_sewer_entrance
+  direction: west
+  label: До Входу в Каналізацію
+  difficulty: 3
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_sewer_entrance_east
+  from_id: location_sewer_entrance
+  to_id: location_poor_quarter
+  direction: east
+  label: До Бідного Кварталу
+  difficulty: 3
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_poor_quarter_north
+  from_id: location_poor_quarter
+  to_id: location_orphanage
+  direction: north
+  label: До Притулку для Сиріт
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_orphanage_south
+  from_id: location_orphanage
+  to_id: location_poor_quarter
+  direction: south
+  label: До Бідного Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_poor_quarter_southwest
+  from_id: location_poor_quarter
+  to_id: location_abandoned_house
+  direction: southwest
+  label: До Занедбаного Будинку
+  difficulty: 2
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_abandoned_house_northeast
+  from_id: location_abandoned_house
+  to_id: location_poor_quarter
+  direction: northeast
+  label: До Бідного Кварталу
+  difficulty: 2
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_poor_quarter_northeast
+  from_id: location_poor_quarter
+  to_id: location_temple_of_light
+  direction: northeast
+  label: До Храму Світла
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_temple_of_light_southwest
+  from_id: location_temple_of_light
+  to_id: location_poor_quarter
+  direction: southwest
+  label: До Бідного Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_poor_quarter_northwest
+  from_id: location_poor_quarter
+  to_id: location_herbalist_garden
+  direction: northwest
+  label: До Саду Травниці
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_herbalist_garden_southeast
+  from_id: location_herbalist_garden
+  to_id: location_poor_quarter
+  direction: southeast
+  label: До Бідного Кварталу
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_gate_northwest
+  from_id: location_town_gate
+  to_id: location_residential_west
+  direction: northwest
+  label: До Зах. Житлових Кварталів
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_residential_west_southeast
+  from_id: location_residential_west
+  to_id: location_town_gate
+  direction: southeast
+  label: До Міської Брами
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_sewer_entrance_north
+  from_id: location_sewer_entrance
+  to_id: location_sewer_junction_a
+  direction: north
+  label: До Першого Розвилку
+  difficulty: 3
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_temple_of_light_down
+  from_id: location_temple_of_light
+  to_id: location_oracle_chamber
+  direction: down
+  label: До Кімнати Оракула
+  difficulty: 2
+  terrain_type: stone
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_oracle_chamber_up
+  from_id: location_oracle_chamber
+  to_id: location_temple_of_light
+  direction: up
+  label: До Храму Світла
+  difficulty: 2
+  terrain_type: stone
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_temple_of_light_west
+  from_id: location_temple_of_light
+  to_id: location_orphanage
+  direction: west
+  label: До Притулку для Сиріт
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_herbalist_garden_east
+  from_id: location_herbalist_garden
+  to_id: location_apothecary
+  direction: east
+  label: До Аптеки
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_apothecary_west
+  from_id: location_apothecary
+  to_id: location_herbalist_garden
+  direction: west
+  label: До Саду Травниці
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_river_promenade_northwest
+  from_id: location_river_promenade
+  to_id: location_bathhouse
+  direction: northwest
+  label: До Лазні
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_bathhouse_southeast
+  from_id: location_bathhouse
+  to_id: location_river_promenade
+  direction: southeast
+  label: До Набережної
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_river_promenade_north
+  from_id: location_river_promenade
+  to_id: location_stone_bridge
+  direction: north
+  label: До Кам'яного Мосту
+  difficulty: 1
+  terrain_type: stone
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_stone_bridge_south
+  from_id: location_stone_bridge
+  to_id: location_river_promenade
+  direction: south
+  label: До Набережної
+  difficulty: 1
+  terrain_type: stone
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_river_promenade_south
+  from_id: location_river_promenade
+  to_id: location_riverside_dock
+  direction: south
+  label: До Пристані
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_riverside_dock_north
+  from_id: location_riverside_dock
+  to_id: location_river_promenade
+  direction: north
+  label: До Набережної
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_river_promenade_east
+  from_id: location_river_promenade
+  to_id: location_mill
+  direction: east
+  label: До Млину
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_mill_west
+  from_id: location_mill
+  to_id: location_river_promenade
+  direction: west
+  label: До Набережної
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_stone_bridge_east
+  from_id: location_stone_bridge
+  to_id: location_residential_east
+  direction: east
+  label: До Схід. Житл. Кварталів
+  difficulty: 1
+  terrain_type: stone
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_residential_east_west
+  from_id: location_residential_east
+  to_id: location_stone_bridge
+  direction: west
+  label: До Кам'яного Мосту
+  difficulty: 1
+  terrain_type: stone
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_hall_east
+  from_id: location_town_hall
+  to_id: location_guard_barracks
+  direction: east
+  label: До Казарм Варти
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_guard_barracks_west
+  from_id: location_guard_barracks
+  to_id: location_town_hall
+  direction: west
+  label: До Ратуші
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_guard_barracks_north
+  from_id: location_guard_barracks
+  to_id: location_prison_tower
+  direction: north
+  label: До Вежі-Тюрми
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_prison_tower_south
+  from_id: location_prison_tower
+  to_id: location_guard_barracks
+  direction: south
+  label: До Казарм Варти
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_guard_barracks_south
+  from_id: location_guard_barracks
+  to_id: location_arena
+  direction: south
+  label: До Бойової Арени
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_arena_north
+  from_id: location_arena
+  to_id: location_guard_barracks
+  direction: north
+  label: До Казарм Варти
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_hall_north
+  from_id: location_town_hall
+  to_id: location_judge_court
+  direction: north
+  label: До Судової Зали
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_judge_court_south
+  from_id: location_judge_court
+  to_id: location_town_hall
+  direction: south
+  label: До Ратуші
+  difficulty: 1
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_town_gate_west
+  from_id: location_town_gate
+  to_id: location_hunter_lodge
+  direction: west
+  label: До Мисливської Хати
+  difficulty: 1
+  terrain_type: dirt
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_hunter_lodge_east
+  from_id: location_hunter_lodge
+  to_id: location_town_gate
+  direction: east
+  label: До Міської Брами
+  difficulty: 1
+  terrain_type: dirt
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_town_gate_east
+  from_id: location_town_gate
+  to_id: location_gallows_hill
+  direction: east
+  label: До Горбу Шибениці
+  difficulty: 2
+  terrain_type: dirt
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_gallows_hill_west
+  from_id: location_gallows_hill
+  to_id: location_town_gate
+  direction: west
+  label: До Міської Брами
+  difficulty: 2
+  terrain_type: dirt
+  travel_time_base: 2
+  _zone: stone_ford
+- id: exit_location_thieves_alley_west
+  from_id: location_thieves_alley
+  to_id: location_smuggler_hideout
+  direction: west
+  label: До Схованки Контрабандистів
+  difficulty: 3
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford
+- id: exit_location_smuggler_hideout_east
+  from_id: location_smuggler_hideout
+  to_id: location_thieves_alley
+  direction: east
+  label: До Злодійського Провулку
+  difficulty: 3
+  terrain_type: road
+  travel_time_base: 1
+  _zone: stone_ford

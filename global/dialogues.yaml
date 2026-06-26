@@ -1,0 +1,1026 @@
+trees:
+- npc_id: npc_blacksmith_helga
+  name: Привітальний діалог
+  npc_context: 'Гельга — майстер-коваль, сувора але справедлива. Батько загинув від гоблінів коли їй було 16 років. Двадцять
+    років кує зброю та лати. Вночі грає на бандурі. Говорить коротко, по суті. Не любить пустих балачок, але може відкритись
+    якщо людина поводить себе чесно. Манера мови: коротко, сухо, практично.'
+  greeting_node_id: npc_blacksmith_helga__g_greet
+  is_active: true
+- npc_id: npc_innkeeper_gronda
+  name: Привітальний діалог
+  npc_context: Гронда — тепла, балакуча, трохи таємнича. Знає всі плітки міста. Прийшла з Східних боліт, щось приховує зі
+    свого минулого. Говорить голосно, тепло, по-домашньому. Може пожартувати. Якщо питають про минуле — ухиляється, але не
+    різко.
+  greeting_node_id: npc_innkeeper_gronda__r_greet
+  is_active: true
+- npc_id: npc_merchant_torben
+  name: Привітальний діалог
+  npc_context: Торбен — досвідчений торговець, чесний, трохи хитруватий. Любить байки про свої товари. Каже що якість коштує
+    грошей. Доброзичливий, трохи театральний у подачі.
+  greeting_node_id: npc_merchant_torben__t_greet
+  is_active: true
+- npc_id: npc_alchemist_vex
+  name: Привітальний діалог
+  npc_context: Векс — ексцентричний алхімік, балакучий і загадковий одночасно. Ніколи не відповідає звідки він і де навчився.
+    Захоплений наукою. Говорить хаотично, перескакує з теми на тему. Окуляри майже не знімає.
+  greeting_node_id: npc_alchemist_vex__v_greet
+  is_active: true
+- npc_id: npc_guard_patrol_bors
+  name: Стандартний діалог
+  npc_context: Борс — пильний патрульний, підозрілий до чужинців, чесний і непідкупний. Говорить офіційно, коротко. З постійними
+    жителями — трохи м'якший. Правила дотримується суворо.
+  greeting_node_id: npc_guard_patrol_bors__b_greet
+  is_active: true
+- npc_id: npc_guard_captain
+  name: Привітальний діалог
+  npc_context: Капітан Ворен — суворий ветеран, шрам від орка. Вчить фехтуванню і тактиці. Скептичний до молодих авантюристів
+    але готовий навчати тих хто доводить серйозність. Говорить стисло, авторитетно. Цінує дисципліну і чесність.
+  greeting_node_id: npc_guard_captain__w_greet
+  is_active: true
+- npc_id: npc_arena_master
+  name: Привітальний діалог
+  npc_context: Майстер Арени — людина без минулого, загадковий, вимогливий. Любить казати 'Арена не бреше'. Жорсткий на тренуваннях
+    але справедливий. Говорить коротко, влучно, іноді театрально.
+  greeting_node_id: npc_arena_master__a_greet
+  is_active: true
+- npc_id: npc_elder_councilor_edwin
+  name: Привітальний діалог
+  npc_context: Едвін — сімдесятидворічний мудрець, головний радник. Пережив чотирьох правителів, дві облоги, одну чуму. Говорить
+    повільно, зважено. Не дає доручень першому-ліпшому. Оцінює людину перш ніж довіряти справи.
+  greeting_node_id: npc_elder_councilor_edwin__e_greet
+  is_active: true
+- npc_id: npc_priest_aldric
+  name: Привітальний діалог
+  npc_context: Олдрік — благочестивий жрець, доброзичливий до всіх. Особистий пацифіст, але розуміє що не всі можуть бути
+    такими. Лікує та благословляє. Говорить спокійно, тепло, трохи урочисто.
+  greeting_node_id: npc_priest_aldric__o_greet
+  is_active: true
+- npc_id: npc_healer_sister_mira
+  name: Привітальний діалог
+  npc_context: Сестра Міра — тиха, добра, але втомлена. Служить Богині Зцілення Ліані. Лікує всіх незалежно від можливості
+    платити. Говорить м'яко, спокійно. Очі видають втому від занадто великого болю що пройшов крізь неї.
+  greeting_node_id: npc_healer_sister_mira__m_greet
+  is_active: true
+- npc_id: npc_stable_master_olrik
+  name: Стандартний діалог
+  npc_context: Ольрік — мовчазний, надійний. Говорить тільки по суті. Краще спілкується з кіньми ніж з людьми. Чесний у торгівлі.
+    Не любить зайвих слів.
+  greeting_node_id: npc_stable_master_olrik__ol_greet
+  is_active: true
+- npc_id: npc_shadow_contact
+  name: Стандартний діалог
+  npc_context: Тінь — таємнича, стисла, конкретна. Ніхто не знає справжнього імені. Говорить тільки по суті. Ніяких зайвих
+    слів, ніякого торгу. Тільки факти і умови. Небезпечна але не агресивна першою.
+  greeting_node_id: npc_shadow_contact__sh_greet
+  is_active: true
+- npc_id: npc_zinia_herbalist
+  name: Привітання Зінії
+  npc_context: Травниця Зінія — тепла, мудра, знає цінність кожної рослини.
+  greeting_node_id: npc_zinia_herbalist__greet
+  is_active: true
+- npc_id: npc_vandorak_mage
+  name: Привітання Вандорака
+  npc_context: Маг Вандорак — загадковий, прямолінійний, не терпить дурниць.
+  greeting_node_id: npc_vandorak_mage__greet
+  is_active: true
+- npc_id: npc_marko_captain
+  name: Привітання Марка
+  npc_context: Капітан Марко — суворий вояк, цінує ефективність.
+  greeting_node_id: npc_marko_captain__greet
+  is_active: true
+- npc_id: npc_erik_priest
+  name: Привітання Еріка
+  npc_context: Жрець Ерік — добрий і відкритий до всіх.
+  greeting_node_id: npc_erik_priest__greet
+  is_active: true
+- npc_id: npc_shadow_fence
+  name: Привітання Тіні
+  npc_context: Тінь — обережний, параноїдальний, але справедливий у своєму бізнесі.
+  greeting_node_id: npc_shadow_fence__greet
+  is_active: true
+nodes:
+- id: npc_blacksmith_helga__g_greet
+  npc_id: npc_blacksmith_helga
+  label: g_greet
+  node_type: talk
+  text: Чого стоїш? Якщо є замовлення — кажи. Якщо просто вітер у голові — я зайнята.
+- id: npc_blacksmith_helga__g_weapon
+  npc_id: npc_blacksmith_helga
+  label: g_weapon
+  node_type: talk
+  text: Мечі, сокири, кинджали, бердиші — все кую. Покажи гроші і скажи що саме треба. Звичайний меч — двадцять золотих. Загартований
+    у драконячому жиру — вчетверо дорожче. Але він не підведе навіть проти нежиті.
+- id: npc_blacksmith_helga__g_price
+  npc_id: npc_blacksmith_helga
+  label: g_price
+  node_type: talk
+  text: Залежить від металу та складності роботи. Прийди з матеріалом — зроблю дешевше. Приходь з порожніми руками — плати
+    повну ціну. Всі умови чесні.
+- id: npc_blacksmith_helga__g_armor
+  npc_id: npc_blacksmith_helga
+  label: g_armor
+  node_type: talk
+  text: Лати кую рідше — займає більше часу. Якщо справді потрібно, замовляй заздалегідь. Тиждень мінімум. Але жоден обладунок
+    з моєї кузні ще не тріснув у бою.
+- id: npc_blacksmith_helga__g_self
+  npc_id: npc_blacksmith_helga
+  label: g_self
+  node_type: talk
+  text: Я коваль. Батько був ковалем до мене. Загинув від гоблінів коли мені було шістнадцять. Я продовжила його справу. Більше
+    нема чого розповідати.
+- id: npc_blacksmith_helga__g_father
+  npc_id: npc_blacksmith_helga
+  label: g_father
+  node_type: talk
+  text: 'Перші роки — так, було важко. Зараз просто живу далі. Він казав: найкращий пам''ятник людині — робота, що переживає
+    її. Мої клинки служитимуть ще довго після мене.'
+- id: npc_blacksmith_helga__g_blade
+  npc_id: npc_blacksmith_helga
+  label: g_blade
+  node_type: end
+  text: Бачиш той меч ліворуч? Кувала двадцять років тому. Зараз ним воює син того солдата, якому я його продала. Ось і вся
+    філософія.
+- id: npc_blacksmith_helga__g_special
+  npc_id: npc_blacksmith_helga
+  label: g_special
+  node_type: end
+  text: 'Маєш особливий метал чи рецепт — принеси, подивлюсь. Так просто рідкісне не кую: потрібні матеріали і час. Не обіцяю
+    нічого наперед.'
+- id: npc_blacksmith_helga__g_bye
+  npc_id: npc_blacksmith_helga
+  label: g_bye
+  node_type: end
+  text: Гаразд. Повертайся якщо знадобиться.
+- id: npc_innkeeper_gronda__r_greet
+  npc_id: npc_innkeeper_gronda
+  label: r_greet
+  node_type: talk
+  text: Заходь, заходь! Місця є — сідай де зручно. Ель, вино чи рагу? Кажи що треба, я тут.
+- id: npc_innkeeper_gronda__r_ale
+  npc_id: npc_innkeeper_gronda
+  label: r_ale
+  node_type: shop
+  text: Ось тобі, красавчику. Свіжий — ще вчора зварений. Три мідяки. І це з доброго серця, бо зазвичай чотири.
+- id: npc_innkeeper_gronda__r_news
+  npc_id: npc_innkeeper_gronda
+  label: r_news
+  node_type: talk
+  text: Новини? В таверні завжди є новини. Учора купці сварились через партію хутра. А позавчора той дивний маг знову замовив
+    десять порцій рагу — і все сам з'їв! Щось тут нечисте, кажу тобі.
+- id: npc_innkeeper_gronda__r_mage
+  npc_id: npc_innkeeper_gronda
+  label: r_mage
+  node_type: end
+  text: 'Нічого певного. Приходить раз на тиждень, платить срібним, ні з ким не балакає. Та очі — дивляться ніби крізь тебе,
+    а не на тебе. Моє серце каже: тримайся подалі.'
+- id: npc_innkeeper_gronda__r_origin
+  npc_id: npc_innkeeper_gronda
+  label: r_origin
+  node_type: talk
+  text: Зі Східних боліт. Давно це було — вже й сама іноді не вірю. Тут у місті мені краще. Тут тепло і людей повно. Там...
+    там завжди був туман.
+- id: npc_innkeeper_gronda__r_why
+  npc_id: npc_innkeeper_gronda
+  label: r_why
+  node_type: end
+  text: Молода була. Дурна. І... трапилось дещо, про що краще не говорити. Ти краще вип'єш ще кухлик? За рахунок закладу.
+- id: npc_innkeeper_gronda__r_food
+  npc_id: npc_innkeeper_gronda
+  label: r_food
+  node_type: shop
+  text: Рагу з редькою та свинячими реберцями — восьмий мідяк. Найкраще в районі, і це не хвалькуватість — це правда.
+- id: npc_merchant_torben__t_greet
+  npc_id: npc_merchant_torben
+  label: t_greet
+  node_type: talk
+  text: О, покупець! Заходь, заходь. У мене є майже все що душа забажає. Що тебе цікавить?
+- id: npc_merchant_torben__t_goods
+  npc_id: npc_merchant_torben
+  label: t_goods
+  node_type: shop
+  text: Ліки, зілля, їжа, інгредієнти для алхімії, кілька магічних дрібниць і ще дещо — для тих хто знає що шукає. Подивись
+    самостійно або скажи конкретно.
+- id: npc_merchant_torben__t_price
+  npc_id: npc_merchant_torben
+  label: t_price
+  node_type: talk
+  text: Якість коштує своїх грошей — я в це щиро вірю. Де є дешевше — там і якість відповідна. Але у мене нічого не гниє і
+    не підводить.
+- id: npc_merchant_torben__t_rare
+  npc_id: npc_merchant_torben
+  label: t_rare
+  node_type: end
+  text: Рідкісне є — але не для всіх і не завжди. Якщо маєш що запропонувати в обмін або знаєш що шукаєш — говори прямо, подивимось
+    що можна зробити.
+- id: npc_merchant_torben__t_story
+  npc_id: npc_merchant_torben
+  label: t_story
+  node_type: talk
+  text: В молодості я їздив торговельними шляхами — від Вільного Порту до Сірих Пагорбів. Кожен товар у мене — це окрема байка.
+    Хочеш почути про якийсь?
+- id: npc_merchant_torben__t_story2
+  npc_id: npc_merchant_torben
+  label: t_story2
+  node_type: end
+  text: Ось цей камінь — я купив його у старого гнома за три мідяки і пляшку бренді. Він казав, що камінь 'відчуває нещастя'.
+    Так і лежить у мене — не продаю, бо боюсь що він правий.
+- id: npc_alchemist_vex__v_greet
+  npc_id: npc_alchemist_vex
+  label: v_greet
+  node_type: talk
+  text: А! Клієнт. Або просто цікавий? Не важливо — заходь. Тільки не чіпай синій флакон — він ще нестабільний.
+- id: npc_alchemist_vex__v_potions
+  npc_id: npc_alchemist_vex
+  label: v_potions
+  node_type: shop
+  text: Зілля! Відновлення здоров'я, маніфест сили, нічний зір — є базовий асортимент. А ще є кілька... нестандартних варіантів.
+    Правда, побічні ефекти ще у стадії вивчення.
+- id: npc_alchemist_vex__v_experimental
+  npc_id: npc_alchemist_vex
+  label: v_experimental
+  node_type: end
+  text: 'Скажімо так: теоретично воно має підсилювати реакцію. Практично — у восьми з десяти випадків так і є. У двох інших
+    — ну, нічого смертельного, просто... незвично.'
+- id: npc_alchemist_vex__v_origin
+  npc_id: npc_alchemist_vex
+  label: v_origin
+  node_type: talk
+  text: Звідки я? Хм. Цікаве питання. Я сам іноді замислююсь. Скажімо — здалека. Дуже здалека. З місця де алхімія сприймається
+    трохи... по-іншому.
+- id: npc_alchemist_vex__v_origin2
+  npc_id: npc_alchemist_vex
+  label: v_origin2
+  node_type: end
+  text: Ні. Наступне питання.
+- id: npc_alchemist_vex__v_science
+  npc_id: npc_alchemist_vex
+  label: v_science
+  node_type: end
+  text: 'Вся алхімія — це просто хімія плюс трохи інтуїції. Дракони, наприклад, синтезують вогонь шляхом каталітичного окислення
+    — дивовижно, правда? Я написав про це трактат. Хочеш почитати? Попередження: дванадцять сторінок тільки передмови.'
+- id: npc_guard_patrol_bors__b_greet
+  npc_id: npc_guard_patrol_bors
+  label: b_greet
+  node_type: talk
+  text: Стій. Документи є? Зброю при собі маєш? Відповідай чітко.
+- id: npc_guard_patrol_bors__b_docs
+  npc_id: npc_guard_patrol_bors
+  label: b_docs
+  node_type: end
+  text: Гаразд. Мандрівник значить. Зброя є — носи на виду, але до руків'я не тягнись без причини. Можеш іти.
+- id: npc_guard_patrol_bors__b_nodocs
+  npc_id: npc_guard_patrol_bors
+  label: b_nodocs
+  node_type: end
+  text: Без документів ти для мене підозрілий. Не наробляй клопоту — і я тебе не помічаю. Але перша проблема — і ми поговоримо
+    серйозніше.
+- id: npc_guard_patrol_bors__b_rules
+  npc_id: npc_guard_patrol_bors
+  label: b_rules
+  node_type: end
+  text: Зброю не обнажати без причини. Після опівночі — не галасувати. Ринковий збір платять всі. Це три головних правила.
+    Решту дізнаєшся якщо порушиш.
+- id: npc_guard_patrol_bors__b_calm
+  npc_id: npc_guard_patrol_bors
+  label: b_calm
+  node_type: end
+  text: Спокійно. Просто роблю свою роботу. Десять років патрулюю — бачив всяке. Краще один раз зупинити ніж потім шкодувати.
+- id: npc_guard_captain__w_greet
+  npc_id: npc_guard_captain
+  label: w_greet
+  node_type: talk
+  text: Авантюристу. Якщо прийшов у справі — слухаю. Якщо просто роздивлятись — прохід ліворуч.
+- id: npc_guard_captain__w_train
+  npc_id: npc_guard_captain
+  label: w_train
+  node_type: skills
+  text: Навчаю. Але не кожного. Покажи мені що ти вже вмієш — і я скажу чи витрачатиму на тебе час.
+- id: npc_guard_captain__w_scar
+  npc_id: npc_guard_captain
+  label: w_scar
+  node_type: end
+  text: Орк-берсерк. Прикордонна кампанія, двадцять два роки тому. Він промахнувся по горлу. Я — ні. Ось і вся розповідь.
+- id: npc_guard_captain__w_city
+  npc_id: npc_guard_captain
+  label: w_city
+  node_type: end
+  text: Місто тримається порядком. Порядок тримається варто. Варта тримається дисципліною. Якщо будеш поводитись — ми проблем
+    не матимемо.
+- id: npc_guard_captain__w_quest
+  npc_id: npc_guard_captain
+  label: w_quest
+  node_type: end
+  text: Є робота для тих хто її заслужив. Зарекомендуй себе спочатку — тоді поговоримо про серйозніші справи.
+- id: npc_arena_master__a_greet
+  npc_id: npc_arena_master
+  label: a_greet
+  node_type: talk
+  text: Ще один прийшов подивитись. А може — прийшов битись? Це було б набагато цікавіше.
+- id: npc_arena_master__a_fight
+  npc_id: npc_arena_master
+  label: a_fight
+  node_type: skills
+  text: Арена відкрита. Але спочатку я дивлюсь як ти рухаєшся. Арена не бреше — вона завжди покаже хто ти є насправді.
+- id: npc_arena_master__a_train
+  npc_id: npc_arena_master
+  label: a_train
+  node_type: skills
+  text: Тренування жорсткі. Хтось падає першого дня і більше не повертається. Хтось падає сотню разів і стає кращим. Ти якого
+    типу — я ще не знаю.
+- id: npc_arena_master__a_past
+  npc_id: npc_arena_master
+  label: a_past
+  node_type: end
+  text: Минуле? Я не обговорюю минуле. Є тільки те що ти можеш зробити зараз. Все решта — розмови.
+- id: npc_arena_master__a_watch
+  npc_id: npc_arena_master
+  label: a_watch
+  node_type: end
+  text: Дивитись можна. Але якщо дивишся довше п'яти хвилин — це вже не інтерес, це боягузтво. Вступай або йди.
+- id: npc_elder_councilor_edwin__e_greet
+  npc_id: npc_elder_councilor_edwin
+  label: e_greet
+  node_type: talk
+  text: Молодий авантюристу. Я бачу тебе вперше — або пам'ять підводить мене. Що привело тебе до Ратуші?
+- id: npc_elder_councilor_edwin__e_quest
+  npc_id: npc_elder_councilor_edwin
+  label: e_quest
+  node_type: talk
+  text: Є справи які вимагають людей рішучих і надійних. Але я не роздаю доручення кожному хто заходить у двері. Спочатку
+    мені потрібно знати хто ти.
+- id: npc_elder_councilor_edwin__e_whoami
+  npc_id: npc_elder_councilor_edwin
+  label: e_whoami
+  node_type: talk
+  text: 'Ким ти є? Гарне питання для самого себе. Скажи мені: чого ти хочеш від цього міста? Золота? Слави? Чи є щось більше?'
+- id: npc_elder_councilor_edwin__e_gold
+  npc_id: npc_elder_councilor_edwin
+  label: e_gold
+  node_type: end
+  text: 'Чесна відповідь. Золото — зрозуміла мотивація. Але пам''ятай: місто пам''ятає тих хто служить йому добре. Повертайся
+    коли доведеш що тобі можна довіряти.'
+- id: npc_elder_councilor_edwin__e_serve
+  npc_id: npc_elder_councilor_edwin
+  label: e_serve
+  node_type: quest
+  text: Це те що я хочу почути. Місту потрібні такі люди. Поки що маю для тебе невелике доручення — щоб перевірити чи слова
+    відповідають ділу.
+- id: npc_elder_councilor_edwin__e_history
+  npc_id: npc_elder_councilor_edwin
+  label: e_history
+  node_type: end
+  text: Я бачив це місто крізь чотирьох правителів, дві облоги і одну чуму. Кожен раз місто виживало. Бо є люди які не тікають
+    коли стає важко.
+- id: npc_priest_aldric__o_greet
+  npc_id: npc_priest_aldric
+  label: o_greet
+  node_type: talk
+  text: Мир тобі, мандрівнику. Якщо прийшов по зцілення або благословення — ти в правильному місці. Храм відкритий для всіх.
+- id: npc_priest_aldric__o_heal
+  npc_id: npc_priest_aldric
+  label: o_heal
+  node_type: talk
+  text: Покажи рану. Молитва та зілля зроблять своє. Якщо є чим заплатити — добре, якщо ні — Богиня не рахує.
+- id: npc_priest_aldric__o_bless
+  npc_id: npc_priest_aldric
+  label: o_bless
+  node_type: talk
+  text: 'Благословення на зброю захищає від темного: нежиті, демонів, прокляття. Прийде добра воля та скромна пожертва — і
+    Полум''я захистить твій клинок.'
+- id: npc_priest_aldric__o_faith
+  npc_id: npc_priest_aldric
+  label: o_faith
+  node_type: end
+  text: 'Я вірю в те що бачу: люди приходять із болем — і йдуть із полегшенням. Це і є суть служіння. Не потрібно більшого
+    доказу.'
+- id: npc_priest_aldric__o_peace
+  npc_id: npc_priest_aldric
+  label: o_peace
+  node_type: end
+  text: Я ніколи не піднімав руки на живу істоту. Але я розумію тих хто мусить. Молюсь за них так само як за тих кого вони
+    захищають.
+- id: npc_healer_sister_mira__m_greet
+  npc_id: npc_healer_sister_mira
+  label: m_greet
+  node_type: talk
+  text: Доброго дня. Ти поранений? Чи просто зайшов? В будь-якому разі — заходь.
+- id: npc_healer_sister_mira__m_heal
+  npc_id: npc_healer_sister_mira
+  label: m_heal
+  node_type: talk
+  text: Поклади сюди і не рухайся. Трав'яний відвар спочатку — потім перев'язка. Якщо є монети — добре. Якщо ні — принеси
+    їжу чи допоможи з чимось, це теж підійде.
+- id: npc_healer_sister_mira__m_potions
+  npc_id: npc_healer_sister_mira
+  label: m_potions
+  node_type: talk
+  text: Мої відвари — найефективніші в окрузі. Без хімічних домішок, все зібране власноруч. Дорожче ніж в аптекаря, але надійніше.
+- id: npc_healer_sister_mira__m_service
+  npc_id: npc_healer_sister_mira
+  label: m_service
+  node_type: end
+  text: Дванадцять років тут. Кожен день когось лікую. Іноді рятую. Іноді ні. Продовжую щоранку. Богиня дає силу.
+- id: npc_healer_sister_mira__m_tired
+  npc_id: npc_healer_sister_mira
+  label: m_tired
+  node_type: end
+  text: Іноді — так. Але якщо я зупинюсь — хтось не отримає допомоги. Тому я не зупиняюсь.
+- id: npc_stable_master_olrik__ol_greet
+  npc_id: npc_stable_master_olrik
+  label: ol_greet
+  node_type: talk
+  text: Мм. Що треба?
+- id: npc_stable_master_olrik__ol_horse
+  npc_id: npc_stable_master_olrik
+  label: ol_horse
+  node_type: shop
+  text: Є. Ціни різні — залежить від породи і стану. Подивись самостійно або скажи для чого потрібен.
+- id: npc_stable_master_olrik__ol_transport
+  npc_id: npc_stable_master_olrik
+  label: ol_transport
+  node_type: talk
+  text: Організую транспортування. Скажи куди і що — знайду візника. Чесних ціна.
+- id: npc_stable_master_olrik__ol_sick
+  npc_id: npc_stable_master_olrik
+  label: ol_sick
+  node_type: end
+  text: Тяжко хворий — поки не можу обіцяти. Залиши на тиждень, подивимось. Якщо вилікую — скажу. Якщо ні — скажу чесно.
+- id: npc_stable_master_olrik__ol_talk
+  npc_id: npc_stable_master_olrik
+  label: ol_talk
+  node_type: end
+  text: Коні — добрі тварини. Простіші за людей. Не брешуть. Не скиглять. Просто роблять своє. Мені це подобається.
+- id: npc_shadow_contact__sh_greet
+  npc_id: npc_shadow_contact
+  label: sh_greet
+  node_type: talk
+  text: Ти мене знайшов. Значить хтось тебе послав або ти знаєш де шукати. Говори.
+- id: npc_shadow_contact__sh_work
+  npc_id: npc_shadow_contact
+  label: sh_work
+  node_type: quest
+  text: Є робота. Не для всіх. Ціна залежить від складності і від того наскільки тебе вже знають у Гільдії. Ти новий — починаємо
+    з малого.
+- id: npc_shadow_contact__sh_who
+  npc_id: npc_shadow_contact
+  label: sh_who
+  node_type: end
+  text: Ім'я не важливе. Важливо що я можу зробити і що ти можеш зробити. Решта — зайве.
+- id: npc_shadow_contact__sh_guild
+  npc_id: npc_shadow_contact
+  label: sh_guild
+  node_type: end
+  text: Гільдія існує. Це все що тобі потрібно знати. Якщо продовжуєш задавати зайві питання — наша розмова закінчена.
+- id: npc_shadow_contact__sh_safe
+  npc_id: npc_shadow_contact
+  label: sh_safe
+  node_type: end
+  text: Безпека? Немає абсолютної безпеки. Але Гільдія захищає своїх — якщо ти дотримуєшся правил. Порушуєш правила — сам
+    собі.
+- id: npc_zinia_herbalist__greet
+  npc_id: npc_zinia_herbalist
+  label: greet
+  node_type: talk
+  text: Доброго дня, мандрівнику! Ти виглядаєш як людина яка мала нещасливу зустріч з якоюсь твариною. Чим можу допомогти?
+- id: npc_zinia_herbalist__trade
+  npc_id: npc_zinia_herbalist
+  label: trade
+  node_type: shop
+  text: Звичайно. У мене завжди є свіжі трави і зілля. Дивись що підходить.
+- id: npc_zinia_herbalist__teach
+  npc_id: npc_zinia_herbalist
+  label: teach
+  node_type: talk
+  text: Травництво — це не просто знати назви рослин. Це почути ліс. Ти готовий вчитись?
+- id: npc_zinia_herbalist__heal
+  npc_id: npc_zinia_herbalist
+  label: heal
+  node_type: talk
+  text: 'Присядь. Зараз подивлюся що з тобою. Моя мати казала: ''Трава від усього є — треба тільки знати яка.'''
+- id: npc_zinia_herbalist__bye
+  npc_id: npc_zinia_herbalist
+  label: bye
+  node_type: end
+  text: Бережи себе в лісі. І не їж незнайомі гриби без мене.
+- id: npc_vandorak_mage__greet
+  npc_id: npc_vandorak_mage
+  label: greet
+  node_type: talk
+  text: Хм. Ти прийшов з метою. Добре. Безцільних я прошу одразу йти.
+- id: npc_vandorak_mage__trade
+  npc_id: npc_vandorak_mage
+  label: trade
+  node_type: shop
+  text: Мої запаси не нескінченні. Але дещо є. Дивись.
+- id: npc_vandorak_mage__teach
+  npc_id: npc_vandorak_mage
+  label: teach
+  node_type: talk
+  text: Навчати — це не розповідати. Це відкривати. Питання в тому чи ти здатен відкритись знанню. Більшість — ні.
+- id: npc_vandorak_mage__who
+  npc_id: npc_vandorak_mage
+  label: who
+  node_type: talk
+  text: Хто я? Той хто прийшов раніше тебе і залишиться після. Більше не питай.
+- id: npc_vandorak_mage__bye
+  npc_id: npc_vandorak_mage
+  label: bye
+  node_type: end
+  text: Іди. Не грюкай дверима.
+- id: npc_marko_captain__greet
+  npc_id: npc_marko_captain
+  label: greet
+  node_type: talk
+  text: Стій. Ти мандрівник? Чого хочеш? Якщо ти тут просто так — вільний. Але якщо хочеш дізнатись як вижити в бою — говори.
+- id: npc_marko_captain__teach
+  npc_id: npc_marko_captain
+  label: teach
+  node_type: talk
+  text: Навчаю. Точний удар, поводження зі щитом. Ціна розумна. Час не гаємо.
+- id: npc_marko_captain__info
+  npc_id: npc_marko_captain
+  label: info
+  node_type: talk
+  text: Неспокійно в лісі. Гобліни все ближче і ближче до воріт. Якщо маєш час і зброю — є завдання від Воєводи.
+- id: npc_marko_captain__bye
+  npc_id: npc_marko_captain
+  label: bye
+  node_type: end
+  text: Вільний. Тільки не потрапляй у неприємності що потребують моєї участі.
+- id: npc_erik_priest__greet
+  npc_id: npc_erik_priest
+  label: greet
+  node_type: talk
+  text: Ласкаво просимо до Храму Світла. Будь-хто може увійти — і шляхтич і злодій. Чим можу допомогти?
+- id: npc_erik_priest__heal
+  npc_id: npc_erik_priest
+  label: heal
+  node_type: talk
+  text: Сядь тут. Зараз подивлюся. Світло зцілює тих хто відкритий до нього.
+- id: npc_erik_priest__lore
+  npc_id: npc_erik_priest
+  label: lore
+  node_type: talk
+  text: Храм стоїть до міста. Кажуть що він виріс з одного каменю що впав з неба. Чи правда — Бог знає.
+- id: npc_erik_priest__bye
+  npc_id: npc_erik_priest
+  label: bye
+  node_type: end
+  text: Нехай Світло веде твій шлях.
+- id: npc_shadow_fence__greet
+  npc_id: npc_shadow_fence
+  label: greet
+  node_type: talk
+  text: Тихіше. Тут вуха є скрізь. Чого тобі треба? Швидко і без зайвих слів.
+- id: npc_shadow_fence__trade
+  npc_id: npc_shadow_fence
+  label: trade
+  node_type: shop
+  text: Є дещо. Не питай звідки. Просто дивись і забирай якщо підходить.
+- id: npc_shadow_fence__teach
+  npc_id: npc_shadow_fence
+  label: teach
+  node_type: talk
+  text: Навчаю. Але тільки тих хто вміє мовчати. Проговоришся — відразу дізнаєшся чим закінчуються розмовляки.
+- id: npc_shadow_fence__bye
+  npc_id: npc_shadow_fence
+  label: bye
+  node_type: end
+  text: Іди. І забудь що бачив.
+choices:
+- node_id: npc_blacksmith_helga__g_greet
+  text: Мені потрібна зброя
+  next_node_id: npc_blacksmith_helga__g_weapon
+  sort_order: 0
+- node_id: npc_blacksmith_helga__g_greet
+  text: Чи є лати на замовлення?
+  next_node_id: npc_blacksmith_helga__g_armor
+  sort_order: 1
+- node_id: npc_blacksmith_helga__g_greet
+  text: Розкажи про себе
+  next_node_id: npc_blacksmith_helga__g_self
+  sort_order: 2
+- node_id: npc_blacksmith_helga__g_greet
+  text: Є щось особливе?
+  next_node_id: npc_blacksmith_helga__g_special
+  sort_order: 3
+- node_id: npc_blacksmith_helga__g_weapon
+  text: Скільки це коштує?
+  next_node_id: npc_blacksmith_helga__g_price
+  sort_order: 0
+- node_id: npc_blacksmith_helga__g_weapon
+  text: Розумію. Дякую.
+  next_node_id: npc_blacksmith_helga__g_bye
+  sort_order: 1
+- node_id: npc_blacksmith_helga__g_price
+  text: Домовились
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_blacksmith_helga__g_price
+  text: Подумаю
+  next_node_id: npc_blacksmith_helga__g_bye
+  sort_order: 1
+- node_id: npc_blacksmith_helga__g_armor
+  text: Зрозуміло, дякую
+  next_node_id: npc_blacksmith_helga__g_bye
+  sort_order: 0
+- node_id: npc_blacksmith_helga__g_self
+  text: Важко тобі без нього?
+  next_node_id: npc_blacksmith_helga__g_father
+  sort_order: 0
+- node_id: npc_blacksmith_helga__g_self
+  text: Поважаю твою роботу
+  next_node_id: npc_blacksmith_helga__g_bye
+  sort_order: 1
+- node_id: npc_blacksmith_helga__g_father
+  text: Ти дійсно в це віриш?
+  next_node_id: npc_blacksmith_helga__g_blade
+  sort_order: 0
+- node_id: npc_blacksmith_helga__g_father
+  text: Дякую за відвертість
+  next_node_id: npc_blacksmith_helga__g_bye
+  sort_order: 1
+- node_id: npc_innkeeper_gronda__r_greet
+  text: Дай кухоль елю
+  next_node_id: npc_innkeeper_gronda__r_ale
+  sort_order: 0
+- node_id: npc_innkeeper_gronda__r_greet
+  text: Що нового в місті?
+  next_node_id: npc_innkeeper_gronda__r_news
+  sort_order: 1
+- node_id: npc_innkeeper_gronda__r_greet
+  text: Звідки ти родом?
+  next_node_id: npc_innkeeper_gronda__r_origin
+  sort_order: 2
+- node_id: npc_innkeeper_gronda__r_greet
+  text: Що є поїсти?
+  next_node_id: npc_innkeeper_gronda__r_food
+  sort_order: 3
+- node_id: npc_innkeeper_gronda__r_news
+  text: Що ти знаєш про того мага?
+  next_node_id: npc_innkeeper_gronda__r_mage
+  sort_order: 0
+- node_id: npc_innkeeper_gronda__r_news
+  text: Цікаво. Дякую.
+  next_node_id: null
+  sort_order: 1
+- node_id: npc_innkeeper_gronda__r_origin
+  text: Чому покинула болота?
+  next_node_id: npc_innkeeper_gronda__r_why
+  sort_order: 0
+- node_id: npc_innkeeper_gronda__r_origin
+  text: Розумію. Дякую.
+  next_node_id: null
+  sort_order: 1
+- node_id: npc_merchant_torben__t_greet
+  text: Що у тебе є?
+  next_node_id: npc_merchant_torben__t_goods
+  sort_order: 0
+- node_id: npc_merchant_torben__t_greet
+  text: Чому так дорого?
+  next_node_id: npc_merchant_torben__t_price
+  sort_order: 1
+- node_id: npc_merchant_torben__t_greet
+  text: Маєш щось рідкісне?
+  next_node_id: npc_merchant_torben__t_rare
+  sort_order: 2
+- node_id: npc_merchant_torben__t_greet
+  text: Розкажи про себе
+  next_node_id: npc_merchant_torben__t_story
+  sort_order: 3
+- node_id: npc_merchant_torben__t_price
+  text: Гаразд, переконав
+  next_node_id: npc_merchant_torben__t_goods
+  sort_order: 0
+- node_id: npc_merchant_torben__t_price
+  text: Подумаю
+  next_node_id: null
+  sort_order: 1
+- node_id: npc_merchant_torben__t_story
+  text: Так, розкажи
+  next_node_id: npc_merchant_torben__t_story2
+  sort_order: 0
+- node_id: npc_merchant_torben__t_story
+  text: Ні, дякую
+  next_node_id: null
+  sort_order: 1
+- node_id: npc_alchemist_vex__v_greet
+  text: Мені потрібне зілля
+  next_node_id: npc_alchemist_vex__v_potions
+  sort_order: 0
+- node_id: npc_alchemist_vex__v_greet
+  text: Що за нестабільний флакон?
+  next_node_id: npc_alchemist_vex__v_experimental
+  sort_order: 1
+- node_id: npc_alchemist_vex__v_greet
+  text: Звідки ти?
+  next_node_id: npc_alchemist_vex__v_origin
+  sort_order: 2
+- node_id: npc_alchemist_vex__v_greet
+  text: Як це все працює?
+  next_node_id: npc_alchemist_vex__v_science
+  sort_order: 3
+- node_id: npc_alchemist_vex__v_origin
+  text: Так де саме?
+  next_node_id: npc_alchemist_vex__v_origin2
+  sort_order: 0
+- node_id: npc_alchemist_vex__v_origin
+  text: Зрозуміло, не скажеш
+  next_node_id: null
+  sort_order: 1
+- node_id: npc_guard_patrol_bors__b_greet
+  text: Документи при мені
+  next_node_id: npc_guard_patrol_bors__b_docs
+  sort_order: 0
+- node_id: npc_guard_patrol_bors__b_greet
+  text: Документів немає
+  next_node_id: npc_guard_patrol_bors__b_nodocs
+  sort_order: 1
+- node_id: npc_guard_patrol_bors__b_greet
+  text: Які тут правила?
+  next_node_id: npc_guard_patrol_bors__b_rules
+  sort_order: 2
+- node_id: npc_guard_patrol_bors__b_greet
+  text: Навіщо така підозрілість?
+  next_node_id: npc_guard_patrol_bors__b_calm
+  sort_order: 3
+- node_id: npc_guard_captain__w_greet
+  text: Хочу навчитись фехтуванню
+  next_node_id: npc_guard_captain__w_train
+  sort_order: 0
+- node_id: npc_guard_captain__w_greet
+  text: Звідки той шрам?
+  next_node_id: npc_guard_captain__w_scar
+  sort_order: 1
+- node_id: npc_guard_captain__w_greet
+  text: Як тут із законом?
+  next_node_id: npc_guard_captain__w_city
+  sort_order: 2
+- node_id: npc_guard_captain__w_greet
+  text: Маєш доручення для мене?
+  next_node_id: npc_guard_captain__w_quest
+  sort_order: 3
+- node_id: npc_arena_master__a_greet
+  text: Хочу битись на арені
+  next_node_id: npc_arena_master__a_fight
+  sort_order: 0
+- node_id: npc_arena_master__a_greet
+  text: Хочу тренуватись
+  next_node_id: npc_arena_master__a_train
+  sort_order: 1
+- node_id: npc_arena_master__a_greet
+  text: Розкажи про своє минуле
+  next_node_id: npc_arena_master__a_past
+  sort_order: 2
+- node_id: npc_arena_master__a_greet
+  text: Просто подивлюсь
+  next_node_id: npc_arena_master__a_watch
+  sort_order: 3
+- node_id: npc_elder_councilor_edwin__e_greet
+  text: Шукаю роботу
+  next_node_id: npc_elder_councilor_edwin__e_quest
+  sort_order: 0
+- node_id: npc_elder_councilor_edwin__e_greet
+  text: Хочу допомогти місту
+  next_node_id: npc_elder_councilor_edwin__e_quest
+  sort_order: 1
+- node_id: npc_elder_councilor_edwin__e_greet
+  text: Просто хотів побачити Ратушу
+  next_node_id: npc_elder_councilor_edwin__e_history
+  sort_order: 2
+- node_id: npc_elder_councilor_edwin__e_quest
+  text: Хочу заробити золота
+  next_node_id: npc_elder_councilor_edwin__e_gold
+  sort_order: 0
+- node_id: npc_elder_councilor_edwin__e_quest
+  text: Хочу служити місту
+  next_node_id: npc_elder_councilor_edwin__e_serve
+  sort_order: 1
+- node_id: npc_elder_councilor_edwin__e_whoami
+  text: Хочу заробити золота
+  next_node_id: npc_elder_councilor_edwin__e_gold
+  sort_order: 0
+- node_id: npc_elder_councilor_edwin__e_whoami
+  text: Хочу служити місту
+  next_node_id: npc_elder_councilor_edwin__e_serve
+  sort_order: 1
+- node_id: npc_priest_aldric__o_greet
+  text: Потребую зцілення
+  next_node_id: npc_priest_aldric__o_heal
+  sort_order: 0
+- node_id: npc_priest_aldric__o_greet
+  text: Хочу благословити зброю
+  next_node_id: npc_priest_aldric__o_bless
+  sort_order: 1
+- node_id: npc_priest_aldric__o_greet
+  text: У що ти віриш?
+  next_node_id: npc_priest_aldric__o_faith
+  sort_order: 2
+- node_id: npc_priest_aldric__o_greet
+  text: Ти ніколи не б'єшся?
+  next_node_id: npc_priest_aldric__o_peace
+  sort_order: 3
+- node_id: npc_priest_aldric__o_heal
+  text: Дякую, отче
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_priest_aldric__o_bless
+  text: Чудово. Благословиш?
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_healer_sister_mira__m_greet
+  text: Так, поранений
+  next_node_id: npc_healer_sister_mira__m_heal
+  sort_order: 0
+- node_id: npc_healer_sister_mira__m_greet
+  text: Є зілля відновлення?
+  next_node_id: npc_healer_sister_mira__m_potions
+  sort_order: 1
+- node_id: npc_healer_sister_mira__m_greet
+  text: Як довго ти тут служиш?
+  next_node_id: npc_healer_sister_mira__m_service
+  sort_order: 2
+- node_id: npc_healer_sister_mira__m_greet
+  text: Ти виглядаєш втомленою
+  next_node_id: npc_healer_sister_mira__m_tired
+  sort_order: 3
+- node_id: npc_healer_sister_mira__m_heal
+  text: Дякую, сестро
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_healer_sister_mira__m_potions
+  text: Куплю кілька
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_stable_master_olrik__ol_greet
+  text: Потрібен кінь
+  next_node_id: npc_stable_master_olrik__ol_horse
+  sort_order: 0
+- node_id: npc_stable_master_olrik__ol_greet
+  text: Потрібен транспорт
+  next_node_id: npc_stable_master_olrik__ol_transport
+  sort_order: 1
+- node_id: npc_stable_master_olrik__ol_greet
+  text: Мій кінь захворів
+  next_node_id: npc_stable_master_olrik__ol_sick
+  sort_order: 2
+- node_id: npc_stable_master_olrik__ol_greet
+  text: Ти справді любиш коней?
+  next_node_id: npc_stable_master_olrik__ol_talk
+  sort_order: 3
+- node_id: npc_stable_master_olrik__ol_transport
+  text: Дякую
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_shadow_contact__sh_greet
+  text: Шукаю роботу
+  next_node_id: npc_shadow_contact__sh_work
+  sort_order: 0
+- node_id: npc_shadow_contact__sh_greet
+  text: Хто ти?
+  next_node_id: npc_shadow_contact__sh_who
+  sort_order: 1
+- node_id: npc_shadow_contact__sh_greet
+  text: Що таке Гільдія?
+  next_node_id: npc_shadow_contact__sh_guild
+  sort_order: 2
+- node_id: npc_shadow_contact__sh_greet
+  text: Це безпечно?
+  next_node_id: npc_shadow_contact__sh_safe
+  sort_order: 3
+- node_id: npc_zinia_herbalist__greet
+  text: Хочу купити трави або зілля.
+  next_node_id: npc_zinia_herbalist__trade
+  sort_order: 0
+- node_id: npc_zinia_herbalist__greet
+  text: Хочу навчитися Травництву.
+  next_node_id: npc_zinia_herbalist__teach
+  sort_order: 1
+- node_id: npc_zinia_herbalist__greet
+  text: Мені потрібна допомога з пораненням.
+  next_node_id: npc_zinia_herbalist__heal
+  sort_order: 2
+- node_id: npc_zinia_herbalist__greet
+  text: Дякую, до побачення.
+  next_node_id: npc_zinia_herbalist__bye
+  sort_order: 3
+- node_id: npc_zinia_herbalist__teach
+  text: Так, хочу навчитись.
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_zinia_herbalist__teach
+  text: Мабуть іншим разом.
+  next_node_id: npc_zinia_herbalist__bye
+  sort_order: 1
+- node_id: npc_zinia_herbalist__heal
+  text: Дякую, мені краще.
+  next_node_id: npc_zinia_herbalist__bye
+  sort_order: 0
+- node_id: npc_zinia_herbalist__trade
+  text: Дякую, все переглянув.
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_vandorak_mage__greet
+  text: Хочу купити магічні свитки або кристали.
+  next_node_id: npc_vandorak_mage__trade
+  sort_order: 0
+- node_id: npc_vandorak_mage__greet
+  text: Хочу навчитися бойових заклять.
+  next_node_id: npc_vandorak_mage__teach
+  sort_order: 1
+- node_id: npc_vandorak_mage__greet
+  text: Хто ти такий?
+  next_node_id: npc_vandorak_mage__who
+  sort_order: 2
+- node_id: npc_vandorak_mage__greet
+  text: Нічого важливого. До побачення.
+  next_node_id: npc_vandorak_mage__bye
+  sort_order: 3
+- node_id: npc_vandorak_mage__teach
+  text: Я готовий. Скільки це коштує?
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_vandorak_mage__teach
+  text: Мабуть не зараз.
+  next_node_id: npc_vandorak_mage__bye
+  sort_order: 1
+- node_id: npc_vandorak_mage__who
+  text: Зрозуміло. Вибач.
+  next_node_id: npc_vandorak_mage__bye
+  sort_order: 0
+- node_id: npc_vandorak_mage__trade
+  text: Дякую.
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_marko_captain__greet
+  text: Хочу навчитись бойових навичок.
+  next_node_id: npc_marko_captain__teach
+  sort_order: 0
+- node_id: npc_marko_captain__greet
+  text: Що відбувається в окрузі?
+  next_node_id: npc_marko_captain__info
+  sort_order: 1
+- node_id: npc_marko_captain__greet
+  text: Нічого. До побачення.
+  next_node_id: npc_marko_captain__bye
+  sort_order: 2
+- node_id: npc_marko_captain__teach
+  text: Скільки коштує навчання?
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_marko_captain__teach
+  text: Не зараз. Може пізніше.
+  next_node_id: npc_marko_captain__bye
+  sort_order: 1
+- node_id: npc_marko_captain__info
+  text: Розкажи більше про загрозу гоблінів.
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_marko_captain__info
+  text: Дякую за попередження.
+  next_node_id: npc_marko_captain__bye
+  sort_order: 1
+- node_id: npc_erik_priest__greet
+  text: Мені потрібне зцілення.
+  next_node_id: npc_erik_priest__heal
+  sort_order: 0
+- node_id: npc_erik_priest__greet
+  text: Розкажи про Храм.
+  next_node_id: npc_erik_priest__lore
+  sort_order: 1
+- node_id: npc_erik_priest__greet
+  text: Нічого конкретного. До побачення.
+  next_node_id: npc_erik_priest__bye
+  sort_order: 2
+- node_id: npc_erik_priest__heal
+  text: Дякую, жрецю.
+  next_node_id: npc_erik_priest__bye
+  sort_order: 0
+- node_id: npc_erik_priest__lore
+  text: Цікаво. Дякую.
+  next_node_id: npc_erik_priest__bye
+  sort_order: 0
+- node_id: npc_shadow_fence__greet
+  text: Потрібен специфічний товар.
+  next_node_id: npc_shadow_fence__trade
+  sort_order: 0
+- node_id: npc_shadow_fence__greet
+  text: Хочу навчитись злому замків.
+  next_node_id: npc_shadow_fence__teach
+  sort_order: 1
+- node_id: npc_shadow_fence__greet
+  text: Помилявся дверима. Вибач.
+  next_node_id: npc_shadow_fence__bye
+  sort_order: 2
+- node_id: npc_shadow_fence__teach
+  text: Домовились. Скільки?
+  next_node_id: null
+  sort_order: 0
+- node_id: npc_shadow_fence__teach
+  text: Подумаю.
+  next_node_id: npc_shadow_fence__bye
+  sort_order: 1
+- node_id: npc_shadow_fence__trade
+  text: Дякую.
+  next_node_id: null
+  sort_order: 0

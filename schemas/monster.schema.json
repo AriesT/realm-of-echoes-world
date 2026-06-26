@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Monster",
+  "type": "object",
+  "required": ["id", "name", "description", "type"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^monster_"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": ["beast", "humanoid", "undead", "demon", "elemental", "construct", "dragon", "insect", "plant", "slime", "boss", "giant"]
+    },
+    "full_description": {
+      "type": "string"
+    },
+    "lore_en": {
+      "type": "string"
+    },
+    "image_prompt": {
+      "type": "string"
+    },
+    "avatar_url": {
+      "type": "string"
+    },
+    "animated_image_url": {
+      "type": "string"
+    },
+    "animated_image_prompt": {
+      "type": "string"
+    },
+    "strength": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "agility": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "endurance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "intelligence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "will": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "charisma": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "perception": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "luck": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "is_aggressive": {
+      "type": "boolean"
+    },
+    "aggro_chance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "xp_reward": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "loot_table": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "array"},
+        {"type": "null"}
+      ]
+    },
+    "gold_min": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gold_max": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "silver_min": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "silver_max": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "copper_min": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "copper_max": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "butchering_drops_json": {
+      "oneOf": [
+        {"type": "array"},
+        {"type": "null"}
+      ]
+    },
+    "defense_types": {},
+    "_zone": {
+      "type": "string"
+    }
+  }
+}

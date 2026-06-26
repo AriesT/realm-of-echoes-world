@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Spawn",
+  "type": "object",
+  "required": ["id", "location_id", "template_id"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^spawn_"
+    },
+    "location_id": {
+      "type": "string",
+      "pattern": "^location_"
+    },
+    "template_id": {
+      "type": "string",
+      "pattern": "^monster_"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "respawn_time": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "spawn_chance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "is_aggressive": {
+      "type": "boolean"
+    },
+    "aggro_chance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "custom_stats": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "null"}
+      ]
+    },
+    "custom_loot": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "null"}
+      ]
+    },
+    "_zone": {
+      "type": "string"
+    }
+  }
+}

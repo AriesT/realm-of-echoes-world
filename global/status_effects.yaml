@@ -1,0 +1,45 @@
+- id: status_strength_boost
+  name: Підсилення сили
+  description: +15% до сили на 60с
+  icon: ⬆
+  category: buff
+  is_stackable: false
+  max_stacks: 1
+  duration_config:
+    base_seconds: 60
+    attribute_factor:
+      will: 0.1
+  effects:
+    attributes:
+      strength:
+        type: add_percent
+        value: 15
+- id: status_poison_weak
+  name: Слабка отрута
+  description: -5 ЗД за тік
+  icon: ☠
+  category: debuff
+  is_stackable: true
+  max_stacks: 3
+  duration_config:
+    base_seconds: 30
+  effects:
+    hp_regen_per_tick:
+      type: add
+      value: -5
+- id: status_clarity
+  name: Ясність
+  description: +25% швидкість росту навичок
+  icon: ✦
+  category: buff
+  is_stackable: false
+  max_stacks: 1
+  duration_config:
+    base_seconds: 120
+    attribute_factor:
+      intelligence: 0.05
+  effects:
+    skill_growth:
+      filter: {}
+      type: multiply
+      value: 1.25

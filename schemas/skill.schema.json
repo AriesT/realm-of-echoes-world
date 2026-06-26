@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Skill",
+  "type": "object",
+  "required": ["id", "name", "description", "category"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^skill_"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": ["combat", "magic", "utility", "crafting", "social", "survival"]
+    },
+    "skill_type": {
+      "type": "string",
+      "enum": ["active", "passive"]
+    },
+    "icon": {
+      "type": "string"
+    },
+    "class_req": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "mp_cost": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "cooldown": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "effect": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "string"}
+      ]
+    },
+    "lore": {
+      "type": "string"
+    },
+    "lore_en": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "image_prompt": {
+      "type": "string"
+    },
+    "animated_image_url": {
+      "type": "string"
+    },
+    "animated_image_prompt": {
+      "type": "string"
+    },
+    "growth_factors": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "string"}
+      ]
+    },
+    "attribute_modifiers": {
+      "oneOf": [
+        {"type": "array"},
+        {"type": "string"}
+      ]
+    },
+    "passive_effects": {
+      "oneOf": [
+        {"type": "array"},
+        {"type": "string"}
+      ]
+    }
+  }
+}

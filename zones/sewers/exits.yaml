@@ -1,0 +1,711 @@
+- id: exit_location_sewer_junction_a_south
+  from_id: location_sewer_junction_a
+  to_id: location_sewer_entrance
+  direction: south
+  label: До Входу
+  difficulty: 3
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_junction_a_east
+  from_id: location_sewer_junction_a
+  to_id: location_sewer_east_inlet
+  direction: east
+  label: До Східного Водоводу
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_east_inlet_west
+  from_id: location_sewer_east_inlet
+  to_id: location_sewer_junction_a
+  direction: west
+  label: До Розвилку
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_junction_a_west
+  from_id: location_sewer_junction_a
+  to_id: location_sewer_west_channel
+  direction: west
+  label: До Західного Каналу
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_west_channel_east
+  from_id: location_sewer_west_channel
+  to_id: location_sewer_junction_a
+  direction: east
+  label: До Розвилку
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_junction_a_north
+  from_id: location_sewer_junction_a
+  to_id: location_sewer_lower_gate
+  direction: north
+  label: До Нижніх Воріт
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_lower_gate_south
+  from_id: location_sewer_lower_gate
+  to_id: location_sewer_junction_a
+  direction: south
+  label: До Першого Розвилку
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_east_inlet_north
+  from_id: location_sewer_east_inlet
+  to_id: location_sewer_guard_ruins
+  direction: north
+  label: До Руїн Поста
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_guard_ruins_south
+  from_id: location_sewer_guard_ruins
+  to_id: location_sewer_east_inlet
+  direction: south
+  label: До Водоводу
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_guard_ruins_west
+  from_id: location_sewer_guard_ruins
+  to_id: location_sewer_north_sluice
+  direction: west
+  label: До Північного Шлюзу
+  difficulty: 3
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_north_sluice_east
+  from_id: location_sewer_north_sluice
+  to_id: location_sewer_guard_ruins
+  direction: east
+  label: До Руїн Поста
+  difficulty: 3
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_west_channel_west
+  from_id: location_sewer_west_channel
+  to_id: location_sewer_workers_alcove
+  direction: west
+  label: До Альков Робітників
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_workers_alcove_east
+  from_id: location_sewer_workers_alcove
+  to_id: location_sewer_west_channel
+  direction: east
+  label: До Каналу
+  difficulty: 2
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_workers_alcove_south
+  from_id: location_sewer_workers_alcove
+  to_id: location_sewer_pump_chamber
+  direction: south
+  label: До Насосної Камери
+  difficulty: 3
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_pump_chamber_north
+  from_id: location_sewer_pump_chamber
+  to_id: location_sewer_workers_alcove
+  direction: north
+  label: До Альковy
+  difficulty: 3
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_lower_gate_north
+  from_id: location_sewer_lower_gate
+  to_id: location_sewer_central_hub
+  direction: north
+  label: До Центрального Вузла
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_central_hub_south
+  from_id: location_sewer_central_hub
+  to_id: location_sewer_lower_gate
+  direction: south
+  label: До Нижніх Воріт
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_central_hub_east
+  from_id: location_sewer_central_hub
+  to_id: location_sewer_flooded_nave
+  direction: east
+  label: До Затопленого Нефу
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_flooded_nave_west
+  from_id: location_sewer_flooded_nave
+  to_id: location_sewer_central_hub
+  direction: west
+  label: До Вузла
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_central_hub_west
+  from_id: location_sewer_central_hub
+  to_id: location_sewer_goblin_bazaar
+  direction: west
+  label: До Гоблінського Базару
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_goblin_bazaar_east
+  from_id: location_sewer_goblin_bazaar
+  to_id: location_sewer_central_hub
+  direction: east
+  label: До Центрального Вузла
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_flooded_nave_north
+  from_id: location_sewer_flooded_nave
+  to_id: location_sewer_cistern_east
+  direction: north
+  label: До Східної Цистерни
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_cistern_east_south
+  from_id: location_sewer_cistern_east
+  to_id: location_sewer_flooded_nave
+  direction: south
+  label: До Затопленого Нефу
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_flooded_nave_south
+  from_id: location_sewer_flooded_nave
+  to_id: location_sewer_bone_channel
+  direction: south
+  label: До Кісткового Каналу
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_bone_channel_north
+  from_id: location_sewer_bone_channel
+  to_id: location_sewer_flooded_nave
+  direction: north
+  label: До Нефу
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_goblin_bazaar_west
+  from_id: location_sewer_goblin_bazaar
+  to_id: location_sewer_cistern_west
+  direction: west
+  label: До Західної Цистерни
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_cistern_west_east
+  from_id: location_sewer_cistern_west
+  to_id: location_sewer_goblin_bazaar
+  direction: east
+  label: До Базару
+  difficulty: 5
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_cistern_east_north
+  from_id: location_sewer_cistern_east
+  to_id: location_sewer_smuggler_cache
+  direction: north
+  label: До Тайника
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_smuggler_cache_south
+  from_id: location_sewer_smuggler_cache
+  to_id: location_sewer_cistern_east
+  direction: south
+  label: До Цистерни
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_bone_channel_east
+  from_id: location_sewer_bone_channel
+  to_id: location_sewer_ooze_pit
+  direction: east
+  label: До Ями Слизоти
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_ooze_pit_west
+  from_id: location_sewer_ooze_pit
+  to_id: location_sewer_bone_channel
+  direction: west
+  label: До Кісткового Каналу
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_bone_channel_south
+  from_id: location_sewer_bone_channel
+  to_id: location_sewer_slime_corridor
+  direction: south
+  label: До Слизького Коридору
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_slime_corridor_north
+  from_id: location_sewer_slime_corridor
+  to_id: location_sewer_bone_channel
+  direction: north
+  label: До Кісткового Каналу
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_ooze_pit_east
+  from_id: location_sewer_ooze_pit
+  to_id: location_sewer_mushroom_grotto
+  direction: east
+  label: До Грибного Гроту
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_mushroom_grotto_west
+  from_id: location_sewer_mushroom_grotto
+  to_id: location_sewer_ooze_pit
+  direction: west
+  label: До Ями Слизоти
+  difficulty: 4
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_cistern_west_west
+  from_id: location_sewer_cistern_west
+  to_id: location_sewer_rat_king_den
+  direction: west
+  label: До Лігва Короля
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_rat_king_den_east
+  from_id: location_sewer_rat_king_den
+  to_id: location_sewer_cistern_west
+  direction: east
+  label: До Цистерни
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_slime_corridor_south
+  from_id: location_sewer_slime_corridor
+  to_id: location_sewer_old_garrison
+  direction: south
+  label: До Старої Казарми
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_old_garrison_north
+  from_id: location_sewer_old_garrison
+  to_id: location_sewer_slime_corridor
+  direction: north
+  label: До Коридору
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_central_hub_down
+  from_id: location_sewer_central_hub
+  to_id: location_sewer_deep_descent
+  direction: down
+  label: Спуск Вниз
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 3
+  _zone: sewers
+- id: exit_location_sewer_deep_descent_up
+  from_id: location_sewer_deep_descent
+  to_id: location_sewer_central_hub
+  direction: up
+  label: Підйом Вгору
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 3
+  _zone: sewers
+- id: exit_location_sewer_deep_descent_north
+  from_id: location_sewer_deep_descent
+  to_id: location_sewer_troll_crossing
+  direction: north
+  label: До Троляч. Переправи
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_troll_crossing_south
+  from_id: location_sewer_troll_crossing
+  to_id: location_sewer_deep_descent
+  direction: south
+  label: До Спуску
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_troll_crossing_east
+  from_id: location_sewer_troll_crossing
+  to_id: location_sewer_plague_zone
+  direction: east
+  label: До Чумної Зони
+  difficulty: 9
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_plague_zone_west
+  from_id: location_sewer_plague_zone
+  to_id: location_sewer_troll_crossing
+  direction: west
+  label: До Переправи
+  difficulty: 9
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_troll_crossing_west
+  from_id: location_sewer_troll_crossing
+  to_id: location_sewer_forgotten_shrine
+  direction: west
+  label: До Забутого Вівтаря
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_forgotten_shrine_east
+  from_id: location_sewer_forgotten_shrine
+  to_id: location_sewer_troll_crossing
+  direction: east
+  label: До Переправи
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_troll_crossing_north
+  from_id: location_sewer_troll_crossing
+  to_id: location_sewer_dark_pool
+  direction: north
+  label: До Чорного Ставу
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_dark_pool_south
+  from_id: location_sewer_dark_pool
+  to_id: location_sewer_troll_crossing
+  direction: south
+  label: До Переправи
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_plague_zone_east
+  from_id: location_sewer_plague_zone
+  to_id: location_sewer_underground_stream
+  direction: east
+  label: До Підземного Потоку
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_underground_stream_west
+  from_id: location_sewer_underground_stream
+  to_id: location_sewer_plague_zone
+  direction: west
+  label: До Чумної Зони
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_forgotten_shrine_north
+  from_id: location_sewer_forgotten_shrine
+  to_id: location_sewer_crystal_vein
+  direction: north
+  label: До Кришталевої Жили
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_crystal_vein_south
+  from_id: location_sewer_crystal_vein
+  to_id: location_sewer_forgotten_shrine
+  direction: south
+  label: До Вівтаря
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_dark_pool_west
+  from_id: location_sewer_dark_pool
+  to_id: location_sewer_goblin_war_camp
+  direction: west
+  label: До Таб. Гоблінів
+  difficulty: 9
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_goblin_war_camp_east
+  from_id: location_sewer_goblin_war_camp
+  to_id: location_sewer_dark_pool
+  direction: east
+  label: До Чорного Ставу
+  difficulty: 9
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_goblin_war_camp_north
+  from_id: location_sewer_goblin_war_camp
+  to_id: location_sewer_collapsed_gallery
+  direction: north
+  label: До Обваленої Галереї
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_collapsed_gallery_south
+  from_id: location_sewer_collapsed_gallery
+  to_id: location_sewer_goblin_war_camp
+  direction: south
+  label: До Табору
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_underground_stream_east
+  from_id: location_sewer_underground_stream
+  to_id: location_sewer_alchemist_lair
+  direction: east
+  label: До Лігва Алхіміка
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_alchemist_lair_west
+  from_id: location_sewer_alchemist_lair
+  to_id: location_sewer_underground_stream
+  direction: west
+  label: До Потоку
+  difficulty: 7
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_alchemist_lair_south
+  from_id: location_sewer_alchemist_lair
+  to_id: location_sewer_necromancer_lab
+  direction: south
+  label: До Лаб. Некроманта
+  difficulty: 9
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_necromancer_lab_north
+  from_id: location_sewer_necromancer_lab
+  to_id: location_sewer_alchemist_lair
+  direction: north
+  label: До Лабораторії
+  difficulty: 9
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_necromancer_lab_west
+  from_id: location_sewer_necromancer_lab
+  to_id: location_sewer_deep_cistern
+  direction: west
+  label: До Глибокої Цистерни
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_deep_cistern_east
+  from_id: location_sewer_deep_cistern
+  to_id: location_sewer_necromancer_lab
+  direction: east
+  label: До Лаб. Некроманта
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_dark_pool_down
+  from_id: location_sewer_dark_pool
+  to_id: location_sewer_abyss_threshold
+  direction: down
+  label: У Безодню
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 3
+  _zone: sewers
+- id: exit_location_sewer_abyss_threshold_up
+  from_id: location_sewer_abyss_threshold
+  to_id: location_sewer_dark_pool
+  direction: up
+  label: З Безодні Вгору
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 3
+  _zone: sewers
+- id: exit_location_sewer_abyss_threshold_north
+  from_id: location_sewer_abyss_threshold
+  to_id: location_sewer_void_crossing
+  direction: north
+  label: До Переходу Пустоти
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_void_crossing_south
+  from_id: location_sewer_void_crossing
+  to_id: location_sewer_abyss_threshold
+  direction: south
+  label: До Порогу
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_void_crossing_north
+  from_id: location_sewer_void_crossing
+  to_id: location_sewer_queen_approach
+  direction: north
+  label: До Підходу до Королеви
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_queen_approach_south
+  from_id: location_sewer_queen_approach
+  to_id: location_sewer_void_crossing
+  direction: south
+  label: До Переходу
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_queen_approach_north
+  from_id: location_sewer_queen_approach
+  to_id: location_sewer_hive_outer
+  direction: north
+  label: До Зовнішнього Вулика
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_hive_outer_south
+  from_id: location_sewer_hive_outer
+  to_id: location_sewer_queen_approach
+  direction: south
+  label: Назад до Підходу
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_hive_outer_north
+  from_id: location_sewer_hive_outer
+  to_id: location_sewer_hive_inner
+  direction: north
+  label: До Внутрішнього Вулика
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_hive_inner_south
+  from_id: location_sewer_hive_inner
+  to_id: location_sewer_hive_outer
+  direction: south
+  label: До Зовнішнього Вулика
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_hive_inner_north
+  from_id: location_sewer_hive_inner
+  to_id: location_sewer_throne_chamber
+  direction: north
+  label: До Тронної Зали
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_throne_chamber_south
+  from_id: location_sewer_throne_chamber
+  to_id: location_sewer_hive_inner
+  direction: south
+  label: Відступ із Зали
+  difficulty: 10
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_void_crossing_east
+  from_id: location_sewer_void_crossing
+  to_id: location_sewer_ancient_vault
+  direction: east
+  label: До Стародавнього Сховища
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_ancient_vault_west
+  from_id: location_sewer_ancient_vault
+  to_id: location_sewer_void_crossing
+  direction: west
+  label: До Переходу
+  difficulty: 8
+  terrain_type: dungeon
+  travel_time_base: 2
+  _zone: sewers
+- id: exit_location_sewer_ancient_vault_east
+  from_id: location_sewer_ancient_vault
+  to_id: location_sewer_treasure_vault
+  direction: east
+  label: До Скарбниці
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers
+- id: exit_location_sewer_treasure_vault_west
+  from_id: location_sewer_treasure_vault
+  to_id: location_sewer_ancient_vault
+  direction: west
+  label: До Стародавнього Сховища
+  difficulty: 6
+  terrain_type: dungeon
+  travel_time_base: 1
+  _zone: sewers

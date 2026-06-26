@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Item",
+  "type": "object",
+  "required": ["id", "name", "description", "type", "rarity", "sell_price"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^item_"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": ["weapon", "armor", "consumable", "material", "quest", "currency", "tool", "accessory", "misc", "resource"]
+    },
+    "rarity": {
+      "type": "string",
+      "enum": ["common", "uncommon", "rare", "epic", "legendary"]
+    },
+    "sell_price": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "subtype": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "full_description": {
+      "type": "string"
+    },
+    "lore_en": {
+      "type": "string"
+    },
+    "image_prompt": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "animated_image_url": {
+      "type": "string"
+    },
+    "animated_image_prompt": {
+      "type": "string"
+    },
+    "stats": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "null"}
+      ]
+    },
+    "effects": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "null"}
+      ]
+    },
+    "requirements": {
+      "oneOf": [
+        {"type": "object"},
+        {"type": "null"}
+      ]
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0
+    },
+    "stackable": {
+      "type": "boolean"
+    },
+    "max_stack": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "equip_slot": {
+      "type": "string"
+    },
+    "durability_max": {
+      "type": "integer"
+    },
+    "enchantable": {
+      "type": "boolean"
+    },
+    "_zone": {
+      "type": "string"
+    }
+  }
+}

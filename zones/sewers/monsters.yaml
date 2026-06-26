@@ -1,0 +1,634 @@
+- id: monster_sewer_rat
+  name: Каналізаційний Щур
+  type: beast
+  description: Великий агресивний щур, що мешкає у темних тунелях каналізації.
+  full_description: Каналізаційні щури — найчисленніші мешканці підземних тунелів під Кам'яною Бродею. Вони значно більші
+    за своїх міських родичів і не такі боязкі. Поодинці — лише незручність. Зграя — реальна загроза навіть для досвідченого
+    мандрівника. Їхні гострі зуби легко прогризають шкіру й тканину. Мисливці за щурами полюють на них заради хвостів і іклів
+    — за них платять у крамницях.
+  lore_en: Sewer rats are the most numerous inhabitants of the tunnels beneath Stone Ford. They are considerably larger than
+    their city cousins and far less timid. Alone they are a mere nuisance; a pack poses a real threat even to experienced
+    adventurers. Their sharp teeth easily gnaw through leather and cloth. Rat hunters pursue them for their tails and fangs,
+    which fetch coin at local shops.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A large grey sewer rat, scarred and aggressive, crouching on wet cobblestones in dark tunnel,
+    yellow eyes glowing.
+  strength: 6
+  agility: 12
+  endurance: 6
+  intelligence: 2
+  will: 3
+  charisma: 1
+  perception: 14
+  luck: 8
+  is_aggressive: false
+  aggro_chance: 0.3
+  xp_reward: 8
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 0
+  copper_min: 0
+  copper_max: 5
+  loot_table:
+    item_rat_tail: 0.85
+    item_rat_fang: 0.4
+  butchering_drops:
+  - template_id: item_rat_tail
+    quantity: 2
+    min_skill: 0
+    chance: 1.0
+  - template_id: item_rat_fang
+    quantity: 1
+    min_skill: 0
+    chance: 0.6
+- id: monster_giant_sewer_rat
+  name: Гігантський Щур Каналізації
+  type: beast
+  description: Величезний щур розміром з малого собаку. Агресивний і непередбачуваний.
+  full_description: Гігантські щури — мутованіші нащадки звичайних пацюків, що поколіннями жили у зоні магічних відходів.
+    Розміром з малого пса, вони атакують без попередження, цілячись у горло. Їхня шкура достатньо товста щоб зупинити легкий
+    удар. Де з'явився один гігантський щур — там скоро буде ціла зграя.
+  lore_en: Giant rats are mutated descendants of common vermin who spent generations near magical runoff. The size of a small
+    dog, they attack without warning, targeting the throat. Their hide is thick enough to deflect a glancing blow. Where one
+    giant rat appears, a whole pack will soon follow.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A dog-sized giant sewer rat with matted grey fur, scarred muzzle, yellow fangs bared, crouching
+    to spring.
+  strength: 12
+  agility: 14
+  endurance: 12
+  intelligence: 3
+  will: 5
+  charisma: 1
+  perception: 16
+  luck: 7
+  is_aggressive: true
+  aggro_chance: 0.65
+  xp_reward: 20
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 2
+  copper_min: 5
+  copper_max: 20
+  loot_table:
+    item_rat_tail: 0.9
+    item_rat_fang: 0.55
+    item_rat_pelt_giant: 0.45
+  butchering_drops:
+  - template_id: item_rat_tail
+    quantity: 3
+    min_skill: 0
+    chance: 1.0
+  - template_id: item_rat_fang
+    quantity: 1
+    min_skill: 0
+    chance: 0.75
+  - template_id: item_rat_pelt_giant
+    quantity: 1
+    min_skill: 1
+    chance: 0.5
+- id: monster_rat_king
+  name: Щурячий Король
+  type: beast
+  description: Жахливий ватажок зграї — величезний щур вкритий шрамами і коронований у сплутане кільтя з хвостів.
+  full_description: Щурячий Король — не окрема порода, а найсильніший самець зграї, що захопив владу. Його хвіст сплутаний
+    з хвостами кількох підлеглих — дивне явище, яке місцеві вважають магічним прокляттям. Він значно розумніший за своїх побратимів,
+    організовує пастки і відступи. Коли Король загибає — його зграя на деякий час стає некерованою і особливо небезпечною.
+  lore_en: The Rat King is not a separate breed, but the strongest male who seized dominance. His tail is tangled with the
+    tails of several subordinates — a strange phenomenon locals call a magical curse. He is far smarter than his pack-mates,
+    organizing ambushes and tactical retreats. When the King dies, his pack temporarily becomes uncontrolled and especially
+    dangerous.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A massive scarred rat king with tails tangled in a grotesque knot, wearing a crude crown of
+    bone shards, commanding presence.
+  strength: 20
+  agility: 16
+  endurance: 18
+  intelligence: 5
+  will: 8
+  charisma: 3
+  perception: 18
+  luck: 10
+  is_aggressive: true
+  aggro_chance: 1.0
+  xp_reward: 80
+  gold_min: 0
+  gold_max: 2
+  silver_min: 5
+  silver_max: 15
+  copper_min: 10
+  copper_max: 30
+  loot_table:
+    item_rat_pelt_giant: 0.9
+    item_rat_fang: 0.8
+    item_rat_tail: 1.0
+  butchering_drops:
+  - template_id: item_rat_pelt_giant
+    quantity: 2
+    min_skill: 2
+    chance: 1.0
+  - template_id: item_rat_fang
+    quantity: 2
+    min_skill: 1
+    chance: 0.9
+  - template_id: item_rat_tail
+    quantity: 3
+    min_skill: 0
+    chance: 1.0
+- id: monster_sewer_slug
+  name: Каналізаційний Слизун
+  type: beast
+  description: Повільний м'якотілий слизун завдовжки з руку. Залишає слизовий слід.
+  full_description: Каналізаційні слизуни — неагресивні, але неприємні сусіди. Вони повзають по стінах і підлозі, залишаючи
+    блискучий слизовий слід. Мисливці їх збирають заради слизу — алхімічного компонента. Наступити на слизуна у темряві —
+    неприємно, але безпечно якщо слизун не пошкоджений.
+  lore_en: Sewer slugs are passive but unpleasant neighbors. They crawl along walls and floors leaving a glistening slime
+    trail. Hunters collect them for their slime — a useful alchemical component. Stepping on a slug in the dark is unpleasant
+    but safe if the slug is undamaged.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A large grey-brown sewer slug on wet stone, iridescent slime trail behind it, antennae extended.
+  strength: 4
+  agility: 4
+  endurance: 10
+  intelligence: 1
+  will: 4
+  charisma: 1
+  perception: 6
+  luck: 5
+  is_aggressive: false
+  aggro_chance: 0.1
+  xp_reward: 5
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 0
+  copper_min: 0
+  copper_max: 3
+  loot_table:
+    item_slug_slime: 0.9
+  butchering_drops:
+  - template_id: item_slug_slime
+    quantity: 2
+    min_skill: 0
+    chance: 1.0
+- id: monster_giant_slug
+  name: Гігантський Слизун
+  type: beast
+  description: Велетенський слизун розміром з бочку. Захищається кислотним слизом.
+  full_description: Гігантські слизуни зростають у найвологіших ділянках каналізації. Пасивні доки не потривожити, але у разі
+    небезпеки виділяють їдкий кислотний слиз. Навіть зброя ржавіє після контакту з їхніми виділеннями. Їхній ядерний залоз
+    — цінний алхімічний компонент, але добути його небезпечно.
+  lore_en: Giant slugs grow in the dampest sections of the sewers. Passive until disturbed, they secrete a caustic acid slime
+    when threatened. Even weapons corrode after contact with their secretions. Their nucleus gland is a valuable alchemical
+    component, but harvesting it is dangerous.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A barrel-sized giant slug, pale grey-green, secreting acidic slime that steams on stone, menacing
+    presence.
+  strength: 8
+  agility: 5
+  endurance: 18
+  intelligence: 2
+  will: 6
+  charisma: 1
+  perception: 8
+  luck: 4
+  is_aggressive: true
+  aggro_chance: 0.4
+  xp_reward: 25
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 3
+  copper_min: 5
+  copper_max: 15
+  loot_table:
+    item_slug_slime: 1.0
+    item_ooze_nucleus: 0.15
+  butchering_drops:
+  - template_id: item_slug_slime
+    quantity: 3
+    min_skill: 0
+    chance: 1.0
+  - template_id: item_ooze_nucleus
+    quantity: 1
+    min_skill: 2
+    chance: 0.2
+- id: monster_sewer_centipede
+  name: Каналізаційна Сколопендра
+  type: beast
+  description: Довга стрімка сколопендра з отруйними щелепами. Атакує блискавично.
+  full_description: Каналізаційна сколопендра може сягати метра у довжину і рухається зі швидкістю стріли. Її щелепи ін'єктують
+    нейротоксин, що спричиняє тремтіння і слабкість. Зазвичай атакує ззаду або зверху — звалюючись зі стелі у момент коли
+    жертва відволікається. Хітин її панцира застосовується у виготовленні легкої броні.
+  lore_en: The sewer centipede can reach a meter in length and moves with arrow-like speed. Its mandibles inject a neurotoxin
+    causing tremors and weakness. It typically attacks from behind or above — dropping from the ceiling when prey is distracted.
+    The chitin of its shell is used in the crafting of lightweight armor.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A one-meter sewer centipede with glossy brown chitin armor, coiled to strike, venom dripping
+    from mandibles.
+  strength: 14
+  agility: 18
+  endurance: 12
+  intelligence: 3
+  will: 6
+  charisma: 1
+  perception: 16
+  luck: 8
+  is_aggressive: true
+  aggro_chance: 0.8
+  xp_reward: 30
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 4
+  copper_min: 5
+  copper_max: 20
+  loot_table:
+    item_centipede_leg: 0.75
+    item_centipede_chitin: 0.55
+  butchering_drops:
+  - template_id: item_centipede_leg
+    quantity: 4
+    min_skill: 1
+    chance: 1.0
+  - template_id: item_centipede_chitin
+    quantity: 2
+    min_skill: 2
+    chance: 0.65
+- id: monster_sewer_goblin
+  name: Каналізаційний Гоблін
+  type: humanoid
+  description: Дрібний зеленошкірий гоблін, що населяє середні рівні каналізації. Хитрий і спритний.
+  full_description: Гобліни каналізації утворили власне суспільство у темних тунелях під містом. Дрібні, зеленошкірі, з великими
+    жовтими очима — вони чудово бачать у темряві. На відміну від лісових родичів, ці гобліни навчились виготовляти примітивну
+    зброю і броню. Зазвичай нападають зграями, з флангів, намагаючись оточити жертву. У їхніх схованках можна знайти монети
+    та дивні трофеї від попередніх жертв.
+  lore_en: Sewer goblins have formed their own society in the dark tunnels beneath the city. Small, green-skinned, with large
+    yellow eyes — they see perfectly in complete darkness. Unlike their forest cousins, these goblins have learned to craft
+    primitive weapons and armor. They typically attack in packs from the flanks, attempting to surround prey. In their hideouts
+    you can find coins and strange trophies from previous victims.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A small green sewer goblin with large yellow eyes, crude leather armor, rusty shiv in hand,
+    crouching in dark tunnel.
+  strength: 10
+  agility: 14
+  endurance: 10
+  intelligence: 7
+  will: 5
+  charisma: 3
+  perception: 14
+  luck: 10
+  is_aggressive: true
+  aggro_chance: 0.85
+  xp_reward: 22
+  gold_min: 0
+  gold_max: 1
+  silver_min: 0
+  silver_max: 5
+  copper_min: 5
+  copper_max: 25
+  loot_table:
+    item_goblin_ear: 0.7
+    item_rusty_shiv: 0.25
+  butchering_drops:
+  - template_id: item_goblin_tooth
+    quantity: 2
+    min_skill: 0
+    chance: 1.0
+- id: monster_goblin_shaman
+  name: Гоблінський Шаман
+  type: humanoid
+  description: Гоблінський чарівник у татуюваннях зі слизу. Кидає отруйні заклинання.
+  full_description: 'Гоблінські шамани — жерці підземного культу Вічної Слизоти. Вони татуюють тіло слизом магічних равликів,
+    що дає їм обмежений магічний захист. Їхні закляття прості, але ефективні: отруйні хмари і ослаблення противника. Шаман
+    рідко б''ється сам — він тримається позаду і посилює своїх побратимів. Знищення шамана одразу послаблює всю зграю гоблінів.'
+  lore_en: 'Goblin shamans are the priests of the underground Cult of Eternal Slime. They tattoo their bodies with magical
+    slug slime, granting limited magical protection. Their spells are simple but effective: poison clouds and enemy weakening.
+    A shaman rarely fights directly — he stays behind and empowers his pack-mates. Slaying the shaman immediately weakens
+    the entire goblin group.'
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A goblin shaman with glowing green tattoos, bone staff topped with rat skull, purple-tinged
+    smoke swirling around hands.
+  strength: 8
+  agility: 12
+  endurance: 10
+  intelligence: 14
+  will: 12
+  charisma: 5
+  perception: 14
+  luck: 12
+  is_aggressive: true
+  aggro_chance: 0.9
+  xp_reward: 55
+  gold_min: 0
+  gold_max: 2
+  silver_min: 3
+  silver_max: 10
+  copper_min: 5
+  copper_max: 25
+  loot_table:
+    item_goblin_ear: 0.6
+    item_goblin_war_shiv: 0.3
+    item_sewer_crystal: 0.2
+  butchering_drops:
+  - template_id: item_goblin_tooth
+    quantity: 2
+    min_skill: 0
+    chance: 1.0
+- id: monster_troll_warden
+  name: Вартовий Троль
+  type: giant
+  description: Масивний троль, що охороняє перехід у нижні рівні каналізації.
+  full_description: 'Тролі каналізації — стародавні мешканці підземель, набагато старіші за саме місто. Вартовий Троль займає
+    прохід і нікого не пропускає без «оплати» — шматком їжі або крові. Його регенерація вражаюча: дрібні поранення затягуються
+    просто на очах. Вогонь і кислота уповільнюють його відновлення. Коли Троль падає — відбувається не смерть, а сповільнений
+    стан відновлення; його треба добити або тікати швидко.'
+  lore_en: 'Sewer trolls are ancient inhabitants of the underground — far older than the city itself. The Warden Troll occupies
+    a chokepoint and lets no one pass without ''payment'' — food or blood. Its regeneration is impressive: minor wounds close
+    before your eyes. Fire and acid slow its recovery. When a Troll falls it does not die outright but enters a slow recovery
+    state — it must be finished off or fled from quickly.'
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A massive warty sewer troll with mossy green skin, blocking a stone archway, small red eyes,
+    regenerating wounds visible.
+  strength: 28
+  agility: 8
+  endurance: 26
+  intelligence: 6
+  will: 10
+  charisma: 2
+  perception: 10
+  luck: 5
+  is_aggressive: true
+  aggro_chance: 1.0
+  xp_reward: 150
+  gold_min: 1
+  gold_max: 3
+  silver_min: 8
+  silver_max: 20
+  copper_min: 10
+  copper_max: 30
+  loot_table:
+    item_troll_tooth: 0.8
+    item_troll_bone_blade: 0.35
+  butchering_drops:
+  - template_id: item_troll_tooth
+    quantity: 2
+    min_skill: 3
+    chance: 1.0
+- id: monster_plague_zombie
+  name: Чумний Зомбі
+  type: undead
+  description: Ожилий труп, вражений стародавньою чумою. Повільний, але невтомний і заразний.
+  full_description: У чумній зоні глибоких каналізацій поховані жертви давньої епідемії — але не всі залишились мертвими.
+    Чумні зомбі — повільні й кострубаті, але не відчувають болю і продовжують атакувати навіть тяжко поранені. Їхні укуси
+    та подряпини несуть ризик зараження чумною лихоманкою. Вогонь очищає від зарази надійніше всього іншого. Добре ж що вони
+    не бігають.
+  lore_en: In the plague zone of the deep sewers lie the victims of an ancient epidemic — not all of whom stayed dead. Plague
+    zombies are slow and shambling, but feel no pain and keep attacking even when gravely wounded. Their bites and scratches
+    carry the risk of plague fever infection. Fire cleanses the corruption more reliably than anything else. At least they
+    cannot run.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A decaying plague zombie in tattered medieval clothing, open festering wounds, hollow sunken
+    eyes, dark sewer corridor.
+  strength: 14
+  agility: 6
+  endurance: 16
+  intelligence: 2
+  will: 5
+  charisma: 1
+  perception: 6
+  luck: 3
+  is_aggressive: true
+  aggro_chance: 0.95
+  xp_reward: 40
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 3
+  copper_min: 0
+  copper_max: 15
+  loot_table:
+    item_zombie_bone: 0.7
+    item_zombie_rag: 0.6
+    item_plague_tissue: 0.4
+  butchering_drops:
+  - template_id: item_zombie_bone
+    quantity: 2
+    min_skill: 1
+    chance: 1.0
+  - template_id: item_plague_tissue
+    quantity: 1
+    min_skill: 2
+    chance: 0.5
+- id: monster_sewer_ooze
+  name: Каналізаційна Слизота
+  type: elemental
+  description: Аморфна слизова маса що стікає по стінах каналізації. Роз'їдає все підряд.
+  full_description: Каналізаційна Слизота — результат тривалого впливу магічних відходів на колонії грибів і бактерій. Напівживий
+    геліє без мозку і очей — але реагує на вібрацію і тепло. Вона роз'їдає метал, шкіру і живу тканину однаковою кислотою.
+    Зброя іржавіє після контакту, а незахищена шкіра отримує опіки. Вбити Слизоту непросто — вогонь і сіль є найефективнішими
+    засобами.
+  lore_en: The Sewer Ooze is the result of prolonged magical runoff exposure on fungal-bacterial colonies. A semi-living gel
+    without a brain or eyes — it responds to vibration and heat. It dissolves metal, leather, and living tissue with equal
+    acid. Weapons corrode on contact; unprotected skin suffers burns. Killing an Ooze is difficult — fire and salt are the
+    most effective means.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A writhing translucent green-grey acidic ooze mass flowing along sewer walls, dissolving stone,
+    steaming.
+  strength: 8
+  agility: 3
+  endurance: 20
+  intelligence: 1
+  will: 8
+  charisma: 1
+  perception: 4
+  luck: 4
+  is_aggressive: true
+  aggro_chance: 0.55
+  xp_reward: 35
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 2
+  copper_min: 0
+  copper_max: 10
+  loot_table:
+    item_slug_slime: 0.8
+    item_ooze_nucleus: 0.25
+  butchering_drops:
+  - template_id: item_slug_slime
+    quantity: 3
+    min_skill: 0
+    chance: 1.0
+  - template_id: item_ooze_nucleus
+    quantity: 1
+    min_skill: 3
+    chance: 0.3
+- id: monster_cave_leech
+  name: Печерна П'явка
+  type: beast
+  description: Велика темна п'явка що причаїлась у мілководних ставках підземелля.
+  full_description: Печерні п'явки ростуть до тридцяти сантиметрів у довжину і живуть у мілких підземних ставках. Вони абсолютно
+    непомітні у темній воді — жертва відчуває їх лише коли вони вже прикріпились. П'явка висмоктує кров поволі — одна атака
+    не критична, але кілька одночасно небезпечні. У їхніх мішечках зберігається кров попередніх жертв — алхімічний ресурс.
+  lore_en: Cave leeches grow up to thirty centimeters long and live in shallow underground pools. They are completely invisible
+    in dark water — prey only feels them once they have attached. A single leech drains blood slowly — one alone is not critical,
+    but several simultaneously are dangerous. Their sacs hold blood from previous victims — an alchemical resource.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A large dark cave leech attached to stone in shallow water, segmented body pulsating, surrounded
+    by ripples.
+  strength: 6
+  agility: 10
+  endurance: 14
+  intelligence: 1
+  will: 4
+  charisma: 1
+  perception: 10
+  luck: 5
+  is_aggressive: true
+  aggro_chance: 0.6
+  xp_reward: 18
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 1
+  copper_min: 0
+  copper_max: 8
+  loot_table:
+    item_leech_sac: 0.8
+  butchering_drops:
+  - template_id: item_leech_sac
+    quantity: 2
+    min_skill: 0
+    chance: 1.0
+- id: monster_hive_drone
+  name: Дрон Вулика
+  type: beast
+  description: Бойовий комах-дрон з глибинного вулика. Швидкий, броньований і смертоносний.
+  full_description: Дрони Вулика — бойова каста підземного роя, що мешкає у найглибших рівнях каналізації. Їхній глянцевий
+    чорний хітин відбиває дрібні удари. Атакують стрімко, декількома укусами підряд, і одразу відходять. Вони завжди групами
+    — одиночний дрон — знак того, що рій поруч.
+  lore_en: Hive Drones are the warrior caste of the underground swarm in the deepest sewer levels. Their glossy black chitin
+    deflects minor blows. They attack swiftly with multiple bites in quick succession, then immediately withdraw. They are
+    always in groups — a lone drone means the hive is nearby.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A hive drone insect warrior with glossy black chitin exoskeleton, compound eyes, sharp mandibles,
+    aggressive stance.
+  strength: 16
+  agility: 20
+  endurance: 14
+  intelligence: 4
+  will: 8
+  charisma: 1
+  perception: 18
+  luck: 6
+  is_aggressive: true
+  aggro_chance: 0.95
+  xp_reward: 60
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 5
+  copper_min: 5
+  copper_max: 20
+  loot_table:
+    item_hive_chitin: 0.8
+    item_centipede_chitin: 0.4
+  butchering_drops:
+  - template_id: item_hive_chitin
+    quantity: 2
+    min_skill: 2
+    chance: 1.0
+  - template_id: item_centipede_chitin
+    quantity: 1
+    min_skill: 1
+    chance: 0.6
+- id: monster_hive_guard
+  name: Вартовий Вулика
+  type: beast
+  description: Великий бойовий комах-вартовий. Атакує все що наближається до Вулика.
+  full_description: Вартові Вулика — важка піхота рою. Вдвічі більші за дронів, набагато повільніші, але незрівнянно сильніші.
+    Їхні щелепи можуть перекусити металевий прут. Вони не відступають — стоять до останнього, захищаючи підходи до Королеви.
+    Після загибелі Вартового рій приходить до нестями і посилює атаки.
+  lore_en: Hive Guards are the heavy infantry of the swarm. Twice the size of drones, much slower, but incomparably stronger.
+    Their mandibles can snap a metal rod. They never retreat — standing to the last, defending approaches to the Queen. After
+    a Guard falls, the swarm becomes agitated and intensifies its attacks.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A large hive guard insect with massive armored thorax, double-layered chitin, blocking a stone
+    corridor, imposing.
+  strength: 22
+  agility: 12
+  endurance: 22
+  intelligence: 6
+  will: 12
+  charisma: 1
+  perception: 20
+  luck: 7
+  is_aggressive: true
+  aggro_chance: 1.0
+  xp_reward: 110
+  gold_min: 0
+  gold_max: 1
+  silver_min: 3
+  silver_max: 8
+  copper_min: 5
+  copper_max: 25
+  loot_table:
+    item_hive_chitin: 0.9
+    item_ooze_nucleus: 0.35
+  butchering_drops:
+  - template_id: item_hive_chitin
+    quantity: 3
+    min_skill: 3
+    chance: 1.0
+  - template_id: item_ooze_nucleus
+    quantity: 1
+    min_skill: 2
+    chance: 0.4
+- id: monster_hive_queen
+  name: Королева Вулика
+  type: beast
+  description: Жахлива Королева Вулика — праматір рою. Рідкісна, смертоносна, легендарна.
+  full_description: Королева Вулика — велетенська комашина матріарх, справжній господар глибин каналізації. Вона рідко рухається
+    сама — рій захищає її з усіх боків. Її жало містить паралізуючу отруту, що виводить з ладу навіть найздоровіших бійців
+    за секунди. Кажуть, що Королева пам'ятає кожного, хто вбивав її дронів, і мститься роками. Після її смерті весь рій на
+    деякий час впадає у паніку — найбезпечніший момент для відступу.
+  lore_en: The Hive Queen is the titanic insect matriarch, the true master of the sewer depths. She rarely moves independently
+    — the swarm protects her from all sides. Her stinger delivers a paralytic venom that incapacitates even the strongest
+    fighters within seconds. It is said the Queen remembers everyone who has killed her drones and takes revenge for years.
+    After her death the entire swarm falls into chaos — the safest moment for retreat.
+  image_prompt: Vray render, photo-realistic 3D render of a creature from a dark fantasy MMORPG, underground sewer dungeon
+    setting, dramatic lighting. A colossal insect queen, massive bloated abdomen, crown-like chitin spikes on head, glowing
+    purple-venom stinger, surrounded by swarming drones.
+  strength: 30
+  agility: 10
+  endurance: 32
+  intelligence: 10
+  will: 16
+  charisma: 4
+  perception: 22
+  luck: 8
+  is_aggressive: true
+  aggro_chance: 1.0
+  xp_reward: 400
+  gold_min: 2
+  gold_max: 5
+  silver_min: 15
+  silver_max: 30
+  copper_min: 0
+  copper_max: 0
+  loot_table:
+    item_hive_queen_venom: 0.85
+    item_hive_chitin: 1.0
+    item_ring_of_depths: 0.2
+  butchering_drops:
+  - template_id: item_hive_queen_venom
+    quantity: 1
+    min_skill: 4
+    chance: 0.9
+  - template_id: item_hive_chitin
+    quantity: 4
+    min_skill: 3
+    chance: 1.0

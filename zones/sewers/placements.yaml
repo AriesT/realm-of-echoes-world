@@ -1,0 +1,8 @@
+- id: locnpc_npc_petrus_rat_catcher
+  npc_id: npc_petrus_rat_catcher
+  location_id: location_sewer_guard_ruins
+  _zone: sewers
+- id: locnpc_npc_zorax_goblin_trader
+  npc_id: npc_zorax_goblin_trader
+  location_id: location_sewer_goblin_bazaar
+  _zone: sewers

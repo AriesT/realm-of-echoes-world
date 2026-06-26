@@ -1,0 +1,12 @@
+- id: shop_npc_petrus_rat_catcher
+  npc_id: npc_petrus_rat_catcher
+  name: Схованка Петруся
+  has_sell_tab: true
+  sell_price_percent: 40
+  _zone: sewers
+- id: shop_npc_zorax_goblin_trader
+  npc_id: npc_zorax_goblin_trader
+  name: Крамниця Зоракса
+  has_sell_tab: true
+  sell_price_percent: 35
+  _zone: sewers

@@ -1,0 +1,65 @@
+- id: faction_city_stalheim
+  name: Місто Стальхейм
+  description: Головне місто регіону. Тут закон і порядок.
+  full_description: Стальхейм — найбільше поселення Долини Луни, осередок торгівлі та влади. Міська варта підтримує суворий
+    порядок, а рада купців контролює більшість ресурсів. Репутація у місті відкриває кращі ціни, доступ до рідкісних товарів
+    та допомогу гарнізону.
+  lore_en: Stalheim is the largest settlement in the Moon Valley, a center of trade and political power. The city guard maintains
+    strict order, and the merchant council controls most resources.
+  faction_type: city
+  default_reputation: 0
+  is_active: true
+- id: faction_guild_adventurers
+  name: Гільдія мандрівників
+  description: Об'єднання авантюристів, мисливців за головами та найманців.
+  full_description: Гільдія мандрівників приймає всіх, хто готовий ризикувати заради золота та слави. Вони видають контракти
+    на монстрів, ескортування та розвідку небезпечних районів. Висока репутація у гільдії дає доступ до унікальних завдань
+    та знижок у гільдійських крамницях.
+  lore_en: The Adventurers Guild accepts all who are willing to risk their lives for gold and glory. They issue contracts
+    for monster hunting, escort missions, and scouting dangerous areas.
+  faction_type: guild
+  default_reputation: 0
+  is_active: true
+- id: faction_guild_blacksmiths
+  name: Цех ковалів
+  description: Майстри обробки металу та зброярі Стальхейму.
+  full_description: Цех ковалів Стальхейму — найстаріша гільдія у місті, що контролює виробництво зброї та обладунків. Майстри
+    цеху неохоче ділять свої секрети, але висока репутація дозволяє замовляти унікальні вироби та отримати доступ до рідкісних
+    матеріалів.
+  lore_en: The Stalheim Blacksmiths Guild is the oldest guild in the city, controlling the production of weapons and armor.
+    Masters are reluctant to share their secrets.
+  faction_type: guild
+  default_reputation: 0
+  is_active: true
+- id: faction_order_silver_flame
+  name: Орден Срібного Полум'я
+  description: Релігійний орден, що бореться з нежиттю та темрявою.
+  full_description: Орден Срібного Полум'я — давній релігійний орден паладинів і жерців, присвячених знищенню нежиті та демонів.
+    Їхні храми є безпечними притулками, а healers ордену рятують поранених. Репутація у Ордені відкриває доступ до благословень,
+    освяченої зброї та порятунку від смерті.
+  lore_en: The Order of the Silver Flame is an ancient religious order of paladins and priests devoted to destroying undead
+    and demons. Their temples serve as safe havens.
+  faction_type: religion
+  default_reputation: 0
+  is_active: true
+- id: faction_shadow_covenant
+  name: Ковенант Тіні
+  description: Таємна організація злодіїв та шпигунів.
+  full_description: 'Ковенант Тіні діє в темряві, невидимий для звичайних мешканців. Їхні агенти є скрізь — у тавернах, ринках,
+    навіть у ради купців. Стати союзником Ковенанту ризиковано, але вигідно: доступ до отрут, рідкісної інформації та послуг
+    вбивців.'
+  lore_en: The Shadow Covenant operates in darkness, invisible to ordinary residents. Their agents are everywhere. Becoming
+    an ally is risky but lucrative.
+  faction_type: neutral
+  default_reputation: -200
+  is_active: true
+- id: faction_goblin_tribes
+  name: Гоблінські племена
+  description: Дика конфедерація гоблінських кланів лісу Тінезор.
+  full_description: Гоблінські племена лісу Тінезор — хаотична конфедерація кланів, що постійно воюють між собою та з людськими
+    поселеннями. Більшість мандрівників ставляться до них як до ворогів, але деякі хитрі торговці знаходять способи порозуміння.
+  lore_en: The Goblin Tribes of Tinezor Forest are a chaotic confederation of clans constantly warring among themselves and
+    with human settlements.
+  faction_type: enemy
+  default_reputation: -1000
+  is_active: true

@@ -1,0 +1,826 @@
+- id: monster_wolf
+  name: Вовк
+  type: beast
+  description: Хижак лісових хащ. Полює зграями, відрізняється витривалістю та нюхом.
+  full_description: 'Сірий лісовий вовк — один з найпоширеніших хижаків у Луннійських лісах. Поодинці не надто небезпечний,
+    проте зграя вовків може легко здолати навіть досвідченого мандрівника. Вовки чудово орієнтуються вночі, тому особливо
+    небезпечні після настання темряви. Місцеві мисливці кажуть: почув виття — розпали вогонь і не рухайся. Шкура вовка цінується
+    шевцями й кравцями, а ікло вважається символом хоробрості у деяких племенах.'
+  lore_en: A grey forest wolf, one of the most common predators in the Lunniy woodlands. Alone it is manageable, but wolf
+    packs are notorious for overwhelming even seasoned travelers. They have exceptional night vision and keen smell that can
+    track prey across miles of forest. Their pelts are prized by leather workers, and their fangs are worn as trophies by
+    hunters who survived an encounter.
+  strength: 14
+  agility: 14
+  endurance: 12
+  intelligence: 4
+  will: 6
+  charisma: 3
+  perception: 16
+  luck: 7
+  xp_reward: 25
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 3
+  copper_min: 5
+  copper_max: 20
+  loot_table_json:
+    item_wolf_pelt: 0.65
+    item_wolf_fang: 0.3
+  butchering_drops_json:
+  - template_id: item_wolf_pelt
+    quantity: 1
+    min_skill: 0
+    chance: 0.85
+  - template_id: item_wolf_fang
+    quantity: 1
+    min_skill: 5
+    chance: 0.6
+  image_prompt: 'Vray render, photo-realistic 3D render of a grey forest wolf creature from a dark fantasy MMORPG. The creature
+    has a lithe and coiled body ready to strike, with sharp predatory eyes glowing amber in the dark. Creature lore: A grey
+    forest wolf, one of the most common predators in the Lunniy woodlands. Their pelts are prized by leather workers. Full
+    body visible, standing pose in a moonlit forest clearing. Epic dark fantasy lighting with atmospheric depth. Detailed
+    textures, professional game art quality, dramatic cinematic lighting. Dark foggy forest background.'
+- id: monster_tusked_boar
+  name: Кабан-ікластий
+  type: beast
+  description: Масивний дикий кабан з пожовклими іклами. Небезпечний у стані агресії.
+  full_description: Ікластий кабан — гроза сільських околиць і лісових стежок. Зовні незграбний, він може розвинути небувалу
+    швидкість на короткій дистанції, нанизуючи ворогів на свої жовті ікла. Самці особливо агресивні навесні під час шлюбного
+    сезону. Шкіра кабана настільки товста, що звичайні стріли не пробивають її з першого пострілу. Мисливці на кабанів завжди
+    беруть з собою списи — єдину надійну зброю проти розлюченого звіра. М'ясо кабана смачне, але добути його нелегко.
+  lore_en: The tusked boar is a fearsome beast found at forest edges and muddy riverbanks. Despite its bulk, it can charge
+    with terrifying speed. Its yellowed tusks can disembowel a man in seconds. The hide is thick enough to deflect poorly-aimed
+    arrows. Male boars are especially aggressive during mating season. Experienced hunters always use spears — the only reliable
+    weapon against a charging boar. The meat, once obtained, is considered a fine feast.
+  strength: 18
+  agility: 10
+  endurance: 18
+  intelligence: 3
+  will: 8
+  charisma: 2
+  perception: 10
+  luck: 5
+  xp_reward: 40
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 5
+  copper_min: 10
+  copper_max: 30
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_boar_hide
+    quantity: 1
+    min_skill: 0
+    chance: 0.8
+  - template_id: item_boar_tusk
+    quantity: 1
+    min_skill: 5
+    chance: 0.65
+  - template_id: item_boar_tusk
+    quantity: 1
+    min_skill: 15
+    chance: 0.35
+  image_prompt: Vray render, photo-realistic 3D render of a fearsome beast creature from a dark fantasy MMORPG. A massive
+    wild boar with yellowed curved tusks and thick scarred hide, mud-caked fur bristling with aggression. Full body side profile,
+    charging stance. Dark forest background with atmospheric mist, dramatic rim lighting.
+- id: monster_giant_spider
+  name: Гігантський Павук
+  type: beast
+  description: Велетенський павук з темних печер. Плете міцні тенета і паралізує жертву отрутою.
+  full_description: Гігантські павуки — кошмар підземель та сирих лісів. Їхні тенета вирізняються неймовірною міцністю — навіть
+    меч не одразу їх розрубає. Отрута павука не вбиває миттєво, але паралізує м'язи і викликає жахіття — жертва лежить непорушно
+    й спостерігає, як павук загортає її у шовк. Ловці пригод шукають їхні гнізда заради дорогоцінного павутиння — матеріалу
+    для виготовлення легкої, але надзвичайно міцної броні. Невбиті павуки запам'ятовують запах мисливця і можуть переслідувати
+    його роками.
+  lore_en: Giant spiders lurk in damp caves and dark forest hollows, spinning webs of incredible tensile strength. Their venom
+    does not kill outright but paralyzes muscles, leaving victims conscious but helpless as the spider wraps them in silk.
+    Adventurers hunt their nests for spider silk — a prized material for lightweight armor. A surviving spider is said to
+    remember a hunter's scent for years, biding its time for revenge.
+  strength: 12
+  agility: 16
+  endurance: 10
+  intelligence: 4
+  will: 7
+  charisma: 1
+  perception: 18
+  luck: 9
+  xp_reward: 35
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 4
+  copper_min: 5
+  copper_max: 25
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_spider_silk
+    quantity: 2
+    min_skill: 0
+    chance: 0.75
+  - template_id: item_spider_fang
+    quantity: 1
+    min_skill: 8
+    chance: 0.55
+  image_prompt: Vray render, photo-realistic 3D render of a giant spider beast from a dark fantasy MMORPG. Enormous black
+    spider with eight glowing red eyes, dripping venomous fangs, intricate web patterns on its abdomen. Crouched in a cave
+    with silk strands visible. Dark cave background, eerie blue-green bioluminescent lighting.
+- id: monster_grizzly_bear
+  name: Ведмідь-шатун
+  type: beast
+  description: Величезний ведмідь, що вийшов із зимової сплячки злим і голодним.
+  full_description: Шатун — ведмідь, якому не вдалося залягти в зимову сплячку або якого розбудили. Голодний і роздратований,
+    він значно агресивніший за звичайного ведмедя. Його нюх вловлює запах їжі за декілька кілометрів, а удар лапою здатний
+    зламати кістки через металеву броню. Місцеві мисливці вважають зустріч із шатуном поганим знаком — навіть ті, хто вижив,
+    довго потім не можуть спати. Шкура шатуна особливо цінна — густа зимова підшерстя робить її ідеальним матеріалом для теплого
+    плаща чи ковдри.
+  lore_en: The sleepless bear is a grizzly that failed to hibernate or was forcibly awakened. Starving and furious, it is
+    far more dangerous than its hibernating kin. A single swipe of its paw can shatter bones through steel armor. Its nose
+    can detect food from miles away. Hunters in the region consider encountering one a terrible omen. The bear's thick winter
+    coat is prized for crafting warm traveling cloaks and heavy leather armor.
+  strength: 22
+  agility: 9
+  endurance: 20
+  intelligence: 4
+  will: 10
+  charisma: 3
+  perception: 14
+  luck: 6
+  xp_reward: 65
+  gold_min: 0
+  gold_max: 1
+  silver_min: 0
+  silver_max: 8
+  copper_min: 0
+  copper_max: 30
+  loot_table_json:
+    item_health_potion: 0.1
+  butchering_drops_json:
+  - template_id: item_bear_pelt
+    quantity: 1
+    min_skill: 0
+    chance: 0.8
+  - template_id: item_bear_claw
+    quantity: 2
+    min_skill: 10
+    chance: 0.5
+  - template_id: item_bear_pelt
+    quantity: 1
+    min_skill: 20
+    chance: 0.4
+  image_prompt: Vray render, photo-realistic 3D render of a massive grizzly bear creature from a dark fantasy MMORPG. A sleepless
+    bear, massively muscular and imposing frame, battle-scarred dark brown fur, standing on hind legs in an aggressive roar
+    pose. Dark forest background, dramatic moonlight.
+- id: monster_goblin_scout
+  name: Гоблін-розвідник
+  type: humanoid
+  description: Дрібний гоблін зі шкіряною броньою та іржавим кинджалом. Полює поодинці.
+  full_description: Гобліни-розвідники — перший ешелон набігів гоблінських зграй. Маленькі, швидкі та боягузливі, вони тікають
+    при найменшій загрозі, проте вміло використовують засідки й пастки. Розвідник ніколи не нападе першим, якщо бачить реальну
+    загрозу — спочатку збере інформацію й покличе підкріплення. Їхні кинджали зазвичай іржаві, а броня пошита з чого попало,
+    але чисельністю вони компенсують слабкість кожного окремого бійця. Вухо гобліна вважається доказом виконання завдання
+    по зачистці стежок.
+  lore_en: Goblin scouts are the first wave of goblin raiding parties — small, fast, and cowardly. They flee at the first
+    sign of real danger but are expert at ambushes and crude traps. A scout will never attack until it has gathered enough
+    information or called for backup. Their rusty daggers and mismatched armor make them easy pickings one-on-one, but they
+    rarely travel alone for long. A goblin ear is proof of a path-clearing job completed.
+  strength: 9
+  agility: 17
+  endurance: 9
+  intelligence: 9
+  will: 7
+  charisma: 4
+  perception: 14
+  luck: 8
+  xp_reward: 20
+  gold_min: 0
+  gold_max: 1
+  silver_min: 0
+  silver_max: 8
+  copper_min: 0
+  copper_max: 20
+  loot_table_json:
+    item_goblin_ear: 0.8
+    item_iron_dagger: 0.1
+  butchering_drops_json:
+  - template_id: item_goblin_ear
+    quantity: 1
+    min_skill: 0
+    chance: 0.9
+  - template_id: item_goblin_tooth
+    quantity: 1
+    min_skill: 5
+    chance: 0.5
+  image_prompt: Vray render, photo-realistic 3D render of a goblin humanoid creature from a dark fantasy MMORPG. Small wiry
+    goblin with mottled green skin, oversized pointed ears, wearing crude patched leather armor and clutching a rusty dagger.
+    Sneaky crouching stance, beady yellow eyes alert. Dark undergrowth background.
+- id: monster_goblin_shaman
+  name: Гоблін-шаман
+  type: humanoid
+  description: Жилавий гоблін у кістяних прикрасах. Викликає духів і шпурляє прокляття.
+  full_description: Шамани займають особливе місце у гоблінській ієрархії. Вони не воюють самі, але їхні закляття роблять
+    орду вдвічі небезпечнішою. Шаман може послабити ворога прокляттям, покликати духів хаосу або загоїти пораненого союзника.
+    Їх знайти нелегко — вони ховаються за лавами рядових бійців. Знищення шамана в бою зазвичай викликає паніку в рядах гоблінів,
+    бо вони вірять, що без шамана духи обернуться проти них. Кістяні амулети шаманів цінуються алхіміками як інгредієнти для
+    зіль.
+  lore_en: Goblin shamans hold special status in goblin society. They do not fight directly but their curses and spirit-calls
+    make the horde twice as dangerous. A shaman can weaken enemies with hexes, summon chaos spirits, or mend wounded allies.
+    They hide behind frontline fighters. Killing a shaman often triggers a panic among goblin troops, as they believe the
+    spirits will turn against them without their caller. Their bone amulets are prized ingredients for alchemists.
+  strength: 7
+  agility: 13
+  endurance: 8
+  intelligence: 16
+  will: 15
+  charisma: 10
+  perception: 13
+  luck: 12
+  xp_reward: 55
+  gold_min: 0
+  gold_max: 2
+  silver_min: 0
+  silver_max: 12
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_goblin_ear: 0.5
+    item_mana_potion: 0.25
+  butchering_drops_json:
+  - template_id: item_goblin_ear
+    quantity: 1
+    min_skill: 0
+    chance: 0.9
+  - template_id: item_goblin_tooth
+    quantity: 2
+    min_skill: 5
+    chance: 0.55
+  image_prompt: Vray render, photo-realistic 3D render of a goblin shaman humanoid from a dark fantasy MMORPG. Hunched old
+    goblin with bone necklaces and tribal face paint, clutching a crude staff topped with a skull, eyes glowing with corrupt
+    magic. Surrounded by swirling dark green energy wisps. Cave interior background.
+- id: monster_bandit
+  name: Бандит
+  type: humanoid
+  description: Озброєний дезертир або злочинець. Грабує мандрівників на самотніх дорогах.
+  full_description: Бандити з'являються там, де закон слабкий — на гірських перевалах, лісових стежках та відлюдних трактах.
+    Більшість з них колишні солдати, злочинці або збіднілі селяни, що обрали злочин замість голодної смерті. Одиночний бандит
+    — ще не найстрашніше. Небезпечні їхні зграї з десятків осіб, які контролюють цілі регіони. Деякі банди мають власні кодекси
+    честі, інші — нелюди без жалю. Гаманець бандита зазвичай містить мішанину монет від десятків ограбованих мандрівників.
+  lore_en: Bandits emerge wherever law is weak — mountain passes, forest trails, and lonely roads far from town guards. Most
+    are former soldiers, convicted criminals, or destitute peasants who chose crime over starvation. A lone bandit is manageable;
+    their gangs controlling entire regions are true threats. Some bands follow their own codes of honor, others are merciless
+    killers. A bandit's coin pouch typically holds a mix of coins from dozens of robbed travelers.
+  strength: 14
+  agility: 12
+  endurance: 13
+  intelligence: 8
+  will: 8
+  charisma: 6
+  perception: 11
+  luck: 7
+  xp_reward: 45
+  gold_min: 1
+  gold_max: 5
+  silver_min: 0
+  silver_max: 10
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_bandit_coin_pouch: 0.7
+    item_iron_dagger: 0.2
+    item_health_potion: 0.1
+  butchering_drops_json: null
+  image_prompt: Vray render, photo-realistic 3D render of a bandit humanoid warrior from a dark fantasy MMORPG. Rough-looking
+    human outlaw in mismatched leather and chainmail armor, scarred face half-hidden by a hood, wielding a notched sword.
+    Gritty roadside ambush setting, torchlight.
+- id: monster_bandit_captain
+  name: Отаман розбійників
+  type: humanoid
+  description: Досвідчений ватажок банди. Б'ється жорстоко і вміло, не відступає.
+  full_description: Отаман — той, хто пережив достатньо бійок, щоб підкорити собі інших. Він не просто хоробрий — він хитрий,
+    безжалісний і прагматичний. Отаман завжди б'ється востаннє, коли втеча вже неможлива, і навіть тоді може спробувати підкупити
+    або обдурити противника. Його зброя — якісна, куплена або вкрадена у багатих купців. Загибель отамана зазвичай розвалює
+    банду — інші розбігаються або розпочинають кривавий переділ влади.
+  lore_en: The bandit captain is someone who survived enough fights to dominate others. Not merely brave — cunning, ruthless,
+    and pragmatic. He fights last when retreat is impossible, and even then may attempt to bribe or deceive opponents. His
+    equipment is quality — bought or stolen from wealthy merchants. His death typically dissolves the gang, as others scatter
+    or start a bloody power struggle. A captain's personal effects are often worth more than simple coin.
+  strength: 17
+  agility: 14
+  endurance: 16
+  intelligence: 12
+  will: 13
+  charisma: 11
+  perception: 13
+  luck: 9
+  xp_reward: 90
+  gold_min: 3
+  gold_max: 10
+  silver_min: 5
+  silver_max: 20
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_bandit_coin_pouch: 0.9
+    item_iron_sword: 0.2
+    item_health_potion: 0.3
+  butchering_drops_json: null
+  image_prompt: Vray render, photo-realistic 3D render of a bandit captain humanoid warrior from a dark fantasy MMORPG. Imposing
+    scarred veteran in quality leather and steel armor, commanding presence, dual weapons, veteran warrior bearing confidence
+    and menace. Firelit camp background.
+- id: monster_orc_berserker
+  name: Орк-берсерк
+  type: humanoid
+  description: Масивний орк у стані бойового трансу. Ігнорує біль і б'ється до останнього.
+  full_description: Берсерки — елітні воїни орків, що навчаються входити в стан бойового шаленства. У такому стані вони не
+    відчувають болю, не знають страху і продовжують битися навіть зі смертельними ранами. Зупинити берсерка важко — звичайні
+    заклики до здачі марні. Орки шанують берсерків як втілення духу бою, хоча ті й небезпечні для своїх у разі виходу трансу
+    з-під контролю. Після бою берсерки нерідко впадають у глибокий сон на добу.
+  lore_en: Berserkers are elite orc warriors trained to enter a battle trance. In this state they feel no pain, know no fear,
+    and continue fighting through mortal wounds. Stopping one is extraordinarily difficult — conventional calls to surrender
+    are useless. Orcs revere berserkers as embodiments of the war spirit, though they are dangerous to allies if the trance
+    slips from control. After battle, berserkers often fall into deep sleep for an entire day.
+  strength: 20
+  agility: 11
+  endurance: 19
+  intelligence: 6
+  will: 14
+  charisma: 5
+  perception: 9
+  luck: 7
+  xp_reward: 80
+  gold_min: 1
+  gold_max: 4
+  silver_min: 0
+  silver_max: 15
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_iron_helm: 0.15
+    item_health_potion: 0.2
+  butchering_drops_json:
+  - template_id: item_orc_fang
+    quantity: 1
+    min_skill: 5
+    chance: 0.7
+  image_prompt: Vray render, photo-realistic 3D render of an orc berserker humanoid warrior from a dark fantasy MMORPG. Massive
+    green-skinned orc with bulging muscles, battle trance wide eyes, foam at the mouth, war paint, swinging a huge two-handed
+    axe. Battle battlefield background with dust and fire.
+- id: monster_skeleton_warrior
+  name: Скелет-ратник
+  type: undead
+  description: Оживлений кістяк в іржавих доспіхах. Безмовний, невтомний, не відчуває болю.
+  full_description: Колись живий воїн, тепер лише кістяк, що рухається волею некроманта або давнього прокляття. Скелети-ратники
+    нічого не пам'ятають зі свого попереднього життя — вони лише виконують накази або бродять у пошуках живих. Вони не відчувають
+    утоми, голоду чи страху, але не мають і тактичної гнучкості живих бійців. Удар по суглобах або голові — найефективніший
+    спосіб знешкодити скелет. Одяг і зброя на них — рештки реального бійця, що відійшов у минуле.
+  lore_en: Once a living warrior, now merely bones animated by a necromancer's will or an ancient curse. Skeleton warriors
+    retain nothing of their former lives — they simply execute commands or wander seeking the living. They feel no fatigue,
+    hunger, or fear, but lack the tactical flexibility of living soldiers. Strikes to joints or the skull are most effective.
+    The armor and weapons they carry are remnants of whoever they once were — perhaps centuries ago.
+  strength: 13
+  agility: 9
+  endurance: 15
+  intelligence: 2
+  will: 10
+  charisma: 1
+  perception: 8
+  luck: 3
+  xp_reward: 38
+  gold_min: 0
+  gold_max: 1
+  silver_min: 0
+  silver_max: 6
+  copper_min: 0
+  copper_max: 25
+  loot_table_json:
+    item_iron_dagger: 0.15
+    item_rope: 0.1
+  butchering_drops_json:
+  - template_id: item_skeleton_bone
+    quantity: 3
+    min_skill: 0
+    chance: 0.75
+  image_prompt: Vray render, photo-realistic 3D render of an undead skeleton warrior from a dark fantasy MMORPG. Animated
+    skeleton in rusted ancient armor, hollow eye sockets with faint blue soul-flame, clutching a corroded sword and cracked
+    shield. Dark crypt background, dramatic low lighting.
+- id: monster_zombie
+  name: Зомбі
+  type: undead
+  description: Повільне, але невпинне мерцяче тіло. Заражає укусом.
+  full_description: 'Зомбі — найпримітивніша форма нежиті: тіло без розуму, що рухається лише жагою до живої плоті. Вони повільні,
+    але невпинні. Укус зомбі може інфікувати навіть через броню, якщо укус достатньо сильний, і без лікування вакцинальна
+    лихоманка зведе бійця до могили за три дні. Небезпечні в натовпі — навіть досвідчений воїн може бути подавлений чисельністю.
+    Їх уражає вогонь: горить жирна плоть надзвичайно охоче. Запах тліну відчувається за сотні метрів — корисний попереджувальний
+    знак.'
+  lore_en: 'Zombies are the most primitive form of undead: a body without a mind, driven only by a hunger for living flesh.
+    They are slow but relentless. A zombie''s bite can infect through armor if strong enough; without treatment, the resulting
+    fever kills within three days. Dangerous in numbers — even a skilled warrior can be overwhelmed by sheer volume of rotting
+    bodies. Fire works excellently against them. The stench of decay travels hundreds of meters — a useful early warning.'
+  strength: 15
+  agility: 5
+  endurance: 18
+  intelligence: 1
+  will: 8
+  charisma: 1
+  perception: 5
+  luck: 2
+  xp_reward: 30
+  gold_min: 0
+  gold_max: 0
+  silver_min: 0
+  silver_max: 3
+  copper_min: 0
+  copper_max: 15
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_zombie_bone
+    quantity: 2
+    min_skill: 0
+    chance: 0.7
+  - template_id: item_zombie_rag
+    quantity: 1
+    min_skill: 0
+    chance: 0.5
+  image_prompt: Vray render, photo-realistic 3D render of an undead zombie creature from a dark fantasy MMORPG. Shambling
+    corpse with rotting grey-green flesh, empty milky eyes, torn burial clothes, outstretched reaching arms. Graveyard or
+    misty swamp background, eerie moonlight.
+- id: monster_vampire
+  name: Упир
+  type: undead
+  description: Безмертний кровопивця. Швидкий, розумний і смертоносний у темряві.
+  full_description: 'Упири — давні лиходії, що продали душу заради безсмертя. Вони зберегли людський розум і навіть людський
+    вигляд, але потребують крові живих для підтримки сил. Упир хитрий і терплячий — може чекати роками на зручний момент.
+    У бою він неймовірно швидкий: може стрибнути на відстань десяти метрів і дістати горло ворога до того, як той встигне
+    підняти щит. Срібло і святе сонячне світло — єдине, що реально шкодить упирю. Після загибелі він розсипається на попіл,
+    залишаючи лише свій одяг.'
+  lore_en: 'Vampires are ancient evildoers who sold their souls for immortality. They retain human intelligence and even human
+    appearance but require the blood of the living to maintain their power. A vampire is patient and cunning — it may wait
+    years for the right moment. In combat it is blindingly fast: capable of leaping ten meters and reaching a throat before
+    a shield can be raised. Silver and holy sunlight are the only reliable weapons. Upon death it crumbles to ash, leaving
+    only its clothing.'
+  strength: 18
+  agility: 20
+  endurance: 16
+  intelligence: 17
+  will: 16
+  charisma: 15
+  perception: 18
+  luck: 11
+  xp_reward: 175
+  gold_min: 5
+  gold_max: 20
+  silver_min: 10
+  silver_max: 40
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_mana_potion: 0.3
+    item_ring_of_protection: 0.08
+  butchering_drops_json:
+  - template_id: item_vampire_fang
+    quantity: 1
+    min_skill: 20
+    chance: 0.55
+  image_prompt: Vray render, photo-realistic 3D render of a vampire undead creature from a dark fantasy MMORPG. Pale aristocratic
+    figure in black noble clothing, impossibly fast, elongated fangs bared, crimson eyes, black cape flowing like shadows.
+    Gothic castle interior background, candlelight.
+- id: monster_lich
+  name: Ліч
+  type: undead
+  description: Некромант-філіч, що досяг безсмертя через ритуал. Повелитель мертвих.
+  full_description: 'Ліч — те, чим стає великий некромант після жахливого ритуалу філактерії: він поміщає свою душу в магічний
+    артефакт і продовжує існувати навіть після знищення тіла, доки артефакт цілий. Ліч — одна з найнебезпечніших істот у відомому
+    світі. Він накопичував знання тисячоліттями і часто знає магічні заклинання, забуті всіма живими. Його ненависть до живих
+    абсолютна. Армії нежиті коряться його волі. Без знищення філактерії ліч відродиться через сім днів після загибелі.'
+  lore_en: 'A lich is what a great necromancer becomes after a terrible phylactery ritual: he places his soul in a magical
+    artifact and continues existing even after his body is destroyed, as long as the artifact remains intact. A lich is among
+    the most dangerous beings in the known world, having accumulated magical knowledge over millennia — often knowing spells
+    forgotten by all living mages. His hatred of the living is absolute. Armies of undead obey his will. Without destroying
+    the phylactery, a lich returns seven days after apparent death.'
+  strength: 12
+  agility: 12
+  endurance: 14
+  intelligence: 24
+  will: 22
+  charisma: 8
+  perception: 20
+  luck: 14
+  xp_reward: 400
+  gold_min: 20
+  gold_max: 60
+  silver_min: 30
+  silver_max: 80
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_staff: 0.25
+    item_ring_of_arcana: 0.15
+    item_mana_potion: 0.5
+  butchering_drops_json:
+  - template_id: item_lich_dust
+    quantity: 1
+    min_skill: 30
+    chance: 0.45
+  image_prompt: Vray render, photo-realistic 3D render of a lich undead spellcaster from a dark fantasy MMORPG. Ancient skeletal
+    necromancer in tattered robes, glowing violet phylactery hovering at chest, hands crackling with dark death magic, empty
+    eye sockets blazing with purple necrotic fire. Throne of bones background.
+- id: monster_fire_elemental
+  name: Вогняний Елементаль
+  type: elemental
+  description: Ожила стихія вогню. Спалює все навколо, не може бути поранений звичайною зброєю.
+  full_description: Вогняні елементалі — це шматки живого вогню, призвані з Плани Полум'я або народжені в серці вулкана. Звичайна
+    зброя проходить крізь них, обгорілою виходячи з іншого боку. Ефективні лише магічна зброя або зачарована холодом. Елементаль
+    постійно рухається, залишаючи за собою випалені пасма трави й розтоплені сліди на камені. Розмовляти з ними марно — вони
+    не мають мови, лише пориви, гнів і вічна жага до горіння. Вода — єдине, що справді їм шкодить.
+  lore_en: Fire elementals are fragments of living flame, summoned from the Plane of Fire or born in a volcano's heart. Normal
+    weapons pass through them, emerging charred on the other side. Only magical weapons or enchanted-cold steel are effective.
+    An elemental constantly moves, leaving scorched strips of grass and melted stone footprints. Attempting to converse with
+    them is futile — they have no language, only impulses, fury, and an eternal hunger to burn. Water is their true weakness.
+  strength: 16
+  agility: 15
+  endurance: 14
+  intelligence: 5
+  will: 12
+  charisma: 3
+  perception: 10
+  luck: 8
+  xp_reward: 110
+  gold_min: 0
+  gold_max: 3
+  silver_min: 5
+  silver_max: 20
+  copper_min: 0
+  copper_max: 0
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_elemental_shard
+    quantity: 1
+    min_skill: 10
+    chance: 0.65
+  image_prompt: Vray render, photo-realistic 3D render of a fire elemental spirit from a dark fantasy MMORPG. Towering humanoid
+    form composed of swirling living flame, molten orange-red core, heat distortion rippling the air around it, eyes of white-hot
+    plasma. Volcanic cave background with flowing lava.
+- id: monster_ice_elemental
+  name: Крижаний Елементаль
+  type: elemental
+  description: Ожила стихія льоду. Уповільнює рухи та промерзає від його дотику.
+  full_description: Крижані елементалі народжуються у вічних льодовиках або призиваються могутніми крижаними чарами. На відміну
+    від вогняних родичів, вони мовчазні та повільні, але їхня атака заморожує воду в крові жертви. Дотик крижаного елементаля
+    паралізує на кілька секунд — достатньо, щоб завдати смертельний удар. Температура навколо них падає нижче нуля, і навіть
+    лицарі в повних латах починають відчувати тремтіння. Вогнем їх не зупиниш — вони просто поглинають тепло і стають більшими.
+  lore_en: Ice elementals are born in eternal glaciers or summoned by powerful frost magic. Unlike their fire kin they are
+    silent and slow, but their touch freezes the water in a victim's blood. A single touch paralyzes for several seconds —
+    enough time to deliver a killing blow. Temperature drops below freezing in their presence; even plate-armored knights
+    begin to shiver. Fire does not stop them — they simply absorb the heat and grow larger. Only magical fire or physical
+    blunt trauma can truly damage them.
+  strength: 14
+  agility: 8
+  endurance: 18
+  intelligence: 5
+  will: 14
+  charisma: 3
+  perception: 9
+  luck: 7
+  xp_reward: 105
+  gold_min: 0
+  gold_max: 2
+  silver_min: 5
+  silver_max: 18
+  copper_min: 0
+  copper_max: 0
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_elemental_shard
+    quantity: 1
+    min_skill: 10
+    chance: 0.65
+  image_prompt: Vray render, photo-realistic 3D render of an ice elemental spirit from a dark fantasy MMORPG. Translucent
+    crystalline humanoid figure composed of swirling ice and frost, pale blue radiance from within, frost crystals erupting
+    from every step. Arctic cave background with ice stalactites.
+- id: monster_imp
+  name: Імп
+  type: demon
+  description: Дрібний демон-прислужник. Хитрий, злобний, вжалює отрутою.
+  full_description: Імпи — найнижча каста демонів, прислужники та розвідники більш могутніх пекельних сутностей. Маленькі,
+    з кажанячими крилами й отруйним жалом на хвості, вони надолужують нестачу сили хитрістю й підлістю. Імп рідко нападає
+    у відкриту — він чекає, поки жертва відволічеться, вжалює отрутою і відлітає. Їхній сміх — тонкий, пронизливий — здатний
+    звести з розуму. Служать відьмам і чорним магам як фамільяри. Знищення фамільяра болісне для господаря.
+  lore_en: Imps are the lowest caste of demonkind — servants and scouts for more powerful infernal entities. Small, with batlike
+    wings and a venomous tail stinger, they compensate for lack of power with cunning and spite. An imp rarely attacks openly
+    — it waits for the target to be distracted, stings with its venom, and flees. Their laughter — thin and piercing — is
+    said to cause madness over time. They serve witches and dark mages as familiars. Destroying a familiar inflicts pain on
+    its master.
+  strength: 6
+  agility: 18
+  endurance: 7
+  intelligence: 14
+  will: 10
+  charisma: 5
+  perception: 16
+  luck: 12
+  xp_reward: 30
+  gold_min: 0
+  gold_max: 1
+  silver_min: 0
+  silver_max: 6
+  copper_min: 0
+  copper_max: 20
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_imp_horn
+    quantity: 1
+    min_skill: 5
+    chance: 0.65
+  image_prompt: Vray render, photo-realistic 3D render of an imp demon from a dark fantasy MMORPG. Tiny demonic creature with
+    red skin, small bat wings, barbed tail with a glowing venomous stinger, oversized ears, mischievous cruel eyes and sharp
+    teeth. Dark portal background with hellfire.
+- id: monster_shadow_demon
+  name: Тіньовий Демон
+  type: demon
+  description: Демон, зіткаений зі тіней. Невидимий у пітьмі, живиться страхом.
+  full_description: Тіньові демони — жахи, народжені з накопиченого людського страху. Вони не мають фізичного тіла — лише
+    тьмяне мерехтіння в темряві та відчуття холоду в грудях. Тільки на прямому світлі вони набувають напівпрозорої форми,
+    вразливої до магічних та освячених ударів. Їхній «дотик» — це висмоктування волі до боротьби. Жертва починає почуватися
+    безнадійно, опускає зброю... і це все. Вогонь їх відганяє, але не вбиває — вони просто перетікають у тінь.
+  lore_en: Shadow demons are horrors born from accumulated human fear. They have no physical body — merely a dim shimmer in
+    darkness and a feeling of cold in the chest. Only in direct light do they take a semi-transparent form vulnerable to magical
+    and blessed strikes. Their 'touch' drains the will to fight. A victim begins to feel hopeless, drops their weapon... and
+    that is the end. Torchlight repels them but does not kill — they simply flow into another shadow and wait.
+  strength: 9
+  agility: 17
+  endurance: 10
+  intelligence: 15
+  will: 18
+  charisma: 8
+  perception: 20
+  luck: 13
+  xp_reward: 130
+  gold_min: 0
+  gold_max: 5
+  silver_min: 5
+  silver_max: 25
+  copper_min: 0
+  copper_max: 0
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_shadow_essence
+    quantity: 1
+    min_skill: 15
+    chance: 0.6
+  image_prompt: Vray render, photo-realistic 3D render of a shadow demon from a dark fantasy MMORPG. Semi-translucent creature
+    composed entirely of living shadow and darkness, with two burning violet eyes visible in the void, tendrils of shadow
+    extending outward. Dark foggy void background with scattered cold blue light.
+- id: monster_stone_golem
+  name: Кам'яний Голем
+  type: construct
+  description: Масивна кам'яна фігура, пожвавлена чарами. Майже невразлива до фізичних атак.
+  full_description: 'Кам''яний голем — магічний конструкт, створений стародавніми чарівниками для охорони скарбниць та важливих
+    місць. Голем не має свідомості — він просто виконує останній наказ свого творця, навіть якщо той давно помер. Фізична
+    сила голема неймовірна: удар його кам''яного кулака пробиває кам''яну стіну. Зброя ковзає по гладкому каменю, не залишаючи
+    подряпин. Ефективні лише заклинання, що руйнують каміння, або атаки в магічні руни, вирізьблені на його тілі — саме вони
+    дають йому життя.'
+  lore_en: 'A stone golem is a magical construct created by ancient sorcerers to guard treasuries and important locations.
+    The golem has no consciousness — it simply executes its last given command, even if its creator died centuries ago. Its
+    physical strength is extraordinary: a single punch from its stone fist breaks through stone walls. Conventional weapons
+    slide off its smooth surface. Only stone-breaking spells or attacks aimed at the magical runes carved on its body — which
+    give it life — are truly effective.'
+  strength: 24
+  agility: 5
+  endurance: 26
+  intelligence: 2
+  will: 18
+  charisma: 1
+  perception: 6
+  luck: 4
+  xp_reward: 160
+  gold_min: 2
+  gold_max: 10
+  silver_min: 5
+  silver_max: 30
+  copper_min: 0
+  copper_max: 0
+  loot_table_json: {}
+  butchering_drops_json: null
+  image_prompt: Vray render, photo-realistic 3D render of a stone golem construct from a dark fantasy MMORPG. Massive humanoid
+    figure hewn from ancient grey granite, glowing magical runes carved into its surface, mossy and cracked from centuries
+    of guardianship, raised fist ready to strike. Ancient ruin chamber background.
+- id: monster_iron_guardian
+  name: Залізний Страж
+  type: construct
+  description: Бойовий автомат у вигляді воїна. Захищає давні руїни.
+  full_description: 'Залізні стражі — витвори загиблої цивілізації, що знала секрети оживлення металу. На відміну від големів,
+    вони складені з механічних частин, що рухаються злагоджено, мов у живої істоти. Кожен страж унікальний — давні майстри
+    ніколи не виготовляли двох однакових. Деякі оснащені вбудованою зброєю: мечами, що ростуть прямо з передпліч. Вони зношуються
+    від часу, але продовжують виконувати свій обов''язок попри скрегіт і кволість. Зброєта з металу залізного стража коштує
+    цілий статок у правильного ковалі.'
+  lore_en: 'Iron guardians are creations of a long-dead civilization that knew the secret of animating metal. Unlike golems,
+    they are composed of mechanical parts moving in fluid, lifelike coordination. Each guardian is unique — the ancient craftsmen
+    never made two alike. Some are equipped with built-in weapons: blades that grow directly from their forearms. They corrode
+    with time yet continue their duty despite grinding gears and weakened joints. Metal harvested from a destroyed guardian
+    is worth a small fortune to the right smith.'
+  strength: 20
+  agility: 13
+  endurance: 22
+  intelligence: 4
+  will: 16
+  charisma: 2
+  perception: 12
+  luck: 5
+  xp_reward: 140
+  gold_min: 3
+  gold_max: 12
+  silver_min: 5
+  silver_max: 25
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_iron_sword: 0.12
+    item_iron_helm: 0.1
+  butchering_drops_json: null
+  image_prompt: Vray render, photo-realistic 3D render of an iron guardian construct from a dark fantasy MMORPG. Articulated
+    mechanical warrior made of oxidized iron plates, ancient clockwork joints visible at articulations, blades extending from
+    forearms, glowing amber eye lenses. Dark ancient vault background.
+- id: monster_young_dragon
+  name: Молодий Дракон
+  type: dragon
+  description: Ще не дорослий дракон, але вже смертоносний. Вогонь, кігті, лускова броня.
+  full_description: 'Молодий дракон — близько ста років від роду, тобто дитина за мірками свого виду. І все ж він у десятки
+    разів небезпечніший за людського воїна. Його вогонь уже достатньо гарячий, щоб розплавити залізо, а кігті легко розрізають
+    звичайну броню. Молоді дракони надзвичайно допитливі й жадібні — вони збирають блискючі предмети та захищають своє лігво
+    фанатично. Важливо знати: якщо дракон ще не виріс, його мати, ймовірно, поруч. Дракон, що досяг зрілості, стає свідомою
+    надзвичайно небезпечною та розумною істотою.'
+  lore_en: 'A young dragon — roughly a century old — is a child by its kind''s standards. Yet it is already dozens of times
+    more dangerous than a human warrior. Its flame is hot enough to melt iron, and its claws shred conventional armor with
+    ease. Young dragons are intensely curious and greedy, gathering shiny objects and defending their lair with fanatical
+    intensity. A critical note: if a dragon has not yet matured, its mother is likely nearby. A fully grown dragon becomes
+    an extraordinarily dangerous, intelligent and conscious being capable of speech and complex scheming.'
+  strength: 22
+  agility: 16
+  endurance: 20
+  intelligence: 16
+  will: 18
+  charisma: 12
+  perception: 20
+  luck: 14
+  xp_reward: 350
+  gold_min: 15
+  gold_max: 50
+  silver_min: 20
+  silver_max: 60
+  copper_min: 0
+  copper_max: 0
+  loot_table_json:
+    item_amulet_of_warding: 0.1
+    item_ring_of_arcana: 0.08
+  butchering_drops_json:
+  - template_id: item_dragon_scale
+    quantity: 2
+    min_skill: 20
+    chance: 0.7
+  - template_id: item_dragon_claw
+    quantity: 1
+    min_skill: 30
+    chance: 0.5
+  image_prompt: Vray render, photo-realistic 3D render of a young dragon from a dark fantasy MMORPG. Adolescent dragon with
+    iridescent dark green and black scales, small horns still growing, emerald fire in its throat ready to breathe, wings
+    partially spread, tail coiled. Mountain cave with scattered gold coins background.
+- id: monster_thornwalker
+  name: Тернистий Страж
+  type: plant
+  description: Деревоподібна рослина, що рухається. Сповита шипами, захищає ліс.
+  full_description: 'Тернисті стражі — ожилі дерева або великі рослини, пронизані природньою магією. Вони захищають ліс від
+    тих, хто несе йому шкоду: лісорубів, підпалювачів, мисливців. Рослину збуджує запах диму або звук рубання дерев — тоді
+    вона оживає і нападає. Тернистий страж не ганяється за жертвою — він просто не дає тій втекти, обплутуючи ліани навколо
+    ніг і засипаючи хмарою отруйних шипів. Вогонь — єдина реальна загроза для нього, але підпал лісу зустрінуть усі стражі
+    одразу.'
+  lore_en: 'Thornwalkers are animated trees or large plants infused with natural magic. They protect the forest from those
+    who harm it: loggers, arsonists, poachers. The plant awakens at the smell of smoke or the sound of tree-chopping, then
+    moves to attack. A thornwalker does not chase its victim — it simply prevents escape by entangling vines around the legs
+    and releasing clouds of poisonous thorns. Fire is the only real threat to a thornwalker, but setting the forest alight
+    will draw all guardians at once.'
+  strength: 17
+  agility: 6
+  endurance: 22
+  intelligence: 3
+  will: 12
+  charisma: 2
+  perception: 10
+  luck: 6
+  xp_reward: 75
+  gold_min: 0
+  gold_max: 1
+  silver_min: 0
+  silver_max: 10
+  copper_min: 0
+  copper_max: 0
+  loot_table_json: {}
+  butchering_drops_json:
+  - template_id: item_thornwalker_bark
+    quantity: 2
+    min_skill: 0
+    chance: 0.8
+  image_prompt: Vray render, photo-realistic 3D render of a thornwalker animated plant creature from a dark fantasy MMORPG.
+    Ancient gnarled tree animated into humanoid form, bark skin covered in long sharp thorns, vine tendrils trailing, hollow
+    wooden eye sockets with dim green forest-magic light. Ancient forest background with bioluminescent mushrooms.

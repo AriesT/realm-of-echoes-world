@@ -1,0 +1,1551 @@
+- id: location_town_stone_ford
+  name: Кам'яна Брідь
+  description: Невелике торговельне містечко на перетині шляхів, що виросло навколо давнього кам'яного мосту.
+  full_description: Кам'яна Брідь — невелике, але жваве містечко, що виросло навколо давнього кам'яного мосту через річку
+    Мутниця. Вузькі бруківчасті вулиці тягнуться між фахверковими будинками, на яких погойдуються різнокольорові вивіски крамниць
+    і таверн. Центральна ринкова площа щодня заповнена торговцями, мандрівниками й місцевими жителями. Містечко невелике,
+    але затишне — тут можна знайти притулок, поповнити запаси і дізнатися місцеві плітки. Варта міста підтримує порядок, тому
+    вуличні злочинці тут рідкість.
+  lore_en: Stone Ford is a small but lively trading town that grew around an ancient stone bridge over the Muddy River. Cobblestone
+    streets wind between timber-framed buildings with colourful shop signs. The central market square bustles daily with merchants,
+    travellers and locals. A safe haven for adventurers beginning their journey.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A bustling medieval
+    fantasy trading town at golden hour, viewed from street level. Ancient stone bridge crossing a calm river in the background.
+    Cobblestone main street with timber-framed buildings, colourful merchant signs swinging in a gentle breeze, market stalls
+    with awnings in reds and blues. Warm late afternoon sunlight casting long shadows. Townsfolk visible in the distance,
+    smoke rising from chimneys. Safe and welcoming atmosphere, warm amber and ochre tones. Epic wide-angle establishing shot,
+    dramatic atmospheric lighting, highly detailed environmental textures, professional game environment art quality, volumetric
+    lighting, atmospheric depth and haze.
+  type: town
+  is_safe: true
+  district_id: district_stone_ford
+  _zone: stone_ford
+- id: location_forest_road
+  name: Лісова Дорога
+  description: Небезпечна лісова стежка між Кам'яною Бріддю та глибинами лісу. Тут промишляють розбійники.
+  full_description: Лісова дорога — стара торговельна стежка, що петляє між велетенськими деревами темного лісу. Колись вона
+    була безпечним маршрутом для купців, але нині тут панують розбійники й дикі звірі. Гілки переплітаються над головою, утворюючи
+    темний полог, крізь який майже не проникає сонячне світло. Вовки виходять зі хащів у пошуках здобичі, а очі розбійників
+    слідкують за кожним одиноким мандрівником. Лише озброєні групи наважуються йти цією дорогою після заходу сонця.
+  lore_en: The Forest Road is an old trade path that winds between massive trees of a dark woodland. Once a safe merchant
+    route, it is now dominated by bandits and wild wolves. Branches interlock overhead forming a dark canopy. Only armed groups
+    dare travel this road after dusk. Danger lurks behind every shadow.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A dark and ominous
+    forest road through ancient old-growth trees, overcast sky filtering dim grey light through a dense canopy. Thick gnarled
+    roots crossing the muddy dirt path. Mist drifting low along the ground. Shadows suggesting hidden watchers in the undergrowth.
+    Fallen leaves, broken branches, worn wagon ruts. Atmosphere of lurking danger and tension. Cool blue-grey colour palette
+    with deep shadows. Epic wide-angle establishing shot, dramatic atmospheric lighting, highly detailed environmental textures,
+    professional game environment art quality, volumetric lighting, atmospheric depth and haze.
+  type: wilderness
+  is_safe: false
+  district_id: district_stone_ford
+  _zone: stone_ford
+- id: location_town_tavern
+  name: Таверна «Сонний Дракон»
+  description: Затишна таверна в серці Кам'яної Броді. Тут завжди тепло, шумно і пахне смаженим м'ясом.
+  full_description: «Сонний Дракон» — найпопулярніше місце в Кам'яній Броді. Масивні дерев'яні балки підпирають стелю, біля
+    каміна завжди гуде жаровня, а на стінах висять голови трофеїв і старі карти невідомих земель. Товстий господар Малдус
+    тримає порядок залізною рукою у оксамитовій рукавичці — бійок тут майже не буває. Місцеве пиво вважається найкращим у
+    всьому окрузі, а пироги з дичиною прославились на все торговельне узбережжя. Мандрівники з усіх куточків світу приносять
+    сюди свої новини, чутки й пригоди.
+  lore_en: The Sleeping Dragon is the most popular establishment in Stone Ford. Heavy oak beams support the low ceiling, a
+    roaring fireplace dominates one wall. The proprietor Maldus keeps firm but fair order. Local ale is celebrated across
+    the region. Travellers from every corner bring news, rumours and tall tales. A true adventurer's hub.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A warm and cosy
+    fantasy tavern interior, wide establishing shot. Heavy exposed timber beams overhead, large stone fireplace on the far
+    wall with a crackling fire casting orange light. Rough-hewn wooden tables and benches, mugs of ale, candles in iron holders.
+    Hanging dried herbs and hunting trophies on dark wooden walls. Patrons in period fantasy attire drinking and talking.
+    Warm amber lighting creating a welcoming glow. Smoke haze near the ceiling. Epic wide-angle establishing shot, dramatic
+    atmospheric lighting, highly detailed environmental textures, professional game environment art quality, volumetric lighting,
+    atmospheric depth and haze.
+  type: indoor
+  is_safe: true
+  district_id: district_stone_ford
+  _zone: stone_ford
+- id: location_market_square
+  name: Ринкова Площа
+  description: Серце торговельного життя Кам'яної Броді. Тут щодня лунають крики торговців і запах спецій.
+  full_description: 'Ринкова площа Кам''яної Броді — жвавий центр торговельного та громадського життя міста. По периметру
+    площі стоять постійні крамниці й ремісничі майстерні, а в центрі щодня розгортається кольоровий ярмарок. Торговці пропонують
+    все: від свіжих продуктів і тканин до рідкісних артефактів і зілля. Міська колодязь посеред площі є місцем зустрічей і
+    обміну новинами. Варта патрулює площу цілодобово, тому навіть вночі тут відносно безпечно. Зрідка на площі виступають
+    мандрівні актори або оголошуються королівські укази.'
+  lore_en: The Market Square of Stone Ford is the lively centre of trade and civic life. Permanent shops and craft workshops
+    line the perimeter while daily market stalls fill the centre. Merchants offer everything from fresh produce to rare artefacts.
+    The central well serves as a meeting point. Town guard patrols ensure safety even at night.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A grand medieval
+    fantasy market square, viewed from a slight elevation. Colourful market stalls with red and blue awnings filling a large
+    cobblestone plaza. A central stone well with an iron windlass. Timber-framed guild buildings and shops lining the perimeter,
+    decorative banners hanging between them. Busy crowd of merchants, townsfolk and travellers in period fantasy attire. Morning
+    light with long shadows. Warm golden tones, sense of commerce and community. Epic wide-angle establishing shot, dramatic
+    atmospheric lighting, highly detailed environmental textures, professional game environment art quality, volumetric lighting,
+    atmospheric depth and haze.
+  type: city
+  is_safe: true
+  district_id: district_stone_ford
+  _zone: stone_ford
+- id: location_blacksmith_shop
+  name: Кузня Гельги
+  description: Найкраща кузня в Кам'яній Броді. Господиня Гельга кує зброю і броню, яким немає рівних у окрузі.
+  full_description: 'Кузня Гельги — пекляче гаряче, але неймовірно ефективне підприємство. Господиня Гельга Бронзовоока —
+    дварф за походженням, але вже тридцять років живе в Кам''яній Броді. Її ковальські роботи відомі далеко за межами міста:
+    зброя б''є гостро, броня тримає удар. У кузні постійно гуркотять молоти, виє хутро і пахне розпеченим металом і вугіллям.
+    Гельга завжди готова продати готовий товар або взяти замовлення на виготовлення спеціального спорядження для пригодників,
+    що мають достатньо золота і терпіння.'
+  lore_en: Helga's Forge is the finest smithy in Stone Ford run by dwarf-born Helga Bronze-Eye, thirty years a local. Her
+    weapons strike true and her armour holds firm. The forge rings with hammer blows, bellows roar and the smell of hot metal
+    fills the air. Helga sells ready stock or accepts custom orders for adventurers with enough coin.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A fantasy blacksmith
+    forge interior, wide establishing shot. A massive stone forge dominating the far wall, blazing orange fire illuminating
+    the dark interior. Heavy iron anvil on a thick wooden block in the centre, tongs and hammers hanging on the walls. Racks
+    of finished weapons — swords, axes, spearheads. Armour pieces displayed on wooden stands. Glowing embers and orange forge
+    light casting dramatic shadows on stone walls covered in soot. Epic wide-angle establishing shot, dramatic atmospheric
+    lighting, highly detailed environmental textures, professional game environment art quality, volumetric lighting, atmospheric
+    depth and haze.
+  type: shop
+  is_safe: true
+  district_id: district_stone_ford
+  _zone: stone_ford
+- id: location_stone_ford_cemetery
+  name: Міський Цвинтар
+  description: Старовинний цвинтар на околиці Кам'яної Броді. Вночі тут неспокійно — поховані не завжди лежать тихо.
+  full_description: Міський цвинтар Кам'яної Броді існує з часів заснування поселення — деякі надгробки настільки старі, що
+    написи на них давно стерлися. Удень це просто похмуре місце з іржавими огорожами і перехиленими хрестами, де місцеві ховають
+    своїх померлих. Але з настанням темряви ситуація кардинально змінюється. Некромантична енергія, що накопичилася тут за
+    сотні років, пробуджує старі кістки. Скелети і привиди виходять із могил, обороняючи свій вічний спокій від непрошених
+    гостей. Кажуть, що в найстарішій ділянці цвинтаря похований якийсь темний маг, могила якого досі випромінює зловісне фіолетове
+    сяйво.
+  lore_en: Stone Ford's cemetery dates to the town's founding, with some headstones worn entirely smooth. By day a gloomy
+    but peaceful burial ground. By night, centuries of necromantic energy animate the oldest bones. Skeletons and wraiths
+    defend their eternal rest. The oldest section reportedly holds a dark mage whose tomb still glows with faint violet light.
+    Not for the faint-hearted.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A dark and eerie
+    fantasy cemetery at night under a full moon. Ancient crumbling headstones in various states of decay, tilting at odd angles.
+    Wrought-iron fence with rusted spikes enclosing the grounds. Bare twisted leafless trees reaching skeletal branches toward
+    a cloudy sky. Cold blue moonlight casting long shadows. Wisps of pale mist drifting between the graves. A faint violet
+    glow emanating from a distant mausoleum deep in the cemetery. Atmosphere of dread and the undead lurking just out of sight.
+    Epic wide-angle establishing shot, dramatic atmospheric lighting, highly detailed environmental textures, professional
+    game environment art quality, volumetric lighting, atmospheric depth and haze.
+  type: cemetery
+  is_safe: false
+  district_id: null
+  _zone: stone_ford
+- id: location_spider_cave
+  name: Печера Великих Павуків
+  description: Темна волога печера в лісі, де мешкають велетенські павуки. Стіни вкриті густою павутиною.
+  full_description: Печера Великих Павуків — природна система підземних галерей глибоко в лісових нетрях. Вхід прихований
+    за водоспадом і оточений густою павутиною. Усередині темно й сиро, хоча стіни деяких галерей вкриті біолюмінесцентними
+    грибами, що дають тьмяне блакитне сяйво. Павуки тут виростають до розмірів невеликого коня — їхнє отруте паралізує жертву
+    за лічені хвилини. На «стелі» висять коконами загорнуті жертви минулих мандрівників. Кажуть, десь у глибині печери знаходиться
+    кладка яєць матері-павука — велетня, якого місцеві жителі бояться більше, ніж будь-якого дракона.
+  lore_en: The Spider Cave is a natural gallery system deep in the forest, entrance hidden behind a waterfall and thick webbing.
+    Dark and damp inside, lit only by bioluminescent fungi casting a faint blue glow. Giant spiders the size of ponies with
+    paralyzing venom dwell here. Cocooned victims hang from the ceiling. Somewhere in the depths lies the egg clutch of the
+    Spider Mother, a colossus feared throughout the region.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A vast underground
+    spider cave, wide establishing shot from the entrance looking in. Natural cave walls and ceiling covered in thick white
+    spider webs and silk cocoons of unknown shapes. Bioluminescent blue-green fungi on the cave walls providing eerie ambient
+    light. Dark underground pools on the floor. The silhouettes of enormous spiders visible in the shadows and on the ceiling.
+    Cocooned shapes hanging ominously overhead. Atmosphere of claustrophobic dread and venom-soaked darkness. Epic wide-angle
+    establishing shot, dramatic atmospheric lighting, highly detailed environmental textures, professional game environment
+    art quality, volumetric lighting, atmospheric depth and haze.
+  type: cave
+  is_safe: false
+  district_id: null
+  _zone: stone_ford
+- id: location_forest_clearing
+  name: Лісова Галявина
+  description: Стародавня галявина посеред дрімучого лісу. Тут відчувається магія — добра чи зла, залежить від часу доби.
+  full_description: Ця галявина не нанесена на жодну відому карту. Місцеві жителі знають про неї, але намагаються обходити
+    стороною — особливо в повний місяць. Стародавні кола з каменів свідчать про те, що колись тут проводилися ритуали. Центральний
+    камінь вкритий рунами, значення яких втрачене для сучасних учених. Вдень галявина виглядає мирно — світло грає на травах
+    і квітах, птахи співають. Але з настанням ночі оживають давні дріади та лісові духи, які ревно охороняють своє священне
+    місце від тих, хто прийшов із недобрими намірами.
+  lore_en: This ancient clearing appears on no known map. Stone circles suggest old ritual use. The central rune-carved stone's
+    meaning is lost to modern scholars. By day the clearing appears peaceful — light plays across wildflowers and birdsong
+    fills the air. By night ancient dryads and forest spirits emerge, fiercely protecting this sacred place from those with
+    ill intent. Approached with respect, it may offer unexpected aid.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. An ancient forest
+    clearing under a full moon, wide establishing shot. A circle of moss-covered standing stones surrounding a central carved
+    altar stone. Ancient runes glowing faintly with green-gold light on the stones. Tall old-growth trees forming a perfect
+    circular wall around the clearing. Bioluminescent wildflowers and mushrooms dotting the grass. Moonlight streaming down
+    into the clearing. Ethereal wisps of light drifting between the stones. Atmosphere of ancient magic and nature's power,
+    mysterious and beautiful but potentially dangerous. Epic wide-angle establishing shot, dramatic atmospheric lighting,
+    highly detailed environmental textures, professional game environment art quality, volumetric lighting, atmospheric depth
+    and haze.
+  type: forest
+  is_safe: false
+  district_id: null
+  _zone: stone_ford
+- id: location_ruined_keep
+  name: Зруйнована Твердиня
+  description: Руїни давньої фортеці на узгір'ї. Мури обвалились, але нежить, що охороняє скарби, нікуди не поділась.
+  full_description: 'Зруйнована Твердиня стоїть на скелястому узгір''ї вже більше трьох сотень років. Колись це була могутня
+    прикордонна фортеця, але після великої битви її залишили напризволяще. Зараз від неї лишилися лише частини потрісканих
+    мурів, залишки розвалених веж і поросла мохом брущатка внутрішнього двору. Але не все тут мертве. Стародавня магія, що
+    просочилася в камені під час осади, пробудила нежить: скелети вартових досі несуть службу, примари колишніх лицарів блукають
+    по залах, а в підвалах, за чутками, залишились скарби останнього коменданта. Сміливці, що приходять за здобиччю, рідко
+    повертаються з порожніми руками — якщо повертаються взагалі.'
+  lore_en: 'The Ruined Keep has stood on a rocky hilltop for over three centuries, abandoned after a great battle. Cracked
+    walls, collapsed towers and moss-covered cobblestones remain. Ancient siege-magic seeps from the stones: skeleton guards
+    still walk their posts, phantom knights haunt the halls, and the last commander''s treasury reportedly lies intact in
+    the cellars below. Brave looters rarely leave empty-handed — if they leave.'
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Dramatic ruins
+    of a medieval fantasy fortress on a rocky hilltop at twilight. Shattered battlements and crumbling stone towers silhouetted
+    against a stormy purple sky. Vines and moss covering every surface. Collapsed inner gate with fallen portcullis. Eerie
+    ghostly blue light emanating from within the ruins suggesting undead presence. Storm clouds gathering overhead, lightning
+    in the distance. Scattered bones and rusted armour fragments visible on the ground. Atmosphere of gothic menace and abandoned
+    grandeur. Ravens circling the highest remaining tower. Epic wide-angle establishing shot, dramatic atmospheric lighting,
+    highly detailed environmental textures, professional game environment art quality, volumetric lighting, atmospheric depth
+    and haze.
+  type: ruins
+  is_safe: false
+  district_id: null
+  _zone: stone_ford
+- id: location_mountain_pass
+  name: Гірський Перевал
+  description: Єдиний прохід через Сірі Гори. Тут панують лютий вітер, крутосхили і банди гірських розбійників.
+  full_description: 'Гірський перевал Сірих Гір — вузька стежка між прямовисними скелями, єдиний відомий прохід через цей
+    гірський хребет. Тут завжди холодно і вітряно: вихори здіймають сніговий пил навіть влітку, а взимку перевал стає майже
+    непрохідним. Шлях вузький — двом возам не розминутися, а ліворуч зяє прірва глибиною в тисячі футів. Гірські розбійники
+    добре знають ці місця і влаштовують засідки на купецьких обозах. Є ще й небезпека кам''яних обвалів — старожили кажуть,
+    що гори «не люблять чужинців». Але для тих, хто здатен пройти цей шлях, за перевалом відкриваються нові землі і небачені
+    можливості.'
+  lore_en: The Grey Mountain Pass is a narrow trail between sheer cliffs — the only known crossing of this mountain range.
+    Always cold and windy, near-impassable in winter. The path is barely wide enough for a single cart, with a thousand-foot
+    drop to the left. Mountain brigands know these trails intimately. Rockslides are common — the locals say the mountains
+    do not like strangers. For those who endure, new lands await beyond.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A dramatic high-altitude
+    mountain pass between sheer grey cliff faces. A narrow dirt trail barely wide enough for one person carved into the mountainside.
+    A terrifying vertical drop on one side plunging into cloud. Snow-capped peaks towering above in all directions. Cold grey
+    overcast sky with wind-driven snow flurries. Ice patches and loose scree on the path. Distant silhouettes of watchtowers
+    or bandit outposts carved into the rock face. Atmosphere of harsh altitude, danger and the raw power of untamed nature.
+    Extreme perspective emphasising the height. Epic wide-angle establishing shot, dramatic atmospheric lighting, highly detailed
+    environmental textures, professional game environment art quality, volumetric lighting, atmospheric depth and haze.
+  type: mountain
+  is_safe: false
+  district_id: null
+  _zone: stone_ford
+- id: location_dark_dungeon
+  name: Темниця під Руїнами
+  description: Підземна в'язниця під Зруйнованою Твердинею. Сюди не проникає сонячне світло, зате живуть жахи глибин.
+  full_description: 'Темниця під Руїнами — лабіринт підземних коридорів і камер, прокопаних ще під час будівництва твердині
+    три сотні років тому. Тут тримали найнебезпечніших в''язнів, і кажуть, що деякі з них не пішли навіть після смерті. Камери
+    вирубані в живій скелі, стіни вкриті рунами утримання, які давно втратили силу. Коридори петляють і перехрещуються — без
+    карти заблукати тут дуже легко. У глибших ярусах живуть потвори, що не бачать сонячного світла від народження: гігантські
+    пацюки, тіньові слизні й щось значно страшніше. За чутками, в найглибшому ярусі заточена якась стародавня істота, ув''язнена
+    ще в часи першої магічної війни.'
+  lore_en: 'The Dark Dungeon is a labyrinth of underground corridors and cells carved when the keep was built three centuries
+    ago. It held the most dangerous prisoners — some of whom never truly left after death. Cells cut from living rock, walls
+    inscribed with long-faded containment runes. Easy to get lost without a map. Deeper levels host creatures born without
+    sunlight: giant rats, shadow slimes, and something far worse. The deepest tier reportedly imprisons an ancient entity
+    sealed since the first Mage War.'
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A vast underground
+    dungeon corridor stretching into darkness, wide establishing shot. Rough-hewn stone walls and low ceiling with iron torch
+    brackets holding guttering flames. Heavy iron cell doors with rusted bars lining the corridor. Ancient carved runes glowing
+    faint red on the walls — containment magic long faded. Bone fragments and old chains on the stone floor. Deep oppressive
+    shadows beyond the torchlight hiding unknown terrors. The corridor splits and curves, suggesting an endless labyrinthine
+    depth. Atmosphere of claustrophobic dread, ancient imprisonment and deep-dungeon horror. Epic wide-angle establishing
+    shot, dramatic atmospheric lighting, highly detailed environmental textures, professional game environment art quality,
+    volumetric lighting, atmospheric depth and haze.
+  type: dungeon
+  is_safe: false
+  district_id: null
+  _zone: stone_ford
+- id: location_town_gate
+  name: Міська Брама
+  district_id: district_stone_ford
+  description: Масивна кам'яна брама — вхід до Кам'яної Броді з південного тракту.
+  full_description: Дві вежі з тесаного каменю стоять по боках від воріт — їх збудували сто років тому коли місто ще боялось
+    нападів. Зараз вартові дрімають у будках, але ворота все одно зачиняють на ніч. Повз браму проходять купці, мандрівники
+    і вози з лісом — потік ніколи не вщухає вдень. За воротами починається Головна Вулиця що веде до Ринкової Площі.
+  lore_en: Two carved stone towers flank the gate — built a hundred years ago when the town still feared raids. Guards doze
+    in their booths now but gates still close at night. Merchants, travellers and timber carts flow through constantly. Beyond
+    the gate, the Main Street leads to Market Square.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A massive stone
+    town gate with two flanking towers, iron portcullis raised, guards in simple armour, busy midday foot traffic, carved
+    stone with moss.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_craftsmen_quarter
+  name: Ремісничий Квартал
+  district_id: district_stone_ford
+  description: Вулиця майстерень де цілодобово чути молоти, пили і тканські верстати.
+  full_description: Вузька брукована вулиця з рядами майстерень — ковальні, столярні, кравецькі і гончарні. Повітря тут завжди
+    пахне тирсою, розпеченим залізом і фарбою. Майстри знають один одного роками і тримаються разом — чужинців приймають насторожено
+    поки не доведуть свою корисність.
+  lore_en: A narrow cobbled street lined with workshops — smithies, carpentry, tailoring and pottery. The air always smells
+    of sawdust, hot iron and dye. Masters have known each other for years and stick together — outsiders are received warily
+    until they prove their usefulness.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A narrow medieval
+    street lined with active workshops, smoke from a smithy chimney, sawdust on cobblestones, craftsmen working in open doorways,
+    warm morning light.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_river_promenade
+  name: Набережна
+  district_id: district_stone_ford
+  description: Мощена набережна вздовж Мутниці — місце прогулянок і рибальства.
+  full_description: Кам'яна набережна тягнеться вздовж берега Мутниці — річки яка дала місту другу половину назви. Тут відпочивають
+    ремісники після робочого дня, рибалки перевіряють снасті, а торговці домовляються про доставку товарів вниз за течією.
+    Вранці тут стелиться туман і чути кряканів качок.
+  lore_en: A stone embankment running along the Muddy River — the waterway that gave the town its second name. Craftsmen rest
+    here after work, fishermen check their tackle, and traders negotiate downstream deliveries. In the morning, fog rolls
+    in and ducks are heard.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A stone riverside
+    promenade along a calm river in morning mist, fishermen at the water's edge, moored wooden boats, weeping willows, cobbled
+    path.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_noble_quarter
+  name: Шляхетський Квартал
+  district_id: district_stone_ford
+  description: Широкі вулиці і кам'яні будинки заможних мешканців та купців.
+  full_description: На північ від Ринкової Площі розташовані будинки заможних людей Кам'яної Броді — купців, колишніх вояків
+    і спадкових землевласників. Будинки тут з тесаного каменю а не дерева, вулиці ширші і чистіші. Слуги підмітають їх щоранку.
+    Городяни з Бідного Кварталу сюди без справи не ходять.
+  lore_en: North of Market Square lie the homes of Stone Ford's wealthy — merchants, former soldiers and hereditary landowners.
+    Houses here are carved stone rather than wood, streets are wider and cleaner. Servants sweep them every morning. Townsfolk
+    from the Poor Quarter don't wander here without business.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Wide clean medieval
+    street with two-story stone merchant townhouses, flower boxes in windows, a servant sweeping steps, horse-drawn carriage
+    passing.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_poor_quarter
+  name: Бідний Квартал
+  district_id: district_stone_ford
+  description: Тісні провулки де живуть наймити, поденники і ті кому не пощастило.
+  full_description: Тісні криві провулки на захід від Ринкової Площі де тулиться більша частина населення Кам'яної Броді.
+    Будинки тут дерев'яні і стоять впритул один до одного, між ними мотузки з висохлим одягом. Вночі краще не ходити без ліхтаря
+    — хоча Злодійський Провулок і далі, нічні прогулянки тут небезпечні.
+  lore_en: Narrow winding alleys west of Market Square where most of Stone Ford's population crowds. Houses here are timber
+    and packed tight together, clotheslines of drying laundry between them. At night, don't walk without a lantern — although
+    Thief's Alley is further in, night walks here are risky.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Narrow muddy
+    alley between crowded timber buildings, laundry on lines between them, a child playing in the mud, a dog sleeping by a
+    door, overcast sky.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_carpenter_workshop
+  name: Столярна Майстерня
+  district_id: district_stone_ford
+  description: Майстерня Ярослава де пахне тирсою і лаком — тут роблять меблі і бочки.
+  full_description: Просторе приміщення завалене дошками, заготовками і напівготовими виробами. Ярослав і двоє його підмайстрів
+    виготовляють меблі, двері, сходи і бочки. У куті стоїть верстат що він власноруч зібрав — найкращий інструмент в місті.
+    Продає дерев'яні вироби і приймає замовлення.
+  lore_en: A spacious workshop piled with planks, blanks and half-finished goods. Yaroslav and his two apprentices make furniture,
+    doors, stairs and barrels. A lathe he assembled himself stands in the corner — the best tool in town. Sells wooden goods
+    and takes custom orders.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a carpenter's
+    workshop, sawdust covering everything, rough wooden furniture in progress, hand tools on a peg board, morning sunlight
+    through a wide window.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_tannery
+  name: Кожум'ятня
+  district_id: district_stone_ford
+  description: Кожум'ятня Берти — тут перетворюють сировину на добру шкіру.
+  full_description: Важкий запах кожум'ятні відчувається ще за квартал — про це Берта каже без сорому. Свіжа шкура потрапляє
+    сюди з бійні і мисливців і через тижень виходить вичиненою, м'якою і готовою до роботи. Берта приймає сиру шкіру і продає
+    вичинену — а також готові шкіряні пояси і ремені.
+  lore_en: The heavy smell of the tannery reaches a block away — Berta says so without shame. Fresh hides arrive from the
+    slaughterhouse and hunters and leave a week later tanned, soft and work-ready. Berta buys raw hides and sells tanned leather
+    — as well as finished leather belts and straps.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a tannery,
+    hides stretched on wooden frames, large vats of tanning solution, a sturdy woman working with a scraping tool, earthy
+    dark tones.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_tailor_shop
+  name: Кравецька Крамниця
+  district_id: district_stone_ford
+  description: Майстерня Ліли — пошив одягу і ремонт обладунків.
+  full_description: 'Ліла шиє вже тридцять років — від простих сорочок до складних бальних суконь. Але в Кам''яній Броді більшість
+    замовлень практичні: теплі штани, плащі від дощу, підбивка для обладунків. Вона також навчає кравецтву тих хто готовий
+    вчитись. В крамниці завжди готовий одяг і матеріали.'
+  lore_en: 'Lila has been sewing for thirty years — from simple shirts to complex ballgowns. But in Stone Ford most orders
+    are practical: warm trousers, rain cloaks, armour padding. She also teaches tailoring to willing students. The shop always
+    has ready-made clothing and materials.'
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a tailor's
+    shop, bolts of fabric on shelves, a dress form with a half-finished coat, a woman at work with needle and thread by a
+    bright window.
+  type: shop
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 09:00
+        close: '18:00'
+      '1':
+        open: 09:00
+        close: '18:00'
+      '2':
+        open: 09:00
+        close: '18:00'
+      '3':
+        open: 09:00
+        close: '18:00'
+      '4':
+        open: 09:00
+        close: '18:00'
+      '5':
+        open: 09:00
+        close: '14:00'
+      '6': null
+  _zone: stone_ford
+- id: location_pottery_studio
+  name: Гончарна Майстерня
+  district_id: district_stone_ford
+  description: Майстерня гончаря Власа де обпалюють глиняний посуд і амфори.
+  full_description: Влас Горщик — прізвисько настільки влучне що справжнє ніхто вже не пам'ятає. Гончарне колесо крутиться
+    майже безперервно — він постачає посудом усі таверни і крамниці міста. В печі для обпалювання завжди спекотно. Продає
+    глиняний посуд, горщики і флакони для зілля.
+  lore_en: Vlas Potter — a nickname so apt his real name is forgotten. The potter's wheel spins almost continuously — he supplies
+    all taverns and shops in town. The kiln is always hot. Sells clay vessels, pots and potion flasks.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A potter's studio
+    with clay-covered wheel, pots drying on shelves, a glowing kiln, red clay dust on all surfaces, finished glazed pots in
+    a row.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_bakery
+  name: Пекарня
+  district_id: district_stone_ford
+  description: Пекарня Мирони — запах свіжого хліба відчутний на всю Ремісничу Вулицю.
+  full_description: Мирона прокидається о четвертій ранку щоб встигнути спекти перші паляниці до відкриття. О восьмій ранку
+    вже черга — хліб розходиться швидко. Окрім хліба продає пироги, медяники і вівсяні коржі. Є чутки що вона кладе в тісто
+    щось особливе — хліб не черствіє три дні.
+  lore_en: Myrona wakes at four in the morning to bake the first loaves before opening. By eight there's already a queue —
+    bread sells fast. Besides bread she sells pies, gingerbread and oat cakes. Rumour says she puts something special in the
+    dough — bread stays fresh for three days.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a busy
+    bakery, racks of fresh golden bread loaves, a large stone oven glowing with heat, flour dust in warm morning light, queue
+    of customers outside.
+  type: shop
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_brewery
+  name: Броварня
+  district_id: district_stone_ford
+  description: Броварня Волка де варять темне пиво і продають бочками і кружками.
+  full_description: Волко Пивовар — постачальник усіх кружок у місті. Броварня займає великий підвал під його будинком де
+    постійно бурчать великі мідні казани. Темне пиво — його гордість і секретний рецепт. Продає пиво на розлив і закупорені
+    бочки на вивіз.
+  lore_en: Volko the Brewer — supplier of every mug in town. The brewery occupies a large cellar under his house where huge
+    copper kettles constantly burble. Dark ale — his pride and secret recipe. Sells ale on tap and sealed barrels for export.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a dark
+    cellar brewery, large copper kettles, barrels stacked along stone walls, steam rising, malty sweet smell implied by the
+    amber-lit interior.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_chandler_shop
+  name: Свічкарня
+  district_id: district_stone_ford
+  description: Крамниця Ірми — свічки воскові і сальні, ліхтарі і смоляні факели.
+  full_description: Ірма виготовляє найкращі свічки в окрузі — виключно з бджолиного воску, не з сала. Це дорожче але вони
+    горять рівніше і без диму. Також продає ліхтарі, масло для них і смоляні факели для підземель. Незамінна зупинка для авантюристів
+    перед виходом у ніч.
+  lore_en: Irma makes the best candles in the district — exclusively from beeswax, not tallow. More expensive but they burn
+    evenly and without smoke. Also sells lanterns, lamp oil and pitch torches for dungeons. An essential stop for adventurers
+    heading out at night.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a chandler's
+    shop, rows of pale beeswax candles of various sizes, hanging bundles of rushes, lanterns on shelves, warm golden candlelight
+    filling the space.
+  type: shop
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 09:00
+        close: '18:00'
+      '1':
+        open: 09:00
+        close: '18:00'
+      '2':
+        open: 09:00
+        close: '18:00'
+      '3':
+        open: 09:00
+        close: '18:00'
+      '4':
+        open: 09:00
+        close: '18:00'
+      '5':
+        open: 09:00
+        close: '14:00'
+      '6': null
+  _zone: stone_ford
+- id: location_jeweler_workshop
+  name: Ювелірна Майстерня
+  district_id: district_stone_ford
+  description: Майстерня ювеліра Саффіро — кільця, намиста і магічні прикраси.
+  full_description: Маленька але надзвичайно охайна майстерня де Саффіро Ді Торрі — вихідець з далекого півдня — виготовляє
+    ювелірні прикраси. Він навчився своєму ремеслу у місті де ювелірство є мистецтвом. Деякі його вироби мають магічні властивості
+    — він не пояснює як.
+  lore_en: A small but immaculate workshop where Saffiro Di Torri — a man from the distant south — crafts jewellery. He learned
+    his trade in a city where jewellery is high art. Some of his pieces have magical properties — he doesn't explain how.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A tiny jeweler's
+    workshop, magnifying glass on a velvet-covered workbench, gleaming rings and necklaces in a glass case, fine tools, candlelit
+    precision work.
+  type: shop
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 09:00
+        close: '18:00'
+      '1':
+        open: 09:00
+        close: '18:00'
+      '2':
+        open: 09:00
+        close: '18:00'
+      '3':
+        open: 09:00
+        close: '18:00'
+      '4':
+        open: 09:00
+        close: '18:00'
+      '5':
+        open: 09:00
+        close: '14:00'
+      '6': null
+  _zone: stone_ford
+- id: location_temple_of_light
+  name: Храм Світла
+  district_id: district_stone_ford
+  description: Кам'яний храм присвячений Богу Світла — місце зцілення і спокою.
+  full_description: Найстарша будівля Кам'яної Броді — храм що стоїть тут ще до того як місто мало свою назву. Всередині завжди
+    горять свічки і пахне ладаном і воском. Жрець Ерік проводить обряди і зцілює поранених. Двері храму відкриті для всіх
+    — і бідних і знатних.
+  lore_en: The oldest building in Stone Ford — a temple standing here before the town had its name. Candles always burn inside
+    and it smells of incense and wax. Priest Erik performs rites and heals the wounded. The temple doors are open to all —
+    poor and noble alike.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a stone
+    temple, tall candles on iron stands, light streaming through narrow windows, mosaic floor with sun motifs, a robed priest
+    at the altar.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 06:00
+        close: '21:00'
+      '1':
+        open: 06:00
+        close: '21:00'
+      '2':
+        open: 06:00
+        close: '21:00'
+      '3':
+        open: 06:00
+        close: '21:00'
+      '4':
+        open: 06:00
+        close: '21:00'
+      '5':
+        open: 06:00
+        close: '21:00'
+      '6':
+        open: 06:00
+        close: '21:00'
+  _zone: stone_ford
+- id: location_mage_tower
+  name: Башта Мага
+  district_id: district_stone_ford
+  description: Висока кам'яна вежа де живе чаклун Вандорак — продає зілля і свої послуги.
+  full_description: Башта з темного каменю що стоїть на невеликому пагорбі в Шляхетському Кварталі. Вандорак живе тут вже
+    двадцять років і ніхто не пам'ятає звідки він. Продає магічні свитки, кристали і зілля. Також навчає базових бойових заклять
+    тих хто може заплатити його ціну. На вершині вежі, кажуть, горить вічне синє полум'я.
+  lore_en: A dark stone tower on a small hill in the Noble Quarter. Vandorak has lived here twenty years and no one remembers
+    where he came from. Sells magical scrolls, crystals and potions. Also teaches basic battle spells to those who can pay
+    his price. On top of the tower, they say, an eternal blue flame burns.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A dark stone
+    mage tower on a hill, narrow windows glowing blue-white, arcane symbols carved into the doorframe, lightning-rod-like
+    spire at the top, mysterious atmosphere.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 09:00
+        close: '18:00'
+      '1':
+        open: 09:00
+        close: '18:00'
+      '2':
+        open: 09:00
+        close: '18:00'
+      '3':
+        open: 09:00
+        close: '18:00'
+      '4':
+        open: 09:00
+        close: '18:00'
+      '5':
+        open: 09:00
+        close: '14:00'
+      '6': null
+  _zone: stone_ford
+- id: location_herbalist_garden
+  name: Сад Травниці
+  district_id: district_stone_ford
+  description: Огороджений сад Зінії де ростуть сотні видів лікарських рослин.
+  full_description: Зінія доглядає цей сад тридцять років — тут ростуть рослини з усього краю і навіть кілька екзотичних з
+    півдня. Між грядками є невеликий дерев'яний стіл де вона прийомає відвідувачів. Продає свіжі і сухі трави, навчає Травництву
+    і дає поради щодо зілля.
+  lore_en: Zinia has tended this garden for thirty years — it contains plants from across the region and even a few exotic
+    ones from the south. A small wooden table between the beds is where she receives visitors. Sells fresh and dried herbs,
+    teaches Herbalism and gives advice on potions.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A walled garden
+    with raised herb beds, medicinal plants in various stages of growth, morning dew on leaves, stone paths between beds,
+    an old wooden bench.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_oracle_chamber
+  name: Кімната Оракула
+  district_id: district_stone_ford
+  description: Таємна кімната в підвалі Храму де живе давній оракул.
+  full_description: Дорога вниз веде через вузькі кам'яні сходи під Храм Світла. Там у постійному напівтемряві живе Старий
+    Орен — оракул чиє походження Жрець Ерік не розкриває. Орен говорить рідко і загадково але його пророцтва завжди збуваються.
+    Деякі кажуть що він уже не зовсім живий.
+  lore_en: The way down leads through narrow stone stairs beneath the Temple of Light. There in permanent half-darkness lives
+    Old Oren — an oracle whose origins Priest Erik never reveals. Oren speaks rarely and cryptically but his prophecies always
+    come true. Some say he is no longer entirely alive.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A stone underground
+    chamber, a single torch casting orange shadows, an ancient robed figure seated before a glowing obsidian mirror, cold
+    mystical atmosphere.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 06:00
+        close: '21:00'
+      '1':
+        open: 06:00
+        close: '21:00'
+      '2':
+        open: 06:00
+        close: '21:00'
+      '3':
+        open: 06:00
+        close: '21:00'
+      '4':
+        open: 06:00
+        close: '21:00'
+      '5':
+        open: 06:00
+        close: '21:00'
+      '6':
+        open: 06:00
+        close: '21:00'
+  _zone: stone_ford
+- id: location_stone_bridge
+  name: Кам'яний Міст
+  district_id: district_stone_ford
+  description: Старий кам'яний міст через Мутницю — вузький але надійний.
+  full_description: Міст збудований ще до заснування міста і дав йому частину назви. Вузький — два вози не роз'їдуться — але
+    витримує будь-яке навантаження. Під ним завжди чутна течія Мутниці. З мосту відкривається гарний вид на мельницю і набережну.
+  lore_en: The bridge was built before the town was founded and gave it part of its name. Narrow — two carts can't pass —
+    but bears any load. The Muddy River can always be heard flowing beneath. From the bridge there's a nice view of the mill
+    and embankment.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. An ancient stone
+    arch bridge over a calm river, worn stones with green moss and lichen, the town visible beyond, reflections in the slow
+    water below.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_riverside_dock
+  name: Пристань
+  district_id: district_stone_ford
+  description: Маленька річкова пристань де можна найняти паром Гаврика.
+  full_description: Декілька дерев'яних помостів і дві лодки — от і вся пристань. Але Гаврик Паромник знає кожен поріг на
+    Мутниці і може доставити вас в будь-яке місто що стоїть на річці. Також відмінне місце для рибалки — окуні тут великі.
+  lore_en: A few wooden piers and two boats — that's the whole dock. But Havryk the Ferryman knows every rapid on the Muddy
+    River and can take you to any town that stands on the river. Also an excellent fishing spot — the perch here are large.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A small wooden
+    river dock, two flat-bottomed boats tied to worn posts, morning mist on the water, a weathered ferryman coiling rope,
+    willow trees on the bank.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_mill
+  name: Млин
+  district_id: district_stone_ford
+  description: Водяний млин Степана на Мутниці — мелять зерно і продають борошно.
+  full_description: Млин стоїть на виступі берега де течія найшвидша — колесо крутиться майже цілодобово. Степан Мельник мелить
+    зерно для всього міста і навколишніх сіл. Продає борошно, крупу і висівки. Каже що найкращі окуні ловляться в тихій заводі
+    прямо під колесом.
+  lore_en: The mill stands on a bank spur where the current is fastest — the wheel turns almost round the clock. Miller Stepan
+    grinds grain for the whole town and surrounding villages. Sells flour, groats and bran. Claims the best perch are caught
+    in the quiet pool right under the wheel.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A timber watermill
+    on a riverbank, large wooden wheel turning in rushing water, flour dust drifting from the open door, sacks stacked outside.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_town_hall
+  name: Міська Ратуша
+  district_id: district_stone_ford
+  description: Офіційна будівля міської влади — тут вирішуються справи і виконуються закони.
+  full_description: Найімпозантніша будівля міста з колонами і гербом Кам'яної Броді над входом. Воєвода Борис Желязко щодня
+    приймає скарги, підписує дозволи і вирішує суперечки. У боковому залі висить дошка оголошень де можна знайти завдання
+    від міської влади і оголошення про нагороди.
+  lore_en: The most imposing building in town with columns and Stone Ford's coat of arms above the entrance. Voivode Boris
+    Zhelyazko receives complaints, signs permits and settles disputes daily. In a side hall a notice board displays tasks
+    from the city authority and reward announcements.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A stone town
+    hall with classical columns, heraldic crest above arched doorway, official guards in better armour, clean stone steps,
+    flags on the walls.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 08:00
+        close: '17:00'
+      '1':
+        open: 08:00
+        close: '17:00'
+      '2':
+        open: 08:00
+        close: '17:00'
+      '3':
+        open: 08:00
+        close: '17:00'
+      '4':
+        open: 08:00
+        close: '17:00'
+      '5': null
+      '6': null
+  _zone: stone_ford
+- id: location_guard_barracks
+  name: Казарми Варти
+  district_id: district_stone_ford
+  description: Казарми міської варти — тут живуть і тренуються вартові.
+  full_description: Довга кам'яна будівля де мешкають і тренуються бійці міської варти. Тренувальний двір завжди зайнятий
+    — вартові відпрацьовують фехтування і стрільбу з цибулі. Капітан Варти Марко Ковач навчає бойових навичок добровольців
+    що готові захищати місто.
+  lore_en: A long stone building where city watch fighters live and train. The training yard is always occupied — guards practise
+    swordsmanship and archery. Watch Captain Marko Kovach teaches combat skills to volunteers willing to defend the city.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A military barracks
+    courtyard, guards sparring with wooden swords, archery targets along one wall, racks of spears and shields, disciplined
+    atmosphere.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_prison_tower
+  name: Вежа-Тюрма
+  district_id: district_stone_ford
+  description: Похмура кам'яна вежа де тримають злочинців і чекають вироку.
+  full_description: Товсті стіни без вікон, важка залізна брама і завжди два вартові при вході. Вежа стоїть окремо від інших
+    будівель — щоб крики не заважали городянам. Злочинці чекають тут вироку судді або поки хтось заплатить їх викуп. Всередині
+    темно, вогко і завжди смердить.
+  lore_en: Thick walls without windows, a heavy iron gate and always two guards posted at the entrance. The tower stands apart
+    from other buildings — so screams don't disturb townsfolk. Criminals wait here for the judge's verdict or until someone
+    pays their ransom. Inside it's dark, damp and always stinks.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A grim isolated
+    stone prison tower, no windows except arrow slits at the top, iron-barred gate, two bored guards, ravens circling overhead.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 08:00
+        close: '17:00'
+      '1':
+        open: 08:00
+        close: '17:00'
+      '2':
+        open: 08:00
+        close: '17:00'
+      '3':
+        open: 08:00
+        close: '17:00'
+      '4':
+        open: 08:00
+        close: '17:00'
+      '5': null
+      '6': null
+  _zone: stone_ford
+- id: location_judge_court
+  name: Судова Зала
+  district_id: district_stone_ford
+  description: Зала де суддя Олена Нечипоренко веде справи і виносить вироки.
+  full_description: Суворе кам'яне приміщення з рядами лавок для свідків і огородженим місцем для звинувачених. Суддя Олена
+    відома своєю неупередженістю — і бідний і шляхтич отримують рівне поводження. Засідання раз на тиждень якщо немає термінових
+    справ.
+  lore_en: A stern stone room with rows of witness benches and a fenced dock for the accused. Judge Olena is known for impartiality
+    — commoner and nobleman receive equal treatment. Sessions are weekly unless urgent cases arise.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A stone courtroom,
+    raised judge's bench with official seals, witness benches, a stern woman judge in formal robes, afternoon light through
+    high windows.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 08:00
+        close: '17:00'
+      '1':
+        open: 08:00
+        close: '17:00'
+      '2':
+        open: 08:00
+        close: '17:00'
+      '3':
+        open: 08:00
+        close: '17:00'
+      '4':
+        open: 08:00
+        close: '17:00'
+      '5': null
+      '6': null
+  _zone: stone_ford
+- id: location_arena
+  name: Бойова Арена
+  district_id: district_stone_ford
+  description: Невелика арена для тренувальних боїв і турнірів — вхід платний.
+  full_description: Дерев'яна арена з місцями для глядачів — вміщує до трьохсот чоловік. Щотижня проводяться турніри і тренувальні
+    бої за призи. Розпорядник Кузьма Бич пропонує учасникам гроші і слободу — переможці стають відомими в місті.
+  lore_en: A timber arena with spectator stands — holds up to three hundred people. Weekly tournaments and training bouts
+    for prizes. Event manager Kuzma Bych offers fighters money and fame — winners become known across town.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A circular timber
+    arena, tiered wooden spectator stands half-filled, sand fighting floor, two combatants circling each other, a cheering
+    crowd, afternoon light.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_bathhouse
+  name: Лазня
+  district_id: district_stone_ford
+  description: Громадська лазня де можна відмитись і відпочити після походу.
+  full_description: Дерев'яна будівля з двома залами — чоловічим і жіночим. Всередині завжди гаряче і туманно, з запахом берези
+    і поту. Єдине місце де міський начальник і простий дроворуб можуть сидіти поруч. Відновлює здоров'я і знімає негативні
+    ефекти.
+  lore_en: A timber building with two halls — men's and women's. Inside it's always hot and steamy, smelling of birch and
+    sweat. The only place where the town chief and a simple woodcutter sit side by side. Restores health and removes negative
+    status effects.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a wooden
+    bathhouse, steam filling the air, birch branches on benches, orange-lit through the steam, towels hanging from pegs, peaceful
+    restorative atmosphere.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_library
+  name: Бібліотека
+  district_id: district_stone_ford
+  description: Невелика міська бібліотека — книги, свитки і архіви міста.
+  full_description: Бібліотекар Маріам — єдина в місті хто вміє читати по-давньому. Тут зберігаються хроніки міста, карти
+    навколишніх земель і кілька магічних свитків що вона зберігає під замком. Відвідувачі можуть читати безкоштовно але виносити
+    книги — ні.
+  lore_en: Librarian Mariam is the only one in town who can read the ancient tongue. The library holds city chronicles, maps
+    of surrounding lands and several magical scrolls she keeps under lock and key. Visitors may read for free but may not
+    take books out.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A quiet stone
+    library room, wooden shelves packed with leather-bound tomes and scrolls, a scholar reading at a desk by a window, dust
+    motes in afternoon light.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 09:00
+        close: '18:00'
+      '1':
+        open: 09:00
+        close: '18:00'
+      '2':
+        open: 09:00
+        close: '18:00'
+      '3':
+        open: 09:00
+        close: '18:00'
+      '4':
+        open: 09:00
+        close: '18:00'
+      '5':
+        open: 09:00
+        close: '14:00'
+      '6': null
+  _zone: stone_ford
+- id: location_iron_pot_tavern
+  name: Таверна «Залізний Горщик»
+  district_id: district_stone_ford
+  description: Проста таверна в Ремісничому Кварталі — дешева їжа і місцеве пиво.
+  full_description: Таверна Кузьми Бича в серці Ремісничого Кварталу — суворе місце для робочих людей. Тут не подають вино
+    і не грають музиканти але гуляш завжди гарячий а пиво завжди холодне. Майстри збираються тут після роботи — тут укладаються
+    угоди і розповідаються новини.
+  lore_en: Kuzma Bych's tavern in the heart of the Craftsmen Quarter — a no-nonsense place for working people. No wine is
+    served and no musicians play but the goulash is always hot and the ale always cold. Masters gather here after work — deals
+    are made and news is shared.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside a simple
+    craftsmen's tavern, rough wooden tables and benches, a large iron pot over the fire, working men drinking ale, smoky and
+    warm interior.
+  type: inn
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: '10:00'
+        close: 02:00
+      '1':
+        open: '10:00'
+        close: 02:00
+      '2':
+        open: '10:00'
+        close: 02:00
+      '3':
+        open: '10:00'
+        close: 02:00
+      '4':
+        open: '10:00'
+        close: 02:00
+      '5':
+        open: '10:00'
+        close: 03:00
+      '6':
+        open: '10:00'
+        close: 03:00
+  _zone: stone_ford
+- id: location_wine_cellar
+  name: Винний Льох
+  district_id: district_stone_ford
+  description: Елегантне підвальне заклад у Шляхетському Кварталі — вина і делікатеси.
+  full_description: Підвал під будинком Саффіро Ді Торрі де зберігаються бочки дорогого вина. Він облаштував тут невелику
+    залу для избраних гостей — тут стоять зручні крісла і завжди тихо. Продає вино з усього краю і рідкісні закуски.
+  lore_en: A cellar beneath Saffiro Di Torri's house where barrels of fine wine are stored. He fitted out a small room for
+    select guests — comfortable chairs and always quiet. Sells wine from across the region and rare delicacies.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A refined stone
+    wine cellar, arched brick ceiling, wine barrels along the walls, a small table set with glasses and candles, atmospheric
+    and exclusive.
+  type: inn
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: '10:00'
+        close: 02:00
+      '1':
+        open: '10:00'
+        close: 02:00
+      '2':
+        open: '10:00'
+        close: 02:00
+      '3':
+        open: '10:00'
+        close: 02:00
+      '4':
+        open: '10:00'
+        close: 02:00
+      '5':
+        open: '10:00'
+        close: 03:00
+      '6':
+        open: '10:00'
+        close: 03:00
+  _zone: stone_ford
+- id: location_general_store
+  name: Крамниця «Все для Всіх»
+  district_id: district_stone_ford
+  description: 'Крамниця Тараса де продається будь-що: від голок до мотузок.'
+  full_description: 'Тарас Мороз — купець без спеціалізації. У його крамниці є все що потрібно для виживання і побуту: мотузки,
+    свічки, інструменти, консерви, мішки, і ще сотня дрібниць. Ціни середні, асортимент непередбачуваний але майже завжди
+    щось потрібне знайдеться.'
+  lore_en: 'Taras Moroz — a merchant without a specialty. His store has everything needed for survival and daily life: ropes,
+    candles, tools, preserved food, sacks and a hundred other odds and ends. Prices are average, stock is unpredictable but
+    almost always something useful.'
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A general store
+    crammed with goods, shelves overflowing with tools, ropes, sacks and barrels, a middle-aged merchant behind a cluttered
+    wooden counter.
+  type: shop
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 09:00
+        close: '18:00'
+      '1':
+        open: 09:00
+        close: '18:00'
+      '2':
+        open: 09:00
+        close: '18:00'
+      '3':
+        open: 09:00
+        close: '18:00'
+      '4':
+        open: 09:00
+        close: '18:00'
+      '5':
+        open: 09:00
+        close: '14:00'
+      '6': null
+  _zone: stone_ford
+- id: location_apothecary
+  name: Аптека
+  district_id: district_stone_ford
+  description: Аптека Зінії де продаються трави, зілля і медичні приналежності.
+  full_description: Це не просто крамниця — Зінія приймає хворих і надає першу допомогу. На полицях сотні склянок і пакетиків
+    з травами, порошками і рідинами. Продає лікувальні трави, зілля здоров'я і витривалості, а також навчає Травництву охочих.
+  lore_en: More than a shop — Zinia receives the sick and provides first aid. Hundreds of jars and packets of herbs, powders
+    and liquids line the shelves. Sells healing herbs, health and stamina potions, and teaches Herbalism to the willing.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Inside an apothecary,
+    shelves of glass jars filled with dried herbs and coloured liquids, mortar and pestle on the counter, bundles of herbs
+    hanging from the ceiling.
+  type: shop
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 09:00
+        close: '18:00'
+      '1':
+        open: 09:00
+        close: '18:00'
+      '2':
+        open: 09:00
+        close: '18:00'
+      '3':
+        open: 09:00
+        close: '18:00'
+      '4':
+        open: 09:00
+        close: '18:00'
+      '5':
+        open: 09:00
+        close: '14:00'
+      '6': null
+  _zone: stone_ford
+- id: location_thieves_alley
+  name: Злодійський Провулок
+  district_id: district_stone_ford
+  description: Темний провулок де проводять час ті хто уникає варти.
+  full_description: Офіційно цей провулок називається Вуличкою Коваля — але всі знають його справжнє ім'я. Варта сюди заходить
+    лише вдвох. Тут можна знайти відмичку, інформацію яку не продадуть на ринку або найняти людину для справ які не терплять
+    голосних питань.
+  lore_en: Officially this alley is called Smith's Lane — but everyone knows its real name. The watch only enters in pairs.
+    Here you can find lockpicks, information not sold at market, or hire someone for business that tolerates no loud questions.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A dark narrow
+    alley between old timber buildings, a single lantern casting orange shadows, a cloaked figure leaning against the wall,
+    rats and refuse below.
+  type: outdoor
+  is_safe: false
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_sewer_entrance
+  name: Вхід у Каналізацію
+  district_id: district_stone_ford
+  description: Чавунна решітка що веде в систему підземних каналів під містом.
+  full_description: Решітка схована в затінку за пекарнею — мало хто звертає увагу. Унизу — лабіринт вузьких тунелів, брудна
+    вода і темрява. Кажуть що деякі злодії живуть там роками. А в найглибшій частині, куди ніхто не ходить, завелась якась
+    нечисть.
+  lore_en: The grate is hidden in shadow behind the bakery — few notice it. Below — a labyrinth of narrow tunnels, dirty water
+    and darkness. They say some thieves have lived there for years. And in the deepest part where no one goes, something unpleasant
+    has taken up residence.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A dark iron grate
+    entrance to underground sewers, foul water visible below, torch-lit stone arch, slick moss-covered walls, foreboding descent.
+  type: dungeon
+  is_safe: false
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_smuggler_hideout
+  name: Схованка Контрабандистів
+  district_id: district_stone_ford
+  description: Підвал під занедбаним складом де зберігають незаконний товар.
+  full_description: З вулиці нічого не видно — звичайний занедбаний склад. Але під ним — простора схованка де Кримінальний
+    Клан Кам'яної Броді зберігає товар і проводить збори. Вхід тільки для своїх. Якщо вам сюди дозволили зайти — у вас є зв'язки
+    або борг.
+  lore_en: From the street there's nothing to see — just an ordinary abandoned warehouse. But below — a spacious hideout where
+    Stone Ford's Criminal Clan stores goods and holds meetings. Entry for members only. If you were allowed in — you have
+    connections or a debt.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A secret underground
+    smuggler's hideout, crates and barrels marked with coded symbols, a single lantern, rough men around a table with maps,
+    tense atmosphere.
+  type: indoor
+  is_safe: false
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_residential_east
+  name: Східні Житлові Квартали
+  district_id: district_stone_ford
+  description: Тихі вулиці з одноповерховими будинками — тут живуть прості сім'ї.
+  full_description: На схід від Ринкової Площі розкинулися рівні вулиці де стоять невеликі дерев'яні будинки — по одному на
+    родину. Городи позаду будинків, курятники і дерев'яні хатки. Вранці тут пахне кашею і свіжими дровами.
+  lore_en: East of Market Square lie orderly streets of small timber homes — one per family. Kitchen gardens behind houses,
+    chicken coops and woodsheds. In the morning the air smells of porridge and fresh firewood.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A quiet residential
+    street of small one-story timber houses, garden plots behind, morning smoke from chimneys, a child playing, domestic and
+    peaceful.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_residential_west
+  name: Західні Житлові Квартали
+  district_id: district_stone_ford
+  description: Густо заселені вулиці на захід від центру — близько до лісу.
+  full_description: Тут вулиці йдуть ближче до лісу — деякі будинки стоять прямо на межі де дерева починаються. Люди тут трохи
+    суворіші і обережніші ніж у решті міста. Рясні городи і комори з заготовками на зиму.
+  lore_en: Streets here run closer to the forest — some houses stand right at the treeline. People here are a bit sterner
+    and more cautious than the rest of town. Abundant kitchen gardens and winter stores.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. Timber houses
+    with the dense taiga forest looming close behind, a watchtower visible, garden plots and root cellars, residents going
+    about morning routines.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_abandoned_house
+  name: Занедбаний Будинок
+  district_id: district_stone_ford
+  description: Старий будинок що стоїть порожнім вже кілька років — темні чутки.
+  full_description: Будинок колись належав купцю що зник три роки тому. Сусіди кажуть що вночі звідти чути звуки і бачать
+    тьмяне світло у вікнах. Варта перевіряла — нічого не знайшли. Але дехто в місті знає більше ніж каже.
+  lore_en: The house once belonged to a merchant who disappeared three years ago. Neighbours say they hear sounds at night
+    and see dim light in the windows. The watch checked — found nothing. But some in town know more than they say.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A derelict timber
+    house with boarded windows, overgrown garden, one shutter banging in the wind, yellow light flickering through a crack,
+    unsettling atmosphere.
+  type: indoor
+  is_safe: false
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_orphanage
+  name: Притулок для Сиріт
+  district_id: district_stone_ford
+  description: Невеликий притулок де жрець Ерік опікується дітьми без батьків.
+  full_description: Маленький але чистий будинок поруч з Храмом де живуть вісім сиріт під наглядом сестри Агати. Жрець Ерік
+    фінансує притулок з пожертвувань. Дітей навчають грамоті і ремеслу — за кілька років хтось може стати підмайстром у місцевих
+    майстрів.
+  lore_en: A small but clean house next to the Temple where eight orphans live under Sister Agata's care. Priest Erik funds
+    the shelter from donations. Children are taught literacy and a craft — in a few years some may become apprentices to local
+    masters.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A modest clean
+    stone building next to a temple, children playing in a small courtyard, a robed woman supervising, flower beds around
+    the entrance, peaceful.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_sawmill
+  name: Лісопилка
+  district_id: district_stone_ford
+  description: Лісопилка на краю міста — тут перетворюють колоди на дошки.
+  full_description: На межі міста і лісу стоїть великий навіс де кілька пар робітників розпилюють колоди на дошки. Шум пил
+    не вщухає від світанку до смерку. Тут продають дерев'яні матеріали і купують дрова. Також тут можна знайти роботу якщо
+    потрібні гроші.
+  lore_en: On the edge of town and forest stands a large covered shed where several teams of workers saw logs into planks.
+    The sound of saws doesn't stop from dawn to dusk. Sells lumber and buys firewood. Also a place to find work if money is
+    needed.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. An open-sided
+    sawmill shed on the forest edge, large two-man saws working through logs, sawdust piles, rough workers, a cart loaded
+    with fresh planks.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_hunter_lodge
+  name: Мисливська Хата
+  district_id: district_stone_ford
+  description: Мисливський будинок на краю лісу — мисливці збираються тут до виходу.
+  full_description: Дерев'яна хата з великим двором де мисливці збираються перед виходом у ліс і повертаються з дичиною. Мисливець
+    Ростислав Вовчак тримає тут зброю і навчає Стрільбі і обробці дичини. Також виплачує нагороди за небезпечних звірів що
+    тривожать ліс.
+  lore_en: A timber lodge with a large yard where hunters gather before heading into the forest and return with game. Hunter
+    Rostyslav Vovchak keeps weapons here and teaches Archery and game dressing. Also pays bounties for dangerous animals disturbing
+    the forest.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A sturdy timber
+    hunting lodge at the forest edge, animal pelts hanging by the door, hunters gathering with bows and spears, forest looming
+    dark behind.
+  type: indoor
+  is_safe: true
+  open_hours:
+    mode: schedule
+    weekly:
+      '0':
+        open: 07:00
+        close: '20:00'
+      '1':
+        open: 07:00
+        close: '20:00'
+      '2':
+        open: 07:00
+        close: '20:00'
+      '3':
+        open: 07:00
+        close: '20:00'
+      '4':
+        open: 07:00
+        close: '20:00'
+      '5':
+        open: 07:00
+        close: '20:00'
+      '6':
+        open: 08:00
+        close: '17:00'
+  _zone: stone_ford
+- id: location_gallows_hill
+  name: Горб Шибениці
+  district_id: district_stone_ford
+  description: Похмурий пагорб на краю міста з шибеницею — тут виконують вироки.
+  full_description: Пагорб видно з більшості вулиць міста — так і задумано. Стара дубова шибениця стоїть тут вже десятки років.
+    Городяни сюди не ходять без потреби — кажуть що вночі тут неспокійно і можна почути кроки у темряві.
+  lore_en: The hill is visible from most streets in town — that's intentional. The old oak gallows has stood here for decades.
+    Townsfolk don't come here without reason — they say it's restless at night and you can hear footsteps in the darkness.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. A bleak hilltop
+    with an ancient oak gallows against a stormy sky, ravens perched on the crossbeam, the town visible below, oppressive
+    and foreboding.
+  type: outdoor
+  is_safe: false
+  open_hours:
+    mode: always
+  _zone: stone_ford
+- id: location_old_watchtower
+  name: Стара Сторожова Вежа
+  district_id: district_stone_ford
+  description: Стара вежа на північ від міста — звідси видно ліс на кілометри вперед.
+  full_description: Вежу збудували ще до міста — тоді тут стояли тільки вартові. Зараз вона офіційно занедбана але міцна.
+    З вершини відкривається панорама темного лісу і гір вдалині. Деякі мандрівники кажуть що бачили звідти дивні вогні в нетрях.
+  lore_en: The tower was built before the town — back when only sentries stood here. It's officially abandoned now but still
+    solid. From the top there's a panoramic view of the dark forest and mountains beyond. Some travellers say they've seen
+    strange lights in the thickets from up there.
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy MMORPG environment concept art. An ancient stone
+    watchtower on a rocky outcrop north of town, the dark taiga forest stretching to the horizon, a lone figure climbing the
+    worn stone steps.
+  type: outdoor
+  is_safe: true
+  open_hours:
+    mode: always
+  _zone: stone_ford

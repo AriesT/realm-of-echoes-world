@@ -1,0 +1,1393 @@
+- id: item_short_sword
+  name: Короткий меч
+  description: Надійний прямий клинок для ближнього бою.
+  full_description: Короткий меч — стандартне озброєння вартових і солдатів по всьому краю. Кований із добротного заліза,
+    він не такий довгий як лицарський меч, але значно зручніший у вузьких коридорах і тісних сутичках. Леза заточені з обох
+    боків, руків'я обмотане міцною шкірою.
+  lore_en: A short straight blade, standard issue for guards and soldiers across the region. Forged from good iron, shorter
+    than a knight's sword but far more practical in tight spaces. Double-edged, leather-wrapped hilt.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A short straight iron sword
+    with double edge, leather-wrapped grip, plain iron crossguard. Clean and functional, slight notches from use.
+  type: weapon
+  subtype: one_handed
+  rarity: common
+  stats:
+    attack: 7
+  effects: null
+  equip_slot: mainhand
+  sell_price: 90
+  weight: 1.5
+  stackable: false
+  max_stack: 1
+- id: item_hunting_knife
+  name: Мисливський ніж
+  description: Гострий ніж для полювання і виживання в лісі.
+  full_description: Цей ніж виготовлений майстром для мисливців Темного Лісу. Широке вигнуте лезо ідеально підходить для обробки
+    туші і різки шкури, але при потребі стане смертоносною зброєю. Руків'я вирізане з оленячого рогу, що не ковзає навіть
+    у вологих руках.
+  lore_en: Crafted for hunters of the Dark Forest. Wide curved blade ideal for dressing game and cutting hides, but deadly
+    in a fight. Handle carved from deer antler for a non-slip grip even in wet conditions.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A hunting knife with wide
+    curved blade, antler handle, leather sheath beside it. Earthy tones, dew drops on the blade.
+  type: weapon
+  subtype: dagger
+  rarity: common
+  stats:
+    attack: 6
+    crit: 0.08
+  effects: null
+  equip_slot: mainhand
+  sell_price: 60
+  weight: 0.8
+  stackable: false
+  max_stack: 1
+- id: item_hand_axe
+  name: Рубаний топір
+  description: Важкий однорукий топір — зброя лісорубів і ополченців.
+  full_description: Топір важкий, грубо кований — такий самий, яким лісоруби рубають дерева вранці і захищають свій табір
+    вночі. Сталеве лезо насаджене на товсте ясеневе держак. Не відрізняється витонченістю, але один удар ним може зупинити
+    навіть великого звіра.
+  lore_en: A heavy one-handed axe — used by woodcutters by day and militia at night. Steel blade on an ash haft. Lacks elegance
+    but one blow can stop a large beast.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A heavy one-handed wood
+    axe with broad steel head, thick ash handle, blade showing heavy use marks and rough sharpening.
+  type: weapon
+  subtype: one_handed
+  rarity: common
+  stats:
+    attack: 9
+    crit: 0.03
+  effects: null
+  equip_slot: mainhand
+  sell_price: 110
+  weight: 2.2
+  stackable: false
+  max_stack: 1
+- id: item_spear
+  name: Бойовий Спис
+  description: Довге древко зі сталевим вістрям — класична зброя піхоти.
+  full_description: Спис — зброя, яка пройшла крізь сотні битв і залишилась незмінною. Сталеве вістря на міцному ясеневому
+    держаку дозволяє тримати ворога на відстані. Особливо ефективний проти кінноти і великих звірів — вовки і кабани не можуть
+    наблизитись раніше ніж відчують сталь.
+  lore_en: A weapon unchanged through hundreds of battles. Steel tip on a sturdy ash shaft keeps enemies at distance. Especially
+    effective against cavalry and large beasts.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A battle spear with a leaf-shaped
+    steel tip, long ash shaft wrapped with leather at grip points, iron ferrule at the base.
+  type: weapon
+  subtype: two_handed
+  rarity: common
+  stats:
+    attack: 10
+  effects: null
+  equip_slot: both_hands
+  sell_price: 130
+  weight: 2.8
+  stackable: false
+  max_stack: 1
+- id: item_crossbow
+  name: Арбалет
+  description: Механічний лук — точна зброя для тих хто терпеливий.
+  full_description: Арбалет складніший у виробництві ніж звичайний лук, але не потребує місяців тренувань щоб стріляти прицільно.
+    Дубовий приклад, сталеве плечо, важільний механізм взведення. Стріла летить далеко і пробиває звичайну шкіряну броню.
+  lore_en: More complex than a longbow but requires no months of training to shoot accurately. Oak stock, steel prod, lever-cocking
+    mechanism. Bolts fly far and pierce leather armor.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A medieval crossbow with
+    oak stock, steel prod, visible cocking lever, ornate trigger mechanism. Bundled bolts beside it.
+  type: weapon
+  subtype: bow
+  rarity: uncommon
+  stats:
+    attack: 11
+    crit: 0.06
+  effects: null
+  equip_slot: both_hands
+  sell_price: 280
+  weight: 3.0
+  stackable: false
+  max_stack: 1
+- id: item_mage_quarterstaff
+  name: Посох Чаклуна
+  description: Посилений деревний посох з вкрапленим кристалом мани.
+  full_description: Посох виготовлений з древнього дерева що росте лише в місцях концентрації магічної енергії. На верхівці
+    вправлено необроблений кристал синьої мани — він не просто прикраса, але резонатор що підсилює заклинання. В умілих руках
+    мага цей посох здатен спрямовувати силу розрядів значно ефективніше.
+  lore_en: Crafted from ancient wood grown only near concentrations of magical energy. A raw blue mana crystal set at the
+    tip acts as a resonator amplifying spells. In skilled mage hands channels magical energy far more efficiently.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A wizard quarterstaff carved
+    from dark gnarled wood, raw glowing blue mana crystal set at the tip, subtle magical runes carved into the shaft.
+  type: weapon
+  subtype: staff
+  rarity: uncommon
+  stats:
+    attack: 5
+    mana_bonus: 25
+    magic_power: 8
+  effects: null
+  equip_slot: both_hands
+  sell_price: 320
+  weight: 2.0
+  stackable: false
+  max_stack: 1
+- id: item_leather_vest
+  name: Шкіряна Безрукавка
+  description: Легкий захист для грудей без обмеження рухливості.
+  full_description: Безрукавка з подвійно зшитої вичиненої шкури — улюблений захист розвідників і крадіїв. Достатньо міцна
+    щоб відхилити ковзкий удар клинка, але достатньо легка щоб не заважати безшумному пересуванню. Застібається мідними бляхами
+    по боках.
+  lore_en: Double-stitched tanned leather vest — favourite protection of scouts and rogues. Strong enough to deflect a glancing
+    blow, light enough for silent movement. Fastened with copper buckles on the sides.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A sleeveless leather vest,
+    double-stitched tanned leather, copper buckle fasteners on the sides, slightly worn from field use.
+  type: armor
+  subtype: null
+  rarity: common
+  stats:
+    defense: 4
+    dodge: 3
+  effects: null
+  equip_slot: chest
+  sell_price: 110
+  weight: 1.2
+  stackable: false
+  max_stack: 1
+- id: item_wool_cloak
+  name: Вовняний Плащ
+  description: Теплий плащ з грубої вовни, захищає від холоду і дощу.
+  full_description: Плащ зітканий із густої вовни місцевих овець, просочений жиром для водовідштовхування. Зберігає тепло
+    навіть у мокрому стані — незамінна річ для подорожей крізь осінній ліс і нічну варту. Капюшон досить великий щоб закрити
+    обличчя.
+  lore_en: Woven from dense local sheep's wool, treated with fat for water resistance. Stays warm even when wet — essential
+    for forest travel and night watch. Hood large enough to cover the face.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A heavy wool travel cloak
+    in dark grey-brown, thick weave visible, deep hood, simple bronze clasp at neck. Water beads on the surface.
+  type: armor
+  subtype: null
+  rarity: common
+  stats:
+    defense: 1
+    hp_bonus: 5
+  effects: null
+  equip_slot: chest
+  sell_price: 45
+  weight: 1.8
+  stackable: false
+  max_stack: 1
+- id: item_cloth_robe
+  name: Полотняний Балахон
+  description: Просторий балахон мага — мінімальний захист, максимум зосередженості.
+  full_description: Широкий балахон зшитий з льону — традиційне вбрання учнів магії і чаклунів. Сам собою не захищає від ударів,
+    але спеціальний крій не заважає жестикуляції і концентрації магічної енергії. Зашиті кишені дозволяють носити свитки і
+    кристали завжди під рукою.
+  lore_en: Wide linen robe — traditional garb of magic apprentices and wizards. Offers little physical protection but its
+    special cut doesn't impede gestures or magical concentration. Hidden pockets keep scrolls and crystals at hand.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A wide flowing linen mage
+    robe in off-white with subtle embroidered arcane symbols at cuffs and hem, deep hidden side pockets visible.
+  type: armor
+  subtype: null
+  rarity: common
+  stats:
+    defense: 1
+    mana_bonus: 10
+  effects: null
+  equip_slot: chest
+  sell_price: 55
+  weight: 0.9
+  stackable: false
+  max_stack: 1
+- id: item_leather_cap
+  name: Шкіряна Шапка
+  description: М'який шкіряний шолом — легкий захист голови.
+  full_description: Шапка з товстої буйволячої шкіри, підбита повстю. Не зупинить пряме рубання мечем, але надійно захищає
+    від ударів кийком, каміння і когтів дрібних звірів. Популярна серед крадіїв і розвідників.
+  lore_en: Thick buffalo leather cap lined with felt. Won't stop a sword blow but reliably protects against club strikes,
+    rocks and small creature claws. Popular among thieves and scouts.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A soft leather skullcap
+    in dark brown, thick buffalo hide, felt lining peeking at the edge, slightly worn and shaped from use.
+  type: armor
+  subtype: null
+  rarity: common
+  stats:
+    defense: 2
+    dodge: 2
+  effects: null
+  equip_slot: head
+  sell_price: 40
+  weight: 0.5
+  stackable: false
+  max_stack: 1
+- id: item_iron_gauntlets
+  name: Залізні Рукавиці
+  description: Кував залізні рукавиці для захисту кистей і кулаків.
+  full_description: Важкі залізні рукавиці з гнучкими пластинами на суглобах — стандартне озброєння важкої піхоти. Захищають
+    руки від ударів меча і дозволяють використовувати кулаки як зброю. Виготовлені Гельгою за замовленням міської варти.
+  lore_en: Heavy iron gauntlets with articulated knuckle plates — standard heavy infantry equipment. Protect hands from sword
+    strikes and let you use fists as weapons. Forged by Helga on commission for the city watch.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A pair of iron gauntlets
+    with riveted articulated knuckle plates, dark steel with orange rust spots, heavy and imposing.
+  type: armor
+  subtype: null
+  rarity: common
+  stats:
+    defense: 3
+    attack: 1
+  effects: null
+  equip_slot: hands
+  sell_price: 95
+  weight: 1.4
+  stackable: false
+  max_stack: 1
+- id: item_iron_boots
+  name: Залізні Чоботи
+  description: Важкі чоботи з залізними пластинами — захист і сила кроку.
+  full_description: Чоботи зшиті з щільної шкіри і посилені залізними пластинами на носках і підйомах. Важкі, але надійні
+    — ніяке коріння чи битий камінь не поріже ногу. Удар такого чобота завдає відчутної шкоди противнику.
+  lore_en: Thick leather boots reinforced with iron plates on the toes and insteps. Heavy but reliable — no root or broken
+    stone will cut through. A kick from these boots causes serious pain.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. Heavy leather boots with
+    iron plate reinforcements on toes and instep, thick iron-shod heel, mud-stained dark leather, imposing and solid.
+  type: armor
+  subtype: null
+  rarity: common
+  stats:
+    defense: 3
+  effects: null
+  equip_slot: feet
+  sell_price: 85
+  weight: 2.0
+  stackable: false
+  max_stack: 1
+- id: item_copper_ring
+  name: Мідне Кільце
+  description: Проста мідна каблучка — перший крок ювелірного мистецтва.
+  full_description: Кільце виковане з чистої міді руками місцевого ювеліра. Невибагливе але якісне, відполіроване до блиску.
+    Носять як прикрасу або як знак приналежності до певного ремісничого цеху.
+  lore_en: Forged from pure copper by the local jeweler. Simple but quality, polished to a shine. Worn as decoration or as
+    a sign of guild membership.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A simple polished copper
+    ring, warm reddish-gold tone, smooth band, slight patina in the engraved groove, glowing against dark velvet.
+  type: armor
+  subtype: null
+  rarity: common
+  stats:
+    defense: 1
+  effects: null
+  equip_slot: ring1
+  sell_price: 25
+  weight: 0.1
+  stackable: false
+  max_stack: 1
+- id: item_silver_necklace
+  name: Срібне Намисто
+  description: Витончене срібне намисто — захист і елегантність водночас.
+  full_description: Срібне намисто тонкого плетіння, з невеликою підвіскою у формі крапельки. Ювелір Саффіро стверджує, що
+    кожна ланка вручну відполірована — і це помітно в тому як воно виблискує навіть при слабкому освітленні. Легка магічна
+    обробка надає власнику незначний захист.
+  lore_en: Silver necklace of fine weave with a small teardrop pendant. Jeweler Saffiro claims every link is hand-polished
+    — visible in how it shines even in dim light. Slight magical treatment grants minor protection.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. An elegant silver necklace
+    with fine link chain and small teardrop pendant, brilliant polished silver gleam against black velvet display.
+  type: armor
+  subtype: null
+  rarity: uncommon
+  stats:
+    defense: 2
+    hp_bonus: 8
+  effects: null
+  equip_slot: neck
+  sell_price: 180
+  weight: 0.1
+  stackable: false
+  max_stack: 1
+- id: item_amethyst_ring
+  name: Аметистовий Перстень
+  description: Срібний перстень з аметистом — підсилює магічну концентрацію.
+  full_description: Срібний перстень із вставленим аметистом незвичайного фіолетового відтінку. Каміння добуто в гірських
+    шахтах далеко на північ і привезено торговцями. Аметист здавна вважається каменем мудрості і магії — носячи його, маги
+    відчувають що їхні заклинання даються їм легше.
+  lore_en: Silver ring with an amethyst of unusual purple hue, mined in northern mountain shafts and brought by traders. Amethyst
+    has long been the stone of wisdom and magic — mages wearing it feel their spells come more easily.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A silver ring with a brilliant
+    purple amethyst gemstone, fine silver setting with delicate filigree work, deep violet gem catching the light.
+  type: armor
+  subtype: null
+  rarity: uncommon
+  stats:
+    mana_bonus: 15
+    magic_power: 5
+  effects: null
+  equip_slot: ring1
+  sell_price: 220
+  weight: 0.1
+  stackable: false
+  max_stack: 1
+- id: item_roasted_meat
+  name: Смажене М'ясо
+  description: Ситний шматок смаженого м'яса — відновлює сили після бою.
+  full_description: Добре прожарений шматок оленини або кабанятини, посолений і присмачений польовими травами. Мисливці стверджують
+    що немає кращої їжі після довгого переходу лісом. Відновлює здоров'я і підбадьорює дух.
+  lore_en: Well-grilled venison or boar meat, salted and seasoned with field herbs. Hunters say nothing beats it after a long
+    forest march. Restores health and lifts spirits.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A skewered piece of roasted
+    meat over embers, seasoned with herbs, glistening fat, golden-brown crust, rustic presentation on a wooden plank.
+  type: consumable
+  subtype: null
+  rarity: common
+  stats: null
+  effects:
+    on_use:
+      heal_hp: 20
+      heal_stamina: 15
+  sell_price: 8
+  weight: 0.5
+  stackable: true
+  max_stack: 20
+- id: item_ale_mug
+  name: Кухоль Пива
+  description: Добре сварене місцеве пиво — підбадьорює і гріє.
+  full_description: Темне пиво броварні Волка — густе, трохи гірке, з запахом хмелю. Місцеві кажуть що після кухля Волкового
+    пива навіть найтяжча рана починає боліти менше. Відновлює витривалість і трохи знімає накопичену втому від бою.
+  lore_en: Dark beer from Volko's brewery — thick, slightly bitter, with a hop aroma. Locals say after a mug of Volko's brew
+    even the worst wound hurts less. Restores stamina and reduces combat fatigue.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A clay mug of dark frothy
+    ale, amber-brown liquid with cream-coloured foam head, moisture beading on the outside of the rough ceramic mug.
+  type: consumable
+  subtype: null
+  rarity: common
+  stats: null
+  effects:
+    on_use:
+      heal_stamina: 25
+      heal_hp: 5
+  sell_price: 3
+  weight: 0.6
+  stackable: true
+  max_stack: 10
+- id: item_wine_goblet
+  name: Чаша Вина
+  description: Червоне вино з погребів Кам'яної Броді — розкіш для мандрівника.
+  full_description: Вино виготовлене з ягід що ростуть на пагорбах за містом. Темно-червоне, з терпким присмаком і легким
+    ароматом сушених фруктів. Шляхетні замовляють пляшками, прості люди — келихами. Відновлює здоров'я і знімає стрес після
+    виснажливого шляху.
+  lore_en: Wine made from berries grown on the hills outside town. Dark red, tannic, with a faint dried-fruit aroma. Nobility
+    orders by the bottle, commoners by the cup. Restores health and relieves stress after exhausting travel.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A pewter goblet filled
+    with deep red wine, small droplet running down the outside, reflected candlelight in the dark liquid surface.
+  type: consumable
+  subtype: null
+  rarity: uncommon
+  stats: null
+  effects:
+    on_use:
+      heal_hp: 15
+      heal_stamina: 10
+  sell_price: 12
+  weight: 0.4
+  stackable: true
+  max_stack: 10
+- id: item_healing_herb_bundle
+  name: Пучок Цілющих Трав
+  description: В'язка свіжих лікувальних трав зібрана травницею Зінією.
+  full_description: Пучок із п'яти-семи видів цілющих трав зібраних на світанку — тільки тоді вони мають максимальну силу,
+    каже Зінія. Тут є материнка, звіробій, деревій і ще кілька трав що місцеві не вміють розпізнати на вигляд. Жують сирими
+    або заварюють чай.
+  lore_en: A bundle of five to seven healing herb varieties gathered at dawn — only then do they have maximum potency, says
+    Zinia. Contains oregano, St. John's wort, yarrow and others locals can't identify. Chewed raw or brewed as tea.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A small bundle of healing
+    herbs tied with twine — green and dried stems of various medicinal plants, oregano flowers, yarrow heads, dew still on
+    the leaves.
+  type: consumable
+  subtype: null
+  rarity: common
+  stats: null
+  effects:
+    on_use:
+      heal_hp: 30
+  sell_price: 15
+  weight: 0.2
+  stackable: true
+  max_stack: 30
+- id: item_stamina_potion
+  name: Зілля Витривалості
+  description: Темно-зелений відвар що відновлює фізичні сили миттєво.
+  full_description: Концентрований відвар з кореня ялівцю, омели і ще дев'яти компонентів рецепт яких Зінія тримає в таємниці.
+    Після ковтка м'язи наповнюються теплом і силою — втома від бою зникає за лічені секунди. Корисний воїнам які вичерпали
+    свої фізичні резерви.
+  lore_en: Concentrated decoction of juniper root, mistletoe and nine other ingredients whose recipe Zinia keeps secret. After
+    a swallow, muscles fill with warmth and strength — combat fatigue vanishes in seconds. Invaluable to warriors who've exhausted
+    their physical reserves.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A small dark green potion
+    bottle with cork stopper, dark emerald liquid with slight foam at the top, wrapped in dried herb leaves.
+  type: consumable
+  subtype: null
+  rarity: common
+  stats: null
+  effects:
+    on_use:
+      heal_stamina: 50
+  sell_price: 30
+  weight: 0.3
+  stackable: true
+  max_stack: 20
+- id: item_antidote
+  name: Протиотрута
+  description: Нейтралізує більшість відомих отрут і зупиняє їх дію.
+  full_description: 'Прозора рідина з легким жовтуватим відтінком — продукт складної алхімічної реакції що вимагає точності
+    і терпіння. Нейтралізує більшість природних отрут: павукову, зміїну, грибну. Проти магічних отрут менш ефективна.'
+  lore_en: 'Clear liquid with a slight yellowish tint — the product of complex alchemical reaction requiring precision and
+    patience. Neutralises most natural poisons: spider, snake, mushroom. Less effective against magical poisons.'
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A small crystal vial of
+    pale yellow liquid, sealed with wax, alchemical symbol scratched into the glass surface, bright clear appearance.
+  type: consumable
+  subtype: null
+  rarity: uncommon
+  stats: null
+  effects:
+    on_use:
+      cure_poison: true
+      heal_hp: 10
+  sell_price: 45
+  weight: 0.2
+  stackable: true
+  max_stack: 10
+- id: item_dried_mushroom
+  name: Сушений Гриб
+  description: Засушений лісовий гриб — їжа і компонент для алхімічних відварів.
+  full_description: 'Зінія збирає гриби лише в повний місяць — стверджує що саме тоді вони найсильніші. Висушені на сонці
+    вони зберігають більшість своїх властивостей: деякі відновлюють мана, інші дають бачення, ще інші просто смачні у стравах.
+    Тільки травниця знає які від чого.'
+  lore_en: 'Zinia collects mushrooms only on full moon — claims they''re strongest then. Sun-dried they retain most properties:
+    some restore mana, others cause visions, others are simply delicious in food. Only the herbalist knows which does what.'
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. Several dried forest mushrooms
+    strung on a cord, wrinkled tan caps, dark gills, earthy mushroom smell implied by their rich texture.
+  type: consumable
+  subtype: null
+  rarity: common
+  stats: null
+  effects:
+    on_use:
+      heal_mana: 20
+  sell_price: 7
+  weight: 0.1
+  stackable: true
+  max_stack: 20
+- id: item_raw_leather
+  name: Сира Шкіра
+  description: Необроблена шкура звіра — потрібна для виготовлення шкіряних виробів.
+  full_description: 'Свіжознята шкура великого звіра — вовка, кабана або оленя. У такому стані вона непридатна для використання:
+    занадто жорстка і швидко псується. Потрібно передати кожум''яці Берті яка обробить її спеціальним розчином.'
+  lore_en: 'Freshly skinned hide from a large animal — wolf, boar or deer. In this state it''s unusable: too stiff and spoils
+    quickly. Must be taken to tanner Berta for processing.'
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A rolled raw animal hide,
+    pale inner side visible, dark outer fur edge, slightly moist and stiff, tied with rough cord.
+  type: misc
+  subtype: null
+  rarity: common
+  stats: null
+  effects: null
+  sell_price: 4
+  weight: 2.0
+  stackable: true
+  max_stack: 10
+- id: item_tanned_leather
+  name: Вичинена Шкіра
+  description: Оброблена шкіра — готова до пошиття одягу і обладунків.
+  full_description: Шкіра після обробки набирає характерного темно-коричневого кольору і стає гнучкою та довговічною. Берта
+    використовує комбінацію танінів з дубової кори і спеціального жиру — її метод передано від бабці. З однієї шкури виходить
+    достатньо матеріалу для пошиття жилета або чобіт.
+  lore_en: After processing, leather takes on a characteristic dark brown colour and becomes flexible and durable. Berta uses
+    a combination of oak bark tannins and special fat — her method passed down from her grandmother. One hide yields enough
+    material for a vest or boots.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A flat sheet of tanned
+    leather in rich dark brown, supple and smooth, slight grain texture visible, edges trimmed clean, small tool marks.
+  type: misc
+  subtype: null
+  rarity: common
+  stats: null
+  effects: null
+  sell_price: 12
+  weight: 1.5
+  stackable: true
+  max_stack: 10
+- id: item_iron_ingot
+  name: Залізний Злиток
+  description: Очищений і відлитий залізний злиток — основа ковальського ремесла.
+  full_description: Злиток чистого заліза вагою в кілограм. Виплавлений з руди що привозять з гірських шахт на північ від
+    міста. Гельга купує їх партіями у гірничодобувних купців і зберігає в кузні. Основний матеріал для виготовлення зброї
+    і обладунків.
+  lore_en: A one-kilogram ingot of pure iron. Smelted from ore brought from mountain mines north of town. Helga buys them
+    in bulk from mining merchants and stores them in the smithy. The primary material for weapons and armour.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A heavy rectangular iron
+    ingot, dark grey metallic surface with slight oxidation, rough casting marks, weighty and dense.
+  type: misc
+  subtype: null
+  rarity: common
+  stats: null
+  effects: null
+  sell_price: 20
+  weight: 3.0
+  stackable: true
+  max_stack: 5
+- id: item_enchanting_dust
+  name: Чарівний Порошок
+  description: Світлистий порошок що слугує основою для магічного зачарування предметів.
+  full_description: Порошок отримується перетиранням кристалів концентрованої магічної енергії. Мерехтить блакитним у темряві
+    і злегка пахне озоном після грози. Вандорак використовує його для нанесення рун на магічні предмети — без цього порошку
+    жодне зачарування не тримається більше кількох годин.
+  lore_en: Powder obtained by grinding crystals of concentrated magical energy. Glimmers blue in darkness and faintly smells
+    of post-storm ozone. Vandorak uses it for inscribing runes on magical items — without it, no enchantment holds for more
+    than a few hours.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A small leather pouch of
+    glowing blue magical powder, fine crystalline particles shimmering with inner light, some dust floating in the air around
+    it.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stats: null
+  effects: null
+  sell_price: 35
+  weight: 0.1
+  stackable: true
+  max_stack: 20
+- id: item_mana_crystal
+  name: Кристал Мани
+  description: Необроблений кристал синьої мани — сховище чистої магічної енергії.
+  full_description: Природній кристал утворений у місцях де магічна енергія концентрується протягом сотень років. Всередині
+    видно блакитний пульс — мана живе в ньому. Маги використовують кристали для відновлення власних запасів мани або як компоненти
+    у виготовленні артефактів.
+  lore_en: A natural crystal formed where magical energy concentrates over hundreds of years. A blue pulse is visible inside
+    — mana lives within it. Mages use crystals to restore their mana reserves or as components in artefact crafting.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A raw blue mana crystal,
+    faceted irregular natural formation, deep azure inner glow pulsing with magical energy, smaller crystal fragments around
+    it.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stats: null
+  effects: null
+  sell_price: 50
+  weight: 0.3
+  stackable: true
+  max_stack: 10
+- id: item_wolfs_bane
+  name: Вовчабій
+  description: Отруйна рослина з жовтими квітками — відлякує вовків і слугує компонентом для зілля.
+  full_description: Висока рослина з яскраво-жовтими квітами. Її запах ненависний вовкам — розкладений на стежці він може
+    відігнати зграю. В правильній концентрації є потужним компонентом для зілля проти нежиті. У великих дозах смертельно отруйний
+    — поводитись з обережністю.
+  lore_en: A tall plant with bright yellow flowers. Its scent is hated by wolves — scattered on a path it can drive off a
+    pack. In correct concentration it's a powerful component for anti-undead potions. In large doses fatally poisonous — handle
+    with care.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. Wolfsbane plant with vivid
+    yellow hood-shaped flowers, dark green stems, laid on a worn herbalist's cloth with small warning rune scratched nearby.
+  type: misc
+  subtype: null
+  rarity: common
+  stats: null
+  effects: null
+  sell_price: 8
+  weight: 0.2
+  stackable: true
+  max_stack: 30
+- id: item_lockpick
+  name: Відмичка
+  description: Тонкий сталевий інструмент для відкривання замків без ключа.
+  full_description: Набір із трьох відмичок різного профілю — для простих, середніх і складних замків. Виготовлені з загартованого
+    дроту майстром якого ніхто не бачив в обличчя. Продаються в злодійському провулку за ціною що не запитують. Зберігання
+    таких інструментів незаконне — варта має право на обшук.
+  lore_en: A set of three picks of different profiles — for simple, medium and complex locks. Made from hardened wire by a
+    craftsman no one has seen face-to-face. Sold in the thief's alley for a price no one asks about. Possession is illegal
+    — the watch has the right to search.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A set of three slim metal
+    lockpicks of varying shapes, dark steel, fine craftsmanship, tucked in a folded leather roll case.
+  type: tool
+  subtype: null
+  rarity: uncommon
+  stats: null
+  effects: null
+  sell_price: 40
+  weight: 0.1
+  stackable: true
+  max_stack: 5
+- id: item_candle
+  name: Свічка
+  description: Воскова свічка — незамінна в темних підземеллях і похмурих ночах.
+  full_description: Виготовлена Ірмою зі свіжого бджолиного воску — горить рівно і довго, не диміть і не тхне. Одна свічка
+    горить шість годин. Незамінна для освітлення темних місць і релігійних обрядів. Деякі також кажуть що свічковий вогонь
+    відлякує нечисть.
+  lore_en: Made by Irma from fresh beeswax — burns evenly and long, no smoke or stench. One candle burns six hours. Essential
+    for illuminating dark places and religious rites. Some also say candlelight repels minor undead.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A pale cream beeswax candle,
+    smooth surface, fresh wick, subtle honey scent implied, placed on a simple iron holder with hardened wax drips.
+  type: misc
+  subtype: null
+  rarity: common
+  stats: null
+  effects: null
+  sell_price: 2
+  weight: 0.1
+  stackable: true
+  max_stack: 20
+- id: item_fishing_rod
+  name: Вудочка
+  description: Проста бамбукова вудочка з волосяною леськом — для риболовлі на річці.
+  full_description: Гнучке бамбукове вудилище, волосяна ліска і простий залізний гачок. Мирошник Степан сам робить такі для
+    продажу — він риболов з досвідом і каже що у тихій заводі під млином завжди водяться великі окуні. Потрібна навичка Рибалки
+    щоб використовувати ефективно.
+  lore_en: Flexible bamboo rod, hair line and simple iron hook. Miller Stepan makes them to sell — he's an experienced fisherman
+    and says large perch always lurk in the quiet pool under the mill. Requires Fishing skill to use effectively.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A simple fishing rod made
+    from bamboo, hair line wound around the tip, small iron hook at the end, leaning against a mossy riverside rock.
+  type: tool
+  subtype: null
+  rarity: common
+  stats: null
+  effects: null
+  sell_price: 10
+  weight: 0.8
+  stackable: false
+  max_stack: 1
+- id: item_whetstone
+  name: Точильний Камінь
+  description: Гранітний брусок для заточення клинків у польових умовах.
+  full_description: Шматок дрібнозернистого граніту розміром з долоню. Досвідчений воїн завжди тримає точильний камінь при
+    собі — тупий клинок у бою дорівнює смерті. Один камінь витримує сотню заточень. Легкий і компактний.
+  lore_en: A palm-sized fine-grain granite block. An experienced warrior always keeps a whetstone on hand — a dull blade in
+    battle equals death. One stone lasts a hundred sharpenings. Light and compact.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A smooth granite whetstone
+    block, pale grey with fine dark grain, slightly worn depression from use, leather carrying strap attached.
+  type: tool
+  subtype: null
+  rarity: common
+  stats: null
+  effects: null
+  sell_price: 6
+  weight: 0.3
+  stackable: true
+  max_stack: 5
+- id: item_scroll_fireball
+  name: Сувій Вогняної Кулі
+  description: Одноразовий магічний сувій що дозволяє застосувати закляття навіть без навички.
+  full_description: Пергамент вкритий рунами Вандорака чітким почерком. При розгортанні і читанні слів вголос виникає вогняна
+    куля що вражає ціль на відстані до двадцяти кроків. Сувій розсипається в попіл після одного використання. Ефективна проти
+    нежиті і замерзлих цілей — подвоює шкоду.
+  lore_en: Parchment covered in Vandorak's clear runic script. When unrolled and words read aloud, a fireball erupts toward
+    the target up to twenty paces away. The scroll turns to ash after one use. Especially effective against undead and frozen
+    targets — doubles damage.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A rolled parchment scroll
+    sealed with red wax, intricate fire runes glowing faintly orange-red on aged yellowed parchment, tied with a fire-red
+    ribbon.
+  type: consumable
+  subtype: scroll
+  rarity: uncommon
+  stats: null
+  effects:
+    on_use:
+      magic_damage: 35
+      damage_type: fire
+  sell_price: 55
+  weight: 0.1
+  stackable: true
+  max_stack: 5
+- id: item_scroll_ice
+  name: Сувій Льодяного Шипа
+  description: 'Одноразовий сувій: пронизуюча льодяна стріла.'
+  full_description: Закляття льоду записане Вандораком на пергаменті просоченому водою з льодяного джерела на північ від Броді.
+    При використанні з руки мага злітає крижана голка що пронизує більшість обладунків завдяки точності і швидкості. Особливо
+    ефективна проти істот вогню — магія протилежних стихій.
+  lore_en: An ice spell written by Vandorak on parchment soaked in water from an icy spring north of Stone Ford. When used,
+    an ice needle flies from the hand piercing most armour thanks to its precision and speed. Especially effective against
+    fire creatures — opposing elemental magic.
+  image_prompt: Photorealistic fantasy MMORPG item concept art on a dark stone background. Northern medieval frontier aesthetic
+    — rough-hewn, functional, weathered. Dramatic rim lighting, shallow depth of field, 8K detail. A scroll sealed with blue
+    wax, ice runes glowing with pale frost-blue light on the parchment, small ice crystals forming on the scroll surface.
+  type: consumable
+  subtype: scroll
+  rarity: uncommon
+  stats: null
+  effects:
+    on_use:
+      magic_damage: 30
+      damage_type: ice
+  sell_price: 55
+  weight: 0.1
+  stackable: true
+  max_stack: 5
+- id: item_gold_coin
+  name: Золота монета
+  description: Стандартна золота монета королівства. Прийняється скрізь.
+  full_description: Важка, блискуча монета з профілем короля на аверсі та гербом на реверсі. Золото — найвища валюта в Realm
+    of Echoes.
+  lore_en: A standard gold coin of the realm, bearing the king's profile. Heavy, lustrous, accepted everywhere.
+  type: currency
+  subtype: gold
+  rarity: uncommon
+  stackable: true
+  max_stack: 9999
+  weight: 0.01
+  sell_price: 100
+  stats:
+    currency_value: 100
+  effects: null
+- id: item_silver_coin
+  name: Срібна монета
+  description: Срібна монета — основа торгівлі у більшості міст.
+  full_description: Тонша за золоту, але все одно цінна. Срібло — найпоширеніша валюта для повсякденної торгівлі.
+  lore_en: A silver coin — the backbone of everyday trade. Thinner than gold but still worth carrying.
+  type: currency
+  subtype: silver
+  rarity: common
+  stackable: true
+  max_stack: 9999
+  weight: 0.005
+  sell_price: 10
+  stats:
+    currency_value: 10
+  effects: null
+- id: item_copper_coin
+  name: Мідна монета
+  description: Найдрібніша монета. Навіть жебраки їх рахують.
+  full_description: Брудна, потерта мідна монетка. Мало коштує, але з них складаються цілі статки — якщо терпіння вистачить.
+  lore_en: A copper coin — the smallest denomination. Even beggars count them. Dirty, worn, but still currency.
+  type: currency
+  subtype: copper
+  rarity: common
+  stackable: true
+  max_stack: 9999
+  weight: 0.002
+  sell_price: 1
+  stats:
+    currency_value: 1
+  effects: null
+- id: item_bear_pelt
+  name: Шкура ведмедя
+  description: Міцна шкура ведмедя-шатуна. Цінна сировина для шевців.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_bear_claw
+  name: Кіготь ведмедя
+  description: Гострий кіготь ведмедя. Використовується в алхімії.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_boar_tusk
+  name: Ікло кабана
+  description: Міцне ікло кабана-ікластого. Добре для амулетів.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_boar_hide
+  name: Шкура кабана
+  description: Тверда шкіра кабана, придатна для виготовлення лат.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_spider_silk
+  name: Павутиння
+  description: Нитки гігантського павука. Надміцні, легкі, цінні для ткачів.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_spider_fang
+  name: Отруйний ікол павука
+  description: Ікол гігантського павука з залишками отрути.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_zombie_bone
+  name: Кістка зомбі
+  description: Стара кістка нежиті. Алхіміки платять за неї непогано.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_zombie_rag
+  name: Лахміття нежиті
+  description: Гнилі лахміття з зомбі — навряд корисне, але хтось збирає.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_goblin_tooth
+  name: Зуб гобліна
+  description: Гострий зуб гобліна. Мисливці роблять намиста.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_imp_horn
+  name: Ріжок імпа
+  description: Маленький ріжок демона. Використовується у темній магії.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_dragon_scale
+  name: Лусочка дракона
+  description: Блискуча луска молодого дракона. Надзвичайно рідкісна.
+  type: misc
+  subtype: null
+  rarity: rare
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_dragon_claw
+  name: Кіготь дракона
+  description: Великий кіготь дракона — зброя самa по собі.
+  type: misc
+  subtype: null
+  rarity: rare
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_skeleton_bone
+  name: Кістка скелета
+  description: Кістка магічно оживленого скелета. Тримає форму навіть у воді.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_shadow_essence
+  name: Сутність тіні
+  description: Темна речовина зі знищеного тіньового демона.
+  type: misc
+  subtype: null
+  rarity: rare
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_thornwalker_bark
+  name: Кора терносторожа
+  description: Тверда магічна кора. Друїди ціну знають.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_elemental_shard
+  name: Осколок елементалю
+  description: Кристалізований фрагмент стихійної сутності.
+  type: misc
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_orc_fang
+  name: Ікло орка
+  description: Велике ікло орка-берсерка.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_vampire_fang
+  name: Ікло упира
+  description: Гострий зуб вампіра з залишками темної магії.
+  type: misc
+  subtype: null
+  rarity: rare
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_lich_dust
+  name: Порох ліча
+  description: Магічний попіл що лишається від лічу. Потужний некромантський інгредієнт.
+  type: misc
+  subtype: null
+  rarity: epic
+  stackable: true
+  max_stack: 99
+  weight: 0.1
+  sell_price: 2
+  stats: null
+  effects: null
+- id: item_butchering_knife
+  name: Ніж для розбирання
+  description: Простий, але добротний ніж для розбирання туш. Необхідний для скілу 'Розбирання'.
+  full_description: Широке лезо з нержавіючої сталі, зручна дерев'яна рукоять з оберемком. Будь-який мисливець або мандрівник
+    тримає такий у торбинці — без нього із трупа монстра нічого путнього не здобути.
+  type: tool
+  subtype: butchering_knife
+  rarity: common
+  stats:
+    butchering_power: 1
+  effects: null
+  weight: 0.4
+  stackable: false
+  max_stack: 1
+  sell_price: 5
+- id: item_health_potion
+  name: Мале зілля зцілення
+  description: Відновлює 30 HP.
+  type: consumable
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 20
+  stats: null
+  effects:
+    on_use:
+      heal_hp: 30
+  sell_price: 20
+  image_url: /static/avatars/items/item_potion_heal_small.webp
+- id: item_mana_potion
+  name: Зілля мани
+  description: Відновлює 40 MP.
+  type: consumable
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 20
+  stats: null
+  effects:
+    on_use:
+      heal_mana: 40
+  sell_price: 35
+  image_url: /static/avatars/items/item_potion_mana.webp
+- id: item_potion_heal_medium
+  name: Зілля зцілення
+  description: Відновлює 60 HP.
+  type: consumable
+  subtype: null
+  rarity: uncommon
+  stackable: true
+  max_stack: 20
+  stats: null
+  effects:
+    on_use:
+      heal_hp: 60
+  sell_price: 40
+  image_url: /static/avatars/items/item_potion_heal_medium.webp
+- id: item_bread
+  name: Хліб
+  description: Поживна їжа. Відновлює 5 HP.
+  type: consumable
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 50
+  stats: null
+  effects:
+    on_use:
+      heal_hp: 5
+  sell_price: 2
+- id: item_torch
+  name: Смолоскип
+  description: Освітлює темряву.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 10
+  stats: null
+  effects: null
+  sell_price: 3
+  image_url: /static/avatars/items/item_torch.webp
+- id: item_rope
+  name: Мотузка
+  description: 10м міцної мотузки.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 5
+  stats: null
+  effects: null
+  sell_price: 5
+  image_url: /static/avatars/items/item_rope.webp
+- id: item_iron_sword
+  name: Залізний меч
+  description: Надійний меч стражника.
+  type: weapon
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: mainhand
+  stats:
+    attack: 8
+  effects: null
+  sell_price: 100
+  image_url: /static/avatars/items/item_longsword.webp
+- id: item_longsword
+  name: Довгий меч
+  description: Збалансований меч воїна.
+  type: weapon
+  subtype: null
+  rarity: uncommon
+  stackable: false
+  max_stack: 1
+  equip_slot: mainhand
+  stats:
+    attack: 12
+  effects: null
+  sell_price: 200
+  image_url: /static/avatars/items/item_longsword.webp
+- id: item_iron_dagger
+  name: Залізний кинджал
+  description: Швидка зброя злодія.
+  type: weapon
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: mainhand
+  stats:
+    attack: 5
+    crit: 0.05
+  effects: null
+  sell_price: 75
+  image_url: /static/avatars/items/item_dagger.webp
+- id: item_dagger
+  name: Кинджал
+  description: Швидкий клинок для ближнього бою.
+  type: weapon
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: mainhand
+  stats:
+    attack: 5
+    crit: 0.05
+  effects: null
+  sell_price: 75
+  image_url: /static/avatars/items/item_dagger.webp
+- id: item_bow
+  name: Лук
+  description: Дерев'яний лук для дальнього бою.
+  type: weapon
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: mainhand
+  stats:
+    attack: 7
+  effects: null
+  sell_price: 150
+  image_url: /static/avatars/items/item_bow.webp
+- id: item_staff
+  name: Посох мага
+  description: Магічний посох для чаклунів.
+  type: weapon
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: mainhand
+  stats:
+    attack: 4
+    mana_bonus: 15
+  effects: null
+  sell_price: 180
+  image_url: /static/avatars/items/item_staff.webp
+- id: item_leather_armor
+  name: Шкіряна броня
+  description: Легкий захист для мандрівників.
+  type: armor
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: chest
+  stats:
+    defense: 5
+  effects: null
+  sell_price: 150
+  image_url: /static/avatars/items/item_leather_armor.webp
+- id: item_chainmail
+  name: Кольчуга
+  description: Надійний захист для воїна.
+  type: armor
+  subtype: null
+  rarity: uncommon
+  stackable: false
+  max_stack: 1
+  equip_slot: chest
+  stats:
+    defense: 10
+  effects: null
+  sell_price: 400
+  image_url: /static/avatars/items/item_chainmail.webp
+- id: item_wooden_shield
+  name: Дерев'яний щит
+  description: Простий, але надійний щит.
+  type: armor
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: offhand
+  stats:
+    defense: 3
+  effects: null
+  sell_price: 50
+  image_url: /static/avatars/items/item_wooden_shield.webp
+- id: item_iron_helm
+  name: Залізний шолом
+  description: Захищає голову від ударів.
+  type: armor
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: head
+  stats:
+    defense: 4
+  effects: null
+  sell_price: 120
+  image_url: /static/avatars/items/item_iron_helm.webp
+- id: item_chainmail_leggings
+  name: Кольчужні поножі
+  description: Надійний захист для ніг.
+  type: armor
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: legs
+  stats:
+    defense: 6
+  effects: null
+  sell_price: 200
+  image_url: /static/avatars/items/item_chainmail_leggings.webp
+- id: item_brawler_gloves
+  name: Рукавиці бійця
+  description: Посилюють удар, захищають руки.
+  type: armor
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: hands
+  stats:
+    attack: 2
+    defense: 1
+  effects: null
+  sell_price: 80
+  image_url: /static/avatars/items/item_brawler_gloves.webp
+- id: item_traveler_boots
+  name: Чоботи мандрівника
+  description: Зручні чоботи для довгих доріг.
+  type: armor
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  equip_slot: feet
+  stats:
+    defense: 2
+  effects: null
+  sell_price: 60
+  image_url: /static/avatars/items/item_traveler_boots.webp
+- id: item_amulet_of_warding
+  name: Амулет захисту
+  description: Стародавній амулет, що відганяє лихо.
+  type: armor
+  subtype: null
+  rarity: rare
+  stackable: false
+  max_stack: 1
+  equip_slot: neck
+  stats:
+    defense: 3
+    hp_bonus: 10
+  effects: null
+  sell_price: 300
+  image_url: /static/avatars/items/item_amulet_of_warding.webp
+- id: item_ring_of_arcana
+  name: Перстень арканів
+  description: Підсилює магічну силу.
+  type: armor
+  subtype: null
+  rarity: uncommon
+  stackable: false
+  max_stack: 1
+  equip_slot: ring1
+  stats:
+    mana_bonus: 20
+  effects: null
+  sell_price: 250
+  image_url: /static/avatars/items/item_ring_of_arcana.webp
+- id: item_ring_of_protection
+  name: Перстень захисту
+  description: Захисна магія у металі.
+  type: armor
+  subtype: null
+  rarity: uncommon
+  stackable: false
+  max_stack: 1
+  equip_slot: ring1
+  stats:
+    defense: 2
+    hp_bonus: 5
+  effects: null
+  sell_price: 200
+  image_url: /static/avatars/items/item_ring_of_protection.webp
+- id: item_wolf_pelt
+  name: Вовча шкура
+  description: Шкура вовка. Можна продати торговцю.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 20
+  stats: null
+  effects: null
+  sell_price: 8
+  image_url: /static/avatars/items/item_wolf_pelt.webp
+- id: item_wolf_fang
+  name: Вовчий ікол
+  description: Ікол хижака. Трофей мисливця.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 20
+  stats: null
+  effects: null
+  sell_price: 5
+  image_url: /static/avatars/items/item_wolf_fang.webp
+- id: item_goblin_ear
+  name: Вухо гобліна
+  description: Доказ перемоги над гобліном.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: true
+  max_stack: 20
+  stats: null
+  effects: null
+  sell_price: 3
+  image_url: /static/avatars/items/item_goblin_ear.webp
+- id: item_bandit_coin_pouch
+  name: Гаманець бандита
+  description: Монети мерзотника. Містить 5–15 міді.
+  type: misc
+  subtype: null
+  rarity: common
+  stackable: false
+  max_stack: 1
+  stats: null
+  effects: null
+  sell_price: 15
+  image_url: /static/avatars/items/item_bandit_coin_pouch.webp

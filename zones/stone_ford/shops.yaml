@@ -1,0 +1,112 @@
+- id: shop_npc_merchant_torben
+  npc_id: npc_merchant_torben
+  name: Крамниця Торбена
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_blacksmith_helga
+  npc_id: npc_blacksmith_helga
+  name: Ковальня Гельги
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 35
+  _zone: stone_ford
+- id: shop_npc_berta_tanner
+  npc_id: npc_berta_tanner
+  name: Кожум'ятня Берти
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 45
+  _zone: stone_ford
+- id: shop_npc_lila_tailor
+  npc_id: npc_lila_tailor
+  name: Кравецька Крамниця Ліли
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_myrona_baker
+  npc_id: npc_myrona_baker
+  name: Пекарня Мирони
+  has_buy_tab: true
+  has_sell_tab: false
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_volko_brewer
+  npc_id: npc_volko_brewer
+  name: Броварня Волка
+  has_buy_tab: true
+  has_sell_tab: false
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_saffiro_jeweler
+  npc_id: npc_saffiro_jeweler
+  name: Ювелірна Майстерня Саффіро
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 55
+  _zone: stone_ford
+- id: shop_npc_irma_chandler
+  npc_id: npc_irma_chandler
+  name: Свічкарня Ірми
+  has_buy_tab: true
+  has_sell_tab: false
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_vandorak_mage
+  npc_id: npc_vandorak_mage
+  name: Лавка Вандорака
+  has_buy_tab: true
+  has_sell_tab: false
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_zinia_herbalist
+  npc_id: npc_zinia_herbalist
+  name: Аптека Зінії
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_taras_merchant
+  npc_id: npc_taras_merchant
+  name: Крамниця «Все для Всіх»
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 35
+  _zone: stone_ford
+- id: shop_npc_rostyslav_hunter
+  npc_id: npc_rostyslav_hunter
+  name: Мисливська Крамниця
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 45
+  _zone: stone_ford
+- id: shop_npc_stepan_miller
+  npc_id: npc_stepan_miller
+  name: Крамниця Степана
+  has_buy_tab: true
+  has_sell_tab: false
+  is_active: true
+  sell_price_percent: 40
+  _zone: stone_ford
+- id: shop_npc_shadow_fence
+  npc_id: npc_shadow_fence
+  name: Темна Крамниця
+  has_buy_tab: true
+  has_sell_tab: true
+  is_active: true
+  sell_price_percent: 50
+  _zone: stone_ford

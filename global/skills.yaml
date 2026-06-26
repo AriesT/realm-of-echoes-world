@@ -1,0 +1,599 @@
+- id: skill_fireball
+  name: Вогняна Куля
+  description: Метає кулю вогню у ворога завдаючи магічної шкоди типу 'вогонь'.
+  lore: 'Одне з перших закляттів бойової магії. Концентрована куля чистого вогню злітає
+    з долоні мага і вибухає при зіткненні з ціллю. Ефективна проти нежиті і замерзлих
+    істот. Вандорак вважає її ідеальним закляттям початківця: просте в навчанні, надійне
+    в бою і не вимагає рідкісних компонентів.'
+  lore_en: 'One of the first battle-magic spells. A concentrated ball of pure fire
+    flies from the mage''s palm and explodes on contact. Effective against undead
+    and frozen creatures. Vandorak considers it the perfect beginner spell: simple
+    to learn, reliable in combat.'
+  category: magic
+  skill_type: active
+  mp_cost: 15
+  cooldown: 2
+  effect:
+    damage: 30
+    damage_type: fire
+    aoe: false
+  image_prompt: A glowing orange-red fireball spell effect, swirling flames 
+    concentrated into a sphere, magical energy crackling at the edges, 
+    palm-sized but intensely bright.
+- id: skill_ice_shard
+  name: Льодяний Шип
+  description: Виконує пронизуючий крижаний снаряд що може сповільнити ворога.
+  lore: Закляття холодної магії що формує гострий крижаний кристал і жбурляє 
+    його у ціль з великою силою. Окрім прямої шкоди шип може заморозити частину 
+    тіла ворога — зменшуючи його рухливість. Особливо підходить для повільних 
+    важкоброньованих противників.
+  lore_en: A cold magic spell forming a sharp ice crystal and hurling it at the 
+    target with great force. Besides direct damage the shard can freeze a body 
+    part, reducing enemy mobility. Especially useful against slow heavily 
+    armoured opponents.
+  category: magic
+  skill_type: active
+  mp_cost: 12
+  cooldown: 2
+  effect:
+    damage: 25
+    damage_type: ice
+    slow: true
+  image_prompt: An ice shard spell — a jagged crystalline spike of pure ice, 
+    glowing pale blue, sharp facets catching magical light, suspended in motion.
+- id: skill_lightning_bolt
+  name: Блискавка
+  description: Розряджає потужний удар блискавки що пробиває металеві обладунки.
+  lore: Найбільш руйнівне з базових закляттів стихійної магії. Концентрований 
+    розряд блискавки не просто завдає значної шкоди — він пробиває металеві 
+    обладунки краще ніж вогонь і лід. Небезпечна при використанні поруч із 
+    союзниками — може вразити кількох.
+  lore_en: The most destructive of basic elemental spells. A concentrated 
+    lightning discharge doesn't just deal heavy damage — it penetrates metal 
+    armour better than fire or ice. Dangerous near allies — may strike several 
+    targets.
+  category: magic
+  skill_type: active
+  mp_cost: 20
+  cooldown: 3
+  effect:
+    damage: 40
+    damage_type: lightning
+    armor_pierce: 0.3
+  image_prompt: A brilliant lightning bolt spell, jagged electric arc crackling 
+    between two points, intense white-blue electrical discharge with branching 
+    smaller arcs.
+- id: skill_arcane_shield
+  name: Магічний Щит
+  description: Пасивно збільшує магічну стійкість і шанс відхилення заклять.
+  lore: Постійно діюча магічна аура що послаблює вхідні заклинання. Маг 
+    концентрує частину своєї мани в постійний захисний шар навколо тіла. Щит не 
+    дає абсолютного захисту але зменшує шкоду від магічних атак і дає малий шанс
+    повного їх відхилення.
+  lore_en: A constantly active magical aura that weakens incoming spells. The 
+    mage concentrates part of their mana into a permanent protective layer. The 
+    shield gives no absolute protection but reduces magical damage and gives a 
+    small chance of full deflection.
+  category: magic
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    magic_resistance: 0.15
+    spell_dodge: 0.05
+  image_prompt: An arcane shield passive aura — subtle blue-white magical energy
+    flowing around a figure like a second skin, translucent hexagonal patterns 
+    visible.
+- id: skill_mana_flow
+  name: Потік Мани
+  description: Пасивно прискорює відновлення мани між боями.
+  lore: Техніка медитативного дихання і концентрації що маги вивчають роками. 
+    Дозволяє відновлювати запаси мани значно швидше у стані спокою. Досвідчений 
+    маг з цією навичкою між боями встигає відновити достатньо мани щоб знову 
+    застосовувати бойові закляття.
+  lore_en: A meditative breathing and concentration technique mages study for 
+    years. Allows restoring mana reserves much faster in a state of calm. An 
+    experienced mage with this skill restores enough mana between fights to cast
+    battle spells again.
+  category: magic
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    mana_regen_bonus: 0.3
+  image_prompt: Mana flow passive skill — gentle swirling blue energy currents 
+    flowing into a meditating figure, peaceful and serene magical restoration 
+    visual.
+- id: skill_precise_strike
+  name: Точний Удар
+  description: Наносить цілеспрямований удар по вразливому місцю противника.
+  lore: 'Техніка що вчить воїна розрізняти слабкі місця в обладунках і захисті ворога.
+    Замість сильного удару — точний укол або удар у незахищене місце: під пахву, між
+    пластинами, в суглоб. Завдає менше загальної шкоди але значно більше шкоди уразливим
+    цілям.'
+  lore_en: 'A technique teaching warriors to spot weaknesses in enemy armour and defence.
+    Instead of a powerful blow — a precise thrust to the unprotected spot: under the
+    arm, between plates, into a joint. Deals less total damage but significantly more
+    against vulnerable targets.'
+  category: combat
+  skill_type: active
+  mp_cost: 0
+  cooldown: 3
+  effect:
+    damage_mult: 1.5
+    armor_ignore: 0.5
+    stamina_cost: 12
+  image_prompt: Precise strike combat skill — a warrior's hand positioning a 
+    blade for a calculated thrust, focused intent, targeting a highlighted weak 
+    point.
+- id: skill_rapid_shot
+  name: Швидкий Постріл
+  description: Стрілець робить два швидкі постріли за один хід.
+  lore: Техніка для лучників і арбалетників що дозволяє вистрілити двічі 
+    використовуючи відскок першого пострілу для моментального перезаряджання. 
+    Шкода кожного пострілу трохи менша але загальний ефект переважно краще ніж 
+    один потужний постріл по одній цілі.
+  lore_en: A technique for archers and crossbowmen allowing two shots in one 
+    action using the recoil of the first shot for instant re-nocking. Each shot 
+    deals slightly less damage but the total effect is generally better than one
+    powerful shot at a single target.
+  category: combat
+  skill_type: active
+  mp_cost: 0
+  cooldown: 4
+  effect:
+    shots: 2
+    damage_per_shot: 0.7
+    stamina_cost: 15
+  image_prompt: Rapid shot skill — a dynamic blur of an archer's double-release,
+    two arrows in motion simultaneously, motion lines emphasizing speed.
+- id: skill_poison_blade
+  name: Отруєний Клинок
+  description: Покриває зброю отрутою що завдає шкоди з часом.
+  lore: Злодії і найманці Злодійського Провулку давно знають що правильно 
+    підібрана отрута вирішує бій краще за грубу силу. Ця техніка дозволяє 
+    покрити клинок спеціальним складом — при влученні він повільно просочується 
+    в кров ворога завдаючи шкоди ще кілька раундів після удару.
+  lore_en: Thieves and hired blades of the Thief's Alley have long known that 
+    the right poison wins a fight better than brute force. This technique coats 
+    a blade with a special compound — on hit it slowly seeps into the enemy's 
+    blood dealing damage for several rounds after the strike.
+  category: combat
+  skill_type: active
+  mp_cost: 0
+  cooldown: 5
+  effect:
+    poison_damage_per_round: 8
+    poison_duration: 4
+    stamina_cost: 8
+  image_prompt: Poison blade skill — a dagger being dipped in a smoking dark 
+    green vial, green droplets dripping from the blade edge, toxic fumes rising.
+- id: skill_shield_wall
+  name: Стіна Щитів
+  description: Пасивно збільшує захист при використанні щита.
+  lore: Техніка яку відпрацьовують роками у казармах міської варти. Воїн 
+    навчається тримати щит оптимально — покриваючи більше площі за менших 
+    зусиль. Ефективний захист щитом вимагає не лише сили але й правильного 
+    положення тіла і кута відхилення.
+  lore_en: A technique drilled for years in the city watch barracks. The warrior
+    learns to hold the shield optimally — covering more area with less effort. 
+    Effective shield use requires not just strength but correct body position 
+    and deflection angle.
+  category: combat
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    shield_defense_bonus: 0.25
+    parry_bonus: 0.1
+  image_prompt: Shield wall passive skill — a warrior's shield in optimal 
+    defensive position, light rays deflecting off the surface at calculated 
+    angles.
+- id: skill_herbalism
+  name: Травництво
+  description: Дозволяє збирати і розпізнавати лікувальні трави в дикій природі.
+  lore: Зінія роками навчала мандрівників що проходили через Кам'яну Брідь 
+    розрізняти цілющі рослини від отруйних. З цією навичкою персонаж може 
+    знаходити трави в лісі і на луках — і перетворювати їх на примітивні 
+    лікувальні засоби навіть без алхімічного обладнання.
+  lore_en: Zinia spent years teaching travellers passing through Stone Ford to 
+    distinguish healing plants from poisonous ones. With this skill the 
+    character can find herbs in forests and meadows — and turn them into 
+    primitive remedies even without alchemical equipment.
+  category: utility
+  skill_type: active
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    gather_herbs: true
+    herb_quality_bonus: 0.2
+  image_prompt: Herbalism skill — careful hands gathering herbs in a sunlit 
+    forest clearing, identifying leaves and flowers, mortar and pestle nearby.
+- id: skill_lockpicking
+  name: Злом Замків
+  description: Дозволяє відкривати замки без ключа спеціальними інструментами.
+  lore: Практична навичка яку викладають виключно у тіні. Знавець злому відчуває
+    кожну пелюстку в замку — терпіння і чутливість пальців важливіші за грубу 
+    силу. Більшість замків у Кам'яній Броді відкриваються за 30 секунд в умілих 
+    руках. Замки вищого класу вимагають досвіду.
+  lore_en: A practical skill taught exclusively in the shadows. The expert 
+    lockpick feels every tumbler — patience and finger sensitivity matter more 
+    than brute force. Most locks in Stone Ford open in 30 seconds in skilled 
+    hands. Higher-grade locks require experience.
+  category: utility
+  skill_type: active
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    unlock_chance: 0.6
+    requires_item: item_lockpick
+  image_prompt: Lockpicking skill — a slender pick working the tumblers of a 
+    worn iron padlock, close-up detail, concentration and precision implied.
+- id: skill_persuasion
+  name: Переконання
+  description: Збільшує шанс успішних соціальних взаємодій і знижки у торговців.
+  lore: 'Дар красного слова не дається від народження — він розвивається роками практики
+    і помилок. Персонаж з цією навичкою знає як говорити щоб його слухали: правильна
+    інтонація, вибір слів, момент паузи. Торговці погоджуються на кращі ціни. NPC
+    відкривають більше інформації.'
+  lore_en: 'The gift of persuasive speech isn''t born — it''s developed through years
+    of practice and mistakes. A character with this skill knows how to speak to be
+    heard: right intonation, word choice, when to pause. Merchants agree to better
+    prices. NPCs reveal more information.'
+  category: social
+  skill_type: active
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    npc_disposition_bonus: 10
+    shop_discount: 0.05
+  image_prompt: Persuasion skill — two figures in conversation, warm lighting, 
+    open body language, one figure visibly being swayed by compelling words.
+- id: skill_haggling
+  name: Торгівля
+  description: Пасивно знижує ціни в крамницях і підвищує викупну ціну 
+    предметів.
+  lore: На ринках Кам'яної Броді ціна — це лише початок розмови. Торговець з 
+    досвідом знає ціну кожному товару, розуміє коли продавець поспішає і не 
+    боїться довго вести переговори. Пасивний ефект — кожна операція 
+    купівлі-продажу трохи вигідніша.
+  lore_en: In Stone Ford's markets, price is just the start of the conversation.
+    An experienced trader knows the value of every item, understands when the 
+    seller is in a hurry and isn't afraid of long negotiations. Passive effect —
+    every buy or sell transaction is slightly more favourable.
+  category: social
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    buy_price_reduction: 0.08
+    sell_price_bonus: 0.1
+  image_prompt: Haggling skill — a market stall scene, merchant and buyer 
+    mid-negotiation, coins on the counter, both figures gesturing with focused 
+    expressions.
+- id: skill_fishing
+  name: Рибалка
+  description: Дозволяє рибалити і отримувати рибу як їжу і продажний товар.
+  lore: Паромник Гаврик і мельник Степан обидва стверджують що знають найкращі 
+    місця на Мутниці. Суперечать одне одному щодо наживки і часу. З навичкою 
+    рибалки персонаж може ловити рибу в спеціальних місцях — риба відновлює 
+    здоров'я і добре продається в тавернах.
+  lore_en: Ferryman Havryk and miller Stepan both claim to know the best spots 
+    on the Muddy River. They argue about bait and timing. With the Fishing skill
+    the character can fish at special locations — fish restores health and sells
+    well at taverns.
+  category: utility
+  skill_type: active
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    fish_chance: 0.5
+    requires_item: item_fishing_rod
+  image_prompt: Fishing skill — a peaceful riverside scene, line in calm water, 
+    morning mist, patient figure on the bank, fish visible below the surface.
+- id: skill_tailoring
+  name: Кравецтво
+  description: Пасивно підвищує якість виготовлених тканинних і шкіряних 
+    предметів.
+  lore: Ліла навчала кравецтву більш ніж тридцятьох підмайстрів за своє життя. 
+    Вона каже що секрет гарного крою — в розумінні матеріалу а не у шаблоні. 
+    Персонаж з цією навичкою може виготовляти якісніший одяг і шкіряні обладунки
+    при наявності відповідних матеріалів.
+  lore_en: Lila taught tailoring to more than thirty apprentices in her life. 
+    She says the secret to good cut is understanding the material, not the 
+    pattern. A character with this skill can craft higher-quality cloth and 
+    leather armour when the right materials are available.
+  category: crafting
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect:
+    craft_quality_bonus: 0.2
+    cloth_craft: true
+    leather_craft: true
+  image_prompt: Tailoring skill — skilled hands at work on fine fabric, needle 
+    threading, measuring tape, patterns and cloth laid out on a wooden 
+    worktable.
+- id: skill_butchering
+  name: Розбирання
+  description: Навик розбирання туш монстрів. Дає змогу здобувати шкури, кістки,
+    ікла та інші ресурси. Вимагає Ніж для розбирання.
+  category: utility
+  skill_type: active
+  growth_factors:
+    perception: 0.3
+    agility: 0.2
+  lore: 'Розбирання — практичний навик перетворення поверженого монстра на корисні
+    ресурси. Шкури, кістки, ікла, отрута, магічні компоненти — все це може бути видобуте
+    вмілими руками зі здобичі.
+
+
+    Механіка: активний скіл. Ініціює розбирання туші після перемоги над монстром.
+    Для використання потрібен Ніж для розбирання в інвентарі. Кількість і якість отриманих
+    матеріалів залежать від рівня скіла, типу монстра і показника спритності. На вищих
+    рівнях дозволяє добувати рідкісні компоненти.
+
+
+    Коли використовується: одразу після перемоги над монстром, якщо потрібні крафтові
+    матеріали. Обов''язковий скіл для крафтерів, алхіміків і тих, хто хоче мінімізувати
+    витрати на покупку матеріалів.
+
+
+    Лор: мисливці Порожнини розробили цілу науку про анатомію монстрів. Кожен вид
+    має свої «точки розбирання» — місця, де потрібно розрізати щоб не пошкодити цінні
+    органи. Неправильне розбирання може знищити компоненти, що коштують більше, ніж
+    сама здобич.'
+- id: skill_shield_bash
+  name: Удар щитом
+  description: Оглушує ворога на 1 раунд.
+  category: combat
+  class_req: warrior
+  mp_cost: 5
+  cooldown: 3
+  effect: {}
+  skill_type: active
+  growth_factors:
+    strength: 0.5
+    endurance: 0.2
+  lore: 'Удар щитом — техніка, де щит перестає бути лише захистом і стає зброєю. Різкий
+    удар краєм або умбоном щита в голову чи груди ворога здатний вибити з нього дух
+    на вирішальний момент.
+
+
+    Механіка: активний скіл. Витрачає 5 MP, cooldown 3 раунди. Наносить помірну фізичну
+    шкоду та оглушує ворога на 1 раунд. Потребує щит в лівій руці.
+
+
+    Лор: легіонери Срібного Маршу кажуть: «Меч — для ворога, щит — теж для ворога».'
+- id: skill_battle_cry
+  name: Бойовий клич
+  description: +20% до атаки на 3 раунди.
+  category: combat
+  class_req:
+  mp_cost: 8
+  cooldown: 5
+  effect: {}
+  skill_type: active
+  growth_factors:
+    strength: 0.4
+    charisma: 0.3
+  lore: 'Бойовий клич — мистецтво концентрувати волю до перемоги в єдиному вигуку.
+
+
+    Механіка: активний скіл. При використанні надає +20% до атаки на 3 раунди. Витрачає
+    8 MP, cooldown 5 раундів.'
+- id: skill_first_aid
+  name: Перша допомога
+  description: Відновлює 15 HP поза боєм.
+  category: utility
+  class_req:
+  mp_cost: 3
+  cooldown: 2
+  effect: {}
+  skill_type: active
+  growth_factors:
+    intelligence: 0.3
+    will: 0.2
+  lore: 'Перша допомога — базовий медичний навик виживання.
+
+
+    Механіка: активний скіл. Витрачає 3 MP, cooldown 2 раунди. Відновлює HP поза бойовим
+    режимом.'
+- id: skill_resilience
+  name: Витривалість
+  description: Пасивно збільшує максимальну витривалість.
+  category: combat
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    endurance: 0.6
+  attribute_modifiers: []
+  passive_effects:
+  - min_tier: apprentice
+    min_level: 1
+    effects:
+      max_stamina:
+        type: add
+        value: 5
+  lore: Витривалість — не вроджена риса, а здобуток тисяч годин тренувань.
+- id: skill_dodge_mastery
+  name: Майстер ухилення
+  description: Пасивно підвищує шанс ухилення.
+  category: combat
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    agility: 0.6
+  attribute_modifiers: []
+  passive_effects:
+  - min_tier: apprentice
+    min_level: 1
+    effects:
+      dodge_chance:
+        type: add
+        value: 2
+  lore: Майстер ухилення — мистецтво бути там, куди удар не долетить.
+- id: skill_parry_mastery
+  name: Майстер парування
+  description: Пасивно підвищує шанс парування.
+  category: combat
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    strength: 0.5
+    agility: 0.3
+  attribute_modifiers: []
+  passive_effects:
+  - min_tier: apprentice
+    min_level: 1
+    effects:
+      parry_chance:
+        type: add
+        value: 2
+  lore: Майстер парування — вершина техніки захисного бою зі зброєю.
+- id: skill_berserker
+  name: Берсерк
+  description: Підвищує атаку при втраті HP.
+  category: combat
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    strength: 0.4
+    endurance: 0.2
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Берсерк — стан бойового трансу, відомий серед варварів Північних земель.
+- id: skill_iron_skin
+  name: Залізна шкіра
+  description: Пасивно підвищує захист.
+  category: combat
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    endurance: 0.7
+  attribute_modifiers: []
+  passive_effects:
+  - min_tier: apprentice
+    min_level: 1
+    effects:
+      defense:
+        type: add
+        value: 2
+  lore: Залізна шкіра — результат особливих технік загартовування тіла.
+- id: skill_recovery
+  name: Відновлення
+  description: Швидше відновлює HP поза боєм.
+  category: utility
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    will: 0.5
+    endurance: 0.3
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Відновлення — природна здатність тіла, доведена до мистецтва.
+- id: skill_bite
+  name: Укус
+  description: Різкий укус щелепами.
+  category: combat
+  skill_type: active
+  mp_cost: 0
+  cooldown: 2
+  effect:
+    damage_multiplier: 1.2
+  growth_factors: {}
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Укус — примітивна, але ефективна атака, доступна тваринам та 
+    звіроподібним істотам.
+- id: skill_claw_swipe
+  name: Кігтистий удар
+  description: Удар обома лапами по черзі.
+  category: combat
+  skill_type: active
+  mp_cost: 0
+  cooldown: 3
+  effect:
+    damage_multiplier: 1.0
+    hits: 2
+  growth_factors: {}
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Кігтистий удар — техніка, притаманна звіроподібним расам і мутантам.
+- id: skill_cheap_shot
+  name: Підлий удар
+  description: Удар у вразливе місце.
+  category: combat
+  skill_type: active
+  mp_cost: 0
+  cooldown: 4
+  effect:
+    damage_multiplier: 1.1
+  growth_factors: {}
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Підлий удар — техніка без честі, але з ефективністю.
+- id: skill_scout_dash
+  name: Стрімкий ривок
+  description: Стрибок убік, ухиляючись від атаки.
+  category: combat
+  skill_type: active
+  mp_cost: 0
+  cooldown: 5
+  effect:
+    dodge_boost_rounds: 1
+  growth_factors: {}
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Стрімкий ривок — техніка перекату або різкого стрибка убік в останній 
+    момент.
+- id: skill_location_search
+  name: Обшук локації
+  description: Дозволяє обшукувати локацію у пошуках прихованих предметів. Шанс 
+    залежить від рівня скілу, сприйняття, удачі, типу локації, пори доби, пори 
+    року та погоди.
+  category: utility
+  skill_type: active
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    perception: 0.5
+    luck: 0.3
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Обшук локації — систематичне дослідження простору в пошуку прихованих 
+    цінностей, таємних ходів, слідів присутності або небезпеки.
+  lore_en: A focused explorer carefully examining a dungeon wall with a torch, 
+    revealing a hidden niche. Glowing golden search lines radiate outward like 
+    sonar pulses.
+- id: skill_passive_search
+  name: Пошук
+  description: Пасивний навик обшуку. Підвищує шанс знайти предмети та кількість
+    речей, що знаходяться за одну спробу обшуку ворогів.
+  category: utility
+  skill_type: passive
+  mp_cost: 0
+  cooldown: 0
+  effect: {}
+  growth_factors:
+    luck: 0.5
+  attribute_modifiers: []
+  passive_effects: []
+  lore: Пошук — пасивна уважність, що стає другою натурою. Це не активне 
+    дослідження, а постійний фоновий аналіз оточення.
+  lore_en: A sharp-eyed tracker in a crouch, noticing hidden coins and items 
+    where others see nothing. Subtle golden glints highlight hidden objects in 
+    the environment.

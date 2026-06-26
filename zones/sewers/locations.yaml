@@ -1,0 +1,948 @@
+- id: location_sewer_junction_a
+  district_id: district_stone_ford
+  name: Перший Розвилок
+  description: Перший великий розвилок тунелів. Три проходи ведуть у різні боки 
+    каналізації.
+  full_description: 'Одразу за входом тунелі розходяться у три боки. Центральний прохід
+    відчинений — звідси тягне вогкістю і запахом гнилі. На стінах — стара розмита
+    напис крейдою: «Стережись Щурів». Над головою шумить вода у занедбаних жолобах.'
+  lore_en: 'Just past the entrance, the tunnels branch three ways. The central passage
+    gapes open — from it drifts dampness and the smell of rot. On the walls, an old
+    smeared chalk inscription: ''Beware the Rats''. Above, water rushes through neglected
+    gutters.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A T-junction of ancient stone sewer tunnels, moss-covered walls, 
+    shallow water on floor, flickering torch in distance.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_east_inlet
+  district_id: district_stone_ford
+  name: Східний Водовід
+  description: Вузький тунель де з верхнього міста стікає вода. Гамірно від 
+    дзюркоту.
+  full_description: Зі стелі цього тунелю безперервно стікають струмки нечистот 
+    з ремісничого кварталу. Земля слизька, а стіни вкриті зеленим мохом аж до 
+    половини висоти. Отвори у стелі з'єднані з ринвами вулиці — у дощ тут ціла 
+    повінь. Щури почуваються тут як вдома.
+  lore_en: From the ceiling of this tunnel, constant streams of effluent flow 
+    down from the craftsmen's quarter above. The floor is slippery, and the 
+    walls are coated in green moss up to half their height. Openings in the 
+    ceiling connect to street gutters — during rain, this becomes a flood. Rats 
+    feel right at home here.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A narrow sewer tunnel with water streaming from ceiling grates, 
+    thick green moss on walls, rat silhouettes in dim light.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_guard_ruins
+  district_id: district_stone_ford
+  name: Руїни Вартового Поста
+  description: Залишки старого поста вартових каналізації. Тут можна відпочити і
+    зустріти ловця щурів.
+  full_description: Колись тут стояв пост каналізаційних наглядачів — 
+    підтверджують цьому стіл, кілька зламаних стільців і облупленість стін. Нині
+    це місце облюбував Петрусь — місцевий ловець щурів, що ладен обмінятися 
+    корисним і купити щурячі хвости. Фігурне вікно у стіні відчиняється у темний
+    бічний коридор. Тут порівняно безпечно — принаймні більші монстри поки що 
+    сюди не добрались.
+  lore_en: This was once a watchpost for sewer overseers — evidenced by the 
+    table, broken chairs and peeling walls. Now it is favored by Petrus, a local
+    rat catcher willing to trade useful goods and buy rat tails. A barred window
+    in the wall opens into a dark side corridor. It is relatively safe here — at
+    least the larger monsters have not reached this far yet.
+  type: dungeon
+  is_safe: true
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A ruined underground guardpost with broken furniture, torch-lit 
+    alcove, a grizzled man sorting rat tails, relative safety.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_north_sluice
+  district_id: district_stone_ford
+  name: Північний Шлюз
+  description: Стара шлюзова кімната з іржавими засувками. Запах тут особливо 
+    різкий.
+  full_description: Шлюзи колись регулювали потік каналізаційних вод між 
+    рівнями. Тепер вони заіржавіли у відкритому положенні — вода тече 
+    нерегульовано. На підлозі — сантиметрів десять темної стоячої води. Із щілин
+    у стінах чутно скрипіння і шурхіт — щурів тут незліченно.
+  lore_en: The sluices once regulated the flow of waste water between levels. 
+    Now they have rusted open — the water flows uncontrolled. The floor holds 
+    ten centimeters of dark standing water. From cracks in the walls come 
+    scratching and rustling — countless rats inhabit here.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. An ancient sewer sluice chamber with rusted iron gates, dark 
+    standing water on floor, rat eyes gleaming in cracks.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_west_channel
+  district_id: district_stone_ford
+  name: Західний Канал
+  description: Широкий головний канал що тягнеться на захід. Тут повно слизунів.
+  full_description: Цей широкий канал — основна транспортна артерія верхніх 
+    каналізаційних рівнів. Колись тут плавали баржі обслуговування, тепер — лише
+    каналізаційні слизуни. Стіни вкриті шаром мулу і зеленого наросту. Слизові 
+    сліди на підлозі ведуть у кількох напрямках.
+  lore_en: This wide channel was once the main transport artery of the upper 
+    sewer levels. Maintenance barges once floated here; now only sewer slugs do.
+    The walls are coated in mud and green growth. Slime trails on the floor lead
+    in several directions.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A wide underground sewer channel with vaulted ceiling, slugs on 
+    walls, slime trails on wet stone floor.
+  ambient_sound: sewer_flow
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_workers_alcove
+  district_id: district_stone_ford
+  name: Альков Каналізаторів
+  description: Невелика бічна кімнатка де колись відпочивали робітники. Старі 
+    інструменти на стінах.
+  full_description: Цей альков використовувався каналізаційниками для зберігання
+    інструментів і коротких перерв. На іржавих гачках досі висять деякі лопати і
+    гаки. Зламана лавка у кутку і старий ліхтар без масла. Слизові сліди 
+    говорять, що нинішні мешканці — слизуни, а не робітники.
+  lore_en: This alcove was used by sewer workers for tool storage and short 
+    breaks. On rusty hooks still hang several shovels and hooks. A broken bench 
+    in the corner and an old lamp without oil. Slime trails indicate the current
+    residents are slugs, not workers.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A small underground worker's alcove, rusty tools on walls, broken 
+    furniture, slime trails, atmospheric dim light.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_pump_chamber
+  district_id: district_stone_ford
+  name: Насосна Камера
+  description: Кімната зі старим насосом що давно не працює. Чути шум далекого 
+    потоку.
+  full_description: Велике металеве колесо насосу заіржавіло у нерухомому стані 
+    десятки років тому. Без нього вода у нижніх рівнях не циркулює — звідси і 
+    стоячі болота в глибині. Коли-не-коли, тунель наповнюється гучним шумом з 
+    нижніх водопропускних каналів. Сколопендри облюбували простір за насосом.
+  lore_en: The great metal pump wheel rusted to a standstill decades ago. 
+    Without it, water in the lower levels does not circulate — hence the 
+    stagnant swamps in the depths. Occasionally, the tunnel fills with a loud 
+    roar from lower drainage channels. Centipedes have claimed the space behind 
+    the pump.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. An underground pump chamber with a massive rusted iron wheel 
+    mechanism, centipedes crawling on walls, distant water sounds.
+  ambient_sound: sewer_flow
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_lower_gate
+  district_id: district_stone_ford
+  name: Нижні Ворота
+  description: Масивні кам'яні ворота між верхнім і середнім рівнями. Прохід 
+    звужується тут.
+  full_description: 'Стародавні кам''яні ворота між рівнями каналізації — вузький
+    прохід шириною лише для однієї людини. На воротях вирізані попереджувальні знаки
+    давньою мовою. За воротами — різкий перепад температури і набагато більша вогкість.
+    Тут відчутно: далі — небезпечніші краї.'
+  lore_en: 'Ancient stone gates between sewer levels — a narrow passage wide enough
+    for only one person. Warning signs in an old language are carved on the gates.
+    Beyond the gates the temperature drops sharply and humidity increases greatly.
+    Here you sense it: what lies ahead is far more dangerous.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. Ancient stone sewer gate with carved warning runes, narrow 
+    passage, dramatic lighting, atmosphere of foreboding.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_central_hub
+  district_id: district_stone_ford
+  name: Центральний Вузол
+  description: Широка кругла зала — серце середнього рівня каналізації. 
+    Розгалуження у чотири боки.
+  full_description: 'Центральний Вузол — найбільший відкритий простір середнього рівня.
+    Висока купольна стеля губиться у темряві. Чотири тунелі відходять у різні сторони,
+    і кожен має свій характер: зі сходу — запах болота, з заходу — запах гоблінського
+    вогнища, з півдня — абсолютна пітьма. На підлозі помітні сліди від різних істот.'
+  lore_en: 'The Central Hub is the largest open space of the middle sewer level. The
+    high domed ceiling is lost in darkness above. Four tunnels branch in different
+    directions, each with its own character: from the east — swamp smell, from the
+    west — goblin fire smell, from the south — absolute darkness. On the floor, tracks
+    from various creatures are visible.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A large round domed sewer hub chamber, four tunnels branching 
+    outward, torchlight from multiple directions, creature tracks on wet stone.
+  ambient_sound: sewer_flow
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_flooded_nave
+  district_id: district_stone_ford
+  name: Затоплений Неф
+  description: Довгий коридор по коліна у темній воді. Лічать печерних п'явок.
+  full_description: Колись цей широкий коридор слугував як головна дренажна 
+    лінія. Тепер він затоплений по коліна — темна вода приховує усе, що є на 
+    дні. У воді живуть печерні п'явки, що непомітно прикріплюються до ніг. На 
+    стінах видно старі позначки рівня води — нинішній рівень вдвічі вищий за 
+    норму.
+  lore_en: This wide corridor once served as a main drainage line. Now it is 
+    knee-deep in dark water that conceals everything on the bottom. Cave leeches
+    inhabit the water, silently attaching to legs. Old water-level marks on the 
+    walls show the current level is twice the norm.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A long sewer corridor flooded knee-deep with dark stagnant water, 
+    leeches visible on stone walls, dim light reflecting on water surface.
+  ambient_sound: sewer_flow
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_goblin_bazaar
+  district_id: district_stone_ford
+  name: Гоблінський Базар
+  description: Неочікувано жвава гоблінська торговельна зона. Тут можна купити 
+    рідкісне або продати трофеї.
+  full_description: 'Посеред каналізаційних небезпек — невелика зона де гобліни влаштували
+    торгівлю. Нейтральна зона за негласним договором: зброю прибирають при вході.
+    Тут торгує Зораз — гоблінський торговець-відступник, що розмовляє людською мовою.
+    Асортимент строкатий: від краденого посуду до рідкісних каналізаційних знахідок.
+    Торгувати можна, битись — заборонено під страхом смерті від усіх гоблінів одразу.'
+  lore_en: 'Amid the sewer dangers sits a small zone where goblins set up trade. A
+    neutral zone by unspoken agreement: weapons are sheathed on entry. Here trades
+    Zorax — a renegade goblin merchant who speaks human tongue. The stock is eclectic:
+    stolen kitchenware to rare sewer finds. Trade is welcome; fighting is forbidden
+    on pain of death from every goblin at once.'
+  type: dungeon
+  is_safe: true
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A goblin marketplace in an underground sewer chamber, colorful 
+    stolen goods on crude stalls, torches everywhere, goblins haggling.
+  ambient_sound: dungeon_ambient
+  music: town_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_cistern_east
+  district_id: district_stone_ford
+  name: Східна Цистерна
+  description: Кругла підземна цистерна для збору дощових вод. Нині служить 
+    гнізду гігантських щурів.
+  full_description: Ця кругла кімната з куполом — колишня резервна цистерна для 
+    дощових вод. Стіни мають кілька метрів у ширину і колись були 
+    водонепроникні. Тепер у цистерні панують гігантські щури — тут їхнє головне 
+    гніздо в зоні. Запах нестерпний. Очей у темряві — безліч.
+  lore_en: This circular domed chamber was once a reserve cistern for rainwater.
+    The walls are several meters thick and were once watertight. Now giant rats 
+    rule the cistern — it is their main nest in this zone. The smell is 
+    unbearable. Eyes in the darkness — countless.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A circular stone cistern chamber, giant rats nesting in corners, 
+    bones and debris on floor, glowing eyes in darkness.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_cistern_west
+  district_id: district_stone_ford
+  name: Західна Цистерна
+  description: Друга велика цистерна, затоплена наполовину. В глибині — 
+    мерехтіння кристалів.
+  full_description: Ця цистерна зазнала обвалу однієї із стін — вода заповнила 
+    половину приміщення. Під водою видно щось блискуче — каналізаційні кристали 
+    у нижніх шарах каменю. Туди ж заглядає Щурячий Король, що любить цю тиху 
+    затоку. Дістатись кристалів — значить пройти через Короля.
+  lore_en: This cistern suffered a wall collapse — water fills half the chamber.
+    Under the water something gleams — sewer crystals in the lower stone layers.
+    The Rat King also frequents this quiet cove. To reach the crystals means 
+    getting past the King.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A half-flooded cistern with glowing blue crystals visible under 
+    the water surface, Rat King throne of debris in corner.
+  ambient_sound: sewer_flow
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_bone_channel
+  district_id: district_stone_ford
+  name: Кістковий Канал
+  description: Широкий канал устелений кістками давніх жертв. Небезпека 
+    відчувається на кожному кроці.
+  full_description: 'Підлога цього широкого каналу густо вкрита кістками — людськими,
+    тваринними і невідомими. Хтось або щось зволікало своїх жертв сюди роками. Зараз
+    тут мешкають слизоти, що розчиняють кістки заради мінералів. Ходити обережно:
+    кістки слизькі.'
+  lore_en: 'The floor of this wide channel is thickly carpeted with bones — human,
+    animal, and unidentifiable. Something dragged its victims here for years. Now
+    sewer oozes inhabit the space, dissolving bones for their minerals. Step carefully:
+    bones are slippery.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A wide sewer channel floor covered in bones of various creatures, 
+    acidic ooze dissolving remains, eerie bone-white lighting.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_ooze_pit
+  district_id: district_stone_ford
+  name: Яма Слизоти
+  description: Глибока яма заповнена слизотою. Живий кислотний килим поглинає 
+    все що падає.
+  full_description: Відгалуження каналу закінчується природньою ямою, повністю 
+    заповненою живою слизотою. Вона булькає і пузириться — поверхня схожа на 
+    кислотне болото. Нічого, що потрапляє у яму, не виходить назад. Деякі 
+    сміливці ловлять ядра слизоти зі країв — дуже ризикований спосіб заробітку.
+  lore_en: A channel offshoot ends in a natural pit completely filled with 
+    living ooze. It bubbles and froths — the surface resembles an acid swamp. 
+    Nothing that falls in comes back out. Some daring souls fish for ooze nuclei
+    from the edges — a very risky way to earn coin.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A pit filled with bubbling acidic green ooze, steam rising from 
+    surface, dissolved debris visible, dangerous glow.
+  ambient_sound: sewer_flow
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_slime_corridor
+  district_id: district_stone_ford
+  name: Слизький Коридор
+  description: Вузький коридор повністю покритий слизом гігантських слизунів. 
+    Майже неможливо стояти.
+  full_description: Стіни, стеля і підлога цього вузького коридору вкриті шаром 
+    слизу гігантських слизунів. Йти доводиться вздовж стін, чіпляючись за 
+    виступи каменю. Самі слизуни розмістились по обидва боки і відреагують на 
+    будь-який швидкий рух. Хто йде повільно і обережно — може пройти без бою.
+  lore_en: The walls, ceiling and floor of this narrow corridor are coated in 
+    giant slug slime. One must move along the walls, gripping stone 
+    outcroppings. The slugs themselves are positioned on both sides and will 
+    react to any fast movement. Those who move slowly and carefully may pass 
+    without a fight.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A narrow sewer corridor completely coated in iridescent slime, 
+    giant slugs on both walls, hazardous footing.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_mushroom_grotto
+  district_id: district_stone_ford
+  name: Грибний Грот
+  description: Природня печера де ростуть великі біолюмінесцентні гриби. 
+    Дивовижно красиво.
+  full_description: Серед темряви і сморіду — раптовий острівець дивовижної 
+    краси. Ця невелика печера вся вкрита великими синьо-зеленими грибами що 
+    світяться у темряві. Споровий пил висить у повітрі і мерехтить. Гриби 
+    їстівні і дають сили. Але хтось збирає їх перед тобою — залишки зрізаних 
+    ніжок свіжі.
+  lore_en: Amid darkness and stench — a sudden island of astonishing beauty. 
+    This small cave is entirely covered with large blue-green bioluminescent 
+    mushrooms. Spore dust hangs in the air and shimmers. The mushrooms are 
+    edible and restorative. But someone was here before you — the cut stems are 
+    fresh.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A small underground grotto glowing with bioluminescent blue-green 
+    mushrooms, spore particles floating, magical atmosphere.
+  ambient_sound: dungeon_ambient
+  music: dungeon_mystical
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_rat_king_den
+  district_id: district_stone_ford
+  name: Лігво Щурячого Короля
+  description: Широкий нір де панує Щурячий Король. Кістки попередніх «гостей» 
+    скрізь.
+  full_description: За сотнями щурячих очей у темряві — центр їхнього царства. 
+    Щурячий Король на своєму «троні» з мотлоху дивиться на кожного хто 
+    наважується увійти. Навколо нього — охорона з найбільших самців. На підлозі 
+    — кістки, монети і дрібні трофеї від тих, кому не пощастило. Здолати Короля 
+    — значить розігнати цю зграю назавжди.
+  lore_en: Behind hundreds of rat eyes in the darkness lies the center of their 
+    kingdom. The Rat King sits on his 'throne' of junk, watching every intruder.
+    Around him — a guard of the largest males. On the floor — bones, coins and 
+    small trophies from those who were unlucky. Slaying the King means 
+    scattering this pack forever.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A vast rat den with hundreds of rats, the Rat King on a garbage 
+    throne, bones and coins scattered on floor, oppressive darkness.
+  ambient_sound: sewer_drip
+  music: dungeon_boss
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_smuggler_cache
+  district_id: district_stone_ford
+  name: Тайник Контрабандистів
+  description: Прихована кімнатка за фальшивою стіною. Тут залишки 
+    контрабандного товару.
+  full_description: За рухомою кам'яною плитою — невеликий тайник. 
+    Контрабандисти використовували ці тунелі десятки років тому для провезення 
+    нелегального краму. Тайник давно покинутий — але залишились кілька 
+    дерев'яних ящиків і старі монети. Пастки теж залишились — не всі видно 
+    одразу.
+  lore_en: Behind a sliding stone slab lies a small cache. Smugglers used these 
+    tunnels decades ago for moving illegal goods. The cache is long abandoned — 
+    but a few wooden crates and old coins remain. Traps also remain — not all 
+    are immediately visible.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A secret underground smuggler cache, dusty wooden crates, 
+    scattered old coins, hidden behind a stone door, trap wires visible.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_old_garrison
+  district_id: district_stone_ford
+  name: Стара Казарма
+  description: Покинуті казарми стародавніх охоронців підземелля. Нині — 
+    гоблінська фортеця.
+  full_description: Ці казарми збудовані ще тоді, коли хтось намагався тримати 
+    порядок у каналізації. Нині гобліни перетворили їх на власну фортецю — 
+    поставили барикади і вирили бійниці. Тут живе та б'ється декілька загонів 
+    гоблінів. Вибити їх складно, але за казармою — прохід до більш глибоких 
+    рівнів.
+  lore_en: These barracks were built when someone still tried to maintain order 
+    in the sewers. Now goblins have converted them into a fortress — barricades 
+    erected, arrow slots dug. Several goblin squads live and fight here. 
+    Clearing them is difficult, but beyond the barracks lies access to deeper 
+    levels.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. Ancient stone barracks converted to goblin fortress, crude 
+    barricades, torches, armed goblin defenders.
+  ambient_sound: dungeon_ambient
+  music: dungeon_tension
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_deep_descent
+  district_id: district_stone_ford
+  name: Спуск у Глибини
+  description: Крутий кам'яний спуск у нижні рівні. Повітря стає важчим з кожним
+    кроком.
+  full_description: 'Тут підлога круто йде вниз — давні сходи стали слизькими від
+    вологи. Повітря помітно холодніше і важче дихати — з глибини підіймається каналізаційний
+    газ. Факели тут горять тьмяніше. Назад підніматись важко: кожен крок вгору вимагає
+    зусиль. Хто дійшов сюди — зробив перший крок до справжнього пекла.'
+  lore_en: 'Here the floor descends steeply — ancient stairs made slick with moisture.
+    The air is noticeably colder and harder to breathe — sewer gas rises from the
+    depths. Torches burn dimmer here. Climbing back up is difficult: every upward
+    step requires effort. Whoever reaches this point has taken the first step into
+    true hell.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A steep stone stairway descending into darkness, sewer gas visible
+    as haze, torchlight barely penetrating the deep darkness below.
+  ambient_sound: sewer_flow
+  music: dungeon_deep
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_troll_crossing
+  district_id: district_stone_ford
+  name: Троляча Переправа
+  description: Кам'яний міст над підземною рікою. Вартовий Троль контролює 
+    переправу.
+  full_description: Давній кам'яний міст перекинутий через підземну річку — 
+    єдиний шлях у глиб. На мості, неначе статуя, стоїть Вартовий Троль. Він не 
+    нападає одразу — але і не пропускає безкоштовно. Деякі авантюристи платять 
+    їжею. Деякі — пробігають. Більшість б'ється. Внизу — темна підземна річка, 
+    що шумить у пітьмі.
+  lore_en: An ancient stone bridge spans an underground river — the only path 
+    deeper. On the bridge stands the Warden Troll, still as a statue. He does 
+    not attack immediately — but he does not let anyone pass freely. Some 
+    adventurers pay in food. Some try to sprint past. Most fight. Below — a dark
+    underground river roaring in the darkness.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A stone bridge over a dark underground river, a massive troll 
+    blocking the crossing, torch-cast shadows, dramatic depth.
+  ambient_sound: sewer_flow
+  music: dungeon_boss
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_plague_zone
+  district_id: district_stone_ford
+  name: Чумна Зона
+  description: Запечатана секція де колись ховали жертв чуми. Деякі встали з 
+    мертвих.
+  full_description: 'Колись місто намагалось замурувати тут жертв чуми щоб зупинити
+    поширення хвороби. Стіни підперті кам''яними плитами, але частина обвалилась.
+    Нині тут блукають чумні зомбі — безмозкі, невтомні, і дуже небезпечні. Повітря
+    тут отруйне: без захисту — ризик зараження чумною лихоманкою.'
+  lore_en: 'Once the city tried to wall plague victims here to stop the disease''s
+    spread. The walls are braced with stone slabs, but part has collapsed. Now plague
+    zombies roam — mindless, tireless, and very dangerous. The air is toxic: without
+    protection, risk of plague fever infection.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A sealed plague burial chamber now broken open, plague zombies 
+    wandering, toxic green miasma in air, macabre atmosphere.
+  ambient_sound: dungeon_ambient
+  music: dungeon_horror
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_forgotten_shrine
+  district_id: district_stone_ford
+  name: Забутий Вівтар
+  description: Стародавній кам'яний вівтар невідомому божеству. Тут дивно тихо і
+    спокійно.
+  full_description: Неясно хто і коли побудував цей вівтар у каналізаційному 
+    тунелі. Невідоме божество, стерті символи — але місце випромінює певний 
+    спокій. Монстри уникають цієї ділянки — навіть щури не заходять близько. 
+    Мандрівники відпочивають тут, поклавши монету на вівтар. Кажуть, що монети 
+    зникають за ніч.
+  lore_en: It is unclear who built this altar in a sewer tunnel, or when. The 
+    deity is unknown, the symbols worn smooth — yet the place radiates a certain
+    calm. Monsters avoid this area — even rats do not approach. Travelers rest 
+    here, placing a coin on the altar. They say the coins disappear overnight.
+  type: dungeon
+  is_safe: true
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. An ancient stone altar in a sewer tunnel, carved with worn 
+    symbols, a single oil lamp burning, peaceful despite the surroundings.
+  ambient_sound: dungeon_ambient
+  music: dungeon_mystical
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_dark_pool
+  district_id: district_stone_ford
+  name: Чорний Став
+  description: Глибокий підземний став з абсолютно чорною водою. Тут живе щось 
+    велике.
+  full_description: Вода цього підземного ставу чорна і непрозора навіть на 
+    сантиметр глибини. На поверхні іноді виринають великі бульбашки. Гобліни 
+    уникають цього місця і говорять про «Того що в глибині» пошепки. Береги 
+    вкриті п'явками. У центрі ставу — старий кам'яний острів з руїнами на ньому.
+  lore_en: The water of this underground pool is black and opaque even at a 
+    centimeter depth. Large bubbles occasionally break the surface. Goblins 
+    avoid this place and whisper of 'The One Below'. The shores are thick with 
+    leeches. In the center of the pool — a small stone island with ruins on it.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A dark underground pool with impenetrable black water, large 
+    bubbles on surface, leech-covered shore, mysterious island in center.
+  ambient_sound: sewer_flow
+  music: dungeon_deep
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_underground_stream
+  district_id: district_stone_ford
+  name: Підземний Потік
+  description: Швидка підземна річка що тече крізь скелі. Вздовж берегів — 
+    небезпека.
+  full_description: 'Підземна річка тут набирає силу — вода холодна і стрімка. Камінці
+    порожисті: впасти — значить втратити рівновагу і бути зімнутим потоком. Вздовж
+    берегів розташувались колонії печерних п''явок і патрулі гоблінів. Вище за течією
+    — звідки приходить вода — у темряві видно слабке синє мерехтіння.'
+  lore_en: 'The underground river gains force here — the water is cold and fast. The
+    stepping stones are treacherous: fall and you lose your footing to be swept away.
+    Along the banks are cave leech colonies and goblin patrols. Upstream — where the
+    water comes from — a faint blue glimmer is visible in the darkness.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A rushing underground stream through dark stone, treacherous 
+    stepping stones, leeches on banks, blue glimmer upstream.
+  ambient_sound: sewer_flow
+  music: dungeon_deep
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_crystal_vein
+  district_id: district_stone_ford
+  name: Кришталева Жила
+  description: Невелика печера з великою жилою каналізаційних кристалів. 
+    Мерехтить у темряві.
+  full_description: Стіни цієї печери буквально усіяні кристалами. Блакитне 
+    мерехтіння настільки яскраве, що смолоскип тут непотрібен. Кристали ростуть 
+    прямо з породи — їх можна видобути за пів години роботи. Але жилу вже 
+    знайшли гобліни і побудували тут невеликий видобувний пост.
+  lore_en: The walls of this cave are literally studded with crystals. The blue 
+    shimmer is bright enough to make a torch unnecessary. Crystals grow directly
+    from the rock — they can be mined in half an hour's work. But goblins have 
+    already found the vein and built a small mining post here.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A crystal-filled cave with brilliant blue sewer crystals growing 
+    from every surface, no torch needed, goblin mining camp.
+  ambient_sound: dungeon_ambient
+  music: dungeon_mystical
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_goblin_war_camp
+  district_id: district_stone_ford
+  name: Гоблінський Бойовий Табір
+  description: Укріплений гоблінський табір під керівництвом шамана. Важко і 
+    небезпечно.
+  full_description: Тут гобліни збудували справжній укріплений табір зі 
+    частоколом зі щурячих кісток. Шаман сидить у центрі і координує захист. 
+    Декілька вогнищ, облогові запаси, ув'язнені у клітках (мабуть)... Знищити 
+    табір — отримати доступ до глибших тунелів, що гобліни охороняють як 
+    найцінніше.
+  lore_en: Here goblins built a proper fortified camp with a palisade of rat 
+    bones. The shaman sits in the center coordinating the defense. Several 
+    fires, siege supplies, prisoners in cages (probably)... Destroying the camp 
+    grants access to deeper tunnels that goblins guard above all else.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A goblin war camp in a large sewer chamber, bone palisade walls, 
+    multiple fires, a shaman on a raised platform.
+  ambient_sound: dungeon_ambient
+  music: dungeon_tension
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_collapsed_gallery
+  district_id: district_stone_ford
+  name: Обвалена Галерея
+  description: Коридор де обвалилась частина стелі. Прохід є, але вузький і 
+    нестабільний.
+  full_description: 'Обвал стався давно — вже давно охолов. Проте стеля тут нестабільна:
+    кожен сильний удар може викликати новий обвал. У кам''яних завалах живуть сколопендри.
+    Прохід є — але треба повзти на животі через вузький отвір між брилами. Зате за
+    галереєю — відносно безпечна ділянка.'
+  lore_en: 'The collapse happened long ago — it has long since cooled. Yet the ceiling
+    here is unstable: any strong blow could trigger a new collapse. Centipedes nest
+    in the stone rubble. There is a passage — but you must crawl on your stomach through
+    a narrow gap between boulders. Beyond the gallery, however, is a relatively safer
+    zone.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A partially collapsed sewer gallery, huge stone blocks on floor, 
+    narrow crawl passage visible, centipedes on rubble.
+  ambient_sound: sewer_drip
+  music: dungeon_ambient
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_alchemist_lair
+  district_id: district_stone_ford
+  name: Лігво Алхіміка
+  description: Покинута алхімічна лабораторія з пошкодженим обладнанням і 
+    небезпечними звітрювачами.
+  full_description: 'Хтось колись прийшов у каналізацію проводити досліди, що не вітались
+    у місті. Залишилось: стіл з побитими реторти, кілька зупинених процесів у колбах
+    і журнал із шифрованими записами. Деякі реагенти ще активні і небезпечні. Дослідники
+    можуть знайти тут цінне — якщо обережно. А ось хто тут жив востаннє — залишив
+    дуже підозрілі сліди.'
+  lore_en: 'Someone once came to the sewers to conduct experiments unwelcome in the
+    city above. What remains: a table with shattered retorts, several arrested processes
+    in flasks, and a cipher journal. Some reagents are still active and dangerous.
+    Researchers may find valuables here — if careful. As for who last lived here —
+    they left very suspicious traces.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. An abandoned underground alchemist laboratory, broken retorts, 
+    bubbling flasks, cipher journals, dangerous chemical vapors.
+  ambient_sound: dungeon_ambient
+  music: dungeon_mystical
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_necromancer_lab
+  district_id: district_stone_ford
+  name: Лабораторія Некроманта
+  description: Темна лабораторія де когось підняли з мертвих. Нежить досі тут 
+    блукає.
+  full_description: Темна магія, некромантські кола на підлозі — хтось проводив 
+    тут ритуали підняття мертвих. Чумні зомбі, що блукають тут — результат цих 
+    експериментів. На полицях зберігаються темні матеріали — корисні для тих хто
+    знає як ними користуватись. Сам некромант давно зник — але залишив достатньо
+    небезпеки.
+  lore_en: Dark magic, necromantic circles on the floor — someone conducted 
+    raising rituals here. The plague zombies that roam here are the result of 
+    those experiments. Shelves hold dark materials — useful for those who know 
+    how to use them. The necromancer himself is long gone — but left enough 
+    danger behind.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A dark necromancer's underground lab with ritual circles on floor,
+    zombies wandering, dark jars on shelves, oppressive evil.
+  ambient_sound: dungeon_ambient
+  music: dungeon_horror
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_deep_cistern
+  district_id: district_stone_ford
+  name: Глибока Цистерна
+  description: Найбільша цистерна у каналізації — стеля губиться вгорі. Тут 
+    завжди стоїть туман.
+  full_description: Ця цистерна значно більша за всі попередні — справжній 
+    підземний собор. Стеля на висоті двадцяти метрів губиться у туманній імлі. 
+    По стінах стікає вода, утворюючи підземні водоспади. Тут зустрічаються всі 
+    види каналізаційної нечисті — від слизоти до гоблінів. Далі — Безодня.
+  lore_en: This cistern is far larger than all previous ones — an underground 
+    cathedral. The ceiling at twenty meters is lost in misty haze. Water streams
+    down the walls forming underground waterfalls. Here every type of sewer 
+    creature can be found — from ooze to goblins. Beyond lies the Abyss.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A massive underground cathedral-cistern, water cascading down 
+    walls, mist-filled height, multiple monster types visible in shadows.
+  ambient_sound: sewer_flow
+  music: dungeon_deep
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_abyss_threshold
+  district_id: district_stone_ford
+  name: Поріг Безодні
+  description: Межа між глибокими тунелями і Безоднею. Звідси немає легкого 
+    шляху назад.
+  full_description: 'Тут стародавній кам''яний поріг відзначає початок Безодні — нижнього
+    рівня каналізації, де жила Стародавня Слизота і де народились Дрони Вулика. Повітря
+    тут пульсує тихим гудінням рою. Температура різко падає. На стіні хтось написав
+    кров''ю: «Повернись».'
+  lore_en: 'An ancient stone threshold marks the start of the Abyss — the lowest sewer
+    level where the Ancient Ooze lived and the Hive Drones were born. The air here
+    pulses with the quiet hum of the swarm. Temperature drops sharply. On the wall
+    someone has written in blood: ''Turn Back''.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. An ancient stone threshold into absolute darkness, blood-written 
+    warning on wall, hive drone sounds audible, last torchlight.
+  ambient_sound: dungeon_hive
+  music: dungeon_deep
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_void_crossing
+  district_id: district_stone_ford
+  name: Перехід через Пустоту
+  description: Вузький кам'яний виступ над безодньою прірвою. Дрони Вулика 
+    атакують тут з повітря.
+  full_description: 'Це вузький кам''яний виступ — ледве метр завширшки — над прірвою
+    без видимого дна. Звідси видно глибоко вниз: там — мерехтіння рою. Дрони Вулика
+    атакують саме тут — з темряви, звалюючись зверху. Кроки мають бути обережними.
+    Ліворуч — стара кам''яна ніша з чимось у ній.'
+  lore_en: 'This is a narrow stone ledge — barely a meter wide — over a chasm of no
+    visible bottom. From here you can see deeply down: hive shimmer visible below.
+    Hive Drones attack precisely here — from the darkness, plunging from above. Steps
+    must be careful. To the left — an old stone niche with something inside.'
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A narrow stone ledge over a bottomless chasm, hive drones diving 
+    from above, glowing swarm visible far below.
+  ambient_sound: dungeon_hive
+  music: dungeon_boss
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_queen_approach
+  district_id: district_stone_ford
+  name: Підхід до Королеви
+  description: Широкий коридор веде до серця Вулика. Тут найгустіші патрулі 
+    дронів.
+  full_description: Останній прямий шлях до Королеви Вулика — широкий коридор, 
+    вистелений хітиновими пластинами. Стіни покриті висохлими комашиними яйцями 
+    і личинками. Тут найбільша концентрація дронів — постійні патрулі 
+    заступаються кожні кілька хвилин. Пройти тихо майже неможливо. Але є ще час 
+    повернутись.
+  lore_en: The final direct approach to the Hive Queen — a wide corridor lined 
+    with chitin plates. Walls covered in dried insect eggs and larvae. The 
+    highest drone concentration is here — constant patrols rotating every few 
+    minutes. Passing quietly is nearly impossible. But there is still time to 
+    turn back.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A wide corridor lined with black chitin, drone patrols visible, 
+    dried insect eggs on walls, oppressive hive presence.
+  ambient_sound: dungeon_hive
+  music: dungeon_boss
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_hive_outer
+  district_id: district_stone_ford
+  name: Зовнішній Вулик
+  description: Перша камера власне Вулика. Тут живуть Вартові. Відступ все ще 
+    можливий.
+  full_description: Перша справжня камера Вулика — стіни вкриті чорними 
+    хітиновими плитами, з яких виростають комашині нори. Вартові Вулика стоять 
+    нерухомо попарно біля кожного проходу. Вони атакують без попередження. Рій 
+    відчуває кожен крок — Королева вже знає що ти прийшов.
+  lore_en: The first true chamber of the Hive — walls covered in black chitin 
+    plates from which insect burrows grow. Hive Guards stand motionless in pairs
+    at every passage. They attack without warning. The swarm feels every step — 
+    the Queen already knows you have come.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. The outer hive chamber, black chitin walls, paired hive guards 
+    flanking passages, the swarm's oppressive presence.
+  ambient_sound: dungeon_hive
+  music: dungeon_boss
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_hive_inner
+  district_id: district_stone_ford
+  name: Внутрішній Вулик
+  description: Центральне гніздо Вулика. Тут вирощуються дрони і живе решта рою.
+  full_description: Тут народжується рій. Тисячі комашиних яєць у нішах стін, 
+    личинки у коконах. Дрони снують між нірами без відпочинку. Запах хітину і 
+    комашиного пороху непереносний. За центральними вратами — Тронна Зала.
+  lore_en: Here the swarm is born. Thousands of insect eggs in wall niches, 
+    larvae in cocoons. Drones move between burrows without rest. The smell of 
+    chitin and insect pheromones is unbearable. Beyond the central gates — the 
+    Throne Chamber.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. The inner hive nursery, thousands of eggs in wall niches, larvae 
+    in cocoons, drones rushing between cells, oppressive scale.
+  ambient_sound: dungeon_hive
+  music: dungeon_boss
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_throne_chamber
+  district_id: district_stone_ford
+  name: Тронна Зала Королеви
+  description: Велетенська камера де живе Королева Вулика. Найнебезпечніше місце
+    у каналізації.
+  full_description: Цей зал — серце Вулика і найнебезпечніше місце у всій 
+    підземній системі Кам'яної Броді. Королева тут — велетенська, масивна, 
+    оточена роєм. Її жало може вбити з одного удару. Але хто переможе Королеву —
+    той зломить Вулик на роки вперед. І отримає її отруту — найцінніший 
+    алхімічний компонент у підземеллях.
+  lore_en: This hall is the heart of the Hive and the most dangerous location in
+    Stone Ford's entire underground. The Queen here is titanic, massive, 
+    surrounded by the swarm. Her stinger can kill with a single strike. But 
+    whoever defeats the Queen shatters the Hive for years to come. And gains her
+    venom — the most valuable alchemical component in the dungeons.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A titanic hive throne chamber, the massive Hive Queen enthroned at
+    center, swarm drones orbiting, epic dangerous atmosphere.
+  ambient_sound: dungeon_hive
+  music: dungeon_final_boss
+  combat_music: dungeon_boss_combat
+  _zone: sewers
+- id: location_sewer_ancient_vault
+  district_id: district_stone_ford
+  name: Стародавнє Сховище
+  description: Стара схованка невідомої цивілізації. Тут знайдено стародавні 
+    монети і кристали.
+  full_description: Ця схованка значно старіша за каналізацію, за місто і навіть
+    за більшість відомих цивілізацій. Хтось тут зберігав щось важливе — 
+    залишились тільки кристали і монети. Написи на стінах невідомою мовою 
+    розповідають щось — але що саме, ніхто поки не знає. Це місце варте окремої 
+    експедиції.
+  lore_en: This vault is far older than the sewers, the city, and most known 
+    civilizations. Someone stored something important here — only crystals and 
+    coins remain. Inscriptions on the walls in an unknown language tell 
+    something — but what exactly, no one yet knows. This place deserves a 
+    dedicated expedition.
+  type: dungeon
+  is_safe: false
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. An ancient pre-city vault, unknown language carved on walls, 
+    glowing crystals and ancient coins scattered, mystery atmosphere.
+  ambient_sound: dungeon_ambient
+  music: dungeon_mystical
+  combat_music: dungeon_combat
+  _zone: sewers
+- id: location_sewer_treasure_vault
+  district_id: district_stone_ford
+  name: Скарбниця Каналізації
+  description: Фінальна кімната зі скарбами зібраними попередніми авантюристами.
+    Поки що безпечно.
+  full_description: 'Парадокс: у самому серці небезпечного підземелля є кімната відносного
+    спокою. Попередні авантюристи залишали тут трофеї — мабуть щоб повернутись за
+    ними. Деякі так і не повернулись. Тут є сундуки, мотлох і кілька справді коштовних
+    речей для тих хто добрався досюди. Але ця кімната не залишиться безпечною вічно.'
+  lore_en: 'A paradox: at the very heart of a dangerous dungeon lies a room of relative
+    calm. Previous adventurers left trophies here — probably intending to return.
+    Some never did. There are chests, clutter, and a few genuinely valuable items
+    for those who made it this far. But this room will not stay safe forever.'
+  type: dungeon
+  is_safe: true
+  image_prompt: Photorealistic landscape digital painting, cinematic fantasy 
+    MMORPG environment concept art, dark underground sewer dungeon, dramatic 
+    lighting. A treasure chamber deep underground, adventurer trophies and 
+    chests, relative safety, torchlight on gold and artifacts.
+  ambient_sound: dungeon_ambient
+  music: dungeon_mystical
+  combat_music: dungeon_combat
+  _zone: sewers

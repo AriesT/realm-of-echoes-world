@@ -1,0 +1,443 @@
+- id: item_rat_tail
+  name: Щурячий Хвіст
+  description: Довгий голий хвіст каналізаційного щура. Мисливці кажуть — смердить тижнями.
+  full_description: Відрізаний хвіст каналізаційного щура — найпоширеніший трофей у темних тунелях під Кам'яною Бродею. Алхіміки
+    використовують порошок із висушеного хвоста як компонент для зілля від щурів. Деякі крамниці беруть їх як доказ виконаної
+    роботи й платять мідяками.
+  lore_en: The stripped tail of a sewer rat — the most common trophy in the tunnels beneath Stone Ford. Alchemists grind dried
+    rat tails into a component for rat-repellent salves. Some shopkeepers accept them as proof of pest control work.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A long pale
+    rat tail coiled on dark stone, small drops of moisture, grim utility.
+  type: resource
+  subtype: trophy
+  rarity: common
+  weight: 0.1
+  stackable: true
+  max_stack: 50
+  sell_price: 1
+- id: item_rat_fang
+  name: Щурячий Ікол
+  description: Гострий жовтий ікол каналізаційного щура. Непоганий компонент для амулетів.
+  full_description: Жовті щурячі ікла знаходять у темних водоймах каналізації. Знахарі нанизують їх на мотузки та продають
+    як дешеві обереги. Справжні алхіміки знають їм кращу ціну — із них виходить компонент для отруйних настоянок.
+  lore_en: Yellow rat fangs found in the dank pools of the sewers. Hedge witches string them on cords as cheap charms. Real
+    alchemists know their better use — as a component in poison tinctures.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. Several sharp
+    yellowed rat fangs arranged on rough cloth, sinister detail.
+  type: resource
+  subtype: trophy
+  rarity: common
+  weight: 0.05
+  stackable: true
+  max_stack: 50
+  sell_price: 2
+- id: item_rat_pelt_giant
+  name: Шкура Гігантського Щура
+  description: Товста груба шкура велетенського щура. Покрита шрамами і рубцями від сутичок.
+  full_description: Гігантські щури каналізації значно більші за звичних міських гризунів. Їхня шкура товща і грубіша — витримує
+    вологу та дрібні порізи. Вичинена шкура гігантського щура йде на дешевий захисний одяг та водостійкі чохли.
+  lore_en: The hides of giant sewer rats are far thicker than common city vermin. Durable and moisture-resistant when tanned,
+    they are used for rough protective clothing and waterproof cases. The leather guild accepts them at a discount — the smell
+    never fully leaves.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A thick rough
+    animal hide spread on stone, coarse grey fur, dark stains, tanner's workspace.
+  type: resource
+  subtype: hide
+  rarity: uncommon
+  weight: 0.6
+  stackable: true
+  max_stack: 10
+  sell_price: 8
+- id: item_slug_slime
+  name: Слиз Равлика
+  description: Густий блискучий слиз з каналізаційного равлика. Липкий і неприємний на дотик.
+  full_description: Каналізаційні равлики залишають густий слизовий слід усюди, де повзуть. Алхіміки цінують цей слиз як основу
+    для змащувальних речовин та деяких зілль від опіків. Збирати його треба в скляний флакон — на шкірі залишає неприємне
+    відчуття на годину.
+  lore_en: Sewer slugs leave thick mucus trails wherever they crawl. Alchemists prize this slime as a base for lubricants
+    and burn-soothing salves. Collect it in a glass vial — on bare skin it causes an unpleasant tingling that lasts an hour.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A glass vial
+    filled with thick iridescent green-grey slime, sealed with wax, resting on mossy stone.
+  type: resource
+  subtype: gland
+  rarity: common
+  weight: 0.2
+  stackable: true
+  max_stack: 30
+  sell_price: 3
+- id: item_centipede_leg
+  name: Нога Сколопендри
+  description: Сегментована хітинова нога каналізаційної сколопендри. Міцна і гнучка.
+  full_description: Кожна каналізаційна сколопендра має 40 ніг — і кожна є дрібним витвором природи. Хітинова структура дозволяє
+    їм згинатися у будь-якому напрямку. Ковалі-артефактори вивчають їх як зразок гнучкого з'єднання секцій броні.
+  lore_en: Each sewer centipede has 40 legs — each a minor masterwork of natural engineering. The chitinous structure bends
+    in any direction without breaking. Artifice smiths study them as a model for flexible armor segmentation.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. Segmented
+    insect leg on dark stone, brown chitin with fine hairs, magnified detail.
+  type: resource
+  subtype: trophy
+  rarity: uncommon
+  weight: 0.05
+  stackable: true
+  max_stack: 30
+  sell_price: 4
+- id: item_centipede_chitin
+  name: Хітин Сколопендри
+  description: Пластина хітину з панцира каналізаційної сколопендри. Тверда як дерево.
+  full_description: Нагрудний панцир каналізаційної сколопендри складається з десятків хітинових пластин. Кожна тверда як
+    клен і при цьому напрочуд легка. Ремісники із захопленням беруть цей матеріал для виготовлення легкої броні та декоративних
+    виробів.
+  lore_en: The dorsal shell of the sewer centipede is made of dozens of overlapping chitin plates. Each one is as hard as
+    maple wood yet surprisingly light. Craftsmen eagerly purchase this material for lightweight armor and decorative inlays.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. Dark amber
+    chitin plate fragment, surface texture like layered bark, smooth and hard.
+  type: resource
+  subtype: carapace
+  rarity: uncommon
+  weight: 0.15
+  stackable: true
+  max_stack: 20
+  sell_price: 7
+- id: item_ooze_nucleus
+  name: Ядро Слизоти
+  description: Щільне ядро з тіла каналізаційної слизоти. Пульсує слабким зеленим світлом.
+  full_description: У самому центрі тіла каналізаційної слизоти знаходиться щільне магічне ядро. Воно пульсує слабким зеленим
+    світлом навіть після смерті істоти. Маги сплачують великі гроші за ці ядра — вони є компонентом для зілля регенерації
+    та отруйних чарів.
+  lore_en: At the core of every sewer ooze sits a dense magical nucleus. It pulses with a faint green glow even after the
+    creature's death. Mages pay well for these — they are a key component in regeneration potions and poison enchantments.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A glowing
+    green translucent nucleus orb resting in a small dark stone bowl, bioluminescent pulse.
+  type: resource
+  subtype: magical
+  rarity: rare
+  weight: 0.3
+  stackable: true
+  max_stack: 5
+  sell_price: 35
+- id: item_troll_tooth
+  name: Зуб Троля
+  description: Масивний жовтий зуб каналізаційного троля. Розміром з кулак дорослого чоловіка.
+  full_description: 'Тролі каналізації ніколи не чистять зуби — це видно без зайвих слів. Проте їхні зуби напрочуд міцні:
+    витримують укуси каменю і металу. Ювеліри роблять із них екстравагантні кулони, а зброярі — руків''я для унікальних кинджалів.'
+  lore_en: Sewer trolls never clean their teeth — the evidence is self-evident. Yet their teeth are extraordinarily hard,
+    capable of biting through stone and metal. Jewelers fashion them into extravagant pendants; weaponsmiths use them for
+    unique dagger grips.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A massive
+    yellowed troll tooth the size of a fist, pitted and worn, resting on dark stone.
+  type: resource
+  subtype: trophy
+  rarity: rare
+  weight: 0.8
+  stackable: true
+  max_stack: 5
+  sell_price: 40
+- id: item_hive_chitin
+  name: Вуликовий Хітин
+  description: Чорний глянцевий хітин з броні вуликового дрона. Надзвичайно міцний.
+  full_description: Черепаховий хітин вуликових дронів — найміцніший органічний матеріал, знайдений у каналізації. Блискуче
+    чорне покриття відбиває вологу і чинить опір кислоті. Бронярі верхнього рівня шукають його для виготовлення елітних обладунків.
+  lore_en: The carapace chitin of hive drones is the hardest organic material found in the sewers. The glossy black coating
+    repels moisture and resists acid. Master armorsmiths seek it out for crafting elite gear.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. Glossy black
+    chitin plate fragment with honeycomb texture, iridescent surface sheen.
+  type: resource
+  subtype: carapace
+  rarity: uncommon
+  weight: 0.25
+  stackable: true
+  max_stack: 15
+  sell_price: 12
+- id: item_hive_queen_venom
+  name: Отрута Королеви Вулика
+  description: Темна фіолетова отрута із залоз Королеви. Надзвичайно смертоносна і цінна.
+  full_description: Жало Королеви Вулика містить отруту, яка паралізує навіть великих тварин за кілька секунд. Алхіміки вважають
+    її найціннішим інгредієнтом у каналізаційних глибинах. Маленький флакон дорівнює вартості місячного утримання цілого дружинника.
+  lore_en: The stinger of the Hive Queen delivers a venom that paralyzes even large creatures within seconds. Alchemists consider
+    it the most valuable ingredient in the sewer depths. A small vial is worth the monthly salary of an entire guardsman.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A small dark
+    vial of deep purple venom with faint crystalline particles, sealed with wax, ominous glow.
+  type: resource
+  subtype: venom
+  rarity: epic
+  weight: 0.1
+  stackable: true
+  max_stack: 3
+  sell_price: 120
+- id: item_sewer_crystal
+  name: Каналізаційний Кристал
+  description: Самородний кристал з підземних порід каналізації. Випромінює тьмяне блакитне світло.
+  full_description: 'Підземні води каналізації протягом сотень років вимивали мінерали з навколишнього каменю. Там де вода
+    стояла найдовше — утворились ці дивні блакитні кристали. Маги та ювеліри сперечаються про їхню природу, але всі погоджуються:
+    вони коштують чимало.'
+  lore_en: 'The underground waters of the sewers leached minerals from surrounding rock for centuries. Where water stood longest,
+    these strange blue crystals formed. Mages and jewelers argue about their nature, but all agree: they are worth good coin.'
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A pale blue
+    translucent crystal cluster growing from dark wet stone, faint bioluminescent glow.
+  type: resource
+  subtype: gem
+  rarity: rare
+  weight: 0.4
+  stackable: true
+  max_stack: 5
+  sell_price: 50
+- id: item_leech_sac
+  name: Мішечок П'явки
+  description: Слизовий мішок із тіла печерної п'явки. Містить кров і антикоагулянт.
+  full_description: Печерні п'явки зберігають висмоктану кров у спеціальному внутрішньому мішечку. Цей мішечок разом із природним
+    антикоагулянтом — цінний компонент для алхімічних розчинників. Хірурги-лікарі також беруть живих п'явок — але мертвий
+    мішечок теж іде в справу.
+  lore_en: Cave leeches store drawn blood in a specialized internal sac. This sac, together with the natural anticoagulant,
+    is a valuable component for alchemical solvents. Field surgeons also use live leeches — but the dead sac has its own applications.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A translucent
+    reddish sac on a stone surface, viscous liquid visible inside, medical-alchemical setting.
+  type: resource
+  subtype: gland
+  rarity: common
+  weight: 0.1
+  stackable: true
+  max_stack: 20
+  sell_price: 5
+- id: item_plague_tissue
+  name: Чумна Тканина
+  description: Темна некротична тканина з тіла чумного зомбі. Небезпечна без рукавиць.
+  full_description: Чумні зомбі каналізації несуть у своїй плоті залишки стародавньої хвороби. Некротична тканина з їхніх
+    тіл використовується у темній алхімії та дослідженнях нежиті. Брати її без рукавиць не рекомендується — навіть мертва,
+    вона зберігає деяку заразність.
+  lore_en: Plague zombies carry remnants of an ancient disease in their rotting flesh. The necrotic tissue is used in dark
+    alchemy and undead research. Never handle it bare-handed — even dead, it retains some contagion.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. Dark necrotic
+    tissue fragment in a sealed glass container, blackened edges, ominous vapors.
+  type: resource
+  subtype: magical
+  rarity: uncommon
+  weight: 0.2
+  stackable: true
+  max_stack: 10
+  sell_price: 15
+- id: item_bioluminescent_mushroom
+  name: Біолюмінесцентний Гриб
+  description: Гриб що світиться в темряві слабким синьо-зеленим світлом. Їстівний, дає сили.
+  full_description: У найглибших, найтемніших закутках каналізації ростуть ці незвичайні гриби. Їхнє синьо-зелене світло —
+    єдиний природний орієнтир у кромішній пітьмі підземель. На смак — кисло-гіркі, але дають відчутний прилив сил і прояснюють
+    голову.
+  lore_en: In the deepest, darkest corners of the sewers grow these remarkable fungi. Their blue-green glow is the only natural
+    landmark in the pitch-black underground. They taste sour-bitter but grant a noticeable surge of energy and mental clarity.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. Glowing blue-green
+    mushrooms growing on a dark wet stone wall, bioluminescent spores drifting.
+  type: consumable
+  subtype: food
+  rarity: uncommon
+  effects:
+    on_use:
+      heal_hp: 15
+      restore_mana: 10
+  weight: 0.2
+  stackable: true
+  max_stack: 20
+  sell_price: 12
+- id: item_rat_poison_vial
+  name: Флакон Щурячої Отрути
+  description: Концентрована отрута для щурів у маленькому флаконі. Ефективна і проти людей.
+  full_description: Ловці щурів готують цю отруту самі — суміш каналізаційних трав і жовчі. Розведена — відлякує гризунів.
+    Нерозведена — завдає серйозної шкоди тому, хто випадково її ковтне. Деякі авантюристи використовують її для змащення клинків.
+  lore_en: Rat catchers brew this poison themselves — a mix of sewer herbs and bile. Diluted, it repels rodents. Undiluted,
+    it causes serious harm to anyone who accidentally swallows it. Some adventurers use it to coat blades.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A small dark
+    brown vial with a skull drawn on parchment label, sinister contents visible.
+  type: consumable
+  subtype: poison
+  rarity: common
+  effects:
+    on_use:
+      poison_self: 5
+  weight: 0.1
+  stackable: true
+  max_stack: 10
+  sell_price: 8
+- id: item_rusty_shiv
+  name: Іржавий Шило
+  description: Саморобний кинджал із ламаного металу. Іржавий, але гострий.
+  full_description: Мешканці каналізації роблять зброю з того, що знаходять. Це шило — шматок ламаного ножа, загорнутий у
+    шматки шкіри для руків'я. Ненадійне, але в темряві й таке годиться.
+  lore_en: The denizens of the sewers arm themselves with what they find. This shiv is a broken blade fragment wrapped in
+    leather scraps for a grip. Unreliable, but in the dark even this will do.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A crude rusty
+    metal shiv with leather-wrapped handle, stained and corroded, dim light.
+  type: weapon
+  subtype: dagger
+  rarity: common
+  stats:
+    attack: 4
+    agility_bonus: 1
+  equip_slot: mainhand
+  weight: 0.3
+  stackable: false
+  sell_price: 3
+- id: item_bone_club
+  name: Кістяна Дубина
+  description: Важка кістка троля, зв'язана шкіряними ремінями. Проста але ефективна.
+  full_description: Коли вибір зброї обмежений темрявою каналізації — кістка підійде. Ця дубина зроблена з великої кістки
+    — можливо, кінцівки якогось великого звіра. Важка і незграбна, але один добрий удар може вибити дух з будь-кого.
+  lore_en: When weapon choices are limited to sewer scavenging, a bone will do. This club is fashioned from a large limb bone
+    — possibly from some great beast. Heavy and awkward, but one solid blow can knock the fight out of anyone.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A heavy yellowed
+    bone club bound with leather strips, cracked surface, imposing and brutal.
+  type: weapon
+  subtype: club
+  rarity: common
+  stats:
+    attack: 6
+    strength_bonus: 1
+  equip_slot: mainhand
+  weight: 1.2
+  stackable: false
+  sell_price: 5
+- id: item_goblin_war_shiv
+  name: Гоблінський Бойовий Шив
+  description: Довгий загострений кинджал, викований гоблінами каналізації. Краще за іржавий металобрухт.
+  full_description: Гобліни каналізації — невеликий народ, але ковалі серед них є. Бойовий шив — їхня стандартна зброя, вирізнений
+    грубими рунами на леза. Якість посередня, але це справжня кована зброя, а не металобрухт.
+  lore_en: The sewer goblins are a small folk, but they have smiths among them. The war shiv is their standard weapon, marked
+    with crude runes along the blade. Quality is mediocre, but it is real forged steel — not scrap.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A crude but
+    functional goblin dagger with crude rune-scratched blade, green leather grip, dim torch light.
+  type: weapon
+  subtype: dagger
+  rarity: uncommon
+  stats:
+    attack: 9
+    agility_bonus: 2
+    poison_resist: -5
+  equip_slot: mainhand
+  weight: 0.5
+  stackable: false
+  sell_price: 18
+- id: item_troll_bone_blade
+  name: Кістяний Клинок Троля
+  description: Кістка троля, заточена до бритвяної гостроти. Груба, але небезпечна.
+  full_description: Тролі каналізації іноді точать власні кістки після бою — замінюючи зламане. Ця зброя виготовлена майстром-шукачем
+    із кістки вбитого троля — стовбурної, товстої, загостреної. Неохайна й немодна, але її бойові характеристики вражають
+    навіть досвідчених воїнів.
+  lore_en: Sewer trolls sometimes sharpen their own bones after battle — replacing what broke. This weapon was crafted by
+    a skilled seeker from the leg bone of a slain troll — thick, dense, honed to an edge. Crude and unfashionable, but its
+    combat performance surprises even veteran warriors.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A large sharpened
+    bone blade with crude leather wrapping, pale ivory color, dark blood stains.
+  type: weapon
+  subtype: greatsword
+  rarity: rare
+  stats:
+    attack: 18
+    strength_bonus: 3
+    endurance_bonus: 1
+  equip_slot: mainhand
+  weight: 2.5
+  stackable: false
+  sell_price: 65
+- id: item_sewer_leather_cap
+  name: Каналізаційна Шкіряна Шапка
+  description: Шкіряна шапка просочена вапняком від каналізаційних вод. Захищає від крапель і ударів.
+  full_description: Мисливці на щурів давно навчились оброблювати шкіру так, щоб вона не гнила у вогкому підземеллі. Ця шапка
+    просочена спеціальним складом — відштовхує воду і стійка до плісняви. Дешева, практична, пахне підземеллям — але краще
+    ніж нічого.
+  lore_en: Rat catchers long ago learned to treat leather so it does not rot in damp underground tunnels. This cap is treated
+    with a special compound — it repels water and resists mold. Cheap, practical, smells like the underground — but better
+    than nothing.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A worn leather
+    cap with moisture stains, practical and functional, underground dungeon setting.
+  type: armor
+  subtype: helmet
+  rarity: common
+  stats:
+    defense: 3
+    perception_bonus: 1
+  equip_slot: head
+  weight: 0.3
+  stackable: false
+  sell_price: 6
+- id: item_sewer_cloak
+  name: Каналізаційна Накидка
+  description: Накидка з вичиненої шкури гігантського щура. Водостійка і досить міцна.
+  full_description: Найкращий захист у каналізації — той, що не вбирає воду. Ця накидка зшита зі шкури гігантського щура —
+    груба, водостійка, з глибоким капюшоном. Ловці щурів носять їх роками, і вони справді захищають від підземної вогкості
+    й дрібних укусів.
+  lore_en: The best protection in the sewers is that which does not absorb water. This cloak is sewn from giant rat hide —
+    coarse, waterproof, with a deep hood. Rat catchers wear them for years; they genuinely protect against underground damp
+    and small bites.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. A hooded dark
+    cloak made of rough animal hide, waterproof and worn, underground dungeon.
+  type: armor
+  subtype: chest
+  rarity: uncommon
+  stats:
+    defense: 6
+    endurance_bonus: 1
+    water_resist: 10
+  equip_slot: chest
+  weight: 1.0
+  stackable: false
+  sell_price: 20
+- id: item_waterproof_boots
+  name: Водонепроникні Чоботи
+  description: Товсті шкіряні чоботи обробленні жиром і смолою. Не промокають навіть у каналізаційній воді.
+  full_description: Ходити по коліна у каналізаційних водах без хороших чобіт — швидкий спосіб захворіти. Ці чоботи зроблені
+    з товстої кабанячої шкіри і оброблені сумішшю смоли та тваринного жиру. Незручні на суші, але в підземеллі немає нічого
+    кращого для ніг.
+  lore_en: Wading knee-deep in sewer water without good boots is a fast way to fall sick. These boots are made from thick
+    boar hide and treated with a resin-fat compound. Uncomfortable on dry land, but underground there is nothing better for
+    your feet.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. Heavy dark
+    leather boots with thick soles, coated in dark resin, standing in shallow water.
+  type: armor
+  subtype: boots
+  rarity: uncommon
+  stats:
+    defense: 4
+    agility_bonus: -1
+    water_resist: 20
+    disease_resist: 10
+  equip_slot: feet
+  weight: 1.4
+  stackable: false
+  sell_price: 22
+- id: item_ring_of_depths
+  name: Каблучка Глибин
+  description: Стародавня каблучка знайдена в затопленому сховку. Випромінює слабку магію підземель.
+  full_description: 'Хтось загубив цю каблучку у підземних водах багато років тому. Вона вкрита дивними рунами, які жоден
+    відомий маг не може прочитати повністю. Ті, хто її носить, помічають: в темряві підземель вони бачать трохи краще і відчувають
+    себе впевненіше.'
+  lore_en: 'Someone lost this ring in the underground waters many years ago. It is covered in strange runes that no known
+    mage can fully decipher. Those who wear it notice: in the darkness underground they see slightly better and feel more
+    confident.'
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. An ancient
+    dark metal ring with glowing blue runes, resting in a shallow pool, mysterious.
+  type: accessory
+  subtype: ring
+  rarity: rare
+  stats:
+    perception_bonus: 3
+    intelligence_bonus: 2
+    defense: 2
+  equip_slot: ring1
+  weight: 0.05
+  stackable: false
+  sell_price: 80
+- id: item_ancient_sewer_coin
+  name: Стародавня Монета Каналізації
+  description: Стара монета невідомого карбування знайдена у підземних руїнах. Колекціонери дадуть добре.
+  full_description: Каналізація під Кам'яною Бродею стара — набагато старіша за саме місто. Хтось ходив цими тунелями задовго
+    до того, як перші поселенці заклали стіни. Ця монета — один із слідів тих невідомих — колекціонери та знавці старовини
+    добре платять за такі знахідки.
+  lore_en: The sewers beneath Stone Ford are old — far older than the city itself. Someone walked these tunnels long before
+    the first settlers laid the walls. This coin is one of the traces left by those unknowns — collectors and antiquarians
+    pay well for such finds.
+  image_prompt: Photorealistic dark fantasy item illustration, cinematic MMORPG concept art, dramatic lighting. An ancient
+    bronze coin with worn unrecognizable relief, verdigris coating, on wet stone.
+  type: resource
+  subtype: treasure
+  rarity: uncommon
+  weight: 0.05
+  stackable: true
+  max_stack: 20
+  sell_price: 25
